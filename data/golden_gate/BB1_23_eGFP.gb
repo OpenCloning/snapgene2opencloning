@@ -1,0 +1,121 @@
+LOCUS       BB1_23_eGFP             2655 bp    DNA     circular SYN 23-MAR-2026
+DEFINITION  BB1 with insert: CDS eGFP.
+ACCESSION  .
+VERSION  .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+REFERENCE   1  (bases 1 to 2655)
+  AUTHORS   Prielhofer R, Barrero JJ, Steuer S, Gassler T, Zahrl R, Baumann K,
+            Sauer M, Mattanovich D, Gasser B, Marx H
+  TITLE     GoldenPiCS: a Golden Gate-derived modular cloning system for applied
+            synthetic biology in the yeast Pichia pastoris.
+  JOURNAL   BMC Syst Biol. 2017 Dec 8;11(1):123. doi: 10.1186/s12918-017-0492-3.
+   PUBMED   29221460
+REFERENCE   2  (bases 1 to 2655)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Dec 15, 2025 from SnapGene Server 8.0.1
+            https://www.snapgene.com
+COMMENT             SGRef: number: 1; type: "Journal Article"; journalName: "BMC Syst
+COMMENT             Biol."; date: "2017-12-8"; volume: "11(1):123. doi"; pages: "
+COMMENT             10.1186/s12918-017-0492-3"
+COMMENT             Sequence Label: BB1_23_eGFP
+FEATURES             Location/Qualifiers
+     source          1..2655
+                     /label="synthetic DNA construct"
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     CDS             join(145..147,148..150,151..864)
+                     /label="EGFP"
+     CDS             join(145..147,148..150,151..861)
+                     /label="EGFP"
+     terminator      1015..1046
+                     /label="tonB terminator"
+                     /note="bidirectional E. coli tonB-P14 transcriptionterminator"
+     promoter        1047..1149
+                     /label="cat promoter"
+                     /note="promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase"
+     CDS             1150..1965
+                     /label="KanR"
+     terminator      1989..2016
+                     /label="T7Te terminator"
+                     /note="phage T7 early transcription terminator"
+     rep_origin      complement(2028..2615)
+                     /label="ori"
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication"
+     primer_bind     1..17
+                     /label="M13 fwd"
+                     /note="common sequencing primer, one of multiple similarvariants"
+     primer_bind     complement(190..211)
+                     /label="EGFP-N"
+                     /note="EGFP, reverse primer"
+     primer_bind     complement(451..470)
+                     /label="EXFP-R"
+                     /note="For distinguishing EGFP variants, reverse primer"
+     primer_bind     798..819
+                     /label="EGFP-C"
+                     /note="EGFP, forward primer"
+     primer_bind     complement(951..967)
+                     /label="M13 rev"
+                     /note="common sequencing primer, one of multiple similarvariants"
+     primer_bind     complement(951..967)
+                     /label="M13 Reverse"
+                     /note="In lacZ gene. Also called M13-rev"
+     primer_bind     complement(1223..1242)
+                     /label="Kan-R"
+                     /note="Kanamycin resistance gene, reverse primer"
+     primer_bind     complement(2108..2127)
+                     /label="pBR322ori-F"
+                     /note="pBR322 origin, forward primer"
+     primer_bind     2655..17
+                     /label="M13 Forward"
+                     /note="In lacZ gene. Also called M13-F20 or M13 (-21)Forward"
+ORIGIN      
+        1 gtaaaacgac ggccagttta tctagtcagc ttgattctag ctgatcgtgg accggaaggt
+       61 gagccagtga gttgattgca gtccagttac gctggagtct gaggctcgtc ctgaatgata
+      121 tgcggcctcg aattcgaaga cgccatggtg agcaagggcg aggagctgtt caccggggtg
+      181 gtgcccatcc tggtcgagct ggacggcgac gtaaacggcc acaagttcag cgtgtccggc
+      241 gagggcgagg gcgatgccac ctacggcaag ctgaccctga agttcatctg caccaccggc
+      301 aagctgcccg tgccctggcc caccctcgtg accaccctga cctacggcgt gcagtgcttc
+      361 agccgctacc ccgaccacat gaagcagcac gacttcttca agtccgccat gcccgaaggc
+      421 tacgtccagg agcgcaccat cttcttcaag gacgacggca actacaagac ccgcgccgag
+      481 gtgaagttcg agggcgacac cctggtgaac cgcatcgagc tgaagggcat cgacttcaag
+      541 gaggacggca acatcctggg gcacaagctg gagtacaact acaacagcca caacgtctat
+      601 atcatggccg acaagcagaa gaacggcatc aaggtgaact tcaagatccg ccacaacatc
+      661 gaggacggca gcgtgcagct cgccgaccac taccagcaga acacccccat cggcgacggc
+      721 cccgtgctgc tgcccgacaa ccactacctg agcacccagt ccgccctgag caaagacccc
+      781 aacgagaagc gcgatcacat ggtcctgctg gagttcgtga ccgccgccgg gatcactctc
+      841 ggcatggacg agctgtacaa gtaagcttgc gtcttcgaat tcgcgcgtga tcttacggca
+      901 ttatacgtat gatcggtcca cgatcagcta gattatctag tcagcttgat gtcatagctg
+      961 tttcctgagg ctcaatactg accatttaaa tcatacctga cctccatagc agaaagtcaa
+     1021 aagcctccga ccggaggctt ttgacttgat cggcacgtaa gaggttccaa ctttcaccat
+     1081 aatgaaataa gatcactacc gggcgtattt tttgagttat cgagattttc aggagctaag
+     1141 gaagctaaaa tgagccatat tcaacgggaa acgtcttgct tgaagccgcg attaaattcc
+     1201 aacatggatg ctgatttata tgggtataaa tgggctcgcg ataatgtcgg gcaatcaggt
+     1261 gcgacaatct atcgattgta tgggaagccc gatgcgccag agttgtttct gaaacatggc
+     1321 aaaggtagcg ttgccaatga tgttacagat gagatggtca ggctaaactg gctgacggaa
+     1381 tttatgcctc ttccgaccat caagcatttt atccgtactc ctgatgatgc atggttactc
+     1441 accactgcga tcccagggaa aacagcattc caggtattag aagaatatcc tgattcaggt
+     1501 gaaaatattg ttgatgcgct ggcagtgttc ctgcgccggt tgcattcgat tcctgtttgt
+     1561 aattgtcctt ttaacggcga tcgcgtattt cgtctcgctc aggcgcaatc acgaatgaat
+     1621 aacggtttgg ttggtgcgag tgattttgat gacgagcgta atggctggcc tgttgaacaa
+     1681 gtctggaaag aaatgcataa actcttgcca ttctcaccgg attcagtcgt cactcatggt
+     1741 gatttctcac ttgataacct tatttttgac gaggggaaat taataggttg tattgatgtt
+     1801 ggacgagtcg gaatcgcaga ccgataccag gatcttgcca tcctatggaa ctgcctcggt
+     1861 gagttttctc cttcattaca gaaacggctt tttcaaaaat atggtattga taatcctgat
+     1921 atgaataaat tgcagtttca cttgatgctc gatgagtttt tctaatgagg acctaaatgt
+     1981 aatcacctgg ctcaccttcg ggtgggcctt tctgcgttgc tggcgttttt ccataggctc
+     2041 cgcccccctg acgagcatca caaaaatcga tgctcaagtc agaggtggcg aaacccgaca
+     2101 ggactataaa gataccaggc gtttccccct ggaagctccc tcgtgcgctc tcctgttccg
+     2161 accctgccgc ttaccggata cctgtccgcc tttctccctt cgggaagcgt ggcgctttct
+     2221 catagctcac gctgtaggta tctcagttcg gtgtaggtcg ttcgctccaa gctgggctgt
+     2281 gtgcacgaac cccccgttca gcccgaccgc tgcgccttat ccggtaacta tcgtcttgag
+     2341 tccaacccgg taagacacga cttatcgcca ctggcagcag ccactggtaa caggattagc
+     2401 agagcgaggt atgtaggcgg tgctacagag ttcttgaagt ggtggcctaa ctacggctac
+     2461 actagaagaa cagtatttgg tatctgcgct ctgctgaagc cagttacctc ggaaaaagag
+     2521 ttggtagctc ttgatccggc aaacaaacca ccgctggtag cggtggtttt tttgtttgca
+     2581 agcagcagat tacgcgcaga aaaaaaggat ctcaagaaga tcctttgatt ttctaccgaa
+     2641 gaaaggccca cccgt    
+//

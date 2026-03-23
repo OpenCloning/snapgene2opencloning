@@ -2,14 +2,17 @@ from sgffp import SgffReader, SgffObject, SgffSegment, SgffFeature
 from sgffp.models.history import SgffHistoryNode, SgffHistoryTreeNode
 from Bio.Seq import Seq
 import re
-from pydna.assembly2 import gibson_assembly, pcr_assembly
+from pydna.assembly2 import gibson_assembly, pcr_assembly, restriction_ligation_assembly, gateway_assembly, in_fusion_assembly
 from pydna.primer import Primer
 from Bio.SeqFeature import SeqFeature, SimpleLocation, CompoundLocation
 from pydna.dseqrecord import Dseqrecord
 import glob
 import os
 from pydna.opencloning_models import CloningStrategy, AssemblyFragment, Source
-import Bio.Restriction as _restriction_module
+from Bio.Restriction.Restriction_Dictionary import rest_dict
+from Bio.Restriction import RestrictionBatch
+from pydna.parsers import parse_snapgene
+from pydna.utils import flatten
 
 
 STRAND_MAP = {"+": 1, "-": -1, ".": 0, "=": 0}
@@ -99,8 +102,6 @@ def history_node_to_dseqrecord(sgff_object: SgffObject, node_id: str) -> Dseqrec
     return record
 
 
-from pydna.parsers import parse_snapgene
-
 
 def filter_assembly_fragments_that_are_sequences(input_value: list[AssemblyFragment]) -> list[AssemblyFragment]:
     return [fragment for fragment in input_value if isinstance(fragment.sequence, Dseqrecord)]
@@ -121,9 +122,19 @@ def source_from_tree_node(
         products = pcr_assembly(input_sequences[0], *primers, limit=12)
     elif node.operation == "changeStrandedness":
         return -1, None
-    elif node.operation == "insertFragment":
-        node.input_summaries
-        raise ValueError(f"Unknown operation: {node.operation}")
+    elif node.operation == "insertFragment" or node.operation == "goldenGateAssembly":
+        enzyme_names = set(flatten([input_summary.enzyme_names for input_summary in node.input_summaries]))
+        if all(enz_name in rest_dict.keys() for enz_name in enzyme_names):
+            rb = RestrictionBatch(first=[e for e in enzyme_names])
+            products = restriction_ligation_assembly(input_sequences, rb)
+        else:
+            raise ValueError(f"Unknown enzymes: {enzyme_names}")
+    elif node.operation == "gatewayLRCloning":
+        products = gateway_assembly(input_sequences, "LR")
+    elif node.operation == "gatewayBPCloning":
+        products = gateway_assembly(input_sequences, "BP")
+    elif node.operation == "inFusionCloning":
+        products = in_fusion_assembly(input_sequences, limit=15)
     else:
         raise ValueError(f"Unknown operation: {node.operation}")
 
