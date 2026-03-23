@@ -1,0 +1,19 @@
+[project]
+name = "snapgene2opencloning"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Manuel Lera-Ramirez",email = "manulera14@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "sgffp @ git+https://github.com/manulera/sgffp@parse-history-sequence-error",
+    "pydna @ git+https://github.com/pydna-group/pydna@e7b98167e5c45069dc7cc22e8926bd677b9614fa"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

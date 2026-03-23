@@ -1,0 +1,294 @@
+LOCUS       NC_003424               4538 bp    DNA     linear   CON 23-MAR-2026
+DEFINITION  Schizosaccharomyces pombe strain 972h- genome assembly, chromosome: I.
+ACCESSION  NC_003424
+VERSION  NC_003424.3
+DBLINK      BioProject: PRJNA127
+            BioSample: SAMEA3138176
+            Assembly: GCF_000002945.2
+KEYWORDS    RefSeq.
+SOURCE      Schizosaccharomyces pombe (fission yeast)
+  ORGANISM  Schizosaccharomyces pombe
+            Eukaryota; Fungi; Dikarya; Ascomycota; Taphrinomycotina;
+            Schizosaccharomycetes; Schizosaccharomycetales;
+            Schizosaccharomycetaceae; Schizosaccharomyces.
+REFERENCE   1  (bases 1 to 4538)
+  AUTHORS   Schafer,B., Hansen,M. and Lang,B.F.
+  TITLE     Transcription and RNA-processing in fission yeast mitochondria
+  JOURNAL   RNA 11 (5), 785-795 (2005)
+   PUBMED   15811919
+REFERENCE   2  (bases 1 to 4538)
+  AUTHORS   Wood,V., Gwilliam,R., Rajandream,M.A., Lyne,M., Lyne,R., Stewart,A.,
+            Sgouros,J., Peat,N., Hayles,J., Baker,S., Basham,D., Bowman,S.,
+            Brooks,K., Brown,D., Brown,S., Chillingworth,T., Churcher,C.,
+            Collins,M., Connor,R., Cronin,A., Davis,P., Feltwell,T., Fraser,A.,
+            Gentles,S., Goble,A., Hamlin,N., Harris,D., Hidalgo,J., Hodgson,G.,
+            Holroyd,S., Hornsby,T., Howarth,S., Huckle,E.J., Hunt,S., Jagels,K.,
+            James,K., Jones,L., Jones,M., Leather,S., McDonald,S., McLean,J.,
+            Mooney,P., Moule,S., Mungall,K., Murphy,L., Niblett,D., Odell,C.,
+            Oliver,K., O'Neil,S., Pearson,D., Quail,M.A., Rabbinowitsch,E.,
+            Rutherford,K., Rutter,S., Saunders,D., Seeger,K., Sharp,S.,
+            Skelton,J., Simmonds,M., Squares,R., Squares,S., Stevens,K.,
+            Taylor,K., Taylor,R.G., Tivey,A., Walsh,S., Warren,T., Whitehead,S.,
+            Woodward,J., Volckaert,G., Aert,R., Robben,J., Grymonprez,B.,
+            Weltjens,I., Vanstreels,E., Rieger,M., Schafer,M., Muller-Auer,S.,
+            Gabel,C., Fuchs,M., Dusterhoft,A., Fritzc,C., Holzer,E., Moestl,D.,
+            Hilbert,H., Borzym,K., Langer,I., Beck,A., Lehrach,H., Reinhardt,R.,
+            Pohl,T.M., Eger,P., Zimmermann,W., Wedler,H., Wambutt,R.,
+            Purnelle,B., Goffeau,A., Cadieu,E., Dreano,S., Gloux,S., Lelaure,V.,
+            Mottier,S., Galibert,F., Aves,S.J., Xiang,Z., Hunt,C., Moore,K.,
+            Hurst,S.M., Lucas,M., Rochet,M., Gaillardin,C., Tallada,V.A.,
+            Garzon,A., Thode,G., Daga,R.R., Cruzado,L., Jimenez,J., Sanchez,M.,
+            del Rey,F., Benito,J., Dominguez,A., Revuelta,J.L., Moreno,S.,
+            Armstrong,J., Forsburg,S.L., Cerutti,L., Lowe,T., McCombie,W.R.,
+            Paulsen,I., Potashkin,J., Shpakovski,G.V., Ussery,D., Barrell,B.G.
+            and Nurse,P.
+  TITLE     The genome sequence of Schizosaccharomyces pombe
+  JOURNAL   Nature 415 (6874), 871-880 (2002)
+   PUBMED   11859360
+  REMARK    Erratum:[Nature 2003 Jan 2;421(6918):94. Cerrutti L [corrected to
+            Cerutti L]]
+REFERENCE   3
+  AUTHORS   Wood,V., Gwilliam,R., Rajandream,M.A., Lyne,M., Lyne,R., Stewart,A.,
+            Sgouros,J., Peat,N., Hayles,J., Baker,S., Basham,D., Bowman,S.,
+            Brooks,K., Brown,D., Brown,S., Chillingworth,T., Churcher,C.,
+            Collins,M., Connor,R., Cronin,A., Davis,P., Feltwell,T., Fraser,A.,
+            Gentles,S., Goble,A., Hamlin,N., Harris,D., Hidalgo,J., Hodgson,G.,
+            Holroyd,S., Hornsby,T., Howarth,S., Huckle,E.J., Hunt,S., Jagels,K.,
+            James,K., Jones,L., Jones,M., Leather,S., McDonald,S., McLean,J.,
+            Mooney,P., Moule,S., Mungall,K., Murphy,L., Niblett,D., Odell,C.,
+            Oliver,K., O'Neil,S., Pearson,D., Quail,M.A., Rabbinowitsch,E.,
+            Rutherford,K., Rutter,S., Saunders,D., Seeger,K., Sharp,S.,
+            Skelton,J., Simmonds,M., Squares,R., Squares,S., Stevens,K.,
+            Taylor,K., Taylor,R.G., Tivey,A., Walsh,S., Warren,T., Whitehead,S.,
+            Woodward,J., Volckaert,G., Aert,R., Robben,J., Grymonprez,B.,
+            Weltjens,I., Vanstreels,E., Rieger,M., Schafer,M., Muller-Auer,S.,
+            Gabel,C., Fuchs,M., Dusterhoft,A., Fritzc,C., Holzer,E., Moestl,D.,
+            Hilbert,H., Borzym,K., Langer,I., Beck,A., Lehrach,H., Reinhardt,R.,
+            Pohl,T.M., Eger,P., Zimmermann,W., Wedler,H., Wambutt,R.,
+            Purnelle,B., Goffeau,A., Cadieu,E., Dreano,S., Gloux,S., Lelaure,V.,
+            Mottier,S., Galibert,F., Aves,S.J., Xiang,Z., Hunt,C., Moore,K.,
+            Hurst,S.M., Lucas,M., Rochet,M., Gaillardin,C., Tallada,V.A.,
+            Garzon,A., Thode,G., Daga,R.R., Cruzado,L., Jimenez,J., Sanchez,M.,
+            del Rey,F., Benito,J., Dominguez,A., Revuelta,J.L., Moreno,S.,
+            Armstrong,J., Forsburg,S.L., Cerutti,L., Lowe,T., McCombie,W.R.,
+            Paulsen,I., Potashkin,J., Shpakovski,G.V., Ussery,D., Barrell,B.G.
+            and Nurse,P.
+  TITLE     The genome sequence of Schizosaccharomyces pombe
+  JOURNAL   Nature 415 (6874), 871-880 (2002)
+   PUBMED   11859360
+  REMARK    Erratum:[Nature 2003 Jan 2;421(6918):94. Cerrutti L [corrected to
+            Cerutti L]]
+REFERENCE   4  (bases 1 to 4538)
+  AUTHORS   Trinkl,H., Lang,B.F. and Wolf,K.
+  TITLE     Nucleotide sequence of the gene encoding the small ribosomal RNA in
+            the mitochondrial genome of the fission yeast Schizosaccharomyces
+            pombe
+  JOURNAL   Nucleic Acids Res 17 (16), 6730 (1989)
+   PUBMED   2780299
+REFERENCE   5  (bases 1 to 4538)
+  AUTHORS   Lang,B.F., Cedergren,R. and Gray,M.W.
+  TITLE     The mitochondrial genome of the fission yeast, Schizosaccharomyces
+            pombe. Sequence of the large-subunit ribosomal RNA gene, comparison
+            of potential secondary structure in fungal mitochondrial
+            large-subunit rRNAs and evolutionary considerations
+  JOURNAL   Eur J Biochem 169 (3), 527-537 (1987)
+   PUBMED   2446871
+REFERENCE   6  (bases 1 to 4538)
+  AUTHORS   Lang,B.F., Ahne,F. and Bonen,L.
+  TITLE     The mitochondrial genome of the fission yeast Schizosaccharomyces
+            pombe. The cytochrome b gene has an intron closely related to the
+            first two introns in the Saccharomyces cerevisiae cox1 gene
+  JOURNAL   J Mol Biol 184 (3), 353-366 (1985)
+   PUBMED   4046021
+REFERENCE   7  (bases 1 to 4538)
+  AUTHORS   Lang,B.F.
+  TITLE     The mitochondrial genome of the fission yeast Schizosaccharomyces
+            pombe: highly homologous introns are inserted at the same position
+            of the otherwise less conserved cox1 genes in Schizosaccharomyces
+            pombe and Aspergillus nidulans
+  JOURNAL   EMBO J 3 (9), 2129-2136 (1984)
+   PUBMED   6092057
+REFERENCE   8  (bases 1 to 4538)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2024) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   9
+  AUTHORS   Wood,V. and Rutherford,K.
+  CONSRTM   PomBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAR-2024) University of Cambridge, PomBase, Hopkins
+            building, Tennis Court Rd, Cambridge, United Kingdom
+REFERENCE   10
+  AUTHORS   Wood,V.
+  CONSRTM   The Schizosaccharomyces pombe Genome Sequencing Consortium
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JUN-2007) European Schizosaccharomyces genome
+            sequencing project, Sanger Institute, The Wellcome Trust Genome
+            Campus, Hinxton, Cambridge CB10 1SA
+COMMENT             ##Genome-Annotation-Data-START##
+COMMENT             Annotation Provider :: PomBase
+COMMENT             Annotation Status   :: Full annotation
+COMMENT             Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+COMMENT             ##Genome-Annotation-Data-END##
+COMMENT             PROVISIONAL REFSEQ: This record has not yet been subject to final
+COMMENT             NCBI review. The reference sequence is identical to CU329670.
+COMMENT             On Dec 11, 2007 this sequence version replaced NC_003424.2.
+FEATURES             Location/Qualifiers
+     source          1..4538
+                     /label="Schizosaccharomyces pombe"
+                     /organism="Schizosaccharomyces pombe"
+                     /mol_type="genomic DNA"
+                     /strain="972h-"
+                     /db_xref="taxon:4896"
+                     /chromosome="I"
+     gene            1..676
+                     /label="SPOM_SPAPB1A10.08"
+                     /locus_tag="SPOM_SPAPB1A10.08"
+                     /db_xref="GeneID:2543374"
+                     /db_xref="PomBase:SPAPB1A10.08"
+     mRNA            1..676
+                     /label="SPOM_SPAPB1A10.08"
+                     /locus_tag="SPOM_SPAPB1A10.08"
+                     /product="uncharacterized protein"
+                     /transcript_id="NM_001018956.3"
+                     /db_xref="GeneID:2543374"
+                     /db_xref="PomBase:SPAPB1A10.08"
+     CDS             1..393
+                     /label="SPOM_SPAPB1A10.08"
+                     /locus_tag="SPOM_SPAPB1A10.08"
+                     /note="conserved fungal protein"
+     gene            complement(1..1972)
+                     /label="SPOM_SPNCRNA.2846"
+                     /locus_tag="SPOM_SPNCRNA.2846"
+                     /db_xref="GeneID:90819331"
+                     /db_xref="PomBase:SPNCRNA.2846"
+     ncRNA           complement(1..1972)
+                     /label="SPOM_SPNCRNA.2846"
+                     /ncRNA_class="lncRNA"
+                     /locus_tag="SPOM_SPNCRNA.2846"
+                     /product="non-coding RNA"
+                     /transcript_id="NR_192214.1"
+                     /db_xref="GeneID:90819331"
+                     /db_xref="PomBase:SPNCRNA.2846"
+     gene            1001..3538
+                     /label="ase1"
+                     /locus_tag="SPOM_SPAPB1A10.09"
+                     /db_xref="GeneID:2543372"
+                     /db_xref="PomBase:SPAPB1A10.09"
+     mRNA            join(1001..1597,1645..3538)
+                     /label="ase1"
+                     /locus_tag="SPOM_SPAPB1A10.09"
+                     /product="antiparallel microtubule cross-linking factorAse1"
+                     /transcript_id="NM_001018957.3"
+                     /db_xref="GeneID:2543372"
+                     /db_xref="PomBase:SPAPB1A10.09"
+     CDS             join(1174..1597,1645..3416)
+                     /label="ase1"
+                     /locus_tag="SPOM_SPAPB1A10.09"
+     gene            complement(3510..4538)
+                     /label="ypt71"
+                     /locus_tag="SPOM_SPAPB1A10.10C"
+                     /db_xref="GeneID:2543411"
+                     /db_xref="PomBase:SPAPB1A10.10c"
+     mRNA            complement(join(3510..4137,4192..4290))
+                     /label="ypt71"
+                     /locus_tag="SPOM_SPAPB1A10.10C"
+                     /product="GTPase Ypt71"
+                     /transcript_id="NM_001018958.3"
+                     /db_xref="GeneID:2543411"
+                     /db_xref="PomBase:SPAPB1A10.10c"
+     CDS             complement(join(3691..4137,4192..4290))
+                     /label="ypt71"
+                     /locus_tag="SPOM_SPAPB1A10.10C"
+     gene            4049..4538
+                     /label="SPOM_SPNCRNA.2847"
+                     /locus_tag="SPOM_SPNCRNA.2847"
+                     /db_xref="GeneID:90819332"
+                     /db_xref="PomBase:SPNCRNA.2847"
+     ncRNA           4049..4538
+                     /label="SPOM_SPNCRNA.2847"
+                     /ncRNA_class="lncRNA"
+                     /locus_tag="SPOM_SPNCRNA.2847"
+                     /product="non-coding RNA"
+                     /transcript_id="NR_192215.1"
+                     /db_xref="GeneID:90819332"
+                     /db_xref="PomBase:SPNCRNA.2847"
+ORIGIN      
+        1 atcatcagac gtgtatttca caagccagaa gtgcatttgg atccaagtgc ctccatttta
+       61 aatctctcat cttcgcatgg cgaaagcaac ctgacaaatg gtttgctttg tcaaaatttc
+      121 aagctttttc aggatgattg gttgatggag gattgtgcgc cagatgccaa tttcactttg
+      181 tacaccccgc ttcaaccctg ggaaaagcga agtgtgaaac ctgaaatcag acgtcctcga
+      241 ttaaatccta attttttccg agtatttgtt ttagaagctc aaatgcgacg agctggaaag
+      301 ctatcagcaa acactgctgg ccgagcccag ttaatttacc tcccaaagcc tgccgttacc
+      361 ttctccacta gccctttgca tgttgaattg taaaaattta acgcatgact tatatacatt
+      421 tgcattcttc caagctggtt atatttattt tcattttttt ctcacccaat acttttttat
+      481 ccctactgtc tttatggaca atcgactcac aattgtttct ttttgttgta tatgattttt
+      541 tttttaaagg aaatgggttt cgcgatactg ggttgaatcc caattgcggt taatattaca
+      601 taaaataatt ctcccatagt cctagatcct gtctttgaat atgagcaaat aaaagaattg
+      661 aacaaatcat gaatgctttt ctctcttaga tgatattttg tatgcataag tctaattata
+      721 ttgattacga taagacttaa aaagtaagcc tttgtatcct tttaagcagt atttgaattt
+      781 tcttgtatca tattttaggt agagcaaaag ataccagttt gtagaacttt atgtgcttcc
+      841 ttacattggt atatttcagg cacataaata ttcttcaact tacaattcta agtattttgt
+      901 ttatactaaa aggagctgaa taacgtttat acagtgctga cattgaaatc tatttgcttt
+      961 ctttggaata taagcgcatg ctgagttact ttcgcaggcc aagccatatc caaccaccat
+     1021 ttttgtgcca agcttttatg caaggttaat tccttgtact gcttgttatg ttataatata
+     1081 tcaacatctt aacagttttc atatcttcct ttatattcta ttaattgaat ttcaaacatc
+     1141 gttttattga gctcatttac atcaaccggt tcaatgcaaa cagtaatgat ggatgacatt
+     1201 caaagcactg attctattgc tgaaaaagat aatcactcta ataatgaatc taactttact
+     1261 tggaaagcgt ttcgtgaaca agtggaaaag catttttcta aaattgaaag gcttcaccaa
+     1321 gtccttggaa cagatggaga caattcatca ttatttgagt tgtttacaac ggcaatgaat
+     1381 gcccagcttc atgaaatgga acagtgccag aaaaaacttg aagatgactg tcagcaaaga
+     1441 attgattcaa tcagattttt ggtttcctca ttaaagttaa cggatgatac ttctagtctc
+     1501 aaaattgagt ctcctttaat tcagtgtttg aatcgtttgt caatggtaga aggacaatat
+     1561 atggcacagt atgatcaaaa gttaagtacg attaaaggta tgtaatcgtc tttaatttag
+     1621 acttgtgttt taactgatgt atagaaatgt atcacaaatt ggagtcatat tgtaaccgct
+     1681 taggaagtcc gttcgtttta cctgattttg agaattcatt tttatctgat gtatccgatg
+     1741 cttttactga atctttgaga ggacgcatca acgaagccga aaaggagatt gatgcgagat
+     1801 tagaggttat taattccttt gaagaagaaa ttttgggttt gtggtctgaa ctcggtgttg
+     1861 agcccgctga tgttccacaa tacgaacaat tgcttgaatc ccatactaat cgaccaaatg
+     1921 atgtttatgt tactcaagaa cttatcgacc aactttgcaa gcaaaaagaa gttttttccg
+     1981 ctgaaaaaga aaagagaagt gatcatttaa aaagtataca atcagaagtt agcaacttgt
+     2041 ggaataagct tcaagtttct cccaatgaac aaagtcaatt tggcgattca tcaaacatta
+     2101 atcaagaaaa tatttcatta tgggaaactg aacttgaaaa acttcatcag ttaaaaaagg
+     2161 agcatttacc cattttttta gaagactgtc gtcaacaaat tcttcagctt tgggattctc
+     2221 tgttttattc agaagaacaa agaaagtcct ttacacctat gtatgaagac attattacag
+     2281 agcaggttct tacggcccat gaaaactata taaagcaact agaggccgaa gtttctgcta
+     2341 ataagtcctt tttaagctta attaatcgct atgcctcttt aatagaagga aagaaagagc
+     2401 ttgaagctag ttctaatgat gcctctcgtc taacacaacg gggacgccgg gacccaggtt
+     2461 tacttctacg tgaagagaaa atccgtaagc gactttctag agaacttcct aaggttcagt
+     2521 cgctgcttat accagagatt acagcatggg aagaaagaaa tggaaggacg ttcctttttt
+     2581 atgatgaacc acttctcaag atttgccaag aggccactca accaaaatca ttatatagaa
+     2641 gtgcaagtgc tgccgcaaac cgcccgaaaa cagcaactac aacggactct gttaatagaa
+     2701 caccttctca acgagggcgt gtagctgtac cttcaacacc aagtgttagg tccgcttctc
+     2761 gagctatgac gagtccaagg acaccgcttc ctagagtaaa aaacactcaa aatccaagtc
+     2821 gttccattag tgcagaaccg ccatcagcaa ccagtaccgc caatagaaga caccccactg
+     2881 ctaatcgaat tgatataaac gctagattaa acagtgctag tcggtctcga agcgcgaaca
+     2941 tgataagaca aggggcaaat ggtagtgaca gcaatatgtc ttcttcaccc gtttctggaa
+     3001 attccaatac cccttttaac aagtttccaa attctgtatc tcgcaataca cattttgaat
+     3061 ccaagtcacc gcacccaaat tactctcgaa ctcctcatga aacgtattca aaggcttcat
+     3121 ctaagaacgt cccattaagt cctccaaagc agcgtgtagt taatgaacac gctttaaata
+     3181 ttatgtcgga aaaattgcaa agaactaatc tgaaagaaca aacacccgag atggacattg
+     3241 aaaacagctc gcagaacctt cctttttctc ctatgaagat atcccccata agagcatcac
+     3301 ccgtaaagac aattccatca tcaccgtccc ccactaccaa cattttttct gctccactca
+     3361 acaatattac aaattgtaca ccgatggagg atgaatgggg agaagaaggc ttttaagctt
+     3421 cttatttacc taatcgatca aatttaaata tacatatttt tgcatatgaa tacagcatat
+     3481 agataattca taaaagttta ttaactgagg tcataattaa aagactattt acacctaaaa
+     3541 aaaaacgtgt atcaatagag ggaaaagaga agaattaaga acagaaagta accatagttt
+     3601 tgttaaaata gcaatgtaaa aaaatattat gaaaagaaaa cgtatagcac attttgaaat
+     3661 gtaaaagaat ctgagagagc gtgtgaatat ctagcaatta caagaagatg tattattcaa
+     3721 aggctttgaa agaagcaaag gttcagagaa gtcattaaca aagtcatctc tcgagctttc
+     3781 attttctaaa gctaaacgac tgactgtttc gaaaaggtca gtaacgtttg tattttcttt
+     3841 tgcactagct tcaaaatgaa tcatatttga tccatgtttg gatttgcaat agtcaagagc
+     3901 tcgatgaaga gatacggctc gtttagacgc gtctttgtcg atttgatttc caacgataat
+     3961 gaaagggaat gcacattcat cttgtgaagt ttgatataaa aattcttgcc tccagttttc
+     4021 tactgagtca aaagacttcg agttattcac attataaaca attacacaac aatcggcccc
+     4081 tctgtaaaaa gccattccca ggctttgaaa tcgttcttga ccagcagtat cccaaagctg
+     4141 tttataatta gcaaacgaat ttagatgggc ggaacttata ttggaactta cctgtaatgt
+     4201 gaccaatttg tcgtcaacca caacgtcctt ggttaaaaaa tcagcaccga tggtagcttt
+     4261 atattcgcga ctaaactttt gattgacgaa ctaaaatgac gatgttaaca aattgccaaa
+     4321 gcaatactca tagagaagct gatgtaaaga tcgttaacca tatttgagct agtatttaat
+     4381 aacaaagtga ataaatttta aaagcaatca ccttgtagcg acaaataaca acttatcgac
+     4441 ataaaatcaa tgggaaattg cagtattgga ttttacagct caatacaaaa accaaaaaga
+     4501 aaaatatact gaacgtataa aatttaacgc ttcaattg  
+//
