@@ -1,5 +1,10 @@
 from sgffp import SgffReader, SgffObject, SgffSegment, SgffFeature
-from sgffp.models.history import SgffHistoryNode, SgffHistoryTreeNode, SgffInputSummary
+from sgffp.models.history import (
+    SgffHistoryNode,
+    SgffHistoryTreeNode,
+    SgffInputSummary,
+    SgffHistoryOligo,
+)
 from pydna.dseq import Dseq
 import re
 from pydna.assembly2 import (
@@ -9,7 +14,9 @@ from pydna.assembly2 import (
     gateway_assembly,
     in_fusion_assembly,
     ligation_assembly,
+    fusion_pcr_assembly,
 )
+from pydna.oligonucleotide_hybridization import oligonucleotide_hybridization
 from pydna.primer import Primer
 from Bio.SeqFeature import SeqFeature, SimpleLocation, CompoundLocation
 from pydna.dseqrecord import Dseqrecord
@@ -25,6 +32,7 @@ from Bio.Restriction import RestrictionBatch
 from pydna.parsers import parse_snapgene
 from pydna.utils import flatten
 import itertools
+import warnings
 
 
 STRAND_MAP = {"+": 1, "-": -1, ".": 0, "=": 0}
@@ -165,6 +173,13 @@ def get_sequence_inputs(source: Source) -> list[Dseqrecord]:
     return out_value
 
 
+def parseOligos(oligos: list[SgffHistoryOligo]) -> list[Primer]:
+    return [
+        Primer(oligo.sequence, name=oligo.name or f"oligo_{i+1}")
+        for i, oligo in enumerate(oligos)
+    ]
+
+
 def source_from_tree_node(
     expected_product: Dseqrecord, node: SgffHistoryTreeNode, sgff_object: SgffObject
 ) -> tuple[Source | None | int, list[SgffHistoryNode]]:
@@ -186,16 +201,38 @@ def source_from_tree_node(
         else:
             return next((p for p in products if p.seq in expected_dseq_and_rc), None)
 
-    if len(input_sequences) == 0:
-        return None, []
+    print(">>", node.operation)
 
     if node.operation == "gibsonAssembly":
         products = gibson_assembly(input_sequences, limit=15)
     elif node.operation == "amplifyFragment":
-        primers = [Primer(oligo.sequence, name=oligo.name) for oligo in node.oligos]
+        primers = parseOligos(node.oligos)
         products = pcr_assembly(input_sequences[0], *primers, limit=12)
-    elif node.operation == "changeStrandedness":
+    elif node.operation == "primerDirectedMutagenesis":
+        fwd_primer, *_ = parseOligos(node.oligos)
+        rvs_primer = Primer(
+            fwd_primer.seq.reverse_complement(), name=f"rvs_{fwd_primer.name}"
+        )
+        pcr_products = pcr_assembly(
+            input_sequences[0], fwd_primer, rvs_primer, limit=10
+        )
+        # They bundle also the fusion pcr on the same step
+        products = list()
+        for pcr_product in pcr_products:
+            pcr_product.name = f"mutagenesis_pcr_product"
+            products.extend(fusion_pcr_assembly([pcr_product], limit=6))
+    elif node.operation in ["changeStrandedness", "editDNAEnds", "changeMethylation"]:
         return -1, None
+    elif node.operation == "changeTopology":
+        if expected_product.circular:
+            input_sequences = [expected_product[: len(expected_product)]]
+            products = ligation_assembly(input_sequences, True)
+            if len(products) == 0:
+                warnings.warn(f"Stopped at change topology operation")
+                return None, []
+        else:
+            warnings.warn(f"Stopped at change topology operation")
+            return None, []
     elif node.operation in [
         "insertFragment",
         "goldenGateAssembly",
@@ -228,9 +265,16 @@ def source_from_tree_node(
     elif node.operation == "gatewayBPCloning":
         products = gateway_assembly(input_sequences, "BP")
     elif node.operation == "inFusionCloning":
-        products = in_fusion_assembly(input_sequences, limit=15)
+        products = in_fusion_assembly(input_sequences, limit=10)
     elif node.operation == "hifiAssembly":
-        products = gibson_assembly(input_sequences, limit=15)
+        products = gibson_assembly(input_sequences, limit=10)
+    elif node.operation == "overlapFragments":
+        products = fusion_pcr_assembly(input_sequences, limit=10)
+    elif node.operation == "annealOligos":
+        primers = parseOligos(node.oligos)
+        products = oligonucleotide_hybridization(*primers, 10)
+    elif node.operation == "invalid":
+        return None, []
     else:
         raise ValueError(f"Unknown operation: {node.operation}")
 

@@ -1,7 +1,7 @@
 {
   "sequences": [
     {
-      "id": 4,
+      "id": 6,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -9,47 +9,7 @@
       "file_content": "LOCUS       restriction_then_ligation.dna 54 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgagt ttttggatcc aaaaactcga gtttttgaat tctt\n//"
     },
     {
-      "id": 2,
-      "type": "TextFileSequence",
-      "sequence_file_format": "genbank",
-      "overhang_crick_3prime": 0,
-      "overhang_watson_3prime": -4,
-      "file_content": "LOCUS       linear_ligation2_overhangs.dna 29 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   linear_ligation2_overhangs.dna\nVERSION     linear_ligation2_overhangs.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgagt ttttggatc\n//"
-    },
-    {
-      "id": 8,
-      "type": "TextFileSequence",
-      "sequence_file_format": "genbank",
-      "overhang_crick_3prime": 0,
-      "overhang_watson_3prime": -4,
-      "file_content": "LOCUS       name                      18 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcga\n//"
-    },
-    {
-      "id": 6,
-      "type": "TextFileSequence",
-      "sequence_file_format": "genbank",
-      "overhang_crick_3prime": 0,
-      "overhang_watson_3prime": 0,
-      "file_content": "LOCUS       A.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  A.dna.\nACCESSION   A.dna\nVERSION     A.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgaga a\n//"
-    },
-    {
-      "id": 3,
-      "type": "TextFileSequence",
-      "sequence_file_format": "genbank",
-      "overhang_crick_3prime": -4,
-      "overhang_watson_3prime": -4,
-      "file_content": "LOCUS       name                      15 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 tcgagttttt ggatc\n//"
-    },
-    {
-      "id": 7,
-      "type": "TextFileSequence",
-      "sequence_file_format": "genbank",
-      "overhang_crick_3prime": 0,
-      "overhang_watson_3prime": 0,
-      "file_content": "LOCUS       B.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  B.dna.\nACCESSION   B.dna\nVERSION     B.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 ttctcgagtt tttggatcct t\n//"
-    },
-    {
-      "id": 1,
+      "id": 9,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -65,7 +25,7 @@
       "file_content": "LOCUS       name                      18 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcga\n//"
     },
     {
-      "id": 5,
+      "id": 1,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -73,7 +33,7 @@
       "file_content": "LOCUS       A.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  A.dna.\nACCESSION   A.dna\nVERSION     A.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgaga a\n//"
     },
     {
-      "id": 9,
+      "id": 3,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": -4,
@@ -81,7 +41,47 @@
       "file_content": "LOCUS       name                      15 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 tcgagttttt ggatc\n//"
     },
     {
+      "id": 8,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       B.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  B.dna.\nACCESSION   B.dna\nVERSION     B.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 ttctcgagtt tttggatcct t\n//"
+    },
+    {
       "id": 10,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": -4,
+      "file_content": "LOCUS       linear_ligation2_overhangs.dna 29 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   linear_ligation2_overhangs.dna\nVERSION     linear_ligation2_overhangs.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgagt ttttggatc\n//"
+    },
+    {
+      "id": 7,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": -4,
+      "file_content": "LOCUS       name                      18 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcga\n//"
+    },
+    {
+      "id": 4,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       A.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  A.dna.\nACCESSION   A.dna\nVERSION     A.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgaga a\n//"
+    },
+    {
+      "id": 2,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": -4,
+      "overhang_watson_3prime": -4,
+      "file_content": "LOCUS       name                      15 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 tcgagttttt ggatc\n//"
+    },
+    {
+      "id": 5,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -91,21 +91,21 @@
   ],
   "sources": [
     {
-      "id": 4,
+      "id": 6,
       "type": "LigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 2,
+          "sequence": 9,
           "left_location": null,
           "right_location": "26..29",
           "reverse_complemented": false
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 1,
+          "sequence": 10,
           "left_location": "1..4",
           "right_location": null,
           "reverse_complemented": true
@@ -114,14 +114,14 @@
       "circular": false
     },
     {
-      "id": 2,
+      "id": 9,
       "type": "LigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 8,
+          "sequence": 11,
           "left_location": null,
           "right_location": "15..18",
           "reverse_complemented": false
@@ -137,14 +137,14 @@
       "circular": false
     },
     {
-      "id": 8,
+      "id": 11,
       "type": "RestrictionEnzymeDigestionSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "SourceInput",
-          "sequence": 6
+          "sequence": 1
         }
       ],
       "left_edge": null,
@@ -155,7 +155,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 1,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,
@@ -169,7 +169,7 @@
       "input": [
         {
           "type": "SourceInput",
-          "sequence": 7
+          "sequence": 8
         }
       ],
       "left_edge": {
@@ -184,28 +184,28 @@
       }
     },
     {
-      "id": 7,
+      "id": 8,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,
       "input": []
     },
     {
-      "id": 1,
+      "id": 10,
       "type": "LigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 11,
+          "sequence": 7,
           "left_location": null,
           "right_location": "15..18",
           "reverse_complemented": false
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 9,
+          "sequence": 2,
           "left_location": "1..4",
           "right_location": null,
           "reverse_complemented": false
@@ -214,14 +214,14 @@
       "circular": false
     },
     {
-      "id": 11,
+      "id": 7,
       "type": "RestrictionEnzymeDigestionSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "SourceInput",
-          "sequence": 5
+          "sequence": 4
         }
       ],
       "left_edge": null,
@@ -232,21 +232,21 @@
       }
     },
     {
-      "id": 5,
+      "id": 4,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,
       "input": []
     },
     {
-      "id": 9,
+      "id": 2,
       "type": "RestrictionEnzymeDigestionSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "SourceInput",
-          "sequence": 10
+          "sequence": 5
         }
       ],
       "left_edge": {
@@ -261,7 +261,7 @@
       }
     },
     {
-      "id": 10,
+      "id": 5,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,
