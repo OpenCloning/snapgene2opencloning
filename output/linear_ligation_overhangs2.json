@@ -1,7 +1,7 @@
 {
   "sequences": [
     {
-      "id": 4,
+      "id": 2,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 4,
@@ -9,7 +9,7 @@
       "file_content": "LOCUS       linear_ligation_overhangs2.dna 26 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 tgcatccccc gaattcaaaa actcga\n//"
     },
     {
-      "id": 3,
+      "id": 4,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 4,
@@ -33,7 +33,7 @@
       "file_content": "LOCUS       name                      15 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aattcaaaaa ctcga\n//"
     },
     {
-      "id": 2,
+      "id": 3,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -43,14 +43,14 @@
   ],
   "sources": [
     {
-      "id": 4,
+      "id": 2,
       "type": "LigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 3,
+          "sequence": 4,
           "left_location": null,
           "right_location": "12..15",
           "reverse_complemented": false
@@ -66,7 +66,7 @@
       "circular": false
     },
     {
-      "id": 3,
+      "id": 4,
       "type": "RestrictionEnzymeDigestionSource",
       "output_name": null,
       "database_id": null,
@@ -102,7 +102,7 @@
       "input": [
         {
           "type": "SourceInput",
-          "sequence": 2
+          "sequence": 3
         }
       ],
       "left_edge": {
@@ -117,7 +117,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,

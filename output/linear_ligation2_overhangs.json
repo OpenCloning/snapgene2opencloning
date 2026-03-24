@@ -1,7 +1,7 @@
 {
   "sequences": [
     {
-      "id": 2,
+      "id": 4,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -9,7 +9,7 @@
       "file_content": "LOCUS       linear_ligation2_overhangs.dna 29 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgagt ttttggatc\n//"
     },
     {
-      "id": 4,
+      "id": 1,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -17,7 +17,7 @@
       "file_content": "LOCUS       name                      18 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcga\n//"
     },
     {
-      "id": 1,
+      "id": 3,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -33,7 +33,7 @@
       "file_content": "LOCUS       name                      15 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 tcgagttttt ggatc\n//"
     },
     {
-      "id": 3,
+      "id": 2,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -43,14 +43,14 @@
   ],
   "sources": [
     {
-      "id": 2,
+      "id": 4,
       "type": "LigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 4,
+          "sequence": 1,
           "left_location": null,
           "right_location": "15..18",
           "reverse_complemented": false
@@ -66,14 +66,14 @@
       "circular": false
     },
     {
-      "id": 4,
+      "id": 1,
       "type": "RestrictionEnzymeDigestionSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "SourceInput",
-          "sequence": 1
+          "sequence": 3
         }
       ],
       "left_edge": null,
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": 1,
+      "id": 3,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,
@@ -98,7 +98,7 @@
       "input": [
         {
           "type": "SourceInput",
-          "sequence": 3
+          "sequence": 2
         }
       ],
       "left_edge": {
@@ -113,7 +113,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 2,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,

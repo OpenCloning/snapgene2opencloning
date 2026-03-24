@@ -1,7 +1,7 @@
 {
   "sequences": [
     {
-      "id": 9,
+      "id": 1,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -9,7 +9,7 @@
       "file_content": "LOCUS       overlap_extension_pcr.dna 3272 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\n     CDS             join(1..424,472..2243)\n                     /label=\"ase1\"\n                     /locus_tag=\"SPOM_SPAPB1A10.09\"\n     gene            complement(2244..3272)\n                     /db_xref=\"2543411\"\n                     /db_xref=\"SPAPB1A10.10c\"\n                     /label=\"ypt71\"\n                     /locus_tag=\"SPOM_SPAPB1A10.10C\"\n     mRNA            complement(join(2244..2871,2926..3024))\n                     /db_xref=\"2543411\"\n                     /db_xref=\"SPAPB1A10.10c\"\n                     /label=\"ypt71\"\n                     /locus_tag=\"SPOM_SPAPB1A10.10C\"\n                     /product=\"<html><body>GTPase Ypt71</body></html>\"\n                     /transcript_id=\"NM_001018958.3\"\n     CDS             complement(join(2425..2871,2926..3024))\n                     /label=\"ypt71\"\n                     /locus_tag=\"SPOM_SPAPB1A10.10C\"\n     gene            2783..3272\n                     /db_xref=\"90819332\"\n                     /db_xref=\"SPNCRNA.2847\"\n                     /label=\"SPOM_SPNCRNA.2847\"\n                     /locus_tag=\"SPOM_SPNCRNA.2847\"\n     ncRNA           2783..3272\n                     /db_xref=\"90819332\"\n                     /db_xref=\"SPNCRNA.2847\"\n                     /label=\"SPOM_SPNCRNA.2847\"\n                     /locus_tag=\"SPOM_SPNCRNA.2847\"\n                     /ncRNA_class=\"lncRNA\"\n                     /product=\"<html><body>non-coding RNA</body></html>\"\n                     /transcript_id=\"NR_192215.1\"\nORIGIN\n        1 atgcaaacag taatgatgga tgacattcaa agcactgatt ctattgctga aaaagataat\n       61 cactctaata atgaatctaa ctttacttgg aaagcgtttc gtgaacaagt ggaaaagcat\n      121 ttttctaaaa ttgaaaggct tcaccaagtc cttggaacag atggagacaa ttcatcatta\n      181 tttgagttgt ttacaacggc aatgaatgcc cagcttcatg aaatggaaca gtgccagaaa\n      241 aaacttgaag atgactgtca gcaaagaatt gattcaatca gatttttggt ttcctcatta\n      301 aagttaacgg atgatacttc tagtctcaaa attgagtctc ctttaattca gtgtttgaat\n      361 cgtttgtcaa tggtagaagg acaatatatg gcacagtatg atcaaaagtt aagtacgatt\n      421 aaaggtatgt aatcgtcttt aatttagact tgtgttttaa ctgatgtata gaaatgtatc\n      481 acaaattgga gtcatattgt aaccgcttag gaagtccgtt cgttttacct gattttgaga\n      541 attcattttt atctgatgta tccgatgctt ttactgaatc tttgagagga cgcatcaacg\n      601 aagccgaaaa ggagattgat gcgagattag aggttattaa ttcctttgaa gaagaaattt\n      661 tgggtttgtg gtctgaactc ggtgttgagc ccgctgatgt tccacaatac gaacaattgc\n      721 ttgaatccca tactaatcga ccaaatgatg tttatgttac tcaagaactt atcgaccaac\n      781 tttgcaagca aaaagaagtt ttttccgctg aaaaagaaaa gagaagtgat catttaaaaa\n      841 gtatacaatc agaagttagc aacttgtgga ataagcttca agtttctccc aatgaacaaa\n      901 gtcaatttgg cgattcatca aacattaatc aagaaaatat ttcattatgg gaaactgaac\n      961 ttgaaaaact tcatcagtta aaaaaggagc atttacccat ttttttagaa gactgtcgtc\n     1021 aacaaattct tcagctttgg gattctctgt tttattcaga agaacaaaga aagtccttta\n     1081 cacctatgta tgaagacatt attacagagc aggttcttac ggcccatgaa aactatataa\n     1141 agcaactaga ggccgaagtt tctgctaata agtccttttt aagcttaatt aatcgctatg\n     1201 cctctttaat agaaggaaag aaagagcttg aagctagttc taatgatgcc tctcgtctaa\n     1261 cacaacgggg acgccgggac ccaggtttac ttctacgtga agagaaaatc cgtaagcgac\n     1321 tttctagaga acttcctaag gttcagtcgc tgcttatacc agagattaca gcatgggaag\n     1381 aaagaaatgg aaggacgttc cttttttatg atgaaccact tctcaagatt tgccaagagg\n     1441 ccactcaacc aaaatcatta tatagaagtg caagtgctgc cgcaaaccgc ccgaaaacag\n     1501 caactacaac ggactctgtt aatagaacac cttctcaacg agggcgtgta gctgtacctt\n     1561 caacaccaag tgttaggtcc gcttctcgag ctatgacgag tccaaggaca ccgcttccta\n     1621 gagtaaaaaa cactcaaaat ccaagtcgtt ccattagtgc agaaccgcca tcagcaacca\n     1681 gtaccgccaa tagaagacac cccactgcta atcgaattga tataaacgct agattaaaca\n     1741 gtgctagtcg gtctcgaagc gcgaacatga taagacaagg ggcaaatggt agtgacagca\n     1801 atatgtcttc ttcacccgtt tctggaaatt ccaatacccc ttttaacaag tttccaaatt\n     1861 ctgtatctcg caatacacat tttgaatcca agtcaccgca cccaaattac tctcgaactc\n     1921 ctcatgaaac gtattcaaag gcttcatcta agaacgtccc attaagtcct ccaaagcagc\n     1981 gtgtagttaa tgaacacgct ttaaatatta tgtcggaaaa attgcaaaga actaatctga\n     2041 aagaacaaac acccgagatg gacattgaaa acagctcgca gaaccttcct ttttctccta\n     2101 tgaagatatc ccccataaga gcatcacccg taaagacaat tccatcatca ccgtccccca\n     2161 ctaccaacat tttttctgct ccactcaaca atattacaaa ttgtacaccg atggaggatg\n     2221 aatggggaga agaaggcttt taagtcataa ttaaaagact atttacacct aaaaaaaaac\n     2281 gtgtatcaat agagggaaaa gagaagaatt aagaacagaa agtaaccata gttttgttaa\n     2341 aatagcaatg taaaaaaata ttatgaaaag aaaacgtata gcacattttg aaatgtaaaa\n     2401 gaatctgaga gagcgtgtga atatctagca attacaagaa gatgtattat tcaaaggctt\n     2461 tgaaagaagc aaaggttcag agaagtcatt aacaaagtca tctctcgagc tttcattttc\n     2521 taaagctaaa cgactgactg tttcgaaaag gtcagtaacg tttgtatttt cttttgcact\n     2581 agcttcaaaa tgaatcatat ttgatccatg tttggatttg caatagtcaa gagctcgatg\n     2641 aagagatacg gctcgtttag acgcgtcttt gtcgatttga tttccaacga taatgaaagg\n     2701 gaatgcacat tcatcttgtg aagtttgata taaaaattct tgcctccagt tttctactga\n     2761 gtcaaaagac ttcgagttat tcacattata aacaattaca caacaatcgg cccctctgta\n     2821 aaaagccatt cccaggcttt gaaatcgttc ttgaccagca gtatcccaaa gctgtttata\n     2881 attagcaaac gaatttagat gggcggaact tatattggaa cttacctgta atgtgaccaa\n     2941 tttgtcgtca accacaacgt ccttggttaa aaaatcagca ccgatggtag ctttatattc\n     3001 gcgactaaac ttttgattga cgaactaaaa tgacgatgtt aacaaattgc caaagcaata\n     3061 ctcatagaga agctgatgta aagatcgtta accatatttg agctagtatt taataacaaa\n     3121 gtgaataaat tttaaaagca atcaccttgt agcgacaaat aacaacttat cgacataaaa\n     3181 tcaatgggaa attgcagtat tggattttac agctcaatac aaaaaccaaa aagaaaaata\n     3241 tactgaacgt ataaaattta acgcttcaat tg\n//"
     },
     {
-      "id": 1,
+      "id": 2,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -17,7 +17,7 @@
       "file_content": "LOCUS       Fragment_1.dna          2263 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   Fragment_1.dna\nVERSION     Fragment_1.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\n     CDS             join(1..424,472..2243)\n                     /label=\"ase1\"\n                     /locus_tag=\"SPOM_SPAPB1A10.09\"\nORIGIN\n        1 atgcaaacag taatgatgga tgacattcaa agcactgatt ctattgctga aaaagataat\n       61 cactctaata atgaatctaa ctttacttgg aaagcgtttc gtgaacaagt ggaaaagcat\n      121 ttttctaaaa ttgaaaggct tcaccaagtc cttggaacag atggagacaa ttcatcatta\n      181 tttgagttgt ttacaacggc aatgaatgcc cagcttcatg aaatggaaca gtgccagaaa\n      241 aaacttgaag atgactgtca gcaaagaatt gattcaatca gatttttggt ttcctcatta\n      301 aagttaacgg atgatacttc tagtctcaaa attgagtctc ctttaattca gtgtttgaat\n      361 cgtttgtcaa tggtagaagg acaatatatg gcacagtatg atcaaaagtt aagtacgatt\n      421 aaaggtatgt aatcgtcttt aatttagact tgtgttttaa ctgatgtata gaaatgtatc\n      481 acaaattgga gtcatattgt aaccgcttag gaagtccgtt cgttttacct gattttgaga\n      541 attcattttt atctgatgta tccgatgctt ttactgaatc tttgagagga cgcatcaacg\n      601 aagccgaaaa ggagattgat gcgagattag aggttattaa ttcctttgaa gaagaaattt\n      661 tgggtttgtg gtctgaactc ggtgttgagc ccgctgatgt tccacaatac gaacaattgc\n      721 ttgaatccca tactaatcga ccaaatgatg tttatgttac tcaagaactt atcgaccaac\n      781 tttgcaagca aaaagaagtt ttttccgctg aaaaagaaaa gagaagtgat catttaaaaa\n      841 gtatacaatc agaagttagc aacttgtgga ataagcttca agtttctccc aatgaacaaa\n      901 gtcaatttgg cgattcatca aacattaatc aagaaaatat ttcattatgg gaaactgaac\n      961 ttgaaaaact tcatcagtta aaaaaggagc atttacccat ttttttagaa gactgtcgtc\n     1021 aacaaattct tcagctttgg gattctctgt tttattcaga agaacaaaga aagtccttta\n     1081 cacctatgta tgaagacatt attacagagc aggttcttac ggcccatgaa aactatataa\n     1141 agcaactaga ggccgaagtt tctgctaata agtccttttt aagcttaatt aatcgctatg\n     1201 cctctttaat agaaggaaag aaagagcttg aagctagttc taatgatgcc tctcgtctaa\n     1261 cacaacgggg acgccgggac ccaggtttac ttctacgtga agagaaaatc cgtaagcgac\n     1321 tttctagaga acttcctaag gttcagtcgc tgcttatacc agagattaca gcatgggaag\n     1381 aaagaaatgg aaggacgttc cttttttatg atgaaccact tctcaagatt tgccaagagg\n     1441 ccactcaacc aaaatcatta tatagaagtg caagtgctgc cgcaaaccgc ccgaaaacag\n     1501 caactacaac ggactctgtt aatagaacac cttctcaacg agggcgtgta gctgtacctt\n     1561 caacaccaag tgttaggtcc gcttctcgag ctatgacgag tccaaggaca ccgcttccta\n     1621 gagtaaaaaa cactcaaaat ccaagtcgtt ccattagtgc agaaccgcca tcagcaacca\n     1681 gtaccgccaa tagaagacac cccactgcta atcgaattga tataaacgct agattaaaca\n     1741 gtgctagtcg gtctcgaagc gcgaacatga taagacaagg ggcaaatggt agtgacagca\n     1801 atatgtcttc ttcacccgtt tctggaaatt ccaatacccc ttttaacaag tttccaaatt\n     1861 ctgtatctcg caatacacat tttgaatcca agtcaccgca cccaaattac tctcgaactc\n     1921 ctcatgaaac gtattcaaag gcttcatcta agaacgtccc attaagtcct ccaaagcagc\n     1981 gtgtagttaa tgaacacgct ttaaatatta tgtcggaaaa attgcaaaga actaatctga\n     2041 aagaacaaac acccgagatg gacattgaaa acagctcgca gaaccttcct ttttctccta\n     2101 tgaagatatc ccccataaga gcatcacccg taaagacaat tccatcatca ccgtccccca\n     2161 ctaccaacat tttttctgct ccactcaaca atattacaaa ttgtacaccg atggaggatg\n     2221 aatggggaga agaaggcttt taagtcataa ttaaaagact att\n//"
     },
     {
-      "id": 6,
+      "id": 8,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -25,7 +25,7 @@
       "file_content": "LOCUS       ase1_genome.dna         4538 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  ase1_genome.dna.\nACCESSION   ase1_genome.dna\nVERSION     ase1_genome.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\n     source          1..4538\n                     /chromosome=\"<html><body>I</body></html>\"\n                     /db_xref=\"4896\"\n                     /label=\"Schizosaccharomyces pombe\"\n                     /mol_type=\"genomic DNA\"\n                     /organism=\"<html><body>Schizosaccharomyces\n                     pombe</body></html>\"\n                     /strain=\"<html><body>972h-</body></html>\"\n     gene            1..676\n                     /db_xref=\"2543374\"\n                     /db_xref=\"SPAPB1A10.08\"\n                     /label=\"SPOM_SPAPB1A10.08\"\n                     /locus_tag=\"SPOM_SPAPB1A10.08\"\n     mRNA            1..676\n                     /db_xref=\"2543374\"\n                     /db_xref=\"SPAPB1A10.08\"\n                     /label=\"SPOM_SPAPB1A10.08\"\n                     /locus_tag=\"SPOM_SPAPB1A10.08\"\n                     /product=\"<html><body>uncharacterized\n                     protein</body></html>\"\n                     /transcript_id=\"NM_001018956.3\"\n     CDS             1..393\n                     /label=\"SPOM_SPAPB1A10.08\"\n                     /locus_tag=\"SPOM_SPAPB1A10.08\"\n                     /note=\"<html><body>conserved fungal protein</body></html>\"\n     gene            complement(1..1972)\n                     /db_xref=\"90819331\"\n                     /db_xref=\"SPNCRNA.2846\"\n                     /label=\"SPOM_SPNCRNA.2846\"\n                     /locus_tag=\"SPOM_SPNCRNA.2846\"\n     ncRNA           complement(1..1972)\n                     /db_xref=\"90819331\"\n                     /db_xref=\"SPNCRNA.2846\"\n                     /label=\"SPOM_SPNCRNA.2846\"\n                     /locus_tag=\"SPOM_SPNCRNA.2846\"\n                     /ncRNA_class=\"lncRNA\"\n                     /product=\"<html><body>non-coding RNA</body></html>\"\n                     /transcript_id=\"NR_192214.1\"\n     gene            1001..3538\n                     /db_xref=\"2543372\"\n                     /db_xref=\"SPAPB1A10.09\"\n                     /label=\"ase1\"\n                     /locus_tag=\"SPOM_SPAPB1A10.09\"\n     mRNA            join(1001..1597,1645..3538)\n                     /db_xref=\"2543372\"\n                     /db_xref=\"SPAPB1A10.09\"\n                     /label=\"ase1\"\n                     /locus_tag=\"SPOM_SPAPB1A10.09\"\n                     /product=\"<html><body>antiparallel microtubule\n                     cross-linking factorAse1</body></html>\"\n                     /transcript_id=\"NM_001018957.3\"\n     CDS             join(1174..1597,1645..3416)\n                     /label=\"ase1\"\n                     /locus_tag=\"SPOM_SPAPB1A10.09\"\n     gene            complement(3510..4538)\n                     /db_xref=\"2543411\"\n                     /db_xref=\"SPAPB1A10.10c\"\n                     /label=\"ypt71\"\n                     /locus_tag=\"SPOM_SPAPB1A10.10C\"\n     mRNA            complement(join(3510..4137,4192..4290))\n                     /db_xref=\"2543411\"\n                     /db_xref=\"SPAPB1A10.10c\"\n                     /label=\"ypt71\"\n                     /locus_tag=\"SPOM_SPAPB1A10.10C\"\n                     /product=\"<html><body>GTPase Ypt71</body></html>\"\n                     /transcript_id=\"NM_001018958.3\"\n     CDS             complement(join(3691..4137,4192..4290))\n                     /label=\"ypt71\"\n                     /locus_tag=\"SPOM_SPAPB1A10.10C\"\n     gene            4049..4538\n                     /db_xref=\"90819332\"\n                     /db_xref=\"SPNCRNA.2847\"\n                     /label=\"SPOM_SPNCRNA.2847\"\n                     /locus_tag=\"SPOM_SPNCRNA.2847\"\n     ncRNA           4049..4538\n                     /db_xref=\"90819332\"\n                     /db_xref=\"SPNCRNA.2847\"\n                     /label=\"SPOM_SPNCRNA.2847\"\n                     /locus_tag=\"SPOM_SPNCRNA.2847\"\n                     /ncRNA_class=\"lncRNA\"\n                     /product=\"<html><body>non-coding RNA</body></html>\"\n                     /transcript_id=\"NR_192215.1\"\nORIGIN\n        1 atcatcagac gtgtatttca caagccagaa gtgcatttgg atccaagtgc ctccatttta\n       61 aatctctcat cttcgcatgg cgaaagcaac ctgacaaatg gtttgctttg tcaaaatttc\n      121 aagctttttc aggatgattg gttgatggag gattgtgcgc cagatgccaa tttcactttg\n      181 tacaccccgc ttcaaccctg ggaaaagcga agtgtgaaac ctgaaatcag acgtcctcga\n      241 ttaaatccta attttttccg agtatttgtt ttagaagctc aaatgcgacg agctggaaag\n      301 ctatcagcaa acactgctgg ccgagcccag ttaatttacc tcccaaagcc tgccgttacc\n      361 ttctccacta gccctttgca tgttgaattg taaaaattta acgcatgact tatatacatt\n      421 tgcattcttc caagctggtt atatttattt tcattttttt ctcacccaat acttttttat\n      481 ccctactgtc tttatggaca atcgactcac aattgtttct ttttgttgta tatgattttt\n      541 tttttaaagg aaatgggttt cgcgatactg ggttgaatcc caattgcggt taatattaca\n      601 taaaataatt ctcccatagt cctagatcct gtctttgaat atgagcaaat aaaagaattg\n      661 aacaaatcat gaatgctttt ctctcttaga tgatattttg tatgcataag tctaattata\n      721 ttgattacga taagacttaa aaagtaagcc tttgtatcct tttaagcagt atttgaattt\n      781 tcttgtatca tattttaggt agagcaaaag ataccagttt gtagaacttt atgtgcttcc\n      841 ttacattggt atatttcagg cacataaata ttcttcaact tacaattcta agtattttgt\n      901 ttatactaaa aggagctgaa taacgtttat acagtgctga cattgaaatc tatttgcttt\n      961 ctttggaata taagcgcatg ctgagttact ttcgcaggcc aagccatatc caaccaccat\n     1021 ttttgtgcca agcttttatg caaggttaat tccttgtact gcttgttatg ttataatata\n     1081 tcaacatctt aacagttttc atatcttcct ttatattcta ttaattgaat ttcaaacatc\n     1141 gttttattga gctcatttac atcaaccggt tcaatgcaaa cagtaatgat ggatgacatt\n     1201 caaagcactg attctattgc tgaaaaagat aatcactcta ataatgaatc taactttact\n     1261 tggaaagcgt ttcgtgaaca agtggaaaag catttttcta aaattgaaag gcttcaccaa\n     1321 gtccttggaa cagatggaga caattcatca ttatttgagt tgtttacaac ggcaatgaat\n     1381 gcccagcttc atgaaatgga acagtgccag aaaaaacttg aagatgactg tcagcaaaga\n     1441 attgattcaa tcagattttt ggtttcctca ttaaagttaa cggatgatac ttctagtctc\n     1501 aaaattgagt ctcctttaat tcagtgtttg aatcgtttgt caatggtaga aggacaatat\n     1561 atggcacagt atgatcaaaa gttaagtacg attaaaggta tgtaatcgtc tttaatttag\n     1621 acttgtgttt taactgatgt atagaaatgt atcacaaatt ggagtcatat tgtaaccgct\n     1681 taggaagtcc gttcgtttta cctgattttg agaattcatt tttatctgat gtatccgatg\n     1741 cttttactga atctttgaga ggacgcatca acgaagccga aaaggagatt gatgcgagat\n     1801 tagaggttat taattccttt gaagaagaaa ttttgggttt gtggtctgaa ctcggtgttg\n     1861 agcccgctga tgttccacaa tacgaacaat tgcttgaatc ccatactaat cgaccaaatg\n     1921 atgtttatgt tactcaagaa cttatcgacc aactttgcaa gcaaaaagaa gttttttccg\n     1981 ctgaaaaaga aaagagaagt gatcatttaa aaagtataca atcagaagtt agcaacttgt\n     2041 ggaataagct tcaagtttct cccaatgaac aaagtcaatt tggcgattca tcaaacatta\n     2101 atcaagaaaa tatttcatta tgggaaactg aacttgaaaa acttcatcag ttaaaaaagg\n     2161 agcatttacc cattttttta gaagactgtc gtcaacaaat tcttcagctt tgggattctc\n     2221 tgttttattc agaagaacaa agaaagtcct ttacacctat gtatgaagac attattacag\n     2281 agcaggttct tacggcccat gaaaactata taaagcaact agaggccgaa gtttctgcta\n     2341 ataagtcctt tttaagctta attaatcgct atgcctcttt aatagaagga aagaaagagc\n     2401 ttgaagctag ttctaatgat gcctctcgtc taacacaacg gggacgccgg gacccaggtt\n     2461 tacttctacg tgaagagaaa atccgtaagc gactttctag agaacttcct aaggttcagt\n     2521 cgctgcttat accagagatt acagcatggg aagaaagaaa tggaaggacg ttcctttttt\n     2581 atgatgaacc acttctcaag atttgccaag aggccactca accaaaatca ttatatagaa\n     2641 gtgcaagtgc tgccgcaaac cgcccgaaaa cagcaactac aacggactct gttaatagaa\n     2701 caccttctca acgagggcgt gtagctgtac cttcaacacc aagtgttagg tccgcttctc\n     2761 gagctatgac gagtccaagg acaccgcttc ctagagtaaa aaacactcaa aatccaagtc\n     2821 gttccattag tgcagaaccg ccatcagcaa ccagtaccgc caatagaaga caccccactg\n     2881 ctaatcgaat tgatataaac gctagattaa acagtgctag tcggtctcga agcgcgaaca\n     2941 tgataagaca aggggcaaat ggtagtgaca gcaatatgtc ttcttcaccc gtttctggaa\n     3001 attccaatac cccttttaac aagtttccaa attctgtatc tcgcaataca cattttgaat\n     3061 ccaagtcacc gcacccaaat tactctcgaa ctcctcatga aacgtattca aaggcttcat\n     3121 ctaagaacgt cccattaagt cctccaaagc agcgtgtagt taatgaacac gctttaaata\n     3181 ttatgtcgga aaaattgcaa agaactaatc tgaaagaaca aacacccgag atggacattg\n     3241 aaaacagctc gcagaacctt cctttttctc ctatgaagat atcccccata agagcatcac\n     3301 ccgtaaagac aattccatca tcaccgtccc ccactaccaa cattttttct gctccactca\n     3361 acaatattac aaattgtaca ccgatggagg atgaatgggg agaagaaggc ttttaagctt\n     3421 cttatttacc taatcgatca aatttaaata tacatatttt tgcatatgaa tacagcatat\n     3481 agataattca taaaagttta ttaactgagg tcataattaa aagactattt acacctaaaa\n     3541 aaaaacgtgt atcaatagag ggaaaagaga agaattaaga acagaaagta accatagttt\n     3601 tgttaaaata gcaatgtaaa aaaatattat gaaaagaaaa cgtatagcac attttgaaat\n     3661 gtaaaagaat ctgagagagc gtgtgaatat ctagcaatta caagaagatg tattattcaa\n     3721 aggctttgaa agaagcaaag gttcagagaa gtcattaaca aagtcatctc tcgagctttc\n     3781 attttctaaa gctaaacgac tgactgtttc gaaaaggtca gtaacgtttg tattttcttt\n     3841 tgcactagct tcaaaatgaa tcatatttga tccatgtttg gatttgcaat agtcaagagc\n     3901 tcgatgaaga gatacggctc gtttagacgc gtctttgtcg atttgatttc caacgataat\n     3961 gaaagggaat gcacattcat cttgtgaagt ttgatataaa aattcttgcc tccagttttc\n     4021 tactgagtca aaagacttcg agttattcac attataaaca attacacaac aatcggcccc\n     4081 tctgtaaaaa gccattccca ggctttgaaa tcgttcttga ccagcagtat cccaaagctg\n     4141 tttataatta gcaaacgaat ttagatgggc ggaacttata ttggaactta cctgtaatgt\n     4201 gaccaatttg tcgtcaacca caacgtcctt ggttaaaaaa tcagcaccga tggtagcttt\n     4261 atattcgcga ctaaactttt gattgacgaa ctaaaatgac gatgttaaca aattgccaaa\n     4321 gcaatactca tagagaagct gatgtaaaga tcgttaacca tatttgagct agtatttaat\n     4381 aacaaagtga ataaatttta aaagcaatca ccttgtagcg acaaataaca acttatcgac\n     4441 ataaaatcaa tgggaaattg cagtattgga ttttacagct caatacaaaa accaaaaaga\n     4501 aaaatatact gaacgtataa aatttaacgc ttcaattg\n//"
     },
     {
-      "id": 4,
+      "id": 9,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -33,7 +33,7 @@
       "file_content": "LOCUS       Fragment_2.dna          1049 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   Fragment_2.dna\nVERSION     Fragment_2.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\n     gene            complement(21..1049)\n                     /db_xref=\"2543411\"\n                     /db_xref=\"SPAPB1A10.10c\"\n                     /label=\"ypt71\"\n                     /locus_tag=\"SPOM_SPAPB1A10.10C\"\n     mRNA            complement(join(21..648,703..801))\n                     /db_xref=\"2543411\"\n                     /db_xref=\"SPAPB1A10.10c\"\n                     /label=\"ypt71\"\n                     /locus_tag=\"SPOM_SPAPB1A10.10C\"\n                     /product=\"<html><body>GTPase Ypt71</body></html>\"\n                     /transcript_id=\"NM_001018958.3\"\n     CDS             complement(join(202..648,703..801))\n                     /label=\"ypt71\"\n                     /locus_tag=\"SPOM_SPAPB1A10.10C\"\n     gene            560..1049\n                     /db_xref=\"90819332\"\n                     /db_xref=\"SPNCRNA.2847\"\n                     /label=\"SPOM_SPNCRNA.2847\"\n                     /locus_tag=\"SPOM_SPNCRNA.2847\"\n     ncRNA           560..1049\n                     /db_xref=\"90819332\"\n                     /db_xref=\"SPNCRNA.2847\"\n                     /label=\"SPOM_SPNCRNA.2847\"\n                     /locus_tag=\"SPOM_SPNCRNA.2847\"\n                     /ncRNA_class=\"lncRNA\"\n                     /product=\"<html><body>non-coding RNA</body></html>\"\n                     /transcript_id=\"NR_192215.1\"\nORIGIN\n        1 ggggagaaga aggcttttaa gtcataatta aaagactatt tacacctaaa aaaaaacgtg\n       61 tatcaataga gggaaaagag aagaattaag aacagaaagt aaccatagtt ttgttaaaat\n      121 agcaatgtaa aaaaatatta tgaaaagaaa acgtatagca cattttgaaa tgtaaaagaa\n      181 tctgagagag cgtgtgaata tctagcaatt acaagaagat gtattattca aaggctttga\n      241 aagaagcaaa ggttcagaga agtcattaac aaagtcatct ctcgagcttt cattttctaa\n      301 agctaaacga ctgactgttt cgaaaaggtc agtaacgttt gtattttctt ttgcactagc\n      361 ttcaaaatga atcatatttg atccatgttt ggatttgcaa tagtcaagag ctcgatgaag\n      421 agatacggct cgtttagacg cgtctttgtc gatttgattt ccaacgataa tgaaagggaa\n      481 tgcacattca tcttgtgaag tttgatataa aaattcttgc ctccagtttt ctactgagtc\n      541 aaaagacttc gagttattca cattataaac aattacacaa caatcggccc ctctgtaaaa\n      601 agccattccc aggctttgaa atcgttcttg accagcagta tcccaaagct gtttataatt\n      661 agcaaacgaa tttagatggg cggaacttat attggaactt acctgtaatg tgaccaattt\n      721 gtcgtcaacc acaacgtcct tggttaaaaa atcagcaccg atggtagctt tatattcgcg\n      781 actaaacttt tgattgacga actaaaatga cgatgttaac aaattgccaa agcaatactc\n      841 atagagaagc tgatgtaaag atcgttaacc atatttgagc tagtatttaa taacaaagtg\n      901 aataaatttt aaaagcaatc accttgtagc gacaaataac aacttatcga cataaaatca\n      961 atgggaaatt gcagtattgg attttacagc tcaatacaaa aaccaaaaag aaaaatatac\n     1021 tgaacgtata aaatttaacg cttcaattg\n//"
     },
     {
-      "id": 2,
+      "id": 6,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -43,21 +43,21 @@
   ],
   "sources": [
     {
-      "id": 9,
+      "id": 1,
       "type": "OverlapExtensionPCRLigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 1,
+          "sequence": 2,
           "left_location": null,
           "right_location": "2224..2263",
           "reverse_complemented": false
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 4,
+          "sequence": 9,
           "left_location": "1..40",
           "right_location": null,
           "reverse_complemented": false
@@ -66,29 +66,67 @@
       "circular": false
     },
     {
-      "id": 1,
+      "id": 2,
       "type": "PCRSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 8,
+          "sequence": 7,
           "left_location": null,
           "right_location": "1..32",
           "reverse_complemented": false
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 6,
+          "sequence": 8,
           "left_location": "1174..1205",
           "right_location": "3391..3417",
           "reverse_complemented": false
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 7,
+          "sequence": 5,
           "left_location": "1..27",
+          "right_location": null,
+          "reverse_complemented": true
+        }
+      ],
+      "circular": false,
+      "add_primer_features": false
+    },
+    {
+      "id": 8,
+      "type": "ManuallyTypedSource",
+      "output_name": null,
+      "database_id": null,
+      "input": []
+    },
+    {
+      "id": 9,
+      "type": "PCRSource",
+      "output_name": null,
+      "database_id": null,
+      "input": [
+        {
+          "type": "AssemblyFragment",
+          "sequence": 4,
+          "left_location": null,
+          "right_location": "21..66",
+          "reverse_complemented": false
+        },
+        {
+          "type": "AssemblyFragment",
+          "sequence": 6,
+          "left_location": "3510..3555",
+          "right_location": "4493..4538",
+          "reverse_complemented": false
+        },
+        {
+          "type": "AssemblyFragment",
+          "sequence": 3,
+          "left_location": "1..46",
           "right_location": null,
           "reverse_complemented": true
         }
@@ -102,70 +140,32 @@
       "output_name": null,
       "database_id": null,
       "input": []
-    },
-    {
-      "id": 4,
-      "type": "PCRSource",
-      "output_name": null,
-      "database_id": null,
-      "input": [
-        {
-          "type": "AssemblyFragment",
-          "sequence": 3,
-          "left_location": null,
-          "right_location": "21..66",
-          "reverse_complemented": false
-        },
-        {
-          "type": "AssemblyFragment",
-          "sequence": 2,
-          "left_location": "3510..3555",
-          "right_location": "4493..4538",
-          "reverse_complemented": false
-        },
-        {
-          "type": "AssemblyFragment",
-          "sequence": 5,
-          "left_location": "1..46",
-          "right_location": null,
-          "reverse_complemented": true
-        }
-      ],
-      "circular": false,
-      "add_primer_features": false
-    },
-    {
-      "id": 2,
-      "type": "ManuallyTypedSource",
-      "output_name": null,
-      "database_id": null,
-      "input": []
     }
   ],
   "primers": [
     {
-      "id": 8,
+      "id": 7,
       "type": "Primer",
       "name": "Fragment 1.FOR",
       "database_id": null,
       "sequence": "atgcaaacagtaatgatggatgacattcaaag"
     },
     {
-      "id": 7,
+      "id": 5,
       "type": "Primer",
       "name": "Fragment 1.REV",
       "database_id": null,
       "sequence": "aatagtcttttaattatgacttaaaagccttcttctccccattcat"
     },
     {
-      "id": 3,
+      "id": 4,
       "type": "Primer",
       "name": "Fragment 2.FOR",
       "database_id": null,
       "sequence": "ggggagaagaaggcttttaagtcataattaaaagactatttacacctaaaaaaaaacgtgtatcaa"
     },
     {
-      "id": 5,
+      "id": 3,
       "type": "Primer",
       "name": "Fragment 2.REV",
       "database_id": null,

@@ -1,7 +1,7 @@
 {
   "sequences": [
     {
-      "id": 3,
+      "id": 2,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -17,7 +17,7 @@
       "file_content": "LOCUS       A.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  A.dna.\nACCESSION   A.dna\nVERSION     A.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgaga a\n//"
     },
     {
-      "id": 2,
+      "id": 3,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -27,7 +27,7 @@
   ],
   "sources": [
     {
-      "id": 3,
+      "id": 2,
       "type": "RestrictionAndLigationSource",
       "output_name": null,
       "database_id": null,
@@ -41,7 +41,7 @@
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 2,
+          "sequence": 3,
           "left_location": "15..18",
           "right_location": null,
           "reverse_complemented": true
@@ -60,7 +60,7 @@
       "input": []
     },
     {
-      "id": 2,
+      "id": 3,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,

@@ -1,7 +1,7 @@
 {
   "sequences": [
     {
-      "id": 1,
+      "id": 2,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": -59,
@@ -11,7 +11,7 @@
   ],
   "sources": [
     {
-      "id": 1,
+      "id": 2,
       "type": "OligoHybridizationSource",
       "output_name": null,
       "database_id": null,
@@ -22,7 +22,7 @@
         },
         {
           "type": "SourceInput",
-          "sequence": 2
+          "sequence": 1
         }
       ],
       "overhang_crick_3prime": -59
@@ -37,7 +37,7 @@
       "sequence": "agaactcaaccattacgggtttgacgaatatagacgagattcgcaattacttgtctgatggattaccaagatgatgggct"
     },
     {
-      "id": 2,
+      "id": 1,
       "type": "Primer",
       "name": "oligo_2",
       "database_id": null,

@@ -1,7 +1,7 @@
 {
   "sequences": [
     {
-      "id": 1,
+      "id": 2,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -9,7 +9,7 @@
       "file_content": "LOCUS       mutagenesis_primer_1primer.dna 3939 bp    DNA     circular UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\n     terminator      817..1014\n                     /note=\"<html><body><i>Ashbya gossypii TEF</i>\n                     terminator</body></html>\"\n                     /label=\"TEF terminator\"\n     promoter        complement(1119..1137)\n                     /note=\"<html><body>promoter for bacteriophage T7 RNA\n                     polymerase</body></html>\"\n                     /label=\"T7 promoter\"\n     rep_origin      complement(1395..1983)\n                     /direction=LEFT\n                     /note=\"<html><body>high-copy-number ColE1/pMB1/pBR322/pUC\n                     origin of replication</body></html>\"\n                     /label=\"ori\"\n     CDS             complement(2154..3014)\n                     /codon_start=1\n                     /gene=\"<html><body><i>bla</i></body></html>\"\n                     /note=\"<html><body>confers resistance to ampicillin,\n                     carbenicillin, and related antibiotics</body></html>\"\n                     /product=\"<html><body>β-lactamase</body></html>\"\n                     /transl_table=1\n                     /label=\"AmpR\"\n     promoter        complement(3015..3119)\n                     /gene=\"<html><body><i>bla</i></body></html>\"\n                     /label=\"AmpR promoter\"\n     promoter        3465..3483\n                     /note=\"<html><body>promoter for bacteriophage SP6 RNA\n                     polymerase</body></html>\"\n                     /label=\"SP6 promoter\"\n     promoter        3596..3939\n                     /note=\"<html><body><i>Ashbya gossypii TEF</i>\n                     promoter</body></html>\"\n                     /label=\"TEF promoter\"\nORIGIN\n        1 atgggtaagg aaaaattctc acgtttcgag gccgcgatta aattccaaca tggatgctga\n       61 tttatatggg tataaatggg ctcgcgataa tgtcgggcaa tcaggtgcga caatctatcg\n      121 attgtatggg aagcccgatg cgccagagtt gtttctgaaa catggcaaag gtagcgttgc\n      181 caatgatgtt acagatgaga tggtcagact aaactggctg acggaattta tgcctcttcc\n      241 gaccatcaag cattttatcc gtactcctga tgatgcatgg ttactcacca ctgcgatccc\n      301 cggcaaaaca gcattccagg tattagaaga atatcctgat tcaggtgaaa atattgttga\n      361 tgcgctggca gtgttcctgc gccggttgca ttcgattcct gtttgtaatt gtccttttaa\n      421 cagcgatcgc gtatttcgtc tcgctcaggc gcaatcacga atgaataacg gtttggttga\n      481 tgcgagtgat tttgatgacg agcgtaatgg ctggcctgtt gaacaagtct ggaaagaaat\n      541 gcataagctt ttgccattct caccggattc agtcgtcact catggtgatt tctcacttga\n      601 taaccttatt tttgacgagg ggaaattaat aggttgtatt gatgttggac gagtcggaat\n      661 cgcagaccga taccaggatc ttgccatcct atggaactgc ctcggtgagt tttctccttc\n      721 attacagaaa cggctttttc aaaaatatgg tattgataat cctgatatga ataaattgca\n      781 gtttcatttg atgctcgatg agtttttcta atcagtactg acaataaaaa gattcttgtt\n      841 ttcaagaact tgtcatttgt atagtttttt tatattgtag ttgttctatt ttaatcaaat\n      901 gttagcgtga tttatatttt ttttcgcctc gacatcatct gcccagatgc gaagttaagt\n      961 gcgcagaaag taatatcatg cgtcaatcgt atgtgaatgc tggtcgctat actgctgtcg\n     1021 attcgatact aacgccgcca tccagtttaa acgagctcga attcatcgat gatatcagat\n     1081 ccactagtgg cctatgcggc cgcggatctg ccggtctccc tatagtgagt cgtattaatt\n     1141 tcgataagcc aggttaacct gcattaatga atcggccaac gcgcggggag aggcggtttg\n     1201 cgtattgggc gctcttccgc ttcctcgctc actgactcgc tgcgctcggt cgttcggctg\n     1261 cggcgagcgg tatcagctca ctcaaaggcg gtaatacggt tatccacaga atcaggggat\n     1321 aacgcaggaa agaacatgtg agcaaaaggc cagcaaaagg ccaggaaccg taaaaaggcc\n     1381 gcgttgctgg cgtttttcca taggctccgc ccccctgacg agcatcacaa aaatcgacgc\n     1441 tcaagtcaga ggtggcgaaa cccgacagga ctataaagat accaggcgtt tccccctgga\n     1501 agctccctcg tgcgctctcc tgttccgacc ctgccgctta ccggatacct gtccgccttt\n     1561 ctcccttcgg gaagcgtggc gctttctcat agctcacgct gtaggtatct cagttcggtg\n     1621 taggtcgttc gctccaagct gggctgtgtg cacgaacccc ccgttcagcc cgaccgctgc\n     1681 gccttatccg gtaactatcg tcttgagtcc aacccggtaa gacacgactt atcgccactg\n     1741 gcagcagcca ctggtaacag gattagcaga gcgaggtatg taggcggtgc tacagagttc\n     1801 ttgaagtggt ggcctaacta cggctacact agaagaacag tatttggtat ctgcgctctg\n     1861 ctgaagccag ttaccttcgg aaaaagagtt ggtagctctt gatccggcaa acaaaccacc\n     1921 gctggtagcg gtggtttttt tgtttgcaag cagcagatta cgcgcagaaa aaaaggatct\n     1981 caagaagatc ctttgatctt ttctacgggg tctgacgctc agtggaacga aaactcacgt\n     2041 taagggattt tggtcatgag attatcaaaa aggatcttca cctagatcct tttaaattaa\n     2101 aaatgaagtt ttaaatcaat ctaaagtata tatgagtaaa cttggtctga cagttaccaa\n     2161 tgcttaatca gtgaggcacc tatctcagcg atctgtctat ttcgttcatc catagttgcc\n     2221 tgactccccg tcgtgtagat aactacgata cgggagggct taccatctgg ccccagtgct\n     2281 gcaatgatac cgcgagaccc acgctcaccg gctccagatt tatcagcaat aaaccagcca\n     2341 gccggaaggg ccgagcgcag aagtggtcct gcaactttat ccgcctccat ccagtctatt\n     2401 aattgttgcc gggaagctag agtaagtagt tcgccagtta atagtttgcg caacgttgtt\n     2461 gccattgcta caggcatcgt ggtgtcacgc tcgtcgtttg gtatggcttc attcagctcc\n     2521 ggttcccaac gatcaaggcg agttacatga tcccccatgt tgtgcaaaaa agcggttagc\n     2581 tccttcggtc ctccgatcgt tgtcagaagt aagttggccg cagtgttatc actcatggtt\n     2641 atggcagcac tgcataattc tcttactgtc atgccatccg taagatgctt ttctgtgact\n     2701 ggtgagtact caaccaagtc attctgagaa tagtgtatgc ggcgaccgag ttgctcttgc\n     2761 ccggcgtcaa tacgggataa taccgcgcca catagcagaa ctttaaaagt gctcatcatt\n     2821 ggaaaacgtt cttcggggcg aaaactctca aggatcttac cgctgttgag atccagttcg\n     2881 atgtaaccca ctcgtgcacc caactgatct tcagcatctt ttactttcac cagcgtttct\n     2941 gggtgagcaa aaacaggaag gcaaaatgcc gcaaaaaagg gaataagggc gacacggaaa\n     3001 tgttgaatac tcatactctt cctttttcaa tattattgaa gcatttatca gggttattgt\n     3061 ctcatgagcg gatacatatt tgaatgtatt tagaaaaata aacaaatagg ggttccgcgc\n     3121 acatttcccc gaaaagtgcc acctgacgtc taagaaacca ttattatcat gacattaacc\n     3181 tataaaaata ggcgtatcac gaggcccttt cgtctcgcgc gtttcggtga tgacggtgaa\n     3241 aacctctgac acatgcagct cccggagacg gtcacagctt gtctgtaagc ggatgccggg\n     3301 agcagacaag cccgtcaggg cgcgtcagcg ggtgttggcg ggtgtcgggg ctggcttaac\n     3361 tatgcggcat cagagcagat tgtactgaga gtgcaccata tggacatatt gtcgttagaa\n     3421 cgcggctaca attaatacat aaccttatgt atcatacaca tacgatttag gtgacactat\n     3481 agaacgcggc cgccagctga agcttcgtac gctgcaggtc gacggatccc cgggttaatt\n     3541 aaggcgcgcc agatctgttt agcttgcctc gtccccgccg ggtcacccgg ccagcgacat\n     3601 ggaggcccag aataccctcc ttgacagtct tgacgtgcgc agctcagggg catgatgtga\n     3661 ctgtcgcccg tacatttagc ccatacatcc ccatgtataa tcatttgcat ccatacattt\n     3721 tgatggccgc acggcgcgaa gcaaaaatta cggctcctcg ctgcagacct gcgagcaggg\n     3781 aaacgctccc ctcacagacg cgttgaattg tccccacgcc gcgcccctgt agagaaatat\n     3841 aaaaggttag gatttgccac tgaggttctt ctttcatata cttcctttta aaatcttgct\n     3901 aggatacagt tctcacatca catccgaaca taaacaacc\n//"
     },
     {
-      "id": 4,
+      "id": 3,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -27,14 +27,14 @@
   ],
   "sources": [
     {
-      "id": 1,
+      "id": 2,
       "type": "OverlapExtensionPCRLigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 4,
+          "sequence": 3,
           "left_location": "1..31",
           "right_location": "3940..3970",
           "reverse_complemented": false
@@ -43,14 +43,14 @@
       "circular": true
     },
     {
-      "id": 4,
+      "id": 3,
       "type": "PCRSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 3,
+          "sequence": 1,
           "left_location": null,
           "right_location": "18..31",
           "reverse_complemented": false
@@ -64,7 +64,7 @@
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 2,
+          "sequence": 4,
           "left_location": "1..14",
           "right_location": null,
           "reverse_complemented": true
@@ -83,14 +83,14 @@
   ],
   "primers": [
     {
-      "id": 3,
+      "id": 1,
       "type": "Primer",
       "name": "Mutagenesis primer",
       "database_id": null,
       "sequence": "atgggtaaggaaaaATTctcacgtttcgagg"
     },
     {
-      "id": 2,
+      "id": 4,
       "type": "Primer",
       "name": "rvs_Mutagenesis primer",
       "database_id": null,
