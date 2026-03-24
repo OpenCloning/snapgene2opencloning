@@ -9,7 +9,7 @@
       "file_content": "LOCUS       circularize_then_linearize_with_enzyme.dna 25 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 tcgagaaaag aattcaaaaa ctcga\n//"
     },
     {
-      "id": 3,
+      "id": 2,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -17,7 +17,7 @@
       "file_content": "LOCUS       circularize_then_linearize_with_enzyme.dna 21 bp    DNA     circular SYN 24-MAR-2026\nDEFINITION  .\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 tcgagaaaag aattcaaaaa c\n//"
     },
     {
-      "id": 2,
+      "id": 3,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -34,7 +34,7 @@
       "input": [
         {
           "type": "SourceInput",
-          "sequence": 3
+          "sequence": 2
         }
       ],
       "left_edge": {
@@ -49,14 +49,14 @@
       }
     },
     {
-      "id": 3,
+      "id": 2,
       "type": "LigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 2,
+          "sequence": 3,
           "left_location": "0^1",
           "right_location": "21^22",
           "reverse_complemented": false
@@ -65,7 +65,7 @@
       "circular": true
     },
     {
-      "id": 2,
+      "id": 3,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,

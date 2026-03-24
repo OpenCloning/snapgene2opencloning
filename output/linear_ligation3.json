@@ -1,7 +1,7 @@
 {
   "sequences": [
     {
-      "id": 1,
+      "id": 3,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -9,7 +9,7 @@
       "file_content": "LOCUS       linear_ligation3.dna      43 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgagt ttttggatcc ccccccgaat tcc\n//"
     },
     {
-      "id": 4,
+      "id": 1,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -25,7 +25,7 @@
       "file_content": "LOCUS       B.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  B.dna.\nACCESSION   B.dna\nVERSION     B.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 ttctcgagtt tttggatcct t\n//"
     },
     {
-      "id": 3,
+      "id": 4,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -35,14 +35,14 @@
   ],
   "sources": [
     {
-      "id": 1,
+      "id": 3,
       "type": "RestrictionAndLigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 4,
+          "sequence": 1,
           "left_location": null,
           "right_location": "15..18",
           "reverse_complemented": false
@@ -56,7 +56,7 @@
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 3,
+          "sequence": 4,
           "left_location": "4..7",
           "right_location": null,
           "reverse_complemented": false
@@ -64,12 +64,12 @@
       ],
       "circular": false,
       "restriction_enzymes": [
-        "BamHI",
-        "XhoI"
+        "XhoI",
+        "BamHI"
       ]
     },
     {
-      "id": 4,
+      "id": 1,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,
@@ -83,7 +83,7 @@
       "input": []
     },
     {
-      "id": 3,
+      "id": 4,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,

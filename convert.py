@@ -44,6 +44,11 @@ UNSUPPORTED_OPERATIONS = [
     "topoBlunt",
     "destroyRestrictionFragment",
 ]
+GIBSON_LIKE_FUNCTION_DICT = {
+    "gibsonAssembly": gibson_assembly,
+    "inFusionCloning": in_fusion_assembly,
+    "hifiAssembly": gibson_assembly,
+}
 
 
 def _segments_to_location(
@@ -195,6 +200,22 @@ def parseOligos(oligos: list[SgffHistoryOligo]) -> list[Primer]:
     ]
 
 
+# This can happen when ligation leaves overhangs (not perfectly
+# sealed, which is not handled by OpenCloning res-lig assembly)
+def get_restriction_input_combinations(
+    input_sequences: list[Dseqrecord], node: SgffHistoryTreeNode
+) -> list[list[Dseqrecord]]:
+    digestion_products = list()
+    for input_sequence, input_summary in zip(input_sequences, node.input_summaries):
+        rb = get_enzyme_batch_from_input_summaries([input_summary])
+        digestion = input_sequence.cut(rb)
+        if len(digestion) == 0:
+            digestion_products.append([input_sequence])
+        else:
+            digestion_products.append(digestion)
+    return list(itertools.product(*digestion_products))
+
+
 def source_from_tree_node(
     expected_product: Dseqrecord, node: SgffHistoryTreeNode, sgff_object: SgffObject
 ) -> tuple[Source | None | int, list[SgffHistoryNode]]:
@@ -220,8 +241,6 @@ def source_from_tree_node(
 
     if node.operation in UNSUPPORTED_OPERATIONS:
         raise NotImplementedError(f"Operation {node.operation} not supported")
-    elif node.operation == "gibsonAssembly":
-        products = gibson_assembly(input_sequences, limit=15)
     elif node.operation == "amplifyFragment":
         primers = parseOligos(node.oligos)
         products = pcr_assembly(input_sequences[0], *primers, limit=12)
@@ -262,16 +281,13 @@ def source_from_tree_node(
             # Try a simple ligation if the restriction ligation failed
             products = ligation_assembly(input_sequences)
         if find_expected_product(products) is None:
-            # Try restriction, then ligation if the simple ligation failed
-            digestion_products = list()
-            for input_sequence, input_summary in zip(
-                input_sequences, node.input_summaries
-            ):
-                rb = get_enzyme_batch_from_input_summaries([input_summary])
-                digestion_products.append(input_sequence.cut(rb))
-
-            possible_combinations = itertools.product(*digestion_products)
-            for combination in possible_combinations:
+            # Try restriction, then ligation if the simple ligation failed,
+            # This can happen when ligation leaves overhangs (not perfectly
+            # sealed, which is not handled by OpenCloning res-lig assembly)
+            digestion_products = get_restriction_input_combinations(
+                input_sequences, node
+            )
+            for combination in digestion_products:
                 products = ligation_assembly(combination)
                 if find_expected_product(products) is not None:
                     break
@@ -293,10 +309,14 @@ def source_from_tree_node(
         products = gateway_assembly(input_sequences, "LR")
     elif node.operation == "gatewayBPCloning":
         products = gateway_assembly(input_sequences, "BP")
-    elif node.operation == "inFusionCloning":
-        products = in_fusion_assembly(input_sequences, limit=10)
-    elif node.operation == "hifiAssembly":
-        products = gibson_assembly(input_sequences, limit=10)
+    elif node.operation in ["gibsonAssembly", "inFusionCloning", "hifiAssembly"]:
+        # It is possible that some inputs are restricted prior to the assembly.,
+        # This can happen when ligation leaves overhangs (not perfectly
+        # sealed, which is not handled by OpenCloning res-lig assembly)
+        for combination in get_restriction_input_combinations(input_sequences, node):
+            products = GIBSON_LIKE_FUNCTION_DICT[node.operation](combination, 10)
+            if find_expected_product(products) is not None:
+                break
     elif node.operation == "overlapFragments":
         products = fusion_pcr_assembly(input_sequences, limit=10)
     elif node.operation == "annealOligos":

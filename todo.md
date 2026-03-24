@@ -1,1 +1,0 @@
-* Restriction before gibson and similar
