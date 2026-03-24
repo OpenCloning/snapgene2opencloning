@@ -36,6 +36,14 @@ import warnings
 
 
 STRAND_MAP = {"+": 1, "-": -1, ".": 0, "=": 0}
+UNSUPPORTED_OPERATIONS = [
+    "gcCloning",
+    "taCloning",
+    "topoTA",
+    "topoDirectional",
+    "topoBlunt",
+    "destroyRestrictionFragment",
+]
 
 
 def _segments_to_location(
@@ -82,6 +90,26 @@ def _feature_to_seqfeature(
     return SeqFeature(location=location, type=feature.type, qualifiers=qualifiers)
 
 
+def dseq_from_seq_properties(sequence: str, circular: bool, seq_props: dict) -> Dseq:
+    if circular:
+        return Dseq(sequence, circular=True)
+    elif (
+        seq_props is not None
+        and "UpstreamStickiness" in seq_props
+        and "DownstreamStickiness" in seq_props
+    ):
+        left_ovhg = -int(seq_props.get("UpstreamStickiness"))
+        right_ovhg = -int(seq_props.get("DownstreamStickiness"))
+        try:
+            return Dseq.from_full_sequence_and_overhangs(
+                sequence, left_ovhg, right_ovhg
+            )
+        except ValueError as e:
+            raise NotImplementedError(f"Sequence not supported: {sequence}") from e
+    else:
+        return Dseq(sequence)
+
+
 def history_node_to_dseqrecord(sgff_object: SgffObject, node_id: str) -> Dseqrecord:
     """Convert a history node to a Dseqrecord.
 
@@ -92,20 +120,7 @@ def history_node_to_dseqrecord(sgff_object: SgffObject, node_id: str) -> Dseqrec
 
     circular = tree_node.circular if tree_node else False
     seq_props = node.properties.get("AdditionalSequenceProperties")
-    if circular:
-        seq = Dseq(node.sequence, circular=True)
-    elif (
-        seq_props is not None
-        and "UpstreamStickiness" in seq_props
-        and "DownstreamStickiness" in seq_props
-    ):
-        left_ovhg = -int(seq_props.get("UpstreamStickiness"))
-        right_ovhg = -int(seq_props.get("DownstreamStickiness"))
-        seq = Dseq.from_full_sequence_and_overhangs(
-            node.sequence, left_ovhg, right_ovhg
-        )
-    else:
-        seq = Dseq(node.sequence)
+    seq = dseq_from_seq_properties(node.sequence, circular, seq_props)
     seq_len = node.length
     name = tree_node.name if tree_node else f"node_{node_id}"
     name = re.sub(r"\s+", "_", name)  # Replace whitespace with underscores
@@ -203,7 +218,9 @@ def source_from_tree_node(
 
     print(">>", node.operation)
 
-    if node.operation == "gibsonAssembly":
+    if node.operation in UNSUPPORTED_OPERATIONS:
+        raise NotImplementedError(f"Operation {node.operation} not supported")
+    elif node.operation == "gibsonAssembly":
         products = gibson_assembly(input_sequences, limit=15)
     elif node.operation == "amplifyFragment":
         primers = parseOligos(node.oligos)
@@ -239,7 +256,6 @@ def source_from_tree_node(
         "insertFragments",
         "ligateFragments",
     ]:
-
         rb = get_enzyme_batch_from_input_summaries(node.input_summaries)
         products = restriction_ligation_assembly(input_sequences, rb)
         if find_expected_product(products) is None:
@@ -267,6 +283,12 @@ def source_from_tree_node(
             warnings.warn(f"Stopped at linearize operation without enzymes")
             return None, []
         products = input_sequences[0].cut(rb)
+    elif node.operation == "removeRestrictionFragment":
+        rb = get_enzyme_batch_from_input_summaries(node.input_summaries)
+        products = restriction_ligation_assembly(input_sequences, rb)
+        if find_expected_product(products) is None:
+            # This is using blunting as described here: https://www.neb.com/en-gb/applications/cloning-and-synthetic-biology/dna-end-modification/blunting
+            raise NotImplementedError(f"Blunting not supported for {node.operation}")
     elif node.operation == "gatewayLRCloning":
         products = gateway_assembly(input_sequences, "LR")
     elif node.operation == "gatewayBPCloning":
@@ -321,29 +343,25 @@ def parse_history(root_record: Dseqrecord, root_node: SgffHistoryTreeNode, sgff_
 
 # --- Test it ---
 for file in glob.glob("data/*.dna"):
-    # for file in glob.glob("data/linear_ligation_overhangs2.dna"):
     print(file)
+    if file == "data/blunt_linear_ligation.dna":
+        continue
 
     root_record = parse_snapgene(file)[0]
     root_record.name = os.path.basename(file)
     sgff_object = SgffReader.from_file(file)
     seq_props = sgff_object.properties.get("AdditionalSequenceProperties")
-    if (
-        not root_record.circular
-        and seq_props is not None
-        and "UpstreamStickiness" in seq_props
-        and "DownstreamStickiness" in seq_props
-    ):
-        left_ovhg = -int(seq_props.get("UpstreamStickiness"))
-        right_ovhg = -int(seq_props.get("DownstreamStickiness"))
-        root_record.seq = Dseq.from_full_sequence_and_overhangs(
-            str(root_record.seq), left_ovhg, right_ovhg
+    try:
+        root_record.seq = dseq_from_seq_properties(
+            str(root_record.seq), root_record.circular, seq_props
         )
 
-    if not sgff_object.has_history:
-        print("No history found, skipping")
+        if not sgff_object.has_history:
+            print("No history found, skipping")
+            continue
+        parse_history(root_record, sgff_object.history.tree.root, sgff_object)
+    except NotImplementedError:
         continue
-    parse_history(root_record, sgff_object.history.tree.root, sgff_object)
     root_record = root_record.normalize_history()
     root_record.validate_history()
     cs = CloningStrategy.from_dseqrecords([root_record])

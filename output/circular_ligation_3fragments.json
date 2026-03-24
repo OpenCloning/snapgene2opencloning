@@ -1,7 +1,7 @@
 {
   "sequences": [
     {
-      "id": 1,
+      "id": 4,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -9,7 +9,7 @@
       "file_content": "LOCUS       circular_ligation_3fragments.dna 34 bp    DNA     circular UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 tcgagttttt ggatcccccc ccgaattcaa aaac\n//"
     },
     {
-      "id": 3,
+      "id": 2,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -17,7 +17,7 @@
       "file_content": "LOCUS       B.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  B.dna.\nACCESSION   B.dna\nVERSION     B.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 ttctcgagtt tttggatcct t\n//"
     },
     {
-      "id": 2,
+      "id": 1,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -25,7 +25,7 @@
       "file_content": "LOCUS       C.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  C.dna.\nACCESSION   C.dna\nVERSION     C.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 ccggatcccc ccccgaattc c\n//"
     },
     {
-      "id": 4,
+      "id": 3,
       "type": "TextFileSequence",
       "sequence_file_format": "genbank",
       "overhang_crick_3prime": 0,
@@ -35,28 +35,28 @@
   ],
   "sources": [
     {
-      "id": 1,
+      "id": 4,
       "type": "RestrictionAndLigationSource",
       "output_name": null,
       "database_id": null,
       "input": [
         {
           "type": "AssemblyFragment",
-          "sequence": 3,
+          "sequence": 2,
           "left_location": "4..7",
           "right_location": "15..18",
           "reverse_complemented": false
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 2,
+          "sequence": 1,
           "left_location": "4..7",
           "right_location": "16..19",
           "reverse_complemented": false
         },
         {
           "type": "AssemblyFragment",
-          "sequence": 4,
+          "sequence": 3,
           "left_location": "4..7",
           "right_location": "15..18",
           "reverse_complemented": false
@@ -64,17 +64,10 @@
       ],
       "circular": true,
       "restriction_enzymes": [
-        "BamHI",
         "XhoI",
-        "EcoRI"
+        "EcoRI",
+        "BamHI"
       ]
-    },
-    {
-      "id": 3,
-      "type": "ManuallyTypedSource",
-      "output_name": null,
-      "database_id": null,
-      "input": []
     },
     {
       "id": 2,
@@ -84,7 +77,14 @@
       "input": []
     },
     {
-      "id": 4,
+      "id": 1,
+      "type": "ManuallyTypedSource",
+      "output_name": null,
+      "database_id": null,
+      "input": []
+    },
+    {
+      "id": 3,
       "type": "ManuallyTypedSource",
       "output_name": null,
       "database_id": null,
