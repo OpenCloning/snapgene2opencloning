@@ -259,7 +259,14 @@ def source_from_tree_node(
                 products = ligation_assembly(combination)
                 if find_expected_product(products) is not None:
                     break
-
+    elif node.operation == "linearize":
+        input_sequences = [expected_product.looped()]
+        input_sequences[0].source = None
+        rb = get_enzyme_batch_from_input_summaries(node.input_summaries)
+        if len(rb) == 0:
+            warnings.warn(f"Stopped at linearize operation without enzymes")
+            return None, []
+        products = input_sequences[0].cut(rb)
     elif node.operation == "gatewayLRCloning":
         products = gateway_assembly(input_sequences, "LR")
     elif node.operation == "gatewayBPCloning":
