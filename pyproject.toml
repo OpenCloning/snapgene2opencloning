@@ -10,8 +10,11 @@ readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
     "sgffp @ git+https://github.com/manulera/sgffp@parse-history-sequence-error",
-    "pydna @ git+https://github.com/pydna-group/pydna@e7b98167e5c45069dc7cc22e8926bd677b9614fa"
+    "pydna @ git+https://github.com/pydna-group/pydna@e7ca502407f0381dcd33a9f68d0f0bd747362d86"
 ]
+
+[tool.poetry]
+package-mode = false
 
 
 [build-system]

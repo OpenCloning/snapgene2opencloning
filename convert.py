@@ -1,18 +1,30 @@
 from sgffp import SgffReader, SgffObject, SgffSegment, SgffFeature
-from sgffp.models.history import SgffHistoryNode, SgffHistoryTreeNode
-from Bio.Seq import Seq
+from sgffp.models.history import SgffHistoryNode, SgffHistoryTreeNode, SgffInputSummary
+from pydna.dseq import Dseq
 import re
-from pydna.assembly2 import gibson_assembly, pcr_assembly, restriction_ligation_assembly, gateway_assembly, in_fusion_assembly
+from pydna.assembly2 import (
+    gibson_assembly,
+    pcr_assembly,
+    restriction_ligation_assembly,
+    gateway_assembly,
+    in_fusion_assembly,
+    ligation_assembly,
+)
 from pydna.primer import Primer
 from Bio.SeqFeature import SeqFeature, SimpleLocation, CompoundLocation
 from pydna.dseqrecord import Dseqrecord
 import glob
 import os
-from pydna.opencloning_models import CloningStrategy, AssemblyFragment, Source
+from pydna.opencloning_models import (
+    CloningStrategy,
+    AssemblyFragment,
+    Source,
+)
 from Bio.Restriction.Restriction_Dictionary import rest_dict
 from Bio.Restriction import RestrictionBatch
 from pydna.parsers import parse_snapgene
 from pydna.utils import flatten
+import itertools
 
 
 STRAND_MAP = {"+": 1, "-": -1, ".": 0, "=": 0}
@@ -70,8 +82,22 @@ def history_node_to_dseqrecord(sgff_object: SgffObject, node_id: str) -> Dseqrec
     node: SgffHistoryNode = sgff_object.history.nodes[node_id]
     tree_node = sgff_object.history.get_tree_node(node_id)
 
-    seq = Seq(node.sequence)
     circular = tree_node.circular if tree_node else False
+    seq_props = node.properties.get("AdditionalSequenceProperties")
+    if circular:
+        seq = Dseq(node.sequence, circular=True)
+    elif (
+        seq_props is not None
+        and "UpstreamStickiness" in seq_props
+        and "DownstreamStickiness" in seq_props
+    ):
+        left_ovhg = -int(seq_props.get("UpstreamStickiness"))
+        right_ovhg = -int(seq_props.get("DownstreamStickiness"))
+        seq = Dseq.from_full_sequence_and_overhangs(
+            node.sequence, left_ovhg, right_ovhg
+        )
+    else:
+        seq = Dseq(node.sequence)
     seq_len = node.length
     name = tree_node.name if tree_node else f"node_{node_id}"
     name = re.sub(r"\s+", "_", name)  # Replace whitespace with underscores
@@ -91,30 +117,78 @@ def history_node_to_dseqrecord(sgff_object: SgffObject, node_id: str) -> Dseqrec
             annotations["molecule_type"] = f"{tree_node.strandedness}-stranded DNA"
 
     record = Dseqrecord(
-        record=str(seq),
+        record=seq,
         id=name,
         name=name,
         description=name,
         features=features,
         annotations=annotations,
-        circular=circular,
     )
     return record
-
 
 
 def filter_assembly_fragments_that_are_sequences(input_value: list[AssemblyFragment]) -> list[AssemblyFragment]:
     return [fragment for fragment in input_value if isinstance(fragment.sequence, Dseqrecord)]
 
+
+def get_enzyme_batch_from_input_summaries(
+    input_summaries: list[SgffInputSummary],
+) -> RestrictionBatch:
+    enzyme_names = set(
+        flatten([input_summary.enzyme_names for input_summary in input_summaries])
+    )
+    # Sometimes enzymes come with < > around, we remove them
+    enzyme_names = set(
+        enz_name.replace("<", "").replace(">", "") for enz_name in enzyme_names
+    )
+    # Sometimes they have Start or End tags, we remove them
+    enzyme_names = enzyme_names.difference({"Start", "End"})
+    if all(enz_name in rest_dict.keys() for enz_name in enzyme_names):
+        return RestrictionBatch(first=[e for e in enzyme_names])
+    else:
+        raise ValueError(f"Unknown enzymes: {enzyme_names}")
+
+
+def get_sequence_inputs(source: Source) -> list[Dseqrecord]:
+    """Auxiliary function to get the most ancestral sequences used as inputs. These will tipically be the immediate inputs,
+    but in a case where a restriction-ligation is turned into restriction, then ligation, we have to go up the tree to find the most ancestral sequences.
+    """
+    out_value = list()
+    for input_value in filter_assembly_fragments_that_are_sequences(source.input):
+        if (
+            input_value.sequence.source is None
+            or len(input_value.sequence.source.input) == 0
+        ):
+            out_value.append(input_value.sequence)
+        else:
+            out_value.extend(get_sequence_inputs(input_value.sequence.source))
+    return out_value
+
+
 def source_from_tree_node(
-    product: Dseqrecord, node: SgffHistoryTreeNode, sgff_object: SgffObject
-) -> tuple[Source|None|int, list[SgffHistoryNode]]:
+    expected_product: Dseqrecord, node: SgffHistoryTreeNode, sgff_object: SgffObject
+) -> tuple[Source | None | int, list[SgffHistoryNode]]:
     input_sequences = [
         history_node_to_dseqrecord(sgff_object, child.id) for child in node.children
     ]
+
+    expected_seguid = expected_product.seq.seguid()
+    expected_dseq_and_rc = (
+        expected_product.seq,
+        expected_product.seq.reverse_complement(),
+    )
+
+    def find_expected_product(products: list[Dseqrecord]) -> Dseqrecord | None:
+        if expected_product.circular:
+            return next(
+                (p for p in products if p.seq.seguid() == expected_seguid), None
+            )
+        else:
+            return next((p for p in products if p.seq in expected_dseq_and_rc), None)
+
     if len(input_sequences) == 0:
         return None, []
-    expected_seguid = product.seq.seguid()
+
     if node.operation == "gibsonAssembly":
         products = gibson_assembly(input_sequences, limit=15)
     elif node.operation == "amplifyFragment":
@@ -122,32 +196,56 @@ def source_from_tree_node(
         products = pcr_assembly(input_sequences[0], *primers, limit=12)
     elif node.operation == "changeStrandedness":
         return -1, None
-    elif node.operation == "insertFragment" or node.operation == "goldenGateAssembly":
-        enzyme_names = set(flatten([input_summary.enzyme_names for input_summary in node.input_summaries]))
-        if all(enz_name in rest_dict.keys() for enz_name in enzyme_names):
-            rb = RestrictionBatch(first=[e for e in enzyme_names])
-            products = restriction_ligation_assembly(input_sequences, rb)
-        else:
-            raise ValueError(f"Unknown enzymes: {enzyme_names}")
+    elif node.operation in [
+        "insertFragment",
+        "goldenGateAssembly",
+        "insertFragments",
+        "ligateFragments",
+    ]:
+
+        rb = get_enzyme_batch_from_input_summaries(node.input_summaries)
+        products = restriction_ligation_assembly(input_sequences, rb)
+        if find_expected_product(products) is None:
+            # Try a simple ligation if the restriction ligation failed
+            products = ligation_assembly(input_sequences)
+        if find_expected_product(products) is None:
+            # Try restriction, then ligation if the simple ligation failed
+            digestion_products = list()
+            for input_sequence, input_summary in zip(
+                input_sequences, node.input_summaries
+            ):
+                rb = get_enzyme_batch_from_input_summaries([input_summary])
+                digestion_products.append(input_sequence.cut(rb))
+
+            possible_combinations = itertools.product(*digestion_products)
+            for combination in possible_combinations:
+                products = ligation_assembly(combination)
+                if find_expected_product(products) is not None:
+                    break
+
     elif node.operation == "gatewayLRCloning":
         products = gateway_assembly(input_sequences, "LR")
     elif node.operation == "gatewayBPCloning":
         products = gateway_assembly(input_sequences, "BP")
     elif node.operation == "inFusionCloning":
         products = in_fusion_assembly(input_sequences, limit=15)
+    elif node.operation == "hifiAssembly":
+        products = gibson_assembly(input_sequences, limit=15)
     else:
         raise ValueError(f"Unknown operation: {node.operation}")
 
-    correct_product = next(
-        (p for p in products if p.seq.seguid() == expected_seguid), None
-    )
+    correct_product = find_expected_product(products)
+
     if correct_product is None:
         raise ValueError(f"No product found for expected SEGUID {expected_seguid}")
 
     # Return the children nodes in the same order as the inputs
     out_nodes = [None] * len(input_sequences)
-    for input_value in filter_assembly_fragments_that_are_sequences(correct_product.source.input):
-        idx = next((i for i, seq in enumerate(input_sequences) if seq == input_value.sequence), None)
+    for input_value in get_sequence_inputs(correct_product.source):
+        idx = next(
+            (i for i, seq in enumerate(input_sequences) if seq is input_value),
+            None,
+        )
         out_nodes[idx] = node.children[idx]
 
     return correct_product.source, out_nodes
@@ -165,17 +263,32 @@ def parse_history(root_record: Dseqrecord, root_node: SgffHistoryTreeNode, sgff_
     root_record.source = source
     if source is None:
         return
-    for input_value in filter_assembly_fragments_that_are_sequences(source.input):
+    for input_value in get_sequence_inputs(source):
         node = out_nodes.pop(0)
-        parse_history(input_value.sequence, node, sgff_object)
+        parse_history(input_value, node, sgff_object)
 
 
 # --- Test it ---
 for file in glob.glob("data/*.dna"):
+    # for file in glob.glob("data/linear_ligation_overhangs2.dna"):
     print(file)
+
     root_record = parse_snapgene(file)[0]
     root_record.name = os.path.basename(file)
     sgff_object = SgffReader.from_file(file)
+    seq_props = sgff_object.properties.get("AdditionalSequenceProperties")
+    if (
+        not root_record.circular
+        and seq_props is not None
+        and "UpstreamStickiness" in seq_props
+        and "DownstreamStickiness" in seq_props
+    ):
+        left_ovhg = -int(seq_props.get("UpstreamStickiness"))
+        right_ovhg = -int(seq_props.get("DownstreamStickiness"))
+        root_record.seq = Dseq.from_full_sequence_and_overhangs(
+            str(root_record.seq), left_ovhg, right_ovhg
+        )
+
     if not sgff_object.has_history:
         print("No history found, skipping")
         continue

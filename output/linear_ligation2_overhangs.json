@@ -1,0 +1,129 @@
+{
+  "sequences": [
+    {
+      "id": 1,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": -4,
+      "file_content": "LOCUS       linear_ligation2_overhangs.dna 29 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   <unknown id>\nVERSION     <unknown id>\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgagt ttttggatc\n//"
+    },
+    {
+      "id": 3,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": -4,
+      "file_content": "LOCUS       name                      18 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcga\n//"
+    },
+    {
+      "id": 4,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       A.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  A.dna.\nACCESSION   A.dna\nVERSION     A.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 aagaattcaa aaactcgaga a\n//"
+    },
+    {
+      "id": 5,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": -4,
+      "overhang_watson_3prime": -4,
+      "file_content": "LOCUS       name                      15 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  description.\nACCESSION   id\nVERSION     id\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 tcgagttttt ggatc\n//"
+    },
+    {
+      "id": 2,
+      "type": "TextFileSequence",
+      "sequence_file_format": "genbank",
+      "overhang_crick_3prime": 0,
+      "overhang_watson_3prime": 0,
+      "file_content": "LOCUS       B.dna                     21 bp    DNA     linear   UNK 01-JAN-1980\nDEFINITION  B.dna.\nACCESSION   B.dna\nVERSION     B.dna\nKEYWORDS    .\nSOURCE      \n  ORGANISM  .\n            .\nFEATURES             Location/Qualifiers\nORIGIN\n        1 ttctcgagtt tttggatcct t\n//"
+    }
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "type": "LigationSource",
+      "output_name": null,
+      "database_id": null,
+      "input": [
+        {
+          "type": "AssemblyFragment",
+          "sequence": 3,
+          "left_location": null,
+          "right_location": "15..18",
+          "reverse_complemented": false
+        },
+        {
+          "type": "AssemblyFragment",
+          "sequence": 5,
+          "left_location": "1..4",
+          "right_location": null,
+          "reverse_complemented": false
+        }
+      ],
+      "circular": false
+    },
+    {
+      "id": 3,
+      "type": "RestrictionEnzymeDigestionSource",
+      "output_name": null,
+      "database_id": null,
+      "input": [
+        {
+          "type": "SourceInput",
+          "sequence": 4
+        }
+      ],
+      "left_edge": null,
+      "right_edge": {
+        "cut_watson": 14,
+        "overhang": -4,
+        "restriction_enzyme": "XhoI"
+      }
+    },
+    {
+      "id": 4,
+      "type": "ManuallyTypedSource",
+      "output_name": null,
+      "database_id": null,
+      "input": []
+    },
+    {
+      "id": 5,
+      "type": "RestrictionEnzymeDigestionSource",
+      "output_name": null,
+      "database_id": null,
+      "input": [
+        {
+          "type": "SourceInput",
+          "sequence": 2
+        }
+      ],
+      "left_edge": {
+        "cut_watson": 3,
+        "overhang": -4,
+        "restriction_enzyme": "XhoI"
+      },
+      "right_edge": {
+        "cut_watson": 14,
+        "overhang": -4,
+        "restriction_enzyme": "BamHI"
+      }
+    },
+    {
+      "id": 2,
+      "type": "ManuallyTypedSource",
+      "output_name": null,
+      "database_id": null,
+      "input": []
+    }
+  ],
+  "primers": [],
+  "description": "",
+  "files": null,
+  "schema_version": "1.0.0",
+  "backend_version": null,
+  "frontend_version": null
+}
