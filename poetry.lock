@@ -667,8 +667,8 @@ dev = ["pytest (>=8.0)", "pytest-cov (>=4.0)"]
 [package.source]
 type = "git"
 url = "https://github.com/manulera/sgffp"
-reference = "parse-history-sequence-error"
-resolved_reference = "52c9854edd56de1b611985ab50805a9c9c9a075a"
+reference = "dev"
+resolved_reference = "317b93e57aea16b7c8fc1b7a30c1019efa0fe189"
 
 [[package]]
 name = "typing-extensions"
@@ -745,4 +745,4 @@ test = ["pytest", "pytest-cov"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4.0"
-content-hash = "c8ea825e7d59207822e377f1706ff437565f7f9f317c6f7b5a12179d394f5fa6"
+content-hash = "a37dc7fd6d0c51dd7355d4fe83a21cc9d8f26434adff078a375d6741af8e94c0"
