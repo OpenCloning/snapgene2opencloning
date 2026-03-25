@@ -26,6 +26,8 @@ from pydna.opencloning_models import (
     CloningStrategy,
     AssemblyFragment,
     Source,
+    AddgeneIdSource,
+    NCBISequenceSource,
 )
 from Bio.Restriction.Restriction_Dictionary import rest_dict
 from Bio.Restriction import RestrictionBatch
@@ -33,6 +35,7 @@ from pydna.parsers import parse_snapgene
 from pydna.utils import flatten
 import itertools
 import warnings
+from sgffp.models.notes import SgffNotes
 
 
 STRAND_MAP = {"+": 1, "-": -1, ".": 0, "=": 0}
@@ -361,8 +364,19 @@ def parse_history(root_record: Dseqrecord, root_node: SgffHistoryTreeNode, sgff_
         parse_history(input_value, node, sgff_object)
 
 
+def source_from_metadata(notes: SgffNotes) -> None | Source:
+    if notes.get("Comments") and (
+        match := re.search(r"https://www.addgene.org/(\d+)", notes.get("Comments"))
+    ):
+        return AddgeneIdSource(repository_id=match.group(1))
+    elif notes.get("AccessionNumber"):
+        return NCBISequenceSource(repository_id=notes.get("AccessionNumber"))
+    else:
+        return None
+
+
 # --- Test it ---
-for file in glob.glob("data/*.dna"):
+for file in glob.glob("data/import_ncbi.dna"):
     print(file)
     if file == "data/blunt_linear_ligation.dna":
         continue
@@ -370,6 +384,8 @@ for file in glob.glob("data/*.dna"):
     root_record = parse_snapgene(file)[0]
     root_record.name = os.path.basename(file)
     sgff_object = SgffReader.from_file(file)
+    if sgff_object.notes.get("CustomMapLabel"):
+        root_record.name = sgff_object.notes.get("CustomMapLabel")
     seq_props = sgff_object.properties.get("AdditionalSequenceProperties")
     try:
         root_record.seq = dseq_from_seq_properties(
@@ -377,9 +393,9 @@ for file in glob.glob("data/*.dna"):
         )
 
         if not sgff_object.has_history:
-            print("No history found, skipping")
-            continue
-        parse_history(root_record, sgff_object.history.tree.root, sgff_object)
+            root_record.source = source_from_metadata(sgff_object.notes)
+        else:
+            parse_history(root_record, sgff_object.history.tree.root, sgff_object)
     except NotImplementedError:
         continue
     root_record = root_record.normalize_history()
