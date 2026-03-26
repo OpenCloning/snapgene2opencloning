@@ -479,16 +479,1086 @@
       {
         "node_index": 1,
         "sequence_type": 29,
+        "modifier": {
+          "Manipulation": {
+            "AdditionalSequenceProperties": {
+              "UpstreamStickiness": "0",
+              "DownstreamStickiness": "0",
+              "UpstreamModification": "Unmodified",
+              "DownstreamModification": "Unmodified"
+            },
+            "Redo": {
+              "Action": {
+                "type": "PROPERTIES",
+                "properties": "0"
+              }
+            },
+            "Undo": {
+              "Action": {
+                "type": "PROPERTIES",
+                "properties": "2"
+              }
+            }
+          }
+        },
         "node_info": {
-          "0": [
+          "30": [
             {
-              "sequence": "zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0001\u0000]\u0000\u001e\u000f\u02c7\u0011f\u000f\u001e{3\u007f(1v%f M*\tmj)p80*j\u0011BJ\u007f\u0018A\u001c>f\"\u0015A\rv\u001b\u04d2p\u0004&s{3\u001bTh$\u001eh|=\u0011\u001827|r6\n\u037d;29TmgX#\u00013\u001ab5p\u0005=~(qQE{\u0002\rv\u0002t\t\u01e4H4\u0000c\u0000\u0002\u000fy\b!\"\\L\u0000\u0000!\u8aa91\u0000\u0001\u0001\u0003\u0000\u0000YMg\u0002\u0000\u0000\u0000\u0000\u0004YZ\u001e\u0000\u0000\r7zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/;l\rP]\u0000\b3D].?I*\u04d9\u0017_\u000e.Zv\u045cP,Vj,\u07aa~mC\u0014<\u04918hl\u0011FO\u001clY.k(DW`!\n \t\u0012\u001dKJ9rEP\u0011\u0724\u0006$F\u001ecprMUq3+Xfg=Gj\u000ba\\#}T*_\u007f\u0017\u0798I24L\u0004pp\u00146\u02e1\u0005\u0011E}z,{Cr\u0012\u0010La\u0006+`B|z@4\u0010zo2\u0005/f:3}\u0004G,\u0005fi\uf7da\u0017\u0016.\u0006^e8\u000ez]Z6\u001ba\u001e(y\u00126bO\\wORt6hE,\u0012T\u0005`g\u001e\udb69\udfbcx\u0017\u001801dQ!Mo/\n0\bcii\u001brO\u0016\"d&\\js\n`Ca/0eQ*s2xKb\u0435X\t\u0007[t\u000bxWo\"\u0005\u0010\u001f\u0012;Y\u0001\u001c\bCE2O\u000egB d[\f\u001e\u03aa;Md\u001fd/\u0675e'@Z0;mN1\u00193*MlCLbvX{]b\u075aw\rC\f\u001a\u0015uRpI\u000b\u001fp,\"\u001a!09ZR\b0m\u0011so?& \u001et\u0015\u0001/8ww\u014co\u001ea\u0735a\u0002lY\nu\u0216Or\u007f\u0013\u0004\u0529\u000ee\u0013\u0012wm\u0337\u0017`\u0012+,+!/`|\\\u0003}\u0007{)?L\rN'xN.\u001b>\u83ba\u00129g\u007f\u0012&F!DS\u007f\uc10a\u0000\u0016\u001656\u0016$e\tva6s\u0011\u001f[M\u000647:\u00120\u0001z\u0016\u0001&C\u0018\u023d\u001b\u000e{a%{k0\n1\u0626\u0523X\t5.u\u0663 M\u0019l7$9UC:\\l{\u0001F2\f^\u001b~s\u02c7ZZ-c\f\u05147\u0006\u000bC\u0010\u000b\n\u818fM~e~D3Jz\u001b\bRAM}K]]7$j\u02fbM\u008f\u0003\u0011$\u05e2q\u06afFRimTDZ\u0004\u001df`\fn5Z5\u0013~60\u007f2~6\u000b@\u001f\u007f\u000f4E\u025ageB2bj\ft|vT\u001fWg\u0014J9\u0005o|T\ru}?6R8[\u001c5\u0013\u0015Lh\u0715\u57b2h>^\"\u001e~iq?\u001e\u0003t0J\u0019\u0006]M\u007f\u01cf\u0005;>&\u0007 n\u001fC%\u0019>/;\u07f36\u001eE)\u0016}A\u0004=A\u0019\u0016\u0000HrgLeq\u00155GZWBO7g q\u0005V\u0014\u001als1tnDi\u000f!/8|,ik\u027d\rA(6\u001c>AF\u0004c\u001d!\re,ta6it+SyX`|\f8dV9gXJP:\u0013\u0012}v]\u0629\u0011\tvO@\u01e1\u0007!N\u007f;= #W\u0018\ua821\u0011{|`te\u0163Xb=U#\u0014s\r\u00190_Fw{mB\u0015%\u007fs}j^\u00001b18*\u0002J\n\bR\u001e\u0004\u0001\n\u000f\u000bq\u0017M\u3e85\u0569yC#!8Nf~\u0014_\u0001\t\u0012f[\u001dYz,p\u0019?kQ\u0004\b<\u0219\bD\u0001)ZA=`y\u0018\u0000/[ot6c\u06c1M\u026f\u001cCI\u0012G\u0010Y\u007flN\u001e^5b8k\u0002VLW}BN\ri\u0610x5ZKu$I@2\u0010r\u0007qk~7L:f&'1>-zp\u0690\u03f6\u0006o\u0010 \u0003iJ\u0004}\u001do5\u001f'g\u0000\u043d2@%M=\u0000\u0019/\u0003#\ud988\udd24\u001ao\r(\u000e}\u0120yu\u007f-\u000e_DJ|b)xm,~\t\u001b5o\\\u0019\u0018\u0019\u0018mI7\u001faX\u045eU*\u0019huYYPSJ\u056f:Q,i~7\u007f\u0004H\u0093\u0010\u000b|r`\u001f\u0674sb\u0012Ngd8Z|7f\u007f\f\u0017kN,/\u02f5K%Ks\u007f\u000b\u0615_S8\\K\r#\u069fb\u0013_\u001c'\u000b\u0005\u0011\b\u007f\u001e\\.\u0012Uwz//\u00104\u0010\u0019F\t\u0003\u06f7k#}\u001a\u8c74P\"'\u062b\u000e0\u001dJ=\u0019Oq\u0013-~\u000eQ!\u001c\u02adq\t\u001f\u001e\u000bBf#_U\u0725Q\u0014l<g(\u0562~'\u072d1,\u007f\u017b<y\u0002*F9\u0774\u0012{Q9P\"n/\u0013*b\"6\u000f%c=WOfn/uZ:##\u000b\u000enM*\u001aCt\u0010 \u0018dEjkTS%\u0014\u000e\u0001\n\u0005~?JH$\u0017#};gJO?`G\t\u0018\u056b*j\u0328\u0017,p\u001cXue~p4F\u0521j+\u000b@YY`WLi2)\u0010\u0000p \u0013\"\fX)\nxu\u00145A\u001f2-u\u0014\u0131NJ1V1S/cj\u00ee~%j\u0445\n>z\\kl[i\\\u0015\u0006;WV8V)3|\u0002\"ZRW\u0010>\u001f:\u026dTZ=\u001b\udb18\udc76Fbx\u0004o\\0Hw3C!Ua[H\u0006g8\u0703\b:n\u0171\u0003xOH\u068fq\u0015XK\u001eS[C\u0014\u0006zL_fY\u0013,4\u0781t\u00c0*\u000f\fsrB!>\u001f\u0004\u0011`\u001e:d\u000fC\u0015l:\u001c\u0011i\u0002\tj!t30\u0449\u0004\u00f9L\u000bYPF\niq\u0119ED\u0013`\u0000,_51erGL\u02d8T\u0001\u0002+\u040f\bI[/\"\u007f\"(!o6j\u0019\u0002z}w2S!J\n%:-\u00188I?\\>x_\u000f(+\u0005hM|\u0011X\r\u0017^}rrC\u0015\u0003U7]7\u000b\f)E\u0012v\u0015%\u001e4Gg\u0011\u00fd\u001bolW\u0016{}\u0015\u05df\u0174k\u00175\u0003-n\u0005#Wx\u0001,\u0005.\b\u000b<\u02dd\u0012\f]l\u0016x\u007f\u000e7\u001f\u05aa-Q<\u0007p\u0005\"\rS@,ngM\b6^y.e\u0004b* \nL\u0018\u0010a&\u01f5k\u001c5\u001b\u0628fss\u0019w\u027c\u001atb=s*e\t>\"@{4f\u0004\rd'K\u001c\fe\u001a\u0004\u02fcEH\u001c\u01fd\u001b\b\u001e\u0015DR\u00141N\u00026\uaace\u000e;y4P*['O\u00003\u001b\b(q<\u001c\u0010z]\u0001>\u0498|kfc/\u0018%`_\b^usW^wu$7\u0671 Jc\r=b^\t|c *(D-(1-MZtUMIfD*\u073dtK{\u01d0i,\u0005FkY_\u0013k\u01edT6CA#\t\u0017,\u0003\u001ew\u001f\u000eDXg\u0005+XG<*FK\u0010^\u0015|-9\u000e(!.D'x5\u0016A%gSWhP+\u02a3\u001dL\u013b\f4\n\u00fe@\"\u0014moGw[\u0664f):j_3e\u06ddBx\u000f\u001ba\teaB X1\\\"ucc1c9^\u0010/\"Ztm^dk-\u06f0;]l=0\\\u0007\u01baVdaf|@hQS]\u0015Ak\u0000@[\u0015$\"RL94\u001f);X\u0013\u0016\u0012zyZ.A\u001fXXq&JT9)+T\u0000\b\u0768 \u0000\u0001\u001av\u0000\u0000\u0000\rg\u0002\u0000\u0000\u0000\u0000\u0004YZ",
-              "length": 1981,
-              "topology": "circular",
-              "strandedness": "double",
-              "dam_methylated": true,
-              "dcm_methylated": false,
-              "ecoki_methylated": true
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "Unmodified",
+                    "DownstreamModification": "Unmodified"
+                  }
+                }
+              ],
+              "10": [
+                {
+                  "features": [
+                    {
+                      "name": "Schizosaccharomyces pombe",
+                      "type": "source",
+                      "strand": ".",
+                      "start": 0,
+                      "end": 4538,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1-4538",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "chromosome": "<html><body>I</body></html>",
+                        "db_xref": "4896",
+                        "label": "Schizosaccharomyces pombe",
+                        "mol_type": "genomic DNA",
+                        "organism": "<html><body>Schizosaccharomyces pombe</body></html>",
+                        "strain": "<html><body>972h-</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "0",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1",
+                        "visible": "0"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "chromosome",
+                          "V": {
+                            "text": "<html><body>I</body></html>"
+                          }
+                        },
+                        {
+                          "name": "db_xref",
+                          "V": {
+                            "text": "4896",
+                            "predef": "taxon"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "Schizosaccharomyces pombe"
+                          }
+                        },
+                        {
+                          "name": "mol_type",
+                          "V": {
+                            "predef": "genomic DNA"
+                          }
+                        },
+                        {
+                          "name": "organism",
+                          "V": {
+                            "text": "<html><body>Schizosaccharomyces pombe</body></html>"
+                          }
+                        },
+                        {
+                          "name": "strain",
+                          "V": {
+                            "text": "<html><body>972h-</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPAPB1A10.08",
+                      "type": "gene",
+                      "strand": "+",
+                      "start": 0,
+                      "end": 676,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1-676",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543374",
+                          "SPAPB1A10.08"
+                        ],
+                        "label": "SPOM_SPAPB1A10.08",
+                        "locus_tag": "SPOM_SPAPB1A10.08"
+                      },
+                      "extras": {
+                        "recentID": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543374",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.08",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPAPB1A10.08",
+                      "type": "mRNA",
+                      "strand": "+",
+                      "start": 0,
+                      "end": 676,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1-676",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543374",
+                          "SPAPB1A10.08"
+                        ],
+                        "label": "SPOM_SPAPB1A10.08",
+                        "locus_tag": "SPOM_SPAPB1A10.08",
+                        "product": "<html><body>uncharacterized protein</body></html>",
+                        "transcript_id": "NM_001018956.3"
+                      },
+                      "extras": {
+                        "recentID": "2",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543374",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.08",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>uncharacterized protein</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NM_001018956.3"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPAPB1A10.08",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 0,
+                      "end": 393,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "1-393",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "SPOM_SPAPB1A10.08",
+                        "locus_tag": "SPOM_SPAPB1A10.08",
+                        "note": "<html><body>conserved fungal protein</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "3",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>conserved fungal protein</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPNCRNA.2846",
+                      "type": "gene",
+                      "strand": "-",
+                      "start": 0,
+                      "end": 1972,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1-1972",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "90819331",
+                          "SPNCRNA.2846"
+                        ],
+                        "label": "SPOM_SPNCRNA.2846",
+                        "locus_tag": "SPOM_SPNCRNA.2846"
+                      },
+                      "extras": {
+                        "recentID": "4",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "90819331",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPNCRNA.2846",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2846"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2846"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPNCRNA.2846",
+                      "type": "ncRNA",
+                      "strand": "-",
+                      "start": 0,
+                      "end": 1972,
+                      "color": "#8fbc8f",
+                      "segments": [
+                        {
+                          "range": "1-1972",
+                          "color": "#8fbc8f",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "90819331",
+                          "SPNCRNA.2846"
+                        ],
+                        "label": "SPOM_SPNCRNA.2846",
+                        "locus_tag": "SPOM_SPNCRNA.2846",
+                        "ncRNA_class": "lncRNA",
+                        "product": "<html><body>non-coding RNA</body></html>",
+                        "transcript_id": "NR_192214.1"
+                      },
+                      "extras": {
+                        "recentID": "5",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "90819331",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPNCRNA.2846",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2846"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2846"
+                          }
+                        },
+                        {
+                          "name": "ncRNA_class",
+                          "V": {
+                            "predef": "lncRNA"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>non-coding RNA</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NR_192214.1"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ase1",
+                      "type": "gene",
+                      "strand": "+",
+                      "start": 1000,
+                      "end": 3538,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1001-3538",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543372",
+                          "SPAPB1A10.09"
+                        ],
+                        "label": "ase1",
+                        "locus_tag": "SPOM_SPAPB1A10.09"
+                      },
+                      "extras": {
+                        "recentID": "6",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543372",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.09",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ase1"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.09"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ase1",
+                      "type": "mRNA",
+                      "strand": "+",
+                      "start": 1000,
+                      "end": 3538,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1001-1597",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "1598-1644",
+                          "color": "noColor",
+                          "type": "gap"
+                        },
+                        {
+                          "range": "1645-3538",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543372",
+                          "SPAPB1A10.09"
+                        ],
+                        "label": "ase1",
+                        "locus_tag": "SPOM_SPAPB1A10.09",
+                        "product": "<html><body>antiparallel microtubule cross-linking factorAse1</body></html>",
+                        "transcript_id": "NM_001018957.3"
+                      },
+                      "extras": {
+                        "recentID": "7",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543372",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.09",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ase1"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.09"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>antiparallel microtubule cross-linking factorAse1</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NM_001018957.3"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ase1",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 1173,
+                      "end": 3416,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "1174-1597",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "1598-1644",
+                          "color": "noColor",
+                          "type": "gap"
+                        },
+                        {
+                          "range": "1645-3416",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ase1",
+                        "locus_tag": "SPOM_SPAPB1A10.09"
+                      },
+                      "extras": {
+                        "recentID": "8",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ase1"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.09"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ypt71",
+                      "type": "gene",
+                      "strand": "-",
+                      "start": 3509,
+                      "end": 4538,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "3510-4538",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543411",
+                          "SPAPB1A10.10c"
+                        ],
+                        "label": "ypt71",
+                        "locus_tag": "SPOM_SPAPB1A10.10C"
+                      },
+                      "extras": {
+                        "recentID": "9",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543411",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.10c",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ypt71"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.10C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ypt71",
+                      "type": "mRNA",
+                      "strand": "-",
+                      "start": 3509,
+                      "end": 4290,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "3510-4137",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "4138-4191",
+                          "color": "noColor",
+                          "type": "gap"
+                        },
+                        {
+                          "range": "4192-4290",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543411",
+                          "SPAPB1A10.10c"
+                        ],
+                        "label": "ypt71",
+                        "locus_tag": "SPOM_SPAPB1A10.10C",
+                        "product": "<html><body>GTPase Ypt71</body></html>",
+                        "transcript_id": "NM_001018958.3"
+                      },
+                      "extras": {
+                        "recentID": "10",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543411",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.10c",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ypt71"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.10C"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>GTPase Ypt71</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NM_001018958.3"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ypt71",
+                      "type": "CDS",
+                      "strand": "-",
+                      "start": 3690,
+                      "end": 4290,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "3691-4137",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "4138-4191",
+                          "color": "noColor",
+                          "type": "gap"
+                        },
+                        {
+                          "range": "4192-4290",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ypt71",
+                        "locus_tag": "SPOM_SPAPB1A10.10C"
+                      },
+                      "extras": {
+                        "recentID": "11",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ypt71"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.10C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPNCRNA.2847",
+                      "type": "gene",
+                      "strand": "+",
+                      "start": 4048,
+                      "end": 4538,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "4049-4538",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "90819332",
+                          "SPNCRNA.2847"
+                        ],
+                        "label": "SPOM_SPNCRNA.2847",
+                        "locus_tag": "SPOM_SPNCRNA.2847"
+                      },
+                      "extras": {
+                        "recentID": "12",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "90819332",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPNCRNA.2847",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2847"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2847"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPNCRNA.2847",
+                      "type": "ncRNA",
+                      "strand": "+",
+                      "start": 4048,
+                      "end": 4538,
+                      "color": "#8fbc8f",
+                      "segments": [
+                        {
+                          "range": "4049-4538",
+                          "color": "#8fbc8f",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "90819332",
+                          "SPNCRNA.2847"
+                        ],
+                        "label": "SPOM_SPNCRNA.2847",
+                        "locus_tag": "SPOM_SPNCRNA.2847",
+                        "ncRNA_class": "lncRNA",
+                        "product": "<html><body>non-coding RNA</body></html>",
+                        "transcript_id": "NR_192215.1"
+                      },
+                      "extras": {
+                        "recentID": "13",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "90819332",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPNCRNA.2847",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2847"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2847"
+                          }
+                        },
+                        {
+                          "name": "ncRNA_class",
+                          "V": {
+                            "predef": "lncRNA"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>non-coding RNA</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NR_192215.1"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "wrapper_extras": {
+                    "nextValidID": "14"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "79f77040-9e80-4d01-98d0-a01344e1e8d2",
+                    "Type": "Natural",
+                    "Description": "Schizosaccharomyces pombe strain 972h- genome assembly, chromosome: I.",
+                    "Created": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "LastModified": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "AccessionNumber": "NC_003424",
+                    "Organism": "Schizosaccharomyces pombe (fission yeast)",
+                    "SequenceClass": "CON",
+                    "TransformedInto": "unspecified",
+                    "References": {
+                      "Reference": [
+                        {
+                          "authors": "Schafer B, Hansen M, Lang BF.",
+                          "date": "2005",
+                          "issue": "5",
+                          "journal": "RNA 11 (5), 785-795 (2005)",
+                          "journalName": "RNA",
+                          "pages": "785-795",
+                          "pubMedID": "15811919",
+                          "title": "Transcription and RNA-processing in fission yeast mitochondria",
+                          "type": "Journal Article",
+                          "volume": "11"
+                        },
+                        {
+                          "authors": "Wood V, Gwilliam R, Rajandream MA, Lyne M, Lyne R, Stewart A, Sgouros J, Peat N, Hayles J, Baker S, Basham D, Bowman S, Brooks K, Brown D, Brown S, Chillingworth T, Churcher C, Collins M, Connor R, Cronin A, Davis P, Feltwell T, Fraser A, Gentles S, Goble A, Hamlin N, Harris D, Hidalgo J, Hodgson G, Holroyd S, Hornsby T, Howarth S, Huckle EJ, Hunt S, Jagels K, James K, Jones L, Jones M, Leather S, McDonald S, McLean J, Mooney P, Moule S, Mungall K, Murphy L, Niblett D, Odell C, Oliver K, O'Neil S, Pearson D, Quail MA, Rabbinowitsch E, Rutherford K, Rutter S, Saunders D, Seeger K, Sharp S, Skelton J, Simmonds M, Squares R, Squares S, Stevens K, Taylor K, Taylor RG, Tivey A, Walsh S, Warren T, Whitehead S, Woodward J, Volckaert G, Aert R, Robben J, Grymonprez B, Weltjens I, Vanstreels E, Rieger M, Schafer M, Muller-Auer S, Gabel C, Fuchs M, Dusterhoft A, Fritzc C, Holzer E, Moestl D, Hilbert H, Borzym K, Langer I, Beck A, Lehrach H, Reinhardt R, Pohl TM, Eger P, Zimmermann W, Wedler H, Wambutt R, Purnelle B, Goffeau A, Cadieu E, Dreano S, Gloux S, Lelaure V, Mottier S, Galibert F, Aves SJ, Xiang Z, Hunt C, Moore K, Hurst SM, Lucas M, Rochet M, Gaillardin C, Tallada VA, Garzon A, Thode G, Daga RR, Cruzado L, Jimenez J, Sanchez M, del Rey F, Benito J, Dominguez A, Revuelta JL, Moreno S, Armstrong J, Forsburg SL, Cerutti L, Lowe T, McCombie WR, Paulsen I, Potashkin J, Shpakovski GV, Ussery D, Barrell BG, Nurse P.",
+                          "date": "2002",
+                          "issue": "6874",
+                          "journal": "Nature 415 (6874), 871-880 (2002)",
+                          "journalName": "Nature",
+                          "pages": "871-880",
+                          "pubMedID": "11859360",
+                          "title": "The genome sequence of Schizosaccharomyces pombe",
+                          "type": "Journal Article",
+                          "volume": "415"
+                        },
+                        {
+                          "authors": "Wood V, Gwilliam R, Rajandream MA, Lyne M, Lyne R, Stewart A, Sgouros J, Peat N, Hayles J, Baker S, Basham D, Bowman S, Brooks K, Brown D, Brown S, Chillingworth T, Churcher C, Collins M, Connor R, Cronin A, Davis P, Feltwell T, Fraser A, Gentles S, Goble A, Hamlin N, Harris D, Hidalgo J, Hodgson G, Holroyd S, Hornsby T, Howarth S, Huckle EJ, Hunt S, Jagels K, James K, Jones L, Jones M, Leather S, McDonald S, McLean J, Mooney P, Moule S, Mungall K, Murphy L, Niblett D, Odell C, Oliver K, O'Neil S, Pearson D, Quail MA, Rabbinowitsch E, Rutherford K, Rutter S, Saunders D, Seeger K, Sharp S, Skelton J, Simmonds M, Squares R, Squares S, Stevens K, Taylor K, Taylor RG, Tivey A, Walsh S, Warren T, Whitehead S, Woodward J, Volckaert G, Aert R, Robben J, Grymonprez B, Weltjens I, Vanstreels E, Rieger M, Schafer M, Muller-Auer S, Gabel C, Fuchs M, Dusterhoft A, Fritzc C, Holzer E, Moestl D, Hilbert H, Borzym K, Langer I, Beck A, Lehrach H, Reinhardt R, Pohl TM, Eger P, Zimmermann W, Wedler H, Wambutt R, Purnelle B, Goffeau A, Cadieu E, Dreano S, Gloux S, Lelaure V, Mottier S, Galibert F, Aves SJ, Xiang Z, Hunt C, Moore K, Hurst SM, Lucas M, Rochet M, Gaillardin C, Tallada VA, Garzon A, Thode G, Daga RR, Cruzado L, Jimenez J, Sanchez M, del Rey F, Benito J, Dominguez A, Revuelta JL, Moreno S, Armstrong J, Forsburg SL, Cerutti L, Lowe T, McCombie WR, Paulsen I, Potashkin J, Shpakovski GV, Ussery D, Barrell BG, Nurse P.",
+                          "date": "2002",
+                          "issue": "6874",
+                          "journal": "Nature 415 (6874), 871-880 (2002)",
+                          "journalName": "Nature",
+                          "pages": "871-880",
+                          "pubMedID": "11859360",
+                          "title": "The genome sequence of Schizosaccharomyces pombe",
+                          "type": "Journal Article",
+                          "volume": "415"
+                        },
+                        {
+                          "authors": "Trinkl H, Lang BF, Wolf K.",
+                          "date": "1989",
+                          "issue": "16",
+                          "journal": "Nucleic Acids Res 17 (16), 6730 (1989)",
+                          "journalName": "Nucleic Acids Res",
+                          "pages": "6730",
+                          "pubMedID": "2780299",
+                          "title": "Nucleotide sequence of the gene encoding the small ribosomal RNA in the mitochondrial genome of the fission yeast Schizosaccharomyces pombe",
+                          "type": "Journal Article",
+                          "volume": "17"
+                        },
+                        {
+                          "authors": "Lang BF, Cedergren R, Gray MW.",
+                          "date": "1987",
+                          "issue": "3",
+                          "journal": "Eur J Biochem 169 (3), 527-537 (1987)",
+                          "journalName": "Eur J Biochem",
+                          "pages": "527-537",
+                          "pubMedID": "2446871",
+                          "title": "The mitochondrial genome of the fission yeast, Schizosaccharomyces pombe. Sequence of the large-subunit ribosomal RNA gene, comparison of potential secondary structure in fungal mitochondrial large-subunit rRNAs and evolutionary considerations",
+                          "type": "Journal Article",
+                          "volume": "169"
+                        },
+                        {
+                          "authors": "Lang BF, Ahne F, Bonen L.",
+                          "date": "1985",
+                          "issue": "3",
+                          "journal": "J Mol Biol 184 (3), 353-366 (1985)",
+                          "journalName": "J Mol Biol",
+                          "pages": "353-366",
+                          "pubMedID": "4046021",
+                          "title": "The mitochondrial genome of the fission yeast Schizosaccharomyces pombe. The cytochrome b gene has an intron closely related to the first two introns in the Saccharomyces cerevisiae cox1 gene",
+                          "type": "Journal Article",
+                          "volume": "184"
+                        },
+                        {
+                          "authors": "Lang BF.",
+                          "date": "1984",
+                          "issue": "9",
+                          "journal": "EMBO J 3 (9), 2129-2136 (1984)",
+                          "journalName": "EMBO J",
+                          "pages": "2129-2136",
+                          "pubMedID": "6092057",
+                          "title": "The mitochondrial genome of the fission yeast Schizosaccharomyces pombe: highly homologous introns are inserted at the same position of the otherwise less conserved cox1 genes in Schizosaccharomyces pombe and Aspergillus nidulans",
+                          "type": "Journal Article",
+                          "volume": "3"
+                        },
+                        {
+                          "journal": "Submitted (16-AUG-2024) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA",
+                          "journalName": "Submitted (16-AUG-2024) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA",
+                          "title": "Direct Submission",
+                          "type": "Journal Article"
+                        },
+                        {
+                          "authors": "Wood V, Rutherford K.",
+                          "journal": "Submitted (13-MAR-2024) University of Cambridge, PomBase, Hopkins building, Tennis Court Rd, Cambridge, United Kingdom",
+                          "journalName": "Submitted (13-MAR-2024) University of Cambridge, PomBase, Hopkins building, Tennis Court Rd, Cambridge, United Kingdom",
+                          "title": "Direct Submission",
+                          "type": "Journal Article"
+                        },
+                        {
+                          "authors": "Wood V.",
+                          "journal": "Submitted (29-JUN-2007) European Schizosaccharomyces genome sequencing project, Sanger Institute, The Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SA",
+                          "journalName": "Submitted (29-JUN-2007) European Schizosaccharomyces genome sequencing project, Sanger Institute, The Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SA",
+                          "title": "Direct Submission",
+                          "type": "Journal Article"
+                        }
+                      ]
+                    },
+                    "Comments": "##Genome-Annotation-Data-START##<br>Annotation Provider :: PomBase<br>Annotation Status&nbsp;&nbsp; :: Full annotation<br>Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline<br>##Genome-Annotation-Data-END##<br>PROVISIONAL REFSEQ: This record has not yet been subject to final<br>NCBI review. The reference sequence is identical to CU329670.<br>On Dec 11, 2007 this sequence version replaced NC_003424.2."
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "None"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
             }
           ]
         }
@@ -496,16 +1566,1086 @@
       {
         "node_index": 2,
         "sequence_type": 29,
+        "modifier": {
+          "Manipulation": {
+            "AdditionalSequenceProperties": {
+              "UpstreamStickiness": "0",
+              "DownstreamStickiness": "0",
+              "UpstreamModification": "Unmodified",
+              "DownstreamModification": "Unmodified"
+            },
+            "Redo": {
+              "Action": {
+                "type": "PROPERTIES",
+                "properties": "2"
+              }
+            },
+            "Undo": {
+              "Action": {
+                "type": "PROPERTIES",
+                "properties": "0"
+              }
+            }
+          }
+        },
         "node_info": {
-          "0": [
+          "30": [
             {
-              "sequence": "zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0001\u0000]\u0000\u001e\u000f\u02c7\u0011f\u000f\u001e{3\u007f(1v%f M*\tmj)p80*j\u0011BJ\u007f\u0018A\u001c>f\"\u0015A\rv\u001b\u04d2p\u0004&s{3\u001bTh$\u001eh|=\u0011\u001827|r6\n\u037d;29TmgX#\u00013\u001ab5p\u0005=~(qQE{\u0002\rv\u0002t\t\u01e4H4\u0000d\nF^FQ\u000e\u0002s;o\u0014*\u0017P\u0000\u0000$vjG6\u0000\u0001\u0001\u0003\u0000\u0000YMg\u0002\u0000\u0000\u0000\u0000\u0004YZ\u001e\u0000\u0000\r7zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/;o\rV]\u0000\b3D].?I*\u04d9\u0017_\u000e.Zv\u045cP,Vj,\u07aa~mC\u0014<\u04918hl\u0011FO\u001clY.k(DW`!\n \t\u0012\u001dKJ9rEP\u0011\u0724\u0006$F\u001ecprMUq3+Xfg=Gj\u000ba\\#}T*_\u007f\u0017\u0798I24L\u0004pp\u00146\u02e1\u0005\u0011E}z,{Cr\u0012\u0010La\u0006+`B|z@4\u0010zo2\u0005/f:3}\u0004G,\u0005fi\uf7da\u0017\u0016.\u0006^e8\u000ez]Z6\u001ba\u001e(y\u00126bO\\wORt6hE,\u0012T\u0005`g\u001e\udb69\udfbcx\u0017\u001801dQ!Mo/\n0\bcii\u001brO\u0016\"d&\\js\n`Ca/0eQ*s2xKb\u0435X\t\u0007[t\u000bxWo\"\u0005\u0010\u001f\u0012;Y\u0001\u001c\bCE2O\u000egB d[\f\u001e\u03aa;Md\u001fd/\u0675e'@Z0;mN1\u00193*MlCLbvX{]b\u075aw\rC\f\u001a\u0015uRpI\u000b\u001fp,\"\u001a!09ZR\b0m\u0011so?& \u001et\u0015\u0001/8ww\u014co\u001ea\u0735a\u0002lY\nu\u0216Or\u007f\u0013\u0004\u0529\u000ee\u0013\u0012wm\u0337\u0017`\u0012+,+!/`|\\\u0003}\u0007{)?L\rN'xN.\u001b>\u83ba\u00129g\u007f\u0012&F!DS\u007f\uc10a\u0000\u0016\u001656\u0016$e\tva6s\u0011\u001f[M\u000647:\u00120\u0001z\u0016\u0001&C\u0018\u023d\u001b\u000e{a%{k0\n1\u0626\u0523X\t5.u\u0663 M\u0019l7$9UC:\\l{\u0001F2\f^\u001b~s\u02c7ZZ-c\f\u05147\u0006\u000bC\u0010\u000b\n\u818fM~e~D3Jz\u001b\bRAM}K]]7$j\u02fbM\u008f\u0003\u0011$\u05e2q\u06afFRimTDZ\u0004\u001df`\fn5Z5\u0013~60\u007f2~6\u000b@\u001f\u007f\u000f4E\u025ageB2bj\ft|vT\u001fWg\u0014J9\u0005o|T\ru}?6R8[\u001c5\u0013\u0015Lh\u0715\u57b2h>^\"\u001e~iq?\u001e\u0003t0J\u0019\u0006]M\u007f\u01cf\u0005;>&\u0007 n\u001fC%\u0019>/;\u07f36\u001eE)\u0016\u0005}A\u0004=A\u0019\u0016\u0000HrgLeq\u00155GZWBO7g q\u0005V\u0014\u001als1tnDi\u000f!/8|,ik\u027d\rA(6\u001c>AF\u0004c\u001d!\re,ta6it+SyX`|\f8dV9gXJ* Fm<\u0014\u0004F\u0003\u001c\u0001j7D)_6E\u001e]\u0015\u0154\b}H\u03c5I\u0411c\u0111%\u0134\u001cM\u0018\u007fI2%\"\ud24c\u0003]Vz((q3)W\u0014a:Sjp\r\u0016\u0013\u0012N4tG\b9G\u0007jE\u07c1\"[S\u07e6\u000bh\u0012/\u001e\u001a{B<\u001e.~M\u0011{\u0006[\u0019\u0004W\u0004*Qq\u0018\u05f9\u0010/\u000b;>\u0187&\"P\u0366B0\u0005~{\naD\u070e?w1&&gV\t\u0010ClU_]u\u036e{bHiKK\\\u0011.\u000em:\fEAJS\u06b7!\u0001\u0002cdi^,r\fj3s:d\n}\u0000Gz{Q\u0019j\"\u07ef\u02fe\u001f\u000f2i);E\rKZ\u001c\u000f\u00059\u001e&\u000f\u0006`\u000eY)Jc\u0012w\ria~V\u0017-MN(\u00ebE&W\u4486[\\%~\u063dIb)\u007f_\u0001\u0003&HTIL\u001b^P]:Wwcyu\u001dc\u0762\t|Y2qV\u001ae0*o}\u0002#T)COk\u042333mW\u05cbJ\u025f\u000b\u0310\u0012D\u0010'Ah\ba\u025ek\u001cB\u0010\u0016%L[\u001fx\u0002_\u0010\u0016(2\u057dI\u007f\u0001IY~\r(\u0459'=#_'\u0002\u0007:\u000e\u0005\u0001rB:\u0006[#m%\u0015p,^0/f(\u01aag}c!1f+A'r&x\u0016:H|[\u0007@(\u0017:jB\u0005N\u0014\u072f}fDn\u0011\u026d\u0000D(;\u0007P#nd\u0005Wx\ud191*Z\u000f\u0000\u001c5h\u001c'C\\o B\u007f'k\u001a4\u000e\u0002wB~Z\u00112\u0007gH.P-=VpJ\u0004I%4\u0019y9r\u045a\u0005?xl\b\u0245\u001f&@r\u0011Gvq20`s1\uab5em\u0001\u001b7jl\u0217$\u001a=\u014d7V.X.k26\u0015/g9h\u0006-h\u000b4T\u0006@\\eXC\u0006e%H~Z\u0004yh\u01e1\u0015Je/E7*!\u0006f\u0278m*\u01d0Q\u0352REgsV!+t\u0018-\u001a F\u06c3\u0005dNT?oSg4\u00157g;E^mt\u0000 %\u0019+?\u001d\u000e_\u0016\u0005\u0017i\u0197\u001dS\u0003Mw\u0001Bsr]0\u00175S/DG\u001eq\fRg.\f\u0016s%W8S7\u000bR\u00125ITdBqPXr\u001f!tN\b\u0019\u007f\u01dboHptn*\u001bql\u0018x\u0013\u04f6\bv_\u0007?Lj\"E][P$vI\u0314o\u0016PI\u001e]~\u000eHM\u0019y\u0000Vk|u)4N\u0547x\u00150(*l\u0017\u0011Yl\u000f`z:D@Ml&}'=\u0003\u00044\u001c?\u0261&\u0006*n\u0002ukwt6mlXL3(cvD\t\u001d\n1v4{H\"<M\u043d\u0431\u007fvB^\u022e\rx\rC\"\u0015\u0011V-qI\u0017\u02c4kicz\u000bj]r)Fp%.\u0000[q\u05afA\u001f-\u029b\u007f$\u0005]\u0018dpff\u0011\u001a\u9692\u007fK\u0003*mS\u057c8]\u000f\u0006BX\u2a21\u000bR4M,&Qhf\u03d4\u06ed\u0011 d\n\"y^nJLlql\u001b\u0003w<R|Ng\u0005RZ\u015c~cgLt[M\b\u0014\u001a\u0018\u040f\u034ep>\rh\u0011\u0011C\u0000\u0019,\u000fE5-BJJ*\t\u0016\u00f1~F\u001dsFiSMl\u0000YAJ5SG\u0000\f \u001cXpCCx\u0001VR/C-\u001bYa'V.\u0010!<W\u0001\u0005`\u048cq%U\u0003Xtb3 rGK\u075c|:\u3e670{4\u0011('g\u0018!\u0002,\u000712L\u049az\"wq7_$9B\u00030|dJ^um4\u0012\u007f3m4/(l\u001e\u000bTf\u0137U:02yfs(a4iKX\u0279|g\u0002\u01bf\fLmV\u001b$\ue3a1r\u00062\tk5*c[EL\u00040\u0018P\u001f\u001diWa\u000f6\u000ee]F\u0014J\u0015\u0005hxk9K(\u0006\u01b9\u000b~ZKl\u5b92\u0006} l\u001dV\u0010u\u0016\u0579Z^\u0003`-;\rW\u0016\u001c\u0645~\u02a6}\fXwok\u001bez}\u0018Duvq\u0004\u0213\r\u0013@H\u0740A\n\u0002z\u0701378ru(N\u0018W\u01cc~u\u0013*D\u001eK\u6a27J$k?+\u025b\u0001Gd_\u0017{L\u0000\u0000\u0000\nD>\u03f0\u0000\u0001\u001av\u0000\u0000Egg\u0002\u0000\u0000\u0000\u0000\u0004YZ",
-              "length": 2011,
-              "topology": "circular",
-              "strandedness": "double",
-              "dam_methylated": true,
-              "dcm_methylated": false,
-              "ecoki_methylated": true
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "Unmodified",
+                    "DownstreamModification": "Unmodified"
+                  }
+                }
+              ],
+              "10": [
+                {
+                  "features": [
+                    {
+                      "name": "Schizosaccharomyces pombe",
+                      "type": "source",
+                      "strand": ".",
+                      "start": 0,
+                      "end": 4538,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1-4538",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "chromosome": "<html><body>I</body></html>",
+                        "db_xref": "4896",
+                        "label": "Schizosaccharomyces pombe",
+                        "mol_type": "genomic DNA",
+                        "organism": "<html><body>Schizosaccharomyces pombe</body></html>",
+                        "strain": "<html><body>972h-</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "0",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1",
+                        "visible": "0"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "chromosome",
+                          "V": {
+                            "text": "<html><body>I</body></html>"
+                          }
+                        },
+                        {
+                          "name": "db_xref",
+                          "V": {
+                            "text": "4896",
+                            "predef": "taxon"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "Schizosaccharomyces pombe"
+                          }
+                        },
+                        {
+                          "name": "mol_type",
+                          "V": {
+                            "predef": "genomic DNA"
+                          }
+                        },
+                        {
+                          "name": "organism",
+                          "V": {
+                            "text": "<html><body>Schizosaccharomyces pombe</body></html>"
+                          }
+                        },
+                        {
+                          "name": "strain",
+                          "V": {
+                            "text": "<html><body>972h-</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPAPB1A10.08",
+                      "type": "gene",
+                      "strand": "+",
+                      "start": 0,
+                      "end": 676,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1-676",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543374",
+                          "SPAPB1A10.08"
+                        ],
+                        "label": "SPOM_SPAPB1A10.08",
+                        "locus_tag": "SPOM_SPAPB1A10.08"
+                      },
+                      "extras": {
+                        "recentID": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543374",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.08",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPAPB1A10.08",
+                      "type": "mRNA",
+                      "strand": "+",
+                      "start": 0,
+                      "end": 676,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1-676",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543374",
+                          "SPAPB1A10.08"
+                        ],
+                        "label": "SPOM_SPAPB1A10.08",
+                        "locus_tag": "SPOM_SPAPB1A10.08",
+                        "product": "<html><body>uncharacterized protein</body></html>",
+                        "transcript_id": "NM_001018956.3"
+                      },
+                      "extras": {
+                        "recentID": "2",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543374",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.08",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>uncharacterized protein</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NM_001018956.3"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPAPB1A10.08",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 0,
+                      "end": 393,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "1-393",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "SPOM_SPAPB1A10.08",
+                        "locus_tag": "SPOM_SPAPB1A10.08",
+                        "note": "<html><body>conserved fungal protein</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "3",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.08"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>conserved fungal protein</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPNCRNA.2846",
+                      "type": "gene",
+                      "strand": "-",
+                      "start": 0,
+                      "end": 1972,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1-1972",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "90819331",
+                          "SPNCRNA.2846"
+                        ],
+                        "label": "SPOM_SPNCRNA.2846",
+                        "locus_tag": "SPOM_SPNCRNA.2846"
+                      },
+                      "extras": {
+                        "recentID": "4",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "90819331",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPNCRNA.2846",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2846"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2846"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPNCRNA.2846",
+                      "type": "ncRNA",
+                      "strand": "-",
+                      "start": 0,
+                      "end": 1972,
+                      "color": "#8fbc8f",
+                      "segments": [
+                        {
+                          "range": "1-1972",
+                          "color": "#8fbc8f",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "90819331",
+                          "SPNCRNA.2846"
+                        ],
+                        "label": "SPOM_SPNCRNA.2846",
+                        "locus_tag": "SPOM_SPNCRNA.2846",
+                        "ncRNA_class": "lncRNA",
+                        "product": "<html><body>non-coding RNA</body></html>",
+                        "transcript_id": "NR_192214.1"
+                      },
+                      "extras": {
+                        "recentID": "5",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "90819331",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPNCRNA.2846",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2846"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2846"
+                          }
+                        },
+                        {
+                          "name": "ncRNA_class",
+                          "V": {
+                            "predef": "lncRNA"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>non-coding RNA</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NR_192214.1"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ase1",
+                      "type": "gene",
+                      "strand": "+",
+                      "start": 1000,
+                      "end": 3538,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1001-3538",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543372",
+                          "SPAPB1A10.09"
+                        ],
+                        "label": "ase1",
+                        "locus_tag": "SPOM_SPAPB1A10.09"
+                      },
+                      "extras": {
+                        "recentID": "6",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543372",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.09",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ase1"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.09"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ase1",
+                      "type": "mRNA",
+                      "strand": "+",
+                      "start": 1000,
+                      "end": 3538,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "1001-1597",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "1598-1644",
+                          "color": "noColor",
+                          "type": "gap"
+                        },
+                        {
+                          "range": "1645-3538",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543372",
+                          "SPAPB1A10.09"
+                        ],
+                        "label": "ase1",
+                        "locus_tag": "SPOM_SPAPB1A10.09",
+                        "product": "<html><body>antiparallel microtubule cross-linking factorAse1</body></html>",
+                        "transcript_id": "NM_001018957.3"
+                      },
+                      "extras": {
+                        "recentID": "7",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543372",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.09",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ase1"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.09"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>antiparallel microtubule cross-linking factorAse1</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NM_001018957.3"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ase1",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 1173,
+                      "end": 3416,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "1174-1597",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "1598-1644",
+                          "color": "noColor",
+                          "type": "gap"
+                        },
+                        {
+                          "range": "1645-3416",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ase1",
+                        "locus_tag": "SPOM_SPAPB1A10.09"
+                      },
+                      "extras": {
+                        "recentID": "8",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ase1"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.09"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ypt71",
+                      "type": "gene",
+                      "strand": "-",
+                      "start": 3509,
+                      "end": 4538,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "3510-4538",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543411",
+                          "SPAPB1A10.10c"
+                        ],
+                        "label": "ypt71",
+                        "locus_tag": "SPOM_SPAPB1A10.10C"
+                      },
+                      "extras": {
+                        "recentID": "9",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543411",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.10c",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ypt71"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.10C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ypt71",
+                      "type": "mRNA",
+                      "strand": "-",
+                      "start": 3509,
+                      "end": 4290,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "3510-4137",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "4138-4191",
+                          "color": "noColor",
+                          "type": "gap"
+                        },
+                        {
+                          "range": "4192-4290",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "2543411",
+                          "SPAPB1A10.10c"
+                        ],
+                        "label": "ypt71",
+                        "locus_tag": "SPOM_SPAPB1A10.10C",
+                        "product": "<html><body>GTPase Ypt71</body></html>",
+                        "transcript_id": "NM_001018958.3"
+                      },
+                      "extras": {
+                        "recentID": "10",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "2543411",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPAPB1A10.10c",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ypt71"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.10C"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>GTPase Ypt71</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NM_001018958.3"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ypt71",
+                      "type": "CDS",
+                      "strand": "-",
+                      "start": 3690,
+                      "end": 4290,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "3691-4137",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "4138-4191",
+                          "color": "noColor",
+                          "type": "gap"
+                        },
+                        {
+                          "range": "4192-4290",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ypt71",
+                        "locus_tag": "SPOM_SPAPB1A10.10C"
+                      },
+                      "extras": {
+                        "recentID": "11",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ypt71"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.10C"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPNCRNA.2847",
+                      "type": "gene",
+                      "strand": "+",
+                      "start": 4048,
+                      "end": 4538,
+                      "color": "#a6acb3",
+                      "segments": [
+                        {
+                          "range": "4049-4538",
+                          "color": "#a6acb3",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "90819332",
+                          "SPNCRNA.2847"
+                        ],
+                        "label": "SPOM_SPNCRNA.2847",
+                        "locus_tag": "SPOM_SPNCRNA.2847"
+                      },
+                      "extras": {
+                        "recentID": "12",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "90819332",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPNCRNA.2847",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2847"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2847"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SPOM_SPNCRNA.2847",
+                      "type": "ncRNA",
+                      "strand": "+",
+                      "start": 4048,
+                      "end": 4538,
+                      "color": "#8fbc8f",
+                      "segments": [
+                        {
+                          "range": "4049-4538",
+                          "color": "#8fbc8f",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "db_xref": [
+                          "90819332",
+                          "SPNCRNA.2847"
+                        ],
+                        "label": "SPOM_SPNCRNA.2847",
+                        "locus_tag": "SPOM_SPNCRNA.2847",
+                        "ncRNA_class": "lncRNA",
+                        "product": "<html><body>non-coding RNA</body></html>",
+                        "transcript_id": "NR_192215.1"
+                      },
+                      "extras": {
+                        "recentID": "13",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "db_xref",
+                          "V": [
+                            {
+                              "text": "90819332",
+                              "predef": "GeneID"
+                            },
+                            {
+                              "text": "SPNCRNA.2847",
+                              "predef": "PomBase"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2847"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPNCRNA.2847"
+                          }
+                        },
+                        {
+                          "name": "ncRNA_class",
+                          "V": {
+                            "predef": "lncRNA"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>non-coding RNA</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transcript_id",
+                          "V": {
+                            "text": "NR_192215.1"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "wrapper_extras": {
+                    "nextValidID": "14"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "79f77040-9e80-4d01-98d0-a01344e1e8d2",
+                    "Type": "Natural",
+                    "Description": "Schizosaccharomyces pombe strain 972h- genome assembly, chromosome: I.",
+                    "Created": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "LastModified": {
+                      "UTC": "10:32:44",
+                      "_text": "2026.3.23"
+                    },
+                    "AccessionNumber": "NC_003424",
+                    "Organism": "Schizosaccharomyces pombe (fission yeast)",
+                    "SequenceClass": "CON",
+                    "TransformedInto": "unspecified",
+                    "References": {
+                      "Reference": [
+                        {
+                          "authors": "Schafer B, Hansen M, Lang BF.",
+                          "date": "2005",
+                          "issue": "5",
+                          "journal": "RNA 11 (5), 785-795 (2005)",
+                          "journalName": "RNA",
+                          "pages": "785-795",
+                          "pubMedID": "15811919",
+                          "title": "Transcription and RNA-processing in fission yeast mitochondria",
+                          "type": "Journal Article",
+                          "volume": "11"
+                        },
+                        {
+                          "authors": "Wood V, Gwilliam R, Rajandream MA, Lyne M, Lyne R, Stewart A, Sgouros J, Peat N, Hayles J, Baker S, Basham D, Bowman S, Brooks K, Brown D, Brown S, Chillingworth T, Churcher C, Collins M, Connor R, Cronin A, Davis P, Feltwell T, Fraser A, Gentles S, Goble A, Hamlin N, Harris D, Hidalgo J, Hodgson G, Holroyd S, Hornsby T, Howarth S, Huckle EJ, Hunt S, Jagels K, James K, Jones L, Jones M, Leather S, McDonald S, McLean J, Mooney P, Moule S, Mungall K, Murphy L, Niblett D, Odell C, Oliver K, O'Neil S, Pearson D, Quail MA, Rabbinowitsch E, Rutherford K, Rutter S, Saunders D, Seeger K, Sharp S, Skelton J, Simmonds M, Squares R, Squares S, Stevens K, Taylor K, Taylor RG, Tivey A, Walsh S, Warren T, Whitehead S, Woodward J, Volckaert G, Aert R, Robben J, Grymonprez B, Weltjens I, Vanstreels E, Rieger M, Schafer M, Muller-Auer S, Gabel C, Fuchs M, Dusterhoft A, Fritzc C, Holzer E, Moestl D, Hilbert H, Borzym K, Langer I, Beck A, Lehrach H, Reinhardt R, Pohl TM, Eger P, Zimmermann W, Wedler H, Wambutt R, Purnelle B, Goffeau A, Cadieu E, Dreano S, Gloux S, Lelaure V, Mottier S, Galibert F, Aves SJ, Xiang Z, Hunt C, Moore K, Hurst SM, Lucas M, Rochet M, Gaillardin C, Tallada VA, Garzon A, Thode G, Daga RR, Cruzado L, Jimenez J, Sanchez M, del Rey F, Benito J, Dominguez A, Revuelta JL, Moreno S, Armstrong J, Forsburg SL, Cerutti L, Lowe T, McCombie WR, Paulsen I, Potashkin J, Shpakovski GV, Ussery D, Barrell BG, Nurse P.",
+                          "date": "2002",
+                          "issue": "6874",
+                          "journal": "Nature 415 (6874), 871-880 (2002)",
+                          "journalName": "Nature",
+                          "pages": "871-880",
+                          "pubMedID": "11859360",
+                          "title": "The genome sequence of Schizosaccharomyces pombe",
+                          "type": "Journal Article",
+                          "volume": "415"
+                        },
+                        {
+                          "authors": "Wood V, Gwilliam R, Rajandream MA, Lyne M, Lyne R, Stewart A, Sgouros J, Peat N, Hayles J, Baker S, Basham D, Bowman S, Brooks K, Brown D, Brown S, Chillingworth T, Churcher C, Collins M, Connor R, Cronin A, Davis P, Feltwell T, Fraser A, Gentles S, Goble A, Hamlin N, Harris D, Hidalgo J, Hodgson G, Holroyd S, Hornsby T, Howarth S, Huckle EJ, Hunt S, Jagels K, James K, Jones L, Jones M, Leather S, McDonald S, McLean J, Mooney P, Moule S, Mungall K, Murphy L, Niblett D, Odell C, Oliver K, O'Neil S, Pearson D, Quail MA, Rabbinowitsch E, Rutherford K, Rutter S, Saunders D, Seeger K, Sharp S, Skelton J, Simmonds M, Squares R, Squares S, Stevens K, Taylor K, Taylor RG, Tivey A, Walsh S, Warren T, Whitehead S, Woodward J, Volckaert G, Aert R, Robben J, Grymonprez B, Weltjens I, Vanstreels E, Rieger M, Schafer M, Muller-Auer S, Gabel C, Fuchs M, Dusterhoft A, Fritzc C, Holzer E, Moestl D, Hilbert H, Borzym K, Langer I, Beck A, Lehrach H, Reinhardt R, Pohl TM, Eger P, Zimmermann W, Wedler H, Wambutt R, Purnelle B, Goffeau A, Cadieu E, Dreano S, Gloux S, Lelaure V, Mottier S, Galibert F, Aves SJ, Xiang Z, Hunt C, Moore K, Hurst SM, Lucas M, Rochet M, Gaillardin C, Tallada VA, Garzon A, Thode G, Daga RR, Cruzado L, Jimenez J, Sanchez M, del Rey F, Benito J, Dominguez A, Revuelta JL, Moreno S, Armstrong J, Forsburg SL, Cerutti L, Lowe T, McCombie WR, Paulsen I, Potashkin J, Shpakovski GV, Ussery D, Barrell BG, Nurse P.",
+                          "date": "2002",
+                          "issue": "6874",
+                          "journal": "Nature 415 (6874), 871-880 (2002)",
+                          "journalName": "Nature",
+                          "pages": "871-880",
+                          "pubMedID": "11859360",
+                          "title": "The genome sequence of Schizosaccharomyces pombe",
+                          "type": "Journal Article",
+                          "volume": "415"
+                        },
+                        {
+                          "authors": "Trinkl H, Lang BF, Wolf K.",
+                          "date": "1989",
+                          "issue": "16",
+                          "journal": "Nucleic Acids Res 17 (16), 6730 (1989)",
+                          "journalName": "Nucleic Acids Res",
+                          "pages": "6730",
+                          "pubMedID": "2780299",
+                          "title": "Nucleotide sequence of the gene encoding the small ribosomal RNA in the mitochondrial genome of the fission yeast Schizosaccharomyces pombe",
+                          "type": "Journal Article",
+                          "volume": "17"
+                        },
+                        {
+                          "authors": "Lang BF, Cedergren R, Gray MW.",
+                          "date": "1987",
+                          "issue": "3",
+                          "journal": "Eur J Biochem 169 (3), 527-537 (1987)",
+                          "journalName": "Eur J Biochem",
+                          "pages": "527-537",
+                          "pubMedID": "2446871",
+                          "title": "The mitochondrial genome of the fission yeast, Schizosaccharomyces pombe. Sequence of the large-subunit ribosomal RNA gene, comparison of potential secondary structure in fungal mitochondrial large-subunit rRNAs and evolutionary considerations",
+                          "type": "Journal Article",
+                          "volume": "169"
+                        },
+                        {
+                          "authors": "Lang BF, Ahne F, Bonen L.",
+                          "date": "1985",
+                          "issue": "3",
+                          "journal": "J Mol Biol 184 (3), 353-366 (1985)",
+                          "journalName": "J Mol Biol",
+                          "pages": "353-366",
+                          "pubMedID": "4046021",
+                          "title": "The mitochondrial genome of the fission yeast Schizosaccharomyces pombe. The cytochrome b gene has an intron closely related to the first two introns in the Saccharomyces cerevisiae cox1 gene",
+                          "type": "Journal Article",
+                          "volume": "184"
+                        },
+                        {
+                          "authors": "Lang BF.",
+                          "date": "1984",
+                          "issue": "9",
+                          "journal": "EMBO J 3 (9), 2129-2136 (1984)",
+                          "journalName": "EMBO J",
+                          "pages": "2129-2136",
+                          "pubMedID": "6092057",
+                          "title": "The mitochondrial genome of the fission yeast Schizosaccharomyces pombe: highly homologous introns are inserted at the same position of the otherwise less conserved cox1 genes in Schizosaccharomyces pombe and Aspergillus nidulans",
+                          "type": "Journal Article",
+                          "volume": "3"
+                        },
+                        {
+                          "journal": "Submitted (16-AUG-2024) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA",
+                          "journalName": "Submitted (16-AUG-2024) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA",
+                          "title": "Direct Submission",
+                          "type": "Journal Article"
+                        },
+                        {
+                          "authors": "Wood V, Rutherford K.",
+                          "journal": "Submitted (13-MAR-2024) University of Cambridge, PomBase, Hopkins building, Tennis Court Rd, Cambridge, United Kingdom",
+                          "journalName": "Submitted (13-MAR-2024) University of Cambridge, PomBase, Hopkins building, Tennis Court Rd, Cambridge, United Kingdom",
+                          "title": "Direct Submission",
+                          "type": "Journal Article"
+                        },
+                        {
+                          "authors": "Wood V.",
+                          "journal": "Submitted (29-JUN-2007) European Schizosaccharomyces genome sequencing project, Sanger Institute, The Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SA",
+                          "journalName": "Submitted (29-JUN-2007) European Schizosaccharomyces genome sequencing project, Sanger Institute, The Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SA",
+                          "title": "Direct Submission",
+                          "type": "Journal Article"
+                        }
+                      ]
+                    },
+                    "Comments": "##Genome-Annotation-Data-START##<br>Annotation Provider :: PomBase<br>Annotation Status&nbsp;&nbsp; :: Full annotation<br>Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline<br>##Genome-Annotation-Data-END##<br>PROVISIONAL REFSEQ: This record has not yet been subject to final<br>NCBI review. The reference sequence is identical to CU329670.<br>On Dec 11, 2007 this sequence version replaced NC_003424.2."
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "None"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
             }
           ]
         }

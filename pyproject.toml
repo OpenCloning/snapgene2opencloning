@@ -9,7 +9,7 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
-    "sgffp (>=0.15.2,<0.16.0)",
+    "sgffp @ git+https://github.com/manulera/sgffp@parse-new-history-section",
     "pydna @ git+https://github.com/pydna-group/pydna@e7ca502407f0381dcd33a9f68d0f0bd747362d86"
 ]
 

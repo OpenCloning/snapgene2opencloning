@@ -655,16 +655,20 @@ description = "Read, write, and manipulate SnapGene files (.dna, .rna, .prot)"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
-files = [
-    {file = "sgffp-0.15.2-py3-none-any.whl", hash = "sha256:2dfa6b17826be2e7ebfc79d5733484ee967afcf7ff9b087cd07d85980c9497a3"},
-    {file = "sgffp-0.15.2.tar.gz", hash = "sha256:a61cb650142867763a49072d42f7ac4d86e190a086492ccf4f719f1af4c62d66"},
-]
+files = []
+develop = false
 
 [package.dependencies]
 xmltodict = ">=0.14"
 
 [package.extras]
 dev = ["pytest (>=8.0)", "pytest-cov (>=4.0)"]
+
+[package.source]
+type = "git"
+url = "https://github.com/manulera/sgffp"
+reference = "parse-new-history-section"
+resolved_reference = "4481404063a0f627159edab57766a8a7ce6e263e"
 
 [[package]]
 name = "typing-extensions"
@@ -741,4 +745,4 @@ test = ["pytest", "pytest-cov"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4.0"
-content-hash = "3978b96151f844c89de90f12c5338e9f8e796d082d03910335cb019dd4e49124"
+content-hash = "2172d50c03c38681598b16788e028f8e3260e704b540e5448b839d3ae6bf3ddd"
