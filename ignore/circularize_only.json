@@ -1,0 +1,190 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "AATTCATTTTTATCTGATGTATCCGATGCTTTTACTGAATCTTTGAGAGGACGCATCAACGAAGCCGAAAAGGAGATTGATGCCAAATTGGAGTCATATTGTAACCGCTTAGGAAGTCCGTTCGTTTTACCTGATTTTGAG",
+        "length": 141,
+        "topology": "circular",
+        "strandedness": "double",
+        "dam_methylated": true,
+        "dcm_methylated": true,
+        "ecoki_methylated": true
+      }
+    ],
+    "11": [
+      {
+        "node_index": 0,
+        "sequence_type": 29,
+        "node_info": {
+          "0": [
+            {
+              "sequence": "zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0004\u0002\u0001F]\u0000\u001e\u000f\u02c7\u0011f\u000f\u001e{3\u007f(1v%f M*\tmj)p80*j\u0011BJ\u007f\u0018A\u001c>f\"\u0015A\rv\u001b\u04d2p\u0004&s{3\u0019to0\u012fq<>V`\u001ea&F\u0002\\Z}pSG`\u0002\u2f259W}@bB#s\u043ax4\u0005,\u00047K\u0579biV;\u001c\u0000hj&56QHqva\n7si\u01dfq|$;\u001dst}&\u067f}\u0441J\u0259JQaD)*\u007f9\\D&e\u0640b\u0005U*r1,\u001bv\u0014\u001a\u007f\u001f{s=_\u0003hOK2\u0004,\u001e/<\u02b8, P\u0000\u0000\u0000\u0000\u0000Ij\u0001\u0000\u0001\u0002\b\u0000\u0000Yu\u0013g\u0002\u0000\u0000\u0000\u0000\u0004YZ\u001e\u0000\u0000\u00027zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0004\u0002V]\u0000\b3D].?I*\u04d9\u0017_\u000e.Zv\u045cP,Vj,\u07aa~mC\u0014<\u0491UP#\fD\u0019\u0006}\f?N&9\u000e\\{?\u0001XQ\u007f3\u0000\u001d\u0007\u0002C\u07cbGf:vf6S?r\u0004\u001db\u000b\u07fe@S\u96c6\u0003\u0019'\u0013c)\u0013A\u0001A\u02e3Bv\u0013u$i\u001c2-z<p[K\u0005pi-\u0003\u0002\u0000s1\u0003\u0002Y09r\u001a!\"\"w+\u007fP/h*\u000f7\u030d`D\u001f\t\u06c8E#E\u0001;\u02fd}WO\u0018^X_l\f\tI.pB%5|L7l\u0019\u0005@Bqy6tFl}C\u2caa,t(l\ub4de6;[\nNr\f jPWU\u001b\uab43\r1C\u0002[^\u0003V\n14#w*\u001eW\u0016sIwM7i:L0u\u001d\u001c?\b\u0314V.50\u0014LJ\u0017\u06812U!4>}\u0297\u0760\u05d0T~\u0016f#\u001cj\u0777\u07dbv0l&KKA\u0598s\r\f0\u02b5\u0000um\u0019\u00050]9F#r=9\u0001<*P%\u0227`MJ\u0001\u07bahU\u001aw\rK\u000b$~z\u000fHh\u00d0_ t\u030b,`J\u0098\u0007.`4j\u001c{Q\u0019|8\u0013f\u0018\u0007cQ`Pax\u0000\u0000\u0000\u0000!;;\u0012\u0000\u0001\u0004\t\u0000\u0000\u001a,|g\u0002\u0000\u0000\u0000\u0000\u0004YZ",
+              "length": 602,
+              "topology": "circular",
+              "strandedness": "double",
+              "dam_methylated": true,
+              "dcm_methylated": false,
+              "ecoki_methylated": true
+            }
+          ]
+        }
+      }
+    ],
+    "7": [
+      {
+        "HistoryTree": {
+          "Node": {
+            "name": "origin_spanning_features - Linearized (EcoRI (0) - EcoRI (141)) - Circularized.dna",
+            "type": "DNA",
+            "seqLen": "141",
+            "strandedness": "double",
+            "ID": "1",
+            "circular": "1",
+            "operation": "circularize",
+            "HistoryColors": {
+              "StrandColors": {
+                "type": "Product",
+                "TopStrand": {
+                  "ColorRange": [
+                    {
+                      "range": "0..34",
+                      "colors": "blue-black"
+                    },
+                    {
+                      "range": "106..140",
+                      "colors": "black-red"
+                    }
+                  ]
+                },
+                "BottomStrand": {
+                  "ColorRange": [
+                    {
+                      "range": "4..38",
+                      "colors": "blue-black"
+                    },
+                    {
+                      "range": "110..3",
+                      "colors": "black-red"
+                    }
+                  ]
+                }
+              }
+            },
+            "InputSummary": null,
+            "Node": {
+              "name": "origin_spanning_features - Linearized (EcoRI (0) - EcoRI (141)).dna",
+              "type": "DNA",
+              "seqLen": "145",
+              "strandedness": "double",
+              "ID": "0",
+              "circular": "0",
+              "upstreamStickiness": "4",
+              "downstreamStickiness": "4",
+              "upstreamModification": "FivePrimePhosphorylated",
+              "downstreamModification": "FivePrimePhosphorylated",
+              "resurrectable": "2",
+              "operation": "invalid",
+              "HistoryColors": {
+                "StrandColors": {
+                  "type": "Input",
+                  "TopStrand": {
+                    "ColorRange": [
+                      {
+                        "range": "0..35",
+                        "colors": "blue-black"
+                      },
+                      {
+                        "range": "105..140",
+                        "colors": "black-red"
+                      }
+                    ]
+                  },
+                  "BottomStrand": {
+                    "ColorRange": [
+                      {
+                        "range": "4..39",
+                        "colors": "blue-black"
+                      },
+                      {
+                        "range": "109..144",
+                        "colors": "black-red"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamStickiness": "0",
+          "DownstreamStickiness": "0",
+          "UpstreamModification": "FivePrimePhosphorylated",
+          "DownstreamModification": "FivePrimePhosphorylated"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "0",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          }
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "3ae3a3f3-7fcd-4433-acb8-ae0613d98478",
+          "Type": "Synthetic",
+          "ConfirmedExperimentally": "0",
+          "Created": {
+            "UTC": "10:52:30",
+            "_text": "2026.3.26"
+          },
+          "LastModified": {
+            "UTC": "10:52:30",
+            "_text": "2026.3.26"
+          },
+          "CreatedBy": "Trial User",
+          "SequenceClass": "UNA",
+          "TransformedInto": "unspecified"
+        }
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "aaGAATTCGAGaa",
+        "length": 13,
+        "topology": "linear",
+        "strandedness": "double",
+        "dam_methylated": false,
+        "dcm_methylated": false,
+        "ecoki_methylated": false
+      }
+    ],
+    "11": [
+      {
+        "node_index": 0,
+        "sequence_type": 29,
+        "node_info": {
+          "0": [
+            {
+              "sequence": "zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0001\u0000]\u0000\u001e\u000f\u02c7\u0011f\u000f\u001e{3\u007f(1v%f M*\tmj)p80*j\u0011BJ\u007f\u0018A\u001c>f\"\u0015A\rv\u001b\u04d2p\u0004&s{3\u001bTh$\u001eh|=\u0011\u001827|r6\n\u037d;29S\u0007\u0016Nx*mq\u001b:M\u0481-76\r)_g+TST~\u00176n\u0017\u000e]JHbG>7m@^\u054eLxF\u001a\u001d\u000190P\u001d#mxl\u0017\u023fS6w\u000f<,?Rs \u0000\u0000\u0000\u0000V\u0004[|L\u0000\u0001\u0002\u0003\u0000\u0000e\u047c\u03f1g\u0002\u0000\u0000\u0000\u0000\u0004YZ\u001e\u0000\u0000\u0002`7zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0004\u001a\u0002 ]\u0000\b3D].?I*\u04d9\u0017_\u000e.Zv\u045cP,Vj,\u07aa~mC\u0014<\u0491?vd;!U\u0019''yzYl\u000b.v\u001cU\u0012[\u000fQec <L\u001c\u0015\u0013\u0011\u00183cG\u0012\u0014q~=\u001aX?r+<\u0275\u063f\u010aG]1|=ty?izd@Pp\u0015\u0013\u0013\u0394\u0010#\bTpo\\=*B/\u0455\u0243nIe}@ \u00012rr\rm\tjCf\u0016\u000e/\u001fx\"x\nV=[B3\u001f?t8\u0000\u000f\b}N+Slq\u0000w\u0007Qg\u001e\u0010ma\u0013+sY\r\u001e\u0015\u0414L@\u04f9[[u\u007f>y\u0000EJ*XxT!{e5n\u001a\u0013vAb(c/dt4FV\u0010\u001b+]\u00164#Dj,\u001aQS\u0014\u001a\u000e\u6273\u0709\u07e5T\u001f?(t\u001ey\u01ccf6b0\n9\u001bgq\u0018,v\u0019It\u0000+\u0013az3r<-.N}\u00062P\u007f;IJ\u0017\u0015\u0019_?w#myQ\u001f@\u0016)xL\u0527\u0005\u0010N&\u0722\u0013C\uf220|-)<m/nI\u0018:\u0000$%VC\u0000\u0001\u0004\b\u0000\u0000\u000e?g\u0002\u0000\u0000\u0000\u0000\u0004YZ",
+              "length": 533,
+              "topology": "circular",
+              "strandedness": "double",
+              "dam_methylated": true,
+              "dcm_methylated": false,
+              "ecoki_methylated": true
+            }
+          ]
+        }
+      }
+    ],
+    "7": [
+      {
+        "HistoryTree": {
+          "Node": {
+            "name": "A.dna",
+            "type": "DNA",
+            "seqLen": "13",
+            "strandedness": "double",
+            "ID": "1",
+            "circular": "0",
+            "upstreamModification": "Unmodified",
+            "downstreamModification": "Unmodified",
+            "operation": "remove",
+            "HistoryColors": {
+              "StrandColors": {
+                "type": "Product",
+                "TopStrand": {
+                  "ColorRange": [
+                    {
+                      "range": "6..8",
+                      "colors": "blue-black"
+                    },
+                    {
+                      "range": "3..5",
+                      "colors": "black-red"
+                    }
+                  ]
+                },
+                "BottomStrand": {
+                  "ColorRange": [
+                    {
+                      "range": "6..8",
+                      "colors": "blue-black"
+                    },
+                    {
+                      "range": "3..5",
+                      "colors": "black-red"
+                    }
+                  ]
+                }
+              }
+            },
+            "InputSummary": {
+              "manipulation": "remove",
+              "val1": "6",
+              "val2": "13"
+            },
+            "Node": {
+              "name": "A.dna",
+              "type": "DNA",
+              "seqLen": "21",
+              "strandedness": "double",
+              "ID": "0",
+              "circular": "0",
+              "upstreamModification": "FivePrimePhosphorylated",
+              "downstreamModification": "FivePrimePhosphorylated",
+              "resurrectable": "2",
+              "operation": "invalid",
+              "HistoryColors": {
+                "StrandColors": {
+                  "type": "Input",
+                  "TopStrand": {
+                    "ColorRange": [
+                      {
+                        "range": "14..18",
+                        "colors": "blue-black"
+                      },
+                      {
+                        "range": "1..5",
+                        "colors": "black-red"
+                      },
+                      {
+                        "range": "6..13",
+                        "colors": "white"
+                      }
+                    ]
+                  },
+                  "BottomStrand": {
+                    "ColorRange": [
+                      {
+                        "range": "14..18",
+                        "colors": "blue-black"
+                      },
+                      {
+                        "range": "1..5",
+                        "colors": "black-red"
+                      },
+                      {
+                        "range": "6..13",
+                        "colors": "white"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamStickiness": "0",
+          "DownstreamStickiness": "0",
+          "UpstreamModification": "FivePrimePhosphorylated",
+          "DownstreamModification": "FivePrimePhosphorylated"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "0",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          }
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "548e24ec-45e4-4a48-876a-faa6393f14d6",
+          "Type": "Synthetic",
+          "ConfirmedExperimentally": "0",
+          "Created": {
+            "UTC": "8:30:10",
+            "_text": "2026.3.24"
+          },
+          "LastModified": {
+            "UTC": "9:57:1",
+            "_text": "2026.3.26"
+          },
+          "SequenceClass": "UNA",
+          "TransformedInto": "unspecified"
+        }
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ]
+  }
+}

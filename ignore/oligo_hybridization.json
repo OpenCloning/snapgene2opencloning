@@ -1,0 +1,110 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "agaactcaaccattacgggtttgacgaatatagacgagattcgcaattacttgtctgatggattaccaagatgatgggcttggtgaaatgattgagtttttggagggtatgcatgaagtttaactcaaatatctcgtaa",
+        "length": 139,
+        "topology": "linear",
+        "strandedness": "double",
+        "dam_methylated": false,
+        "dcm_methylated": false,
+        "ecoki_methylated": false
+      }
+    ],
+    "7": [
+      {
+        "HistoryTree": {
+          "Node": {
+            "name": "oligo_hybridization.dna",
+            "type": "DNA",
+            "seqLen": "139",
+            "strandedness": "double",
+            "ID": "0",
+            "circular": "0",
+            "upstreamStickiness": "59",
+            "downstreamStickiness": "59",
+            "upstreamModification": "Unmodified",
+            "downstreamModification": "Unmodified",
+            "operation": "annealOligos",
+            "Oligo": [
+              {
+                "sequence": "agaactcaaccattacgggtttgacgaatatagacgagattcgcaattacttgtctgatggattaccaagatgatgggct"
+              },
+              {
+                "sequence": "ttacgagatatttgagttaaacttcatgcataccctccaaaaactcaatcatttcaccaagcccatcatcttggtaatcc"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamStickiness": "59",
+          "DownstreamStickiness": "59",
+          "UpstreamModification": "Unmodified",
+          "DownstreamModification": "Unmodified"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "0",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          }
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "ec334b60-d8e6-4afb-baf1-c25c2b079669",
+          "Type": "Synthetic",
+          "ConfirmedExperimentally": "0",
+          "Created": {
+            "UTC": "15:1:9",
+            "_text": "2026.3.24"
+          },
+          "LastModified": {
+            "UTC": "15:1:9",
+            "_text": "2026.3.24"
+          },
+          "CreatedBy": "Trial User",
+          "SequenceClass": "UNA",
+          "TransformedInto": "unspecified"
+        }
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ]
+  }
+}

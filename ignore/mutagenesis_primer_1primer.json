@@ -1,0 +1,1869 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "gaggcggtttgcgtattgggcgctcttccgcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccataggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagttaccaatgcttaatcagtgaggcacctatctcagcgatctgtctatttcgttcatccatagttgcctgactccccgtcgtgtagataactacgatacgggagggcttaccatctggccccagtgctgcaatgataccgcgagacccacgctcaccggctccagatttatcagcaataaaccagccagccggaagggccgagcgcagaagtggtcctgcaactttatccgcctccatccagtctattaattgttgccgggaagctagagtaagtagttcgccagttaatagtttgcgcaacgttgttgccattgctacaggcatcgtggtgtcacgctcgtcgtttggtatggcttcattcagctccggttcccaacgatcaaggcgagttacatgatcccccatgttgtgcaaaaaagcggttagctccttcggtcctccgatcgttgtcagaagtaagttggccgcagtgttatcactcatggttatggcagcactgcataattctcttactgtcatgccatccgtaagatgcttttctgtgactggtgagtactcaaccaagtcattctgagaatagtgtatgcggcgaccgagttgctcttgcccggcgtcaatacgggataataccgcgccacatagcagaactttaaaagtgctcatcattggaaaacgttcttcggggcgaaaactctcaaggatcttaccgctgttgagatccagttcgatgtaacccactcgtgcacccaactgatcttcagcatcttttactttcaccagcgtttctgggtgagcaaaaacaggaaggcaaaatgccgcaaaaaagggaataagggcgacacggaaatgttgaatactcatactcttcctttttcaatattattgaagcatttatcagggttattgtctcatgagcggatacatatttgaatgtatttagaaaaataaacaaataggggttccgcgcacatttccccgaaaagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggccctttcgtctcgcgcgtttcggtgatgacggtgaaaacctctgacacatgcagctcccggagacggtcacagcttgtctgtaagcggatgccgggagcagacaagcccgtcagggcgcgtcagcgggtgttggcgggtgtcggggctggcttaactatgcggcatcagagcagattgtactgagagtgcaccatatggacatattgtcgttagaacgcggctacaattaatacataaccttatgtatcatacacatacgatttaggtgacactatagaacgcggccgccagctgaagcttcgtacgctgcaggtcgacggatccccgggttaattaaggcgcgccagatctgtttagcttgcctcgtccccgccgggtcacccggccagcgacatggaggcccagaataccctccttgacagtcttgacgtgcgcagctcaggggcatgatgtgactgtcgcccgtacatttagcccatacatccccatgtataatcatttgcatccatacattttgatggccgcacggcgcgaagcaaaaattacggctcctcgctgcagacctgcgagcagggaaacgctcccctcacagacgcgttgaattgtccccacgccgcgcccctgtagagaaatataaaaggttaggatttgccactgaggttcttctttcatatacttccttttaaaatcttgctaggatacagttctcacatcacatccgaacataaacaaccatgggtaaggaaaaATTctcacgtttcgaggccgcgattaaattccaacatggatgctgatttatatgggtataaatgggctcgcgataatgtcgggcaatcaggtgcgacaatctatcgattgtatgggaagcccgatgcgccagagttgtttctgaaacatggcaaaggtagcgttgccaatgatgttacagatgagatggtcagactaaactggctgacggaatttatgcctcttccgaccatcaagcattttatccgtactcctgatgatgcatggttactcaccactgcgatccccggcaaaacagcattccaggtattagaagaatatcctgattcaggtgaaaatattgttgatgcgctggcagtgttcctgcgccggttgcattcgattcctgtttgtaattgtccttttaacagcgatcgcgtatttcgtctcgctcaggcgcaatcacgaatgaataacggtttggttgatgcgagtgattttgatgacgagcgtaatggctggcctgttgaacaagtctggaaagaaatgcataagcttttgccattctcaccggattcagtcgtcactcatggtgatttctcacttgataaccttatttttgacgaggggaaattaataggttgtattgatgttggacgagtcggaatcgcagaccgataccaggatcttgccatcctatggaactgcctcggtgagttttctccttcattacagaaacggctttttcaaaaatatggtattgataatcctgatatgaataaattgcagtttcatttgatgctcgatgagtttttctaatcagtactgacaataaaaagattcttgttttcaagaacttgtcatttgtatagtttttttatattgtagttgttctattttaatcaaatgttagcgtgatttatattttttttcgcctcgacatcatctgcccagatgcgaagttaagtgcgcagaaagtaatatcatgcgtcaatcgtatgtgaatgctggtcgctatactgctgtcgattcgatactaacgccgccatccagtttaaacgagctcgaattcatcgatgatatcagatccactagtggcctatgcggccgcggatctgccggtctccctatagtgagtcgtattaatttcgataagccaggttaacctgcattaatgaatcggccaacgcgcgggga",
+        "length": 3939,
+        "topology": "circular",
+        "strandedness": "double",
+        "dam_methylated": true,
+        "dcm_methylated": true,
+        "ecoki_methylated": true
+      }
+    ],
+    "11": [
+      {
+        "node_index": 0,
+        "sequence_type": 1,
+        "sequence": "GAGGCGGTTTGCGTATTGGGCGCTCTTCCGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCATAGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGAACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGAGATTATCAAAAAGGATCTTCACCTAGATCCTTTTAAATTAAAAATGAAGTTTTAAATCAATCTAAAGTATATATGAGTAAACTTGGTCTGACAGTTACCAATGCTTAATCAGTGAGGCACCTATCTCAGCGATCTGTCTATTTCGTTCATCCATAGTTGCCTGACTCCCCGTCGTGTAGATAACTACGATACGGGAGGGCTTACCATCTGGCCCCAGTGCTGCAATGATACCGCGAGACCCACGCTCACCGGCTCCAGATTTATCAGCAATAAACCAGCCAGCCGGAAGGGCCGAGCGCAGAAGTGGTCCTGCAACTTTATCCGCCTCCATCCAGTCTATTAATTGTTGCCGGGAAGCTAGAGTAAGTAGTTCGCCAGTTAATAGTTTGCGCAACGTTGTTGCCATTGCTACAGGCATCGTGGTGTCACGCTCGTCGTTTGGTATGGCTTCATTCAGCTCCGGTTCCCAACGATCAAGGCGAGTTACATGATCCCCCATGTTGTGCAAAAAAGCGGTTAGCTCCTTCGGTCCTCCGATCGTTGTCAGAAGTAAGTTGGCCGCAGTGTTATCACTCATGGTTATGGCAGCACTGCATAATTCTCTTACTGTCATGCCATCCGTAAGATGCTTTTCTGTGACTGGTGAGTACTCAACCAAGTCATTCTGAGAATAGTGTATGCGGCGACCGAGTTGCTCTTGCCCGGCGTCAATACGGGATAATACCGCGCCACATAGCAGAACTTTAAAAGTGCTCATCATTGGAAAACGTTCTTCGGGGCGAAAACTCTCAAGGATCTTACCGCTGTTGAGATCCAGTTCGATGTAACCCACTCGTGCACCCAACTGATCTTCAGCATCTTTTACTTTCACCAGCGTTTCTGGGTGAGCAAAAACAGGAAGGCAAAATGCCGCAAAAAAGGGAATAAGGGCGACACGGAAATGTTGAATACTCATACTCTTCCTTTTTCAATATTATTGAAGCATTTATCAGGGTTATTGTCTCATGAGCGGATACATATTTGAATGTATTTAGAAAAATAAACAAATAGGGGTTCCGCGCACATTTCCCCGAAAAGTGCCACCTGACGTCTAAGAAACCATTATTATCATGACATTAACCTATAAAAATAGGCGTATCACGAGGCCCTTTCGTCTCGCGCGTTTCGGTGATGACGGTGAAAACCTCTGACACATGCAGCTCCCGGAGACGGTCACAGCTTGTCTGTAAGCGGATGCCGGGAGCAGACAAGCCCGTCAGGGCGCGTCAGCGGGTGTTGGCGGGTGTCGGGGCTGGCTTAACTATGCGGCATCAGAGCAGATTGTACTGAGAGTGCACCATATGGACATATTGTCGTTAGAACGCGGCTACAATTAATACATAACCTTATGTATCATACACATACGATTTAGGTGACACTATAGAACGCGGCCGCCAGCTGAAGCTTCGTACGCTGCAGGTCGACGGATCCCCGGGTTAATTAAGGCGCGCCAGATCTGTTTAGCTTGCCTCGTCCCCGCCGGGTCACCCGGCCAGCGACATGGAGGCCCAGAATACCCTCCTTGACAGTCTTGACGTGCGCAGCTCAGGGGCATGATGTGACTGTCGCCCGTACATTTAGCCCATACATCCCCATGTATAATCATTTGCATCCATACATTTTGATGGCCGCACGGCGCGAAGCAAAAATTACGGCTCCTCGCTGCAGACCTGCGAGCAGGGAAACGCTCCCCTCACAGACGCGTTGAATTGTCCCCACGCCGCGCCCCTGTAGAGAAATATAAAAGGTTAGGATTTGCCACTGAGGTTCTTCTTTCATATACTTCCTTTTAAAATCTTGCTAGGATACAGTTCTCACATCACATCCGAACATAAACAACCATGGGTAAGGAAAAGACTCACGTTTCGAGGCCGCGATTAAATTCCAACATGGATGCTGATTTATATGGGTATAAATGGGCTCGCGATAATGTCGGGCAATCAGGTGCGACAATCTATCGATTGTATGGGAAGCCCGATGCGCCAGAGTTGTTTCTGAAACATGGCAAAGGTAGCGTTGCCAATGATGTTACAGATGAGATGGTCAGACTAAACTGGCTGACGGAATTTATGCCTCTTCCGACCATCAAGCATTTTATCCGTACTCCTGATGATGCATGGTTACTCACCACTGCGATCCCCGGCAAAACAGCATTCCAGGTATTAGAAGAATATCCTGATTCAGGTGAAAATATTGTTGATGCGCTGGCAGTGTTCCTGCGCCGGTTGCATTCGATTCCTGTTTGTAATTGTCCTTTTAACAGCGATCGCGTATTTCGTCTCGCTCAGGCGCAATCACGAATGAATAACGGTTTGGTTGATGCGAGTGATTTTGATGACGAGCGTAATGGCTGGCCTGTTGAACAAGTCTGGAAAGAAATGCATAAGCTTTTGCCATTCTCACCGGATTCAGTCGTCACTCATGGTGATTTCTCACTTGATAACCTTATTTTTGACGAGGGGAAATTAATAGGTTGTATTGATGTTGGACGAGTCGGAATCGCAGACCGATACCAGGATCTTGCCATCCTATGGAACTGCCTCGGTGAGTTTTCTCCTTCATTACAGAAACGGCTTTTTCAAAAATATGGTATTGATAATCCTGATATGAATAAATTGCAGTTTCATTTGATGCTCGATGAGTTTTTCTAATCAGTACTGACAATAAAAAGATTCTTGTTTTCAAGAACTTGTCATTTGTATAGTTTTTTTATATTGTAGTTGTTCTATTTTAATCAAATGTTAGCGTGATTTATATTTTTTTTCGCCTCGACATCATCTGCCCAGATGCGAAGTTAAGTGCGCAGAAAGTAATATCATGCGTCAATCGTATGTGAATGCTGGTCGCTATACTGCTGTCGATTCGATACTAACGCCGCCATCCAGTTTAAACGAGCTCGAATTCATCGATGATATCAGATCCACTAGTGGCCTATGCGGCCGCGGATCTGCCGGTCTCCCTATAGTGAGTCGTATTAATTTCGATAAGCCAGGTTAACCTGCATTAATGAATCGGCCAACGCGCGGGGA",
+        "length": 3938,
+        "format_version": 3,
+        "strandedness_flag": 1,
+        "property_flags": 257,
+        "header_seq_length": 3938,
+        "node_info": {
+          "30": [
+            {
+              "16": [
+                {
+                  "flags": 0,
+                  "blocks": {
+                    "18": [
+                      {
+                        "bases": "ggatctgatatcatcgatgaattcgagctcgtttaaactggatggcggcgttagtatcgaatcgacagcagtatagcgaccagcattcacatacgattgacgcatgatattactttctgcgcacttaacttcgcatctgggcagatgatgtcgaggcgaaaaaaaatataaatcacgctaacatttgattaaaatagaacaactacaatataaaaaaactatacaaatgacaagttcttgaaaacaagaatctttttattgtcagtactgattagaaaaactcatcgagcatcaaatgaaactgcaatttattcatatcaggattatcaataccatatttttgaaaaagccgtttctgtaatgaaggagaaaactcaccgaggcagttccataggatggcaagatcctggtatcggtctgcgattccgactcgtccaacatcaatacaacctattaatttcccctcgtcaaaaataaggttatcaagtgagaaatcaccatgagtgacgactgaatccggtgagaatggcaaaagcttatgcatttctttccagacttgttcaacaggccagccattacgctcgtcatcaaaatcactcgcatcaaccaaaccgttattcattcgtgattgcgcctgagcgagacgaaatacgcgatcgctgttaaaaggacaattacaaacaggaatcgaatgcaaccggcgcaggaacactgccagcgcatcaacaatattttcacctgaatcaggatattcttctaatacctggaatgctgttttgccggggatcgcagtggtgagtaaccatgcatcatcaggagtacggataaaatgcttgatggtcggaagaggcataaattccgtcagccagtttagtctgaccatctcatctgtaacatcattggcaacgctacctttgccatgtttcagaaacaactctggcgcatcggggcttcccatacaatcgatagatt"
+                      }
+                    ],
+                    "8": [
+                      {
+                        "AdditionalSequenceProperties": {
+                          "UpstreamStickiness": "0",
+                          "DownstreamStickiness": "0",
+                          "UpstreamModification": "Unmodified",
+                          "DownstreamModification": "Unmodified"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "flags": 1,
+                  "blocks": {
+                    "18": [
+                      {
+                        "bases": "gctgcaggtcgacggatccccgggttaattaaggcgcgccagatctgtttagcttgcctcgtccccgccgggtcacccggccagcgacatggaggcccagaataccctccttgacagtcttgacgtgcgcagctcaggggcatgatgtgactgtcgcccgtacatttagcccatacatccccatgtataatcatttgcatccatacattttgatggccgcacggcgcgaagcaaaaattacggctcctcgctgcagacctgcgagcagggaaacgctcccctcacagacgcgttgaattgtccccacgccgcgcccctgtagagaaatataaaaggttaggatttgccactgaggttcttctttcatatacttccttttaaaatcttgctaggatacagttctcacatcacatccgaacataaacaaccatgggtaaggaaaagactcacgtttcgaggccgcgattaaattccaacatggatgctgatttatatgggtataaatgggctcgcgataatgtcgggcaatcaggtgcgacaatctatcgattgtatgggaagcccgatgcgccagagttgtttctgaaacatggcaaaggtagcgttgccaatgatgttacagatgagatggtcagactaaactggctgacggaatttatgcctcttccgaccatcaagcattttatccgtactcctgatgatgcatggttactcaccactgcgatccccggcaaaacagcattccaggtattagaagaatatcctgattcaggtgaaaatattgttgatgcgctggcagtgttcctgcgccggttgcattcgattcctgtttgtaattgtccttttaacagcgatcgcgtatttcgtctcgctcaggcgcaatcacgaatgaataacgg"
+                      }
+                    ],
+                    "8": [
+                      {
+                        "AdditionalSequenceProperties": {
+                          "UpstreamStickiness": "0",
+                          "DownstreamStickiness": "0",
+                          "UpstreamModification": "Unmodified",
+                          "DownstreamModification": "Unmodified"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium",
+                    "Sequence": [
+                      {
+                        "name": "T7 5'-TAATACGACTCACTATAGGG-3'",
+                        "ID": "0",
+                        "sortOrder": "0"
+                      },
+                      {
+                        "name": "SP6 5'-ATTTAGGTGACACTATAG-3'",
+                        "ID": "1",
+                        "sortOrder": "1"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "10": [
+                {
+                  "features": [
+                    {
+                      "name": "TEF terminator",
+                      "type": "terminator",
+                      "strand": "+",
+                      "start": 3565,
+                      "end": 3763,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "3566-3763",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "note": "<html><body><i>Ashbya gossypii TEF</i> terminator</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "0",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body><i>Ashbya gossypii TEF</i> terminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "KanR",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 2750,
+                      "end": 3560,
+                      "color": "#ccffcc",
+                      "segments": [
+                        {
+                          "range": "2751-3560",
+                          "color": "#ccffcc",
+                          "type": "standard",
+                          "translated": "1"
+                        }
+                      ],
+                      "qualifiers": {
+                        "codon_start": 1,
+                        "gene": "<html><body><i>aph(3')-Ia</i></body></html>",
+                        "note": "<html><body>confers resistance to kanamycin</body></html>",
+                        "product": "<html><body>aminoglycoside phosphotransferase</body></html>",
+                        "transl_table": 1
+                      },
+                      "extras": {
+                        "recentID": "1",
+                        "translationMW": "30717.01",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1",
+                        "hitsStopCodon": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "codon_start",
+                          "V": {
+                            "int": "1"
+                          }
+                        },
+                        {
+                          "name": "gene",
+                          "V": {
+                            "text": "<html><body><i>aph(3')-Ia</i></body></html>"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>confers resistance to kanamycin</body></html>"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>aminoglycoside phosphotransferase</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transl_table",
+                          "V": {
+                            "int": "1"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "TEF promoter",
+                      "type": "promoter",
+                      "strand": "+",
+                      "start": 2406,
+                      "end": 2750,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "2407-2750",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "note": "<html><body><i>Ashbya gossypii TEF</i> promoter</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "2",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body><i>Ashbya gossypii TEF</i> promoter</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "kanMX",
+                      "type": "gene",
+                      "strand": "+",
+                      "start": 2406,
+                      "end": 3763,
+                      "color": "#ff7f50",
+                      "segments": [
+                        {
+                          "range": "2407-3763",
+                          "color": "#ff7f50",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "note": "<html><body>yeast selectable marker conferring kanamycin resistance (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\" title=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\">Wach et al., 1994</a>)</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "3",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>yeast selectable marker conferring kanamycin resistance (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\" title=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\">Wach et al., 1994</a>)</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "SP6 promoter",
+                      "type": "promoter",
+                      "strand": "+",
+                      "start": 2275,
+                      "end": 2294,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "2276-2294",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "note": "<html><body>promoter for bacteriophage SP6 RNA polymerase</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "4",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter for bacteriophage SP6 RNA polymerase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "T7 promoter",
+                      "type": "promoter",
+                      "strand": "-",
+                      "start": 3867,
+                      "end": 3886,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "3868-3886",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "note": "<html><body>promoter for bacteriophage T7 RNA polymerase</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "5",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter for bacteriophage T7 RNA polymerase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ori",
+                      "type": "rep_origin",
+                      "strand": "-",
+                      "start": 205,
+                      "end": 794,
+                      "color": "#ffff00",
+                      "segments": [
+                        {
+                          "range": "206-794",
+                          "color": "#ffff00",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "direction": "LEFT",
+                        "note": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "6",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "direction",
+                          "V": {
+                            "text": "LEFT"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AmpR",
+                      "type": "CDS",
+                      "strand": "-",
+                      "start": 964,
+                      "end": 1825,
+                      "color": "#ccffcc",
+                      "segments": [
+                        {
+                          "range": "965-1756",
+                          "color": "#ccffcc",
+                          "type": "standard",
+                          "translated": "1"
+                        },
+                        {
+                          "name": "signal sequence",
+                          "range": "1757-1825",
+                          "color": "#ccffcc",
+                          "type": "standard",
+                          "translated": "1"
+                        }
+                      ],
+                      "qualifiers": {
+                        "codon_start": 1,
+                        "gene": "<html><body><i>bla</i></body></html>",
+                        "note": "<html><body>confers resistance to ampicillin, carbenicillin, and related antibiotics</body></html>",
+                        "product": "<html><body>\u03b2-lactamase</body></html>",
+                        "transl_table": 1
+                      },
+                      "extras": {
+                        "recentID": "7",
+                        "translationMW": "31557.36",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "cleavageArrows": "1756",
+                        "readingFrame": "-1",
+                        "consecutiveTranslationNumbering": "1",
+                        "hitsStopCodon": "1",
+                        "detectionMode": "exactProteinMatch"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "codon_start",
+                          "V": {
+                            "int": "1"
+                          }
+                        },
+                        {
+                          "name": "gene",
+                          "V": {
+                            "text": "<html><body><i>bla</i></body></html>"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>confers resistance to ampicillin, carbenicillin, and related antibiotics</body></html>"
+                          }
+                        },
+                        {
+                          "name": "product",
+                          "V": {
+                            "text": "<html><body>\u03b2-lactamase</body></html>"
+                          }
+                        },
+                        {
+                          "name": "transl_table",
+                          "V": {
+                            "int": "1"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AmpR promoter",
+                      "type": "promoter",
+                      "strand": "-",
+                      "start": 1825,
+                      "end": 1930,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1826-1930",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "gene": "<html><body><i>bla</i></body></html>"
+                      },
+                      "extras": {
+                        "recentID": "8",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "gene",
+                          "V": {
+                            "text": "<html><body><i>bla</i></body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "wrapper_extras": {
+                    "nextValidID": "9"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "10",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    },
+                    "Primer": [
+                      {
+                        "recentID": "0",
+                        "name": "Amp-R",
+                        "sequence": "ATAATACCGCGCCACATAGC",
+                        "description": "Ampicillin resistance gene, reverse primer",
+                        "BindingSite": [
+                          {
+                            "location": "1587-1606",
+                            "boundStrand": "0",
+                            "annealedBases": "ATAATACCGCGCCACATAGC",
+                            "meltingTemperature": "58",
+                            "Component": {
+                              "hybridizedRange": "1587-1606",
+                              "bases": "ATAATACCGCGCCACATAGC"
+                            }
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "1587-1606",
+                            "boundStrand": "0",
+                            "annealedBases": "ATAATACCGCGCCACATAGC",
+                            "meltingTemperature": "58",
+                            "Component": {
+                              "hybridizedRange": "1587-1606",
+                              "bases": "ATAATACCGCGCCACATAGC"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "recentID": "1",
+                        "name": "Kan-R",
+                        "sequence": "ATCGCGAGCCCATTTATACC",
+                        "description": "Kanamycin resistance gene, reverse primer",
+                        "BindingSite": [
+                          {
+                            "location": "2817-2836",
+                            "boundStrand": "1",
+                            "annealedBases": "ATCGCGAGCCCATTTATACC",
+                            "meltingTemperature": "57",
+                            "Component": {
+                              "hybridizedRange": "2817-2836",
+                              "bases": "ATCGCGAGCCCATTTATACC"
+                            }
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "2817-2836",
+                            "boundStrand": "1",
+                            "annealedBases": "ATCGCGAGCCCATTTATACC",
+                            "meltingTemperature": "57",
+                            "Component": {
+                              "hybridizedRange": "2817-2836",
+                              "bases": "ATCGCGAGCCCATTTATACC"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "recentID": "2",
+                        "name": "L4440",
+                        "sequence": "AGCGAGTCAGTGAGCGAG",
+                        "description": "L4440 vector, forward primer",
+                        "BindingSite": [
+                          {
+                            "location": "34-51",
+                            "boundStrand": "1",
+                            "annealedBases": "AGCGAGTCAGTGAGCGAG",
+                            "meltingTemperature": "58",
+                            "Component": {
+                              "hybridizedRange": "34-51",
+                              "bases": "AGCGAGTCAGTGAGCGAG"
+                            }
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "34-51",
+                            "boundStrand": "1",
+                            "annealedBases": "AGCGAGTCAGTGAGCGAG",
+                            "meltingTemperature": "58",
+                            "Component": {
+                              "hybridizedRange": "34-51",
+                              "bases": "AGCGAGTCAGTGAGCGAG"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "recentID": "3",
+                        "name": "pBR322ori-F",
+                        "sequence": "GGGAAACGCCTGGTATCTTT",
+                        "description": "pBR322 origin, forward primer",
+                        "BindingSite": [
+                          {
+                            "location": "285-304",
+                            "boundStrand": "1",
+                            "annealedBases": "GGGAAACGCCTGGTATCTTT",
+                            "meltingTemperature": "56",
+                            "Component": {
+                              "hybridizedRange": "285-304",
+                              "bases": "GGGAAACGCCTGGTATCTTT"
+                            }
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "285-304",
+                            "boundStrand": "1",
+                            "annealedBases": "GGGAAACGCCTGGTATCTTT",
+                            "meltingTemperature": "56",
+                            "Component": {
+                              "hybridizedRange": "285-304",
+                              "bases": "GGGAAACGCCTGGTATCTTT"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "recentID": "4",
+                        "name": "pBRforEco",
+                        "sequence": "AATAGGCGTATCACGAGGC",
+                        "description": "pBR322 vectors, upsteam of EcoRI site, forward primer",
+                        "BindingSite": [
+                          {
+                            "location": "1997-2015",
+                            "boundStrand": "0",
+                            "annealedBases": "AATAGGCGTATCACGAGGC",
+                            "meltingTemperature": "57",
+                            "Component": {
+                              "hybridizedRange": "1997-2015",
+                              "bases": "AATAGGCGTATCACGAGGC"
+                            }
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "1997-2015",
+                            "boundStrand": "0",
+                            "annealedBases": "AATAGGCGTATCACGAGGC",
+                            "meltingTemperature": "57",
+                            "Component": {
+                              "hybridizedRange": "1997-2015",
+                              "bases": "AATAGGCGTATCACGAGGC"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "recentID": "5",
+                        "name": "pGEX 3'",
+                        "sequence": "CCGGGAGCTGCATGTGTCAGAGG",
+                        "description": "pGEX vectors, reverse primer",
+                        "BindingSite": [
+                          {
+                            "location": "2053-2075",
+                            "boundStrand": "1",
+                            "annealedBases": "CCGGGAGCTGCATGTGTCAGAGG",
+                            "meltingTemperature": "66",
+                            "Component": {
+                              "hybridizedRange": "2053-2075",
+                              "bases": "CCGGGAGCTGCATGTGTCAGAGG"
+                            }
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "2053-2075",
+                            "boundStrand": "1",
+                            "annealedBases": "CCGGGAGCTGCATGTGTCAGAGG",
+                            "meltingTemperature": "66",
+                            "Component": {
+                              "hybridizedRange": "2053-2075",
+                              "bases": "CCGGGAGCTGCATGTGTCAGAGG"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "recentID": "6",
+                        "name": "pRS-marker",
+                        "sequence": "CGGCATCAGAGCAGATTGTA",
+                        "description": "pRS vectors, use to sequence yeast selectable marker",
+                        "BindingSite": [
+                          {
+                            "location": "2175-2194",
+                            "boundStrand": "0",
+                            "annealedBases": "CGGCATCAGAGCAGATTGTA",
+                            "meltingTemperature": "54",
+                            "Component": {
+                              "hybridizedRange": "2175-2194",
+                              "bases": "CGGCATCAGAGCAGATTGTA"
+                            }
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "2175-2194",
+                            "boundStrand": "0",
+                            "annealedBases": "CGGCATCAGAGCAGATTGTA",
+                            "meltingTemperature": "54",
+                            "Component": {
+                              "hybridizedRange": "2175-2194",
+                              "bases": "CGGCATCAGAGCAGATTGTA"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "recentID": "7",
+                        "name": "SP6",
+                        "sequence": "ATTTAGGTGACACTATAG",
+                        "description": "SP6 promoter, forward primer",
+                        "BindingSite": [
+                          {
+                            "location": "2275-2292",
+                            "boundStrand": "0",
+                            "annealedBases": "ATTTAGGTGACACTATAG",
+                            "meltingTemperature": "44",
+                            "Component": {
+                              "hybridizedRange": "2275-2292",
+                              "bases": "ATTTAGGTGACACTATAG"
+                            }
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "2275-2292",
+                            "boundStrand": "0",
+                            "annealedBases": "ATTTAGGTGACACTATAG",
+                            "meltingTemperature": "44",
+                            "Component": {
+                              "hybridizedRange": "2275-2292",
+                              "bases": "ATTTAGGTGACACTATAG"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "recentID": "8",
+                        "name": "T7",
+                        "sequence": "TAATACGACTCACTATAGGG",
+                        "description": "T7 promoter, forward primer",
+                        "BindingSite": [
+                          {
+                            "location": "3866-3885",
+                            "boundStrand": "1",
+                            "annealedBases": "TAATACGACTCACTATAGGG",
+                            "meltingTemperature": "50",
+                            "Component": {
+                              "hybridizedRange": "3866-3885",
+                              "bases": "TAATACGACTCACTATAGGG"
+                            }
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "3866-3885",
+                            "boundStrand": "1",
+                            "annealedBases": "TAATACGACTCACTATAGGG",
+                            "meltingTemperature": "50",
+                            "Component": {
+                              "hybridizedRange": "3866-3885",
+                              "bases": "TAATACGACTCACTATAGGG"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "recentID": "9",
+                        "name": "Mutagenesis primer",
+                        "sequence": "atgggtaaggaaaaATTctcacgtttcgagg",
+                        "description": "<html><body></body></html>",
+                        "dateAdded": "2026-03-24T15:26:06Z",
+                        "BindingSite": [
+                          {
+                            "location": "2750-2779",
+                            "boundStrand": "0",
+                            "annealedBases": "atgggtaaggaaaactcacgtttcgagg",
+                            "meltingTemperature": "54",
+                            "Component": [
+                              {
+                                "hybridizedRange": "2750-2763",
+                                "bases": "atgggtaaggaaaa"
+                              },
+                              {
+                                "bases": "ATT"
+                              },
+                              {
+                                "hybridizedRange": "2766-2779",
+                                "bases": "ctcacgtttcgagg"
+                              }
+                            ]
+                          },
+                          {
+                            "simplified": "1",
+                            "location": "2750-2779",
+                            "boundStrand": "0",
+                            "annealedBases": "atgggtaaggaaaactcacgtttcgagg",
+                            "meltingTemperature": "54",
+                            "Component": [
+                              {
+                                "hybridizedRange": "2750-2763",
+                                "bases": "atgggtaaggaaaa"
+                              },
+                              {
+                                "bases": "ATT"
+                              },
+                              {
+                                "hybridizedRange": "2766-2779",
+                                "bases": "ctcacgtttcgagg"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "87caad10-3ea9-467e-8ec8-29cb2d556a85",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "CustomMapLabel": "pFA6a-kanMX6",
+                    "UseCustomMapLabel": "1",
+                    "Created": {
+                      "UTC": "5:0:0",
+                      "_text": "2025.12.15"
+                    },
+                    "LastModified": {
+                      "UTC": "15:26:17",
+                      "_text": "2026.3.24"
+                    },
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified",
+                    "References": {
+                      "Reference": {
+                        "authors": "Bahler J, Wu JQ, Longtine MS, Shah NG, McKenzie A 3rd, Steever AB, Wach A, Philippsen P, Pringle JR",
+                        "date": "1998-07",
+                        "journal": "Yeast. 1998 Jul;14(10):943-51.",
+                        "journalName": "Yeast.",
+                        "pages": "943-51",
+                        "pubMedID": "9717240",
+                        "title": "Heterologous modules for efficient and versatile PCR-based gene targeting in Schizosaccharomyces pombe.",
+                        "type": "Journal Article",
+                        "volume": "14(10)"
+                      }
+                    },
+                    "Comments": "Source: <a href=\"https://www.addgene.org/39296\">https://www.addgene.org/39296</a> <p>2 verification sequences were imported and aligned.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "7": [
+      {
+        "HistoryTree": {
+          "Node": {
+            "name": "mutagenesis_primer.dna",
+            "type": "DNA",
+            "seqLen": "3939",
+            "strandedness": "double",
+            "ID": "1",
+            "circular": "1",
+            "operation": "primerDirectedMutagenesis",
+            "Oligo": {
+              "name": "Mutagenesis primer",
+              "sequence": "atgggtaaggaaaaATTctcacgtttcgagg"
+            },
+            "HistoryColors": {
+              "StrandColors": {
+                "type": "Product",
+                "TopStrand": {
+                  "ColorRange": {
+                    "range": "2764..2766",
+                    "colors": "red"
+                  }
+                },
+                "BottomStrand": {
+                  "ColorRange": {
+                    "range": "2764..2766",
+                    "colors": "red"
+                  }
+                }
+              }
+            },
+            "InputSummary": {
+              "manipulation": "replace",
+              "val1": "2764",
+              "val2": "2765"
+            },
+            "Node": {
+              "name": "import_addgene.dna",
+              "type": "DNA",
+              "seqLen": "3938",
+              "strandedness": "double",
+              "ID": "0",
+              "circular": "1",
+              "useCustomMapLabel": "1",
+              "customMapLabel": "pFA6a-kanMX6",
+              "resurrectable": "1",
+              "operation": "invalid",
+              "Features": {
+                "Feature": [
+                  {
+                    "name": "kanMX",
+                    "directionality": "1",
+                    "type": "gene",
+                    "allowSegmentOverlaps": "0",
+                    "Segment": {
+                      "range": "2407-3763",
+                      "color": "#ff7f50",
+                      "type": "standard"
+                    },
+                    "Q": {
+                      "name": "note",
+                      "V": {
+                        "text": "<html><body>yeast selectable marker conferring kanamycin resistance (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\" title=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\">Wach et al., 1994</a>)</body></html>"
+                      }
+                    }
+                  },
+                  {
+                    "name": "AmpR",
+                    "directionality": "2",
+                    "translationMW": "31557.36",
+                    "type": "CDS",
+                    "swappedSegmentNumbering": "1",
+                    "allowSegmentOverlaps": "0",
+                    "cleavageArrows": "1756",
+                    "detectionMode": "exactProteinMatch",
+                    "Segment": [
+                      {
+                        "range": "965-1756",
+                        "color": "#ccffcc",
+                        "type": "standard"
+                      },
+                      {
+                        "name": "signal sequence",
+                        "range": "1757-1825",
+                        "color": "#ccffcc",
+                        "type": "standard"
+                      }
+                    ],
+                    "Q": [
+                      {
+                        "name": "codon_start",
+                        "V": {
+                          "int": "1"
+                        }
+                      },
+                      {
+                        "name": "gene",
+                        "V": {
+                          "text": "<html><body><i>bla</i></body></html>"
+                        }
+                      },
+                      {
+                        "name": "note",
+                        "V": {
+                          "text": "<html><body>confers resistance to ampicillin, carbenicillin, and related antibiotics</body></html>"
+                        }
+                      },
+                      {
+                        "name": "product",
+                        "V": {
+                          "text": "<html><body>\u03b2-lactamase</body></html>"
+                        }
+                      },
+                      {
+                        "name": "transl_table",
+                        "V": {
+                          "int": "1"
+                        }
+                      },
+                      {
+                        "name": "translation",
+                        "V": {
+                          "text": "MSIQHFRVALIPFFAAFCLPVFA,HPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ori",
+                    "directionality": "2",
+                    "type": "rep_origin",
+                    "swappedSegmentNumbering": "1",
+                    "allowSegmentOverlaps": "0",
+                    "Segment": {
+                      "range": "206-794",
+                      "color": "#ffff00",
+                      "type": "standard"
+                    },
+                    "Q": [
+                      {
+                        "name": "direction",
+                        "V": {
+                          "text": "LEFT"
+                        }
+                      },
+                      {
+                        "name": "note",
+                        "V": {
+                          "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</body></html>"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "AmpR promoter",
+                    "directionality": "2",
+                    "type": "promoter",
+                    "swappedSegmentNumbering": "1",
+                    "allowSegmentOverlaps": "0",
+                    "Segment": {
+                      "range": "1826-1930",
+                      "color": "#ffffff",
+                      "type": "standard"
+                    },
+                    "Q": {
+                      "name": "gene",
+                      "V": {
+                        "text": "<html><body><i>bla</i></body></html>"
+                      }
+                    }
+                  },
+                  {
+                    "name": "SP6 promoter",
+                    "directionality": "1",
+                    "type": "promoter",
+                    "allowSegmentOverlaps": "0",
+                    "Segment": {
+                      "range": "2276-2294",
+                      "color": "#ffffff",
+                      "type": "standard"
+                    },
+                    "Q": {
+                      "name": "note",
+                      "V": {
+                        "text": "<html><body>promoter for bacteriophage SP6 RNA polymerase</body></html>"
+                      }
+                    }
+                  },
+                  {
+                    "name": "T7 promoter",
+                    "directionality": "2",
+                    "type": "promoter",
+                    "swappedSegmentNumbering": "1",
+                    "allowSegmentOverlaps": "0",
+                    "Segment": {
+                      "range": "3868-3886",
+                      "color": "#ffffff",
+                      "type": "standard"
+                    },
+                    "Q": {
+                      "name": "note",
+                      "V": {
+                        "text": "<html><body>promoter for bacteriophage T7 RNA polymerase</body></html>"
+                      }
+                    }
+                  }
+                ]
+              },
+              "Primers": {
+                "HybridizationParams": {
+                  "minContinuousMatchLen": "10",
+                  "allowMismatch": "1",
+                  "minMeltingTemperature": "40",
+                  "showAdditionalFivePrimeMatches": "1",
+                  "minimumFivePrimeAnnealing": "15"
+                },
+                "Primer": {
+                  "recentID": "0",
+                  "name": "Mutagenesis primer",
+                  "sequence": "atgggtaaggaaaaATTctcacgtttcgagg",
+                  "description": "<html><body></body></html>",
+                  "BindingSite": [
+                    {
+                      "location": "2750-2779",
+                      "boundStrand": "0",
+                      "annealedBases": "atgggtaaggaaaactcacgtttcgagg",
+                      "meltingTemperature": "54",
+                      "Component": [
+                        {
+                          "hybridizedRange": "2750-2763",
+                          "bases": "atgggtaaggaaaa"
+                        },
+                        {
+                          "bases": "ATT"
+                        },
+                        {
+                          "hybridizedRange": "2766-2779",
+                          "bases": "ctcacgtttcgagg"
+                        }
+                      ]
+                    },
+                    {
+                      "simplified": "1",
+                      "location": "2750-2779",
+                      "boundStrand": "0",
+                      "annealedBases": "atgggtaaggaaaactcacgtttcgagg",
+                      "meltingTemperature": "54",
+                      "Component": [
+                        {
+                          "hybridizedRange": "2750-2763",
+                          "bases": "atgggtaaggaaaa"
+                        },
+                        {
+                          "bases": "ATT"
+                        },
+                        {
+                          "hybridizedRange": "2766-2779",
+                          "bases": "ctcacgtttcgagg"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "HistoryColors": {
+                "StrandColors": {
+                  "type": "Input",
+                  "TopStrand": {
+                    "ColorRange": {
+                      "range": "2764..2765",
+                      "colors": "white"
+                    }
+                  },
+                  "BottomStrand": {
+                    "ColorRange": {
+                      "range": "2764..2765",
+                      "colors": "white"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamStickiness": "0",
+          "DownstreamStickiness": "0",
+          "UpstreamModification": "FivePrimePhosphorylated",
+          "DownstreamModification": "FivePrimePhosphorylated"
+        }
+      }
+    ],
+    "10": [
+      {
+        "features": [
+          {
+            "name": "AmpR promoter",
+            "type": "promoter",
+            "strand": "-",
+            "start": 1825,
+            "end": 1930,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "1826-1930",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "gene": "<html><body><i>bla</i></body></html>"
+            },
+            "extras": {
+              "recentID": "0",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "gene",
+                "V": {
+                  "text": "<html><body><i>bla</i></body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "AmpR",
+            "type": "CDS",
+            "strand": "-",
+            "start": 964,
+            "end": 1825,
+            "color": "#ccffcc",
+            "segments": [
+              {
+                "range": "965-1756",
+                "color": "#ccffcc",
+                "type": "standard",
+                "translated": "1"
+              },
+              {
+                "name": "signal sequence",
+                "range": "1757-1825",
+                "color": "#ccffcc",
+                "type": "standard",
+                "translated": "1"
+              }
+            ],
+            "qualifiers": {
+              "codon_start": 1,
+              "gene": "<html><body><i>bla</i></body></html>",
+              "note": "<html><body>confers resistance to ampicillin, carbenicillin, and related antibiotics</body></html>",
+              "product": "<html><body>\u03b2-lactamase</body></html>",
+              "transl_table": 1,
+              "translation": "MSIQHFRVALIPFFAAFCLPVFA,HPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+            },
+            "extras": {
+              "recentID": "1",
+              "translationMW": "31557.36",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "cleavageArrows": "1756",
+              "readingFrame": "-1",
+              "consecutiveTranslationNumbering": "1",
+              "hitsStopCodon": "1",
+              "detectionMode": "exactProteinMatch"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "codon_start",
+                "V": {
+                  "int": "1"
+                }
+              },
+              {
+                "name": "gene",
+                "V": {
+                  "text": "<html><body><i>bla</i></body></html>"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>confers resistance to ampicillin, carbenicillin, and related antibiotics</body></html>"
+                }
+              },
+              {
+                "name": "product",
+                "V": {
+                  "text": "<html><body>\u03b2-lactamase</body></html>"
+                }
+              },
+              {
+                "name": "transl_table",
+                "V": {
+                  "int": "1"
+                }
+              },
+              {
+                "name": "translation",
+                "V": {
+                  "text": "MSIQHFRVALIPFFAAFCLPVFA,HPETLVKVKDAEDQLGARVGYIELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYSPVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRWEPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSALPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGASLIKHW*"
+                }
+              }
+            ]
+          },
+          {
+            "name": "ori",
+            "type": "rep_origin",
+            "strand": "-",
+            "start": 205,
+            "end": 794,
+            "color": "#ffff00",
+            "segments": [
+              {
+                "range": "206-794",
+                "color": "#ffff00",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "direction": "LEFT",
+              "note": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</body></html>"
+            },
+            "extras": {
+              "recentID": "2",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "direction",
+                "V": {
+                  "text": "LEFT"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin of replication</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "T7 promoter",
+            "type": "promoter",
+            "strand": "-",
+            "start": 3868,
+            "end": 3887,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "3869-3887",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "note": "<html><body>promoter for bacteriophage T7 RNA polymerase</body></html>"
+            },
+            "extras": {
+              "recentID": "3",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>promoter for bacteriophage T7 RNA polymerase</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "SP6 promoter",
+            "type": "promoter",
+            "strand": "+",
+            "start": 2275,
+            "end": 2294,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "2276-2294",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "note": "<html><body>promoter for bacteriophage SP6 RNA polymerase</body></html>"
+            },
+            "extras": {
+              "recentID": "4",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>promoter for bacteriophage SP6 RNA polymerase</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "kanMX",
+            "type": "gene",
+            "strand": "+",
+            "start": 2406,
+            "end": 3764,
+            "color": "#ff7f50",
+            "segments": [
+              {
+                "range": "2407-3764",
+                "color": "#ff7f50",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "note": "<html><body>yeast selectable marker conferring kanamycin resistance (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\" title=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\">Wach et al., 1994</a>)</body></html>"
+            },
+            "extras": {
+              "recentID": "5",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>yeast selectable marker conferring kanamycin resistance (<a href=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\" title=\"http://www.ncbi.nlm.nih.gov/pubmed/7747518\">Wach et al., 1994</a>)</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "TEF promoter",
+            "type": "promoter",
+            "strand": "+",
+            "start": 2406,
+            "end": 2750,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "2407-2750",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "note": "<html><body><i>Ashbya gossypii TEF</i> promoter</body></html>"
+            },
+            "extras": {
+              "recentID": "6",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body><i>Ashbya gossypii TEF</i> promoter</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "KanR",
+            "type": "CDS",
+            "strand": "+",
+            "start": 2750,
+            "end": 3561,
+            "color": "#ccffcc",
+            "segments": [
+              {
+                "range": "2751-3561",
+                "color": "#ccffcc",
+                "type": "standard",
+                "translated": "1"
+              }
+            ],
+            "qualifiers": {
+              "codon_start": 1,
+              "gene": "<html><body><i>aph(3')-Ia</i></body></html>",
+              "note": "<html><body>confers resistance to kanamycin</body></html>",
+              "product": "<html><body>aminoglycoside phosphotransferase</body></html>",
+              "transl_table": 1,
+              "translation": "MGKEKFSRFEAAIKFQHGC*FIWV*MGSR*CRAIRCDNLSIVWEARCARVVSETWQR*RCQ*CYR*DGQTKLADGIYASSDHQAFYPYS**CMVTHHCDPRQNSIPGIRRIS*FR*KYC*CAGSVPAPVAFDSCL*LSF*QRSRISSRSGAITNE*RFG*CE*F**RA*WLAC*TSLERNA*AFAILTGFSRHSW*FLT**PYF*RGEINRLY*CWTSRNRRPIPGSCHPMELPR*VFSFITETAFSKIWY**S*YE*IAVSFDAR*VFL"
+            },
+            "extras": {
+              "recentID": "7",
+              "translationMW": "-1.00",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1",
+              "maxRunOn": "3614",
+              "maxFusedRunOn": "3614"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "codon_start",
+                "V": {
+                  "int": "1"
+                }
+              },
+              {
+                "name": "gene",
+                "V": {
+                  "text": "<html><body><i>aph(3')-Ia</i></body></html>"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>confers resistance to kanamycin</body></html>"
+                }
+              },
+              {
+                "name": "product",
+                "V": {
+                  "text": "<html><body>aminoglycoside phosphotransferase</body></html>"
+                }
+              },
+              {
+                "name": "transl_table",
+                "V": {
+                  "int": "1"
+                }
+              },
+              {
+                "name": "translation",
+                "V": {
+                  "text": "MGKEKFSRFEAAIKFQHGC*FIWV*MGSR*CRAIRCDNLSIVWEARCARVVSETWQR*RCQ*CYR*DGQTKLADGIYASSDHQAFYPYS**CMVTHHCDPRQNSIPGIRRIS*FR*KYC*CAGSVPAPVAFDSCL*LSF*QRSRISSRSGAITNE*RFG*CE*F**RA*WLAC*TSLERNA*AFAILTGFSRHSW*FLT**PYF*RGEINRLY*CWTSRNRRPIPGSCHPMELPR*VFSFITETAFSKIWY**S*YE*IAVSFDAR*VFL"
+                }
+              }
+            ]
+          },
+          {
+            "name": "TEF terminator",
+            "type": "terminator",
+            "strand": "+",
+            "start": 3566,
+            "end": 3764,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "3567-3764",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "note": "<html><body><i>Ashbya gossypii TEF</i> terminator</body></html>"
+            },
+            "extras": {
+              "recentID": "8",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body><i>Ashbya gossypii TEF</i> terminator</body></html>"
+                }
+              }
+            ]
+          }
+        ],
+        "wrapper_extras": {
+          "nextValidID": "9"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "10",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          },
+          "Primer": [
+            {
+              "recentID": "0",
+              "name": "Amp-R",
+              "sequence": "ATAATACCGCGCCACATAGC",
+              "description": "Ampicillin resistance gene, reverse primer",
+              "BindingSite": [
+                {
+                  "location": "1587-1606",
+                  "boundStrand": "0",
+                  "annealedBases": "ATAATACCGCGCCACATAGC",
+                  "meltingTemperature": "58",
+                  "Component": {
+                    "hybridizedRange": "1587-1606",
+                    "bases": "ATAATACCGCGCCACATAGC"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "1587-1606",
+                  "boundStrand": "0",
+                  "annealedBases": "ATAATACCGCGCCACATAGC",
+                  "meltingTemperature": "58",
+                  "Component": {
+                    "hybridizedRange": "1587-1606",
+                    "bases": "ATAATACCGCGCCACATAGC"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "1",
+              "name": "Kan-R",
+              "sequence": "ATCGCGAGCCCATTTATACC",
+              "description": "Kanamycin resistance gene, reverse primer",
+              "BindingSite": [
+                {
+                  "location": "2818-2837",
+                  "boundStrand": "1",
+                  "annealedBases": "ATCGCGAGCCCATTTATACC",
+                  "meltingTemperature": "57",
+                  "Component": {
+                    "hybridizedRange": "2818-2837",
+                    "bases": "ATCGCGAGCCCATTTATACC"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "2818-2837",
+                  "boundStrand": "1",
+                  "annealedBases": "ATCGCGAGCCCATTTATACC",
+                  "meltingTemperature": "57",
+                  "Component": {
+                    "hybridizedRange": "2818-2837",
+                    "bases": "ATCGCGAGCCCATTTATACC"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "2",
+              "name": "L4440",
+              "sequence": "AGCGAGTCAGTGAGCGAG",
+              "description": "L4440 vector, forward primer",
+              "BindingSite": [
+                {
+                  "location": "34-51",
+                  "boundStrand": "1",
+                  "annealedBases": "AGCGAGTCAGTGAGCGAG",
+                  "meltingTemperature": "58",
+                  "Component": {
+                    "hybridizedRange": "34-51",
+                    "bases": "AGCGAGTCAGTGAGCGAG"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "34-51",
+                  "boundStrand": "1",
+                  "annealedBases": "AGCGAGTCAGTGAGCGAG",
+                  "meltingTemperature": "58",
+                  "Component": {
+                    "hybridizedRange": "34-51",
+                    "bases": "AGCGAGTCAGTGAGCGAG"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "3",
+              "name": "pBR322ori-F",
+              "sequence": "GGGAAACGCCTGGTATCTTT",
+              "description": "pBR322 origin, forward primer",
+              "BindingSite": [
+                {
+                  "location": "285-304",
+                  "boundStrand": "1",
+                  "annealedBases": "GGGAAACGCCTGGTATCTTT",
+                  "meltingTemperature": "56",
+                  "Component": {
+                    "hybridizedRange": "285-304",
+                    "bases": "GGGAAACGCCTGGTATCTTT"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "285-304",
+                  "boundStrand": "1",
+                  "annealedBases": "GGGAAACGCCTGGTATCTTT",
+                  "meltingTemperature": "56",
+                  "Component": {
+                    "hybridizedRange": "285-304",
+                    "bases": "GGGAAACGCCTGGTATCTTT"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "4",
+              "name": "pBRforEco",
+              "sequence": "AATAGGCGTATCACGAGGC",
+              "description": "pBR322 vectors, upsteam of EcoRI site, forward primer",
+              "BindingSite": [
+                {
+                  "location": "1997-2015",
+                  "boundStrand": "0",
+                  "annealedBases": "AATAGGCGTATCACGAGGC",
+                  "meltingTemperature": "57",
+                  "Component": {
+                    "hybridizedRange": "1997-2015",
+                    "bases": "AATAGGCGTATCACGAGGC"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "1997-2015",
+                  "boundStrand": "0",
+                  "annealedBases": "AATAGGCGTATCACGAGGC",
+                  "meltingTemperature": "57",
+                  "Component": {
+                    "hybridizedRange": "1997-2015",
+                    "bases": "AATAGGCGTATCACGAGGC"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "5",
+              "name": "pGEX 3'",
+              "sequence": "CCGGGAGCTGCATGTGTCAGAGG",
+              "description": "pGEX vectors, reverse primer",
+              "BindingSite": [
+                {
+                  "location": "2053-2075",
+                  "boundStrand": "1",
+                  "annealedBases": "CCGGGAGCTGCATGTGTCAGAGG",
+                  "meltingTemperature": "66",
+                  "Component": {
+                    "hybridizedRange": "2053-2075",
+                    "bases": "CCGGGAGCTGCATGTGTCAGAGG"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "2053-2075",
+                  "boundStrand": "1",
+                  "annealedBases": "CCGGGAGCTGCATGTGTCAGAGG",
+                  "meltingTemperature": "66",
+                  "Component": {
+                    "hybridizedRange": "2053-2075",
+                    "bases": "CCGGGAGCTGCATGTGTCAGAGG"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "6",
+              "name": "pRS-marker",
+              "sequence": "CGGCATCAGAGCAGATTGTA",
+              "description": "pRS vectors, use to sequence yeast selectable marker",
+              "BindingSite": [
+                {
+                  "location": "2175-2194",
+                  "boundStrand": "0",
+                  "annealedBases": "CGGCATCAGAGCAGATTGTA",
+                  "meltingTemperature": "54",
+                  "Component": {
+                    "hybridizedRange": "2175-2194",
+                    "bases": "CGGCATCAGAGCAGATTGTA"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "2175-2194",
+                  "boundStrand": "0",
+                  "annealedBases": "CGGCATCAGAGCAGATTGTA",
+                  "meltingTemperature": "54",
+                  "Component": {
+                    "hybridizedRange": "2175-2194",
+                    "bases": "CGGCATCAGAGCAGATTGTA"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "7",
+              "name": "SP6",
+              "sequence": "ATTTAGGTGACACTATAG",
+              "description": "SP6 promoter, forward primer",
+              "BindingSite": [
+                {
+                  "location": "2275-2292",
+                  "boundStrand": "0",
+                  "annealedBases": "ATTTAGGTGACACTATAG",
+                  "meltingTemperature": "44",
+                  "Component": {
+                    "hybridizedRange": "2275-2292",
+                    "bases": "ATTTAGGTGACACTATAG"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "2275-2292",
+                  "boundStrand": "0",
+                  "annealedBases": "ATTTAGGTGACACTATAG",
+                  "meltingTemperature": "44",
+                  "Component": {
+                    "hybridizedRange": "2275-2292",
+                    "bases": "ATTTAGGTGACACTATAG"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "8",
+              "name": "T7",
+              "sequence": "TAATACGACTCACTATAGGG",
+              "description": "T7 promoter, forward primer",
+              "BindingSite": [
+                {
+                  "location": "3867-3886",
+                  "boundStrand": "1",
+                  "annealedBases": "TAATACGACTCACTATAGGG",
+                  "meltingTemperature": "50",
+                  "Component": {
+                    "hybridizedRange": "3867-3886",
+                    "bases": "TAATACGACTCACTATAGGG"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "3867-3886",
+                  "boundStrand": "1",
+                  "annealedBases": "TAATACGACTCACTATAGGG",
+                  "meltingTemperature": "50",
+                  "Component": {
+                    "hybridizedRange": "3867-3886",
+                    "bases": "TAATACGACTCACTATAGGG"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "9",
+              "name": "Mutagenesis primer",
+              "sequence": "atgggtaaggaaaaATTctcacgtttcgagg",
+              "description": "<html><body></body></html>",
+              "dateAdded": "2026-03-24T15:26:06Z",
+              "BindingSite": [
+                {
+                  "location": "2750-2780",
+                  "boundStrand": "0",
+                  "annealedBases": "atgggtaaggaaaaATTctcacgtttcgagg",
+                  "meltingTemperature": "62",
+                  "Component": {
+                    "hybridizedRange": "2750-2780",
+                    "bases": "atgggtaaggaaaaATTctcacgtttcgagg"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "2750-2780",
+                  "boundStrand": "0",
+                  "annealedBases": "atgggtaaggaaaaATTctcacgtttcgagg",
+                  "meltingTemperature": "62",
+                  "Component": {
+                    "hybridizedRange": "2750-2780",
+                    "bases": "atgggtaaggaaaaATTctcacgtttcgagg"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "61962b98-11d3-4a96-882f-b1309ed2b00b",
+          "Type": "Synthetic",
+          "ConfirmedExperimentally": "0",
+          "Created": {
+            "UTC": "15:27:4",
+            "_text": "2026.3.24"
+          },
+          "LastModified": {
+            "UTC": "15:27:4",
+            "_text": "2026.3.24"
+          },
+          "CreatedBy": "Trial User",
+          "SequenceClass": "UNA",
+          "TransformedInto": "unspecified"
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ]
+  }
+}

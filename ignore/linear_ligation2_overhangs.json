@@ -7,8 +7,8 @@
   "blocks": {
     "0": [
       {
-        "sequence": "TGCATcccccGAATTCaaaaaCTCGA",
-        "length": 26,
+        "sequence": "aaGAATTCaaaaaCTCGAGtttttGGATC",
+        "length": 29,
         "topology": "linear",
         "strandedness": "double",
         "dam_methylated": false,
@@ -18,7 +18,7 @@
     ],
     "11": [
       {
-        "node_index": 1,
+        "node_index": 0,
         "sequence_type": 1,
         "sequence": "AAGAATTCAAAAACTCGAGAA",
         "length": 21,
@@ -101,9 +101,9 @@
         }
       },
       {
-        "node_index": 0,
+        "node_index": 1,
         "sequence_type": 1,
-        "sequence": "CCATGCATCCCCCGAATTCCC",
+        "sequence": "TTCTCGAGTTTTTGGATCCTT",
         "length": 21,
         "format_version": 2,
         "strandedness_flag": 1,
@@ -124,8 +124,8 @@
                   "AdditionalSequenceProperties": {
                     "UpstreamStickiness": "0",
                     "DownstreamStickiness": "0",
-                    "UpstreamModification": "Unmodified",
-                    "DownstreamModification": "Unmodified"
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
                   }
                 }
               ],
@@ -146,17 +146,17 @@
               "6": [
                 {
                   "Notes": {
-                    "UUID": "c4e32936-3763-4bf8-9c20-4338b8081b46",
-                    "Type": "Natural",
+                    "UUID": "a8e8d86e-ab9b-4fd1-a763-450a38442b45",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
                     "Created": {
-                      "UTC": "9:36:16",
+                      "UTC": "8:30:10",
                       "_text": "2026.3.24"
                     },
                     "LastModified": {
-                      "UTC": "9:36:16",
+                      "UTC": "8:30:10",
                       "_text": "2026.3.24"
                     },
-                    "CreatedBy": "Trial User",
                     "SequenceClass": "UNA",
                     "TransformedInto": "unspecified"
                   }
@@ -188,31 +188,31 @@
       {
         "HistoryTree": {
           "Node": {
-            "name": "linear_ligation_overhangs2.dna",
+            "name": "linear_ligation2_overhangs.dna",
             "type": "DNA",
-            "seqLen": "26",
+            "seqLen": "29",
             "strandedness": "double",
             "ID": "2",
             "circular": "0",
-            "upstreamStickiness": "-4",
             "downstreamStickiness": "4",
             "upstreamModification": "FivePrimePhosphorylated",
             "downstreamModification": "FivePrimePhosphorylated",
             "operation": "ligateFragments",
             "RegeneratedSite": [
               {
-                "name": "<NsiI>",
-                "pos": "4",
-                "siteCount": "0"
+                "name": "<Start>",
+                "pos": "0",
+                "siteCount": "0",
+                "blunt": "1"
               },
               {
-                "name": "EcoRI",
-                "pos": "11",
+                "name": "XhoI",
+                "pos": "14",
                 "siteCount": "1"
               },
               {
-                "name": "<XhoI>",
-                "pos": "22",
+                "name": "<BamHI>",
+                "pos": "25",
                 "siteCount": "0"
               }
             ],
@@ -222,11 +222,11 @@
                 "TopStrand": {
                   "ColorRange": [
                     {
-                      "range": "0..6",
+                      "range": "0..13",
                       "colors": "black"
                     },
                     {
-                      "range": "11..21",
+                      "range": "14..24",
                       "colors": "red"
                     }
                   ]
@@ -234,11 +234,11 @@
                 "BottomStrand": {
                   "ColorRange": [
                     {
-                      "range": "22..10",
+                      "range": "0..17",
                       "colors": "black"
                     },
                     {
-                      "range": "15..25",
+                      "range": "18..28",
                       "colors": "red"
                     }
                   ]
@@ -248,17 +248,17 @@
             "InputSummary": [
               {
                 "manipulation": "choose",
-                "name1": "NsiI",
-                "name2": "EcoRI",
-                "val1": "7",
+                "name1": "Start",
+                "name2": "XhoI",
+                "val1": "0",
                 "val2": "14",
-                "siteCount1": "1",
-                "siteCount2": "1"
+                "siteCount2": "1",
+                "blunt1": "1"
               },
               {
                 "manipulation": "choose",
-                "name1": "EcoRI",
-                "name2": "XhoI",
+                "name1": "XhoI",
+                "name2": "BamHI",
                 "val1": "3",
                 "val2": "14",
                 "siteCount1": "1",
@@ -267,14 +267,14 @@
             ],
             "Node": [
               {
-                "name": "restriction_both_overhangs.dna",
+                "name": "A.dna",
                 "type": "DNA",
                 "seqLen": "21",
                 "strandedness": "double",
                 "ID": "0",
                 "circular": "0",
-                "upstreamModification": "Unmodified",
-                "downstreamModification": "Unmodified",
+                "upstreamModification": "FivePrimePhosphorylated",
+                "downstreamModification": "FivePrimePhosphorylated",
                 "resurrectable": "1",
                 "operation": "invalid",
                 "HistoryColors": {
@@ -283,12 +283,8 @@
                     "TopStrand": {
                       "ColorRange": [
                         {
-                          "range": "7..13",
+                          "range": "0..13",
                           "colors": "black"
-                        },
-                        {
-                          "range": "0..6",
-                          "colors": "white"
                         },
                         {
                           "range": "14..20",
@@ -299,12 +295,8 @@
                     "BottomStrand": {
                       "ColorRange": [
                         {
-                          "range": "3..17",
+                          "range": "0..17",
                           "colors": "black"
-                        },
-                        {
-                          "range": "0..2",
-                          "colors": "white"
                         },
                         {
                           "range": "18..20",
@@ -316,7 +308,7 @@
                 }
               },
               {
-                "name": "A.dna",
+                "name": "B.dna",
                 "type": "DNA",
                 "seqLen": "21",
                 "strandedness": "double",
@@ -379,9 +371,9 @@
     "8": [
       {
         "AdditionalSequenceProperties": {
-          "UpstreamEnzymeName": "NsiI",
-          "DownstreamEnzymeName": "XhoI",
-          "UpstreamStickiness": "-4",
+          "UpstreamEnzymeName": "Start",
+          "DownstreamEnzymeName": "BamHI",
+          "UpstreamStickiness": "0",
           "DownstreamStickiness": "4",
           "UpstreamModification": "FivePrimePhosphorylated",
           "DownstreamModification": "FivePrimePhosphorylated"
@@ -405,15 +397,15 @@
     "6": [
       {
         "Notes": {
-          "UUID": "2daa2330-111e-4f5f-b92e-203e1218eb6f",
+          "UUID": "749f400e-af3a-428e-9a1c-1a564ae0f61f",
           "Type": "Synthetic",
           "ConfirmedExperimentally": "0",
           "Created": {
-            "UTC": "9:39:51",
+            "UTC": "8:34:12",
             "_text": "2026.3.24"
           },
           "LastModified": {
-            "UTC": "9:39:51",
+            "UTC": "8:34:12",
             "_text": "2026.3.24"
           },
           "CreatedBy": "Trial User",

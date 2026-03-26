@@ -1043,16 +1043,16 @@
         }
       }
     ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ],
     "28": [
       {
         "EnzymeVisibilities": {
           "vals": ""
         }
-      }
-    ],
-    "14": [
-      {
-        "CustomEnzymeSets": null
       }
     ]
   }

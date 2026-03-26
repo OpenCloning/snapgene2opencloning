@@ -1,0 +1,221 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "aaGAATTCaaaaaCTCGAGaa",
+        "length": 21,
+        "topology": "linear",
+        "strandedness": "double",
+        "dam_methylated": true,
+        "dcm_methylated": true,
+        "ecoki_methylated": true
+      }
+    ],
+    "11": [
+      {
+        "node_index": 0,
+        "sequence_type": 29,
+        "node_info": {
+          "0": [
+            {
+              "sequence": "zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0003!\u0000]\u0000\u001e\u000f\u02c7\u0011f\u000f\u001e{3\u007f(1v%f M*\tmj)p80*j\u0011BJ\u007f\u0018A\u001c>f\"\u0015A\rv\u001b\u04d2p\u0004&s{3\u001bTh$\u001eh|=\u0011\u001827|r6\n\u037d;29S\u0007\u0016Nx*mq\u001b:M\u0481-76\r)_g+TST~\u00176n\u0017\u0013\u0005'a@)\u0019|R\u02f9t\n\u0014w_u1T%\u7671B>'{6\u0019'@\u0000\u0000\u0000\u0000\u0000DD,\u0003\u0011\u001c\u0000\u0001\u0002\u0006\u0000\u0000\u0007\u0014g\u0002\u0000\u0000\u0000\u0000\u0004YZ\u001e\u0000\u0000\u0002h7zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0004\u001a\u0002']\u0000\b3D].?I*\u04d9\u0017_\u000e.Zv\u045cP,Vj,\u07aa~mC\u0014<\u0491?vd;!U\u0019''yzYl\u000b.v\u001cU\u0012[\u000fQec <L\u001c\u0015\u0013\u0011\u00183cG\u0012\u0014q~=\u001aX?r+<\u0275\u063f\u010aG]1|=ty?izd@Pp\u0015\u0013\u0013\u0394\u0010#\bTpo\\=*B/\u0455\u0243nIe}@ \u00012rr\rm\tjCf\u0016\u000e/\u001fx\"x\nV=[B3\u001f?t8\u0000\u000f\b}N+Slq\u0000w\u0007Qg\u001e\u0010ma\u0013+sY\r\u001e\u0015\u0414L@\u04f9[[u\u007f>y\u0000EJ*XxT!{e5n\u001a\u0013vAb(c/dt4FV\u0010\u001b+]\u00164#Dj,\u001aQS\u0014\u001a\u000e\u6273\u0709\u07e5T\u001f?(t\u001ey\u01ccf6b0\n9\u001bgq\u0018\"UCb[PM\u0011\u000ft\rSdxqx0xM[\u0528\u001e@\ue1d5.[\u3153c$\u000e6:\bj%4(K*4\u036d\u001dol0\u0001m\u001cx\u0015IJ\u0014DyZb8\fy[[\u0010/4\u0000\u0000T\u051b^k\u0000\u0001\u0004\b\u0000\u0000\u001a)\u0171g\u0002\u0000\u0000\u0000\u0000\u0004YZ",
+              "length": 533,
+              "topology": "circular",
+              "strandedness": "double",
+              "dam_methylated": true,
+              "dcm_methylated": false,
+              "ecoki_methylated": true
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 1,
+        "sequence_type": 29,
+        "node_info": {
+          "0": [
+            {
+              "sequence": "zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0003#\u0000]\u0000\u001e\u000f\u02c7\u0011f\u000f\u001e{3\u007f(1v%f M*\tmj)p80*j\u0011BJ\u007f\u0018A\u001c>f\"\u0015A\rv\u001b\u04d2p\u0004&s{3\u001bTh$\u001eh|=\u0011\u001827|r6\n\u037d;29S\u0007\u0016Nx*mq\u001b:M\u0481-76\r)_g+TST~\u00176n\u0017\u0013\u0005'a@\u0006,{R\u0007JI\\\u0003`S\\|:,\u007fP\u001d\u000b% \u0000\u0000\u0000\u0000\u0000\u0002cG\u0000\u0001\u0002\u0006\u0000\u00006l1g\u0002\u0000\u0000\u0000\u0000\u0004YZ\u001e\u0000\u0000\u0002t7zXZ\u0000\u0000\u0004\u05b4F\u0002\u0000!\u0001\u0016\u0000\u0000\u0000t/\u0004<\u00021]\u0000\b3D].?I*\u04d9\u0017_\u000e.Zv\u045cP,Vj,\u07aa~mC\u0014<\u0491?vd;!U\u0019''yzYl\u000b.v\u001cU\u0012[\u000fQec <L\u001c\u0015\u0013\u0011\u00183cG\u0012\u0014q~=\u001aX?r+<\u0275\u063f\u010aG]1|=ty?izd@Pp\u0015\u0013\u0013\u0394\u0010#\bTpo\\=*B/\u0455\u0243nIe}@ \u00012rr\rm\tjCf\u0016\u000e/\u001fx\"x\nV=[B3\u001f?t8\u0000\u000f\b}N+Slq\u0000w\u0007Qg\u001e\u0010ma\u0013+sY\r\u001e\u0015\u0414L@\u04f9f\u0003q\u007f>y\u0000E?I3D\f\u000e\bbh\u0000B#2Tt/++^Z`\u00c8MEsp?\u0005\u0013in[Fg\u06d4?l\t&3\u0002\u000e\u0007J\n [Y\u037fP*\u000f:\f~:*R\u0013;\u000b\u00156\u01a2\u000bR@Bb\u0013?EN\u0003\u00f7\u007fA_\u025c`\u0000@jh)g\u000b\u03df\t\u001aR\u0005\u001c\u001f\u000e\u0014O\u0014\u0000ZP\u0016|DC?\u001dZ\u00187T\u0001J\u0016\u0000\u0017^9~dzpOv\u0012\"*~Y\u0014,\u01cf\u0010ti+y@\u0000\u0000\u0000\u0000:\u0000\u0001\u0004\b\u0000\u0000zg\u0002\u0000\u0000\u0000\u0000\u0004YZ",
+              "length": 539,
+              "topology": "circular",
+              "strandedness": "double",
+              "dam_methylated": true,
+              "dcm_methylated": false,
+              "ecoki_methylated": true
+            }
+          ]
+        }
+      }
+    ],
+    "7": [
+      {
+        "HistoryTree": {
+          "Node": {
+            "name": "A - Linearized.dna",
+            "type": "DNA",
+            "seqLen": "21",
+            "strandedness": "double",
+            "ID": "2",
+            "circular": "0",
+            "upstreamModification": "FivePrimePhosphorylated",
+            "downstreamModification": "FivePrimePhosphorylated",
+            "operation": "linearize",
+            "InputSummary": {
+              "manipulation": "cutAt",
+              "val1": "0"
+            },
+            "Node": {
+              "name": "A.dna",
+              "type": "DNA",
+              "seqLen": "21",
+              "strandedness": "double",
+              "ID": "1",
+              "circular": "1",
+              "resurrectable": "2",
+              "operation": "changeTopology",
+              "HistoryColors": {
+                "StrandColors": {
+                  "type": "Product",
+                  "TopStrand": {
+                    "ColorRange": [
+                      {
+                        "range": "0..4",
+                        "colors": "blue-black"
+                      },
+                      {
+                        "range": "16..20",
+                        "colors": "black-red"
+                      }
+                    ]
+                  },
+                  "BottomStrand": {
+                    "ColorRange": [
+                      {
+                        "range": "0..4",
+                        "colors": "blue-black"
+                      },
+                      {
+                        "range": "16..20",
+                        "colors": "black-red"
+                      }
+                    ]
+                  }
+                }
+              },
+              "InputSummary": null,
+              "Node": {
+                "name": "A.dna",
+                "type": "DNA",
+                "seqLen": "21",
+                "strandedness": "double",
+                "ID": "0",
+                "circular": "0",
+                "upstreamModification": "FivePrimePhosphorylated",
+                "downstreamModification": "FivePrimePhosphorylated",
+                "resurrectable": "2",
+                "operation": "invalid",
+                "HistoryColors": {
+                  "StrandColors": {
+                    "type": "Input",
+                    "TopStrand": {
+                      "ColorRange": [
+                        {
+                          "range": "0..4",
+                          "colors": "blue-black"
+                        },
+                        {
+                          "range": "16..20",
+                          "colors": "black-red"
+                        }
+                      ]
+                    },
+                    "BottomStrand": {
+                      "ColorRange": [
+                        {
+                          "range": "0..4",
+                          "colors": "blue-black"
+                        },
+                        {
+                          "range": "16..20",
+                          "colors": "black-red"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamStickiness": "0",
+          "DownstreamStickiness": "0",
+          "UpstreamModification": "FivePrimePhosphorylated",
+          "DownstreamModification": "FivePrimePhosphorylated"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "0",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          }
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "ada0134c-eba3-400d-bb51-551e665d0847",
+          "Type": "Synthetic",
+          "ConfirmedExperimentally": "0",
+          "Created": {
+            "UTC": "16:18:14",
+            "_text": "2026.3.24"
+          },
+          "LastModified": {
+            "UTC": "16:18:14",
+            "_text": "2026.3.24"
+          },
+          "CreatedBy": "Trial User",
+          "SequenceClass": "UNA",
+          "TransformedInto": "unspecified"
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ]
+  }
+}
