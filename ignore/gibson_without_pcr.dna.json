@@ -1,0 +1,3132 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "agtcgctttgttaaatcaatgcaaacagtaatgatggatgacattcaaagcactgattctattgctgaaaaagataatcactctaataatgaatctaactttacttggaaagcgtttcgtgaacaagtggaaaagcatttttctaaaattgaaaggcttcaccaagtccttggaacagatggagacaattcatcattatttgagttgtttacaacggcaatgaatgcccagcttcatgaaatggaacagtgccagaaaaaacttgaagatgactgtcagcaaagaattgattcaatcagatttttggtttcctcattaaagttaacggatgatacttctagtctcaaaattgagtctcctttaattcagtgtttgaatcgtttgtcaatggtagaaggacaatatatggcacagtatgatcaaaagttaagtacgattaaaggtatgtaatcgtctttaatttagacttgtgttttaactgatgtatagaaatgtatcacaaattggagtcatattgtaaccgcttaggaagtccgttcgttttacctgattttgagaattcatttttatctgatgtatccgatgcttttactgaatctttgagaggacgcatcaacgaagccgaaaaggagattgatgcgagattagaggttattaattcctttgaagaagaaattttgggtttgtggtctgaactcggtgttgagcccgctgatgttccacaatacgaacaattgcttgaatcccatactaatcgaccaaatgatgtttatgttactcaagaacttatcgaccaactttgcaagcaaaaagaagttttttccgctgaaaaagaaaagagaagtgatcatttaaaaagtatacaatcagaagttagcaacttgtggaataagcttcaagtttctcccaatgaacaaagtcaatttggcgattcatcaaacattaatcaagaaaatatttcattatgggaaactgaacttgaaaaacttcatcagttaaaaaaggagcatttacccatttttttagaagactgtcgtcaacaaattcttcagctttgggattctctgttttattcagaagaacaaagaaagtcctttacacctatgtatgaagacattattacagagcaggttcttacggcccatgaaaactatataaagcaactagaggccgaagtttctgctaataagtcctttttaagcttaattaatcgctatgcctctttaatagaaggaaagaaagagcttgaagctagttctaatgatgcctctcgtctaacacaacggggacgccgggacccaggtttacttctacgtgaagagaaaatccgtaagcgactttctagagaacttcctaaggttcagtcgctgcttataccagagattacagcatgggaagaaagaaatggaaggacgttccttttttatgatgaaccacttctcaagatttgccaagaggccactcaaccaaaatcattatatagaagtgcaagtgctgccgcaaaccgcccgaaaacagcaactacaacggactctgttaatagaacaccttctcaacgagggcgtgtagctgtaccttcaacaccaagtgttaggtccgcttctcgagctatgacgagtccaaggacaccgcttcctagagtaaaaaacactcaaaatccaagtcgttccattagtgcagaaccgccatcagcaaccagtaccgccaatagaagacaccccactgctaatcgaattgatataaacgctagattaaacagtgctagtcggtctcgaagcgcgaacatgataagacaaggggcaaatggtagtgacagcaatatgtcttcttcacccgtttctggaaattccaataccccttttaacaagtttccaaattctgtatctcgcaatacacattttgaatccaagtcaccgcacccaaattactctcgaactcctcatgaaacgtattcaaaggcttcatctaagaacgtcccattaagtcctccaaagcagcgtgtagttaatgaacacgctttaaatattatgtcggaaaaattgcaaagaactaatctgaaagaacaaacacccgagatggacattgaaaacagctcgcagaaccttcctttttctcctatgaagatatcccccataagagcatcacccgtaaagacaattccatcatcaccgtcccccactaccaacattttttctgctccactcaacaatattacaaattgtacaccgatggaggatgaatggggagaagaaggcttttaatatgctcgagagatctgtcgacccatgggctagcggatccccgggtaaaaggaatgtctcccttgccagtactgctagggtttttctttcaaactatggaagcccattcaagctgcatattacgattttgtttttcgcttttagaaagtggtttagatgagataatagaaaaattcttgatctccgacaacgagtacttttattttttttgctaatcactttactcaatattagctcgaaatcgtagaaacgtagacgggtgcgggataccgagtggtgtagttaagaatttttataaaccacgtggcccaaaaatatgaacccaaaacgtttatacatgagtatactttaagaaggctataccccttcgtgttagatgtagttttagctacccaacccgagtctatgagcttgacttcagatgtagaaggcattaaatcgttttgaatattaattaaaaaacgatgaaaattaaatatttaaaagcaatcatacgctgaaaatttagtgctgtggctaatccttcaacatggaaatgccataaaagtgactttgacaaaaaaaaaagtatatacaggtagtaaactcatctacttcattgactttgtttacagcatgtggaaggaggaatatttattgctaaatcgtagtttaacattcaataagtaatactattgaaattcgacaagattggccgcatggatgaaaaagaggcattttgctttgggagaattagtccaaattagaactgaaaaaaaaaactttacgaggcaaaaatgtcggattgagatcgtaaaagttcgctcgtcgtcttttgctttgtgattgttttcatggatacatcttgctggatatttaaattttagtactatgtataagatattctataaatgttttatcacccaaacctgttagcgccttcttaattctattcaatctggcttttgctctgagactacttcttggactttcactacttgttagttatacggaatttgtgtaattagaagtgaaataatcctttctattagtaatgcgagctcgaattcgagtctaactccttaaccactcggacatagtgacttatctgacactcattgtaaattaatatatatataggcattttgtttagttaaaggtacttaagtaattagtataaacgaaccaattttataatcaggaagttaagtgaatggtagcacatgtcgtaaaaattgtgaatttttattgaataatattttaaatacaagcctttctagactaggtatactcataaacatatatgagcaaaaggatagaggagattacattgcatcttctacaaatttatttattgccctttactgaaaaattaaataatgagtactaaatgataaaaagcgctcagtacaagaaagattgcaaaaatattgcattcttcatgaattaaagttgcatataaggcatattgaaagtaatagtactaaaacagcagttagcgaaaattaatagaattatattcgcaagacaattgtgacattaaattaaaaaattgtagaatttttactatcctctttaacgccatgagcctttataaaaaggttaaattagttttaacattctttttttgagtaagagtttacaatttatcaaaacctgtgttattatattcattagtttcaatttattagcatctagagaaaaatcaattggcagttacattgttggaatttatgaagaaaaagaatctacaacggagaataagttgctgatcgctttccctaaaattgtatattttgctgagcttattttgacatttcgttgaagttttctctaattcgcattcattttaagtaaaacaatgagaaataaaattacaaaaaatacaaattaaaatacaatttttagctataattatagacgatgcccttgtatcccattctgtctcgcttgcccctactttttatcttttatataccataatgaacgctgccgctactaaccataccccgattttacatttcggactcccaaggacgtacaaaatagaaaactatagaaaaaaataatcagaaaatagcatgtcatctctttgtaaaacgcgtttgcaagaagaaaggaaacaatggagaagagatcatccatttgtatgtaaattttagtaaacttgaagaaatcactaacaacttctcttacttagggattctatgcaaaaccttgtaaatcatctgatggaggactcgatttaatgaattggaaggttggaattcactggccgtcgttttacaacgtcgtgactgggaaaaccctggcgttacccaacttaatcgccttgcagcacatccccctttcgccagctggcgtaatagcgaagaggcccgcaccgatcgcccttcccaacagttgcgcagcctgaatggcgaatggcgcctgatgcggtattttctccttacgcatctgtgcggtatttcacaccgcatacgtcaaagcaaccatagtacgcgccctgtagcggcgcattaagcgcggcgggtgtggtggttacgcgcagcgtgaccgctacacttgccagcgccttagcgcccgctcctttcgctttcttcccttcctttctcgccacgttcgccggctttccccgtcaagctctaaatcgggggctccctttagggttccgatttagtgctttacggcacctcgaccccaaaaaacttgatttgggtgatggttcacgtagtgggccatcgccctgatagacggtttttcgccctttgacgttggagtccacgttctttaatagtggactcttgttccaaactggaacaacactcaactctatctcgggctattcttttgatttataagggattttgccgatttcggtctattggttaaaaaatgagctgatttaacaaaaatttaacgcgaattttaacaaaatattaacgtttacaattttatggtgcactctcagtacaatctgctctgatgccgcatagttaagccagccccgacacccgccaacacccgctgacgcgccctgacgggcttgtctgctcccggcatccgcttacagacaagctgtgaccgtctccgggagctgcatgtgtcagaggttttcaccgtcatcaccgaaacgcgcgagacgaaagggcctcgtgatacgcctatttttataggttaatgtcatgataataatggtttcttagacgtcaggtggcacttttcggggaaatgtgcgcggaacccctatttgtttatttttctaaatacattcaaatatgtatccgctcatgagacaataaccctgataaatgcttcaataatattgaaaaaggaagagtatgagtattcaacatttccgtgtcgcccttattcccttttttgcggcattttgccttcctgtttttgctcacccagaaacgctggtgaaagtaaaagatgctgaagatcagttgggtgcacgagtgggttacatcgaactggatctcaacagcggtaagatccttgagagttttcgccccgaagaacgttttccaatgatgagcacttttaaagttctgctatgtggcgcggtattatcccgtattgacgccgggcaagagcaactcggtcgccgcatacactattctcagaatgacttggttgagtactcaccagtcacagaaaagcatcttacggatggcatgacagtaagagaattatgcagtgctgccataaccatgagtgataacactgcggccaacttacttctgacaacgatcggaggaccgaaggagctaaccgcttttttgcacaacatgggggatcatgtaactcgccttgatcgttgggaaccggagctgaatgaagccataccaaacgacgagcgtgacaccacgatgcctgtagcaatggcaacaacgttgcgcaaactattaactggcgaactacttactctagcttcccggcaacaattaatagactggatggaggcggataaagttgcaggaccacttctgcgctcggcccttccggctggctggtttattgctgataaatctggagccggtgagcgtgggtctcgcggtatcattgcagcactggggccagatggtaagccctcccgtatcgtagttatctacacgacggggagtcaggcaactatggatgaacgaaatagacagatcgctgagataggtgcctcactgattaagcattggtaactgtcagaccaagtttactcatatatactttagattgatttaaaacttcatttttaatttaaaaggatctaggtgaagatcctttttgataatctcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtattaccgcctttgagtgagctgataccgctcgccgcagccgaacgaccgagcgcagcgagtcagtgagcgaggaagcggaagagcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtgagcgcaacgcaattaatgtgagttagctcactcattaggcaccccaggctttacactttatgcttccggctcgtatgttgtgtggaattgtgagcggataacaatttcacacaggaaacagctatgaccatgattacgccaagcttgtgatattgacgaaactttttgacatctaatttattctgttccaacaccaatgtttataaccaagttttatcttgtttgtctacatggtattttacattcatctacatacatctttcattggctttgtacatagttatcattacaagtctaaaaaaattcactcttttcttattcaatgtcaatccaagagaaaagattgtggtaatgttgtaggagcatgtttaataaattactatagcaaattactttttattcccaaggtgtttatctataatagttaatattttagtcgctacataaaattttaccaaagagtacttgtatactaattctaaatgccttctgacataaaacgcctaggaaaacaaacgcaaacaaggcatcgactttttcaataaccaaccaaaaaaattttacattagtctttttttaatgctgagaaagtctttgctgatatgccttccaaccagcttctctatatctcttggcttcgacaacaggattacgaccagctccatagactccacgaccaacaatgatgatatcgctaccgcagtttacaatcacttcttcaggagtacgatattgctgtcccagcccgtctcctttaacatccaagccgataccaggggacatagttatgtagtcgctttgaaggttaggaaatcgacgaccagctataaagccaaagcaaaaatcggtatgcttctcaaaccattctaaggttttctctgtgtaggaaccagtagccaaagagcctttggaagacatttcagccaaaagcaagagaccacgtcccaaaggtaaaccaacttctttgaggccttgtataataccctcgcctggcactgtatggcaatttgtgatatgagcccaagaagcaattttgtacacaccagatgcatattgtagcttgacggtatttccaatgtctgcgaatttgcgatcctcaaagataagaaaacgatgctttttacctaaggccaccagtttttctaccatatcctggtcgaaatcctcgacaacgtcaatatgtgtcttgataacacagacatagggtccaattttatctaccaattctaagatttcggatttcttcgtcaaatcgaccgcgactgacaagttgctttgcttttcttccatcaaagccaacaattccttggcaatgggatttttcatcccctcagctctagctgaatagctttgaaatactctagcatccataactttgcttttaaacctttaatttcgatccaagcaaaaaagaggttcttggtaggacaatacggtaagaaaacacgacatgtgcagagatgccgacgaagcatagttaaactgggatggtaaaatcaattaagaatttataaagacaaaattgtataagtctctaaaacatcttaattatacctcacagaactatctaaaatatattcacaaagtgcaaacattatcatgaaaaagaaccattttaatttaaagcaagggcattaaggcttatttacagaatttcttacttttgtaaagattataaggctgattatctttttcaccatgccaaaaattacacaagatagaatggatgtttgaaattaaacgtgagtatacaaacaaatacactaggtaaatcgaaacatttttttctccattaagtaacaaattcctatttagagaaagaatgctgagtagattaaataatctatacaaacttttttaacacaaatgcatacatatagccagtgggatttgtagctaagcttgcatgcctgcaggtcgatcgactctagaggatcagaaaattatcgccataaaagacagaataagtcatcagcggttgtttcatttcctatattttttttttatttttttattttttaataagggaaaatttaacgtctaaggatacagaagattgttagcacattaaagtaataaaggcttaagtagtaagtgccttagcatgttattgtatttcaaaggacataatctaaaataataacaatatcatttctcacaagttattcaattttcttttttttttctaataatatcaagaatgtattatttgtttgacataagtcaactaatttatttaatatgctggattaatcttgcagacatgtaaattaacaagttttagtcaaataacgttgaagtttcaatgaactcaaataatttctctttttttttatataaccataatctgatttatattttccgcagggatcaactgaagttatgacatttggattggatcacttataaccttggtcgccaaataatacaaaaatcagcgttataaaacaaagaaggtttttgttaagaaattaatcctctttcttgataagaaagttgaaccgaaattgcagatactgatatatgaaaataatacccacaattttgggaatagcgcaagcctcaatttaaacaataggtgaggacacatgataatgacctcaatgattgttagaagaaaagagcctcattacaaaatcgaaaaatgaatggttgggtacaagtttccaaaacatggtaaagtggactttgcgtatgagacgtaaatagaaaaaaacacttgttatatgttttctagaattattgttgtctctttatggttggatgatgcaaaatagtaatttcggttagttgctgtaaaacaccacgagacaaatagatatggatatttattaaatcaggaaaaacgtaactctcggctactggatggttcagtcacccaacgattactggggagagaaaacagggcaaaagcaaagcttaaaggaatccgattgtcattcggcaatgtgcagcgaaactaaaaaccggataatggacctgttaatcgaaacattgaagataaaggaagaggaatcctggcatatcatcaattgaataagttgaattaattatttcaatctcattctcactttctgacttat",
+        "length": 10558,
+        "topology": "circular",
+        "strandedness": "double",
+        "dam_methylated": true,
+        "dcm_methylated": true,
+        "ecoki_methylated": true
+      }
+    ],
+    "11": [
+      {
+        "node_index": 0,
+        "sequence_type": 1,
+        "sequence": "AGTCGCTTTGTTAAATCAATGCAAACAGTAATGATGGATGACATTCAAAGCACTGATTCTATTGCTGAAAAAGATAATCACTCTAATAATGAATCTAACTTTACTTGGAAAGCGTTTCGTGAACAAGTGGAAAAGCATTTTTCTAAAATTGAAAGGCTTCACCAAGTCCTTGGAACAGATGGAGACAATTCATCATTATTTGAGTTGTTTACAACGGCAATGAATGCCCAGCTTCATGAAATGGAACAGTGCCAGAAAAAACTTGAAGATGACTGTCAGCAAAGAATTGATTCAATCAGATTTTTGGTTTCCTCATTAAAGTTAACGGATGATACTTCTAGTCTCAAAATTGAGTCTCCTTTAATTCAGTGTTTGAATCGTTTGTCAATGGTAGAAGGACAATATATGGCACAGTATGATCAAAAGTTAAGTACGATTAAAGGTATGTAATCGTCTTTAATTTAGACTTGTGTTTTAACTGATGTATAGAAATGTATCACAAATTGGAGTCATATTGTAACCGCTTAGGAAGTCCGTTCGTTTTACCTGATTTTGAGAATTCATTTTTATCTGATGTATCCGATGCTTTTACTGAATCTTTGAGAGGACGCATCAACGAAGCCGAAAAGGAGATTGATGCGAGATTAGAGGTTATTAATTCCTTTGAAGAAGAAATTTTGGGTTTGTGGTCTGAACTCGGTGTTGAGCCCGCTGATGTTCCACAATACGAACAATTGCTTGAATCCCATACTAATCGACCAAATGATGTTTATGTTACTCAAGAACTTATCGACCAACTTTGCAAGCAAAAAGAAGTTTTTTCCGCTGAAAAAGAAAAGAGAAGTGATCATTTAAAAAGTATACAATCAGAAGTTAGCAACTTGTGGAATAAGCTTCAAGTTTCTCCCAATGAACAAAGTCAATTTGGCGATTCATCAAACATTAATCAAGAAAATATTTCATTATGGGAAACTGAACTTGAAAAACTTCATCAGTTAAAAAAGGAGCATTTACCCATTTTTTTAGAAGACTGTCGTCAACAAATTCTTCAGCTTTGGGATTCTCTGTTTTATTCAGAAGAACAAAGAAAGTCCTTTACACCTATGTATGAAGACATTATTACAGAGCAGGTTCTTACGGCCCATGAAAACTATATAAAGCAACTAGAGGCCGAAGTTTCTGCTAATAAGTCCTTTTTAAGCTTAATTAATCGCTATGCCTCTTTAATAGAAGGAAAGAAAGAGCTTGAAGCTAGTTCTAATGATGCCTCTCGTCTAACACAACGGGGACGCCGGGACCCAGGTTTACTTCTACGTGAAGAGAAAATCCGTAAGCGACTTTCTAGAGAACTTCCTAAGGTTCAGTCGCTGCTTATACCAGAGATTACAGCATGGGAAGAAAGAAATGGAAGGACGTTCCTTTTTTATGATGAACCACTTCTCAAGATTTGCCAAGAGGCCACTCAACCAAAATCATTATATAGAAGTGCAAGTGCTGCCGCAAACCGCCCGAAAACAGCAACTACAACGGACTCTGTTAATAGAACACCTTCTCAACGAGGGCGTGTAGCTGTACCTTCAACACCAAGTGTTAGGTCCGCTTCTCGAGCTATGACGAGTCCAAGGACACCGCTTCCTAGAGTAAAAAACACTCAAAATCCAAGTCGTTCCATTAGTGCAGAACCGCCATCAGCAACCAGTACCGCCAATAGAAGACACCCCACTGCTAATCGAATTGATATAAACGCTAGATTAAACAGTGCTAGTCGGTCTCGAAGCGCGAACATGATAAGACAAGGGGCAAATGGTAGTGACAGCAATATGTCTTCTTCACCCGTTTCTGGAAATTCCAATACCCCTTTTAACAAGTTTCCAAATTCTGTATCTCGCAATACACATTTTGAATCCAAGTCACCGCACCCAAATTACTCTCGAACTCCTCATGAAACGTATTCAAAGGCTTCATCTAAGAACGTCCCATTAAGTCCTCCAAAGCAGCGTGTAGTTAATGAACACGCTTTAAATATTATGTCGGAAAAATTGCAAAGAACTAATCTGAAAGAACAAACACCCGAGATGGACATTGAAAACAGCTCGCAGAACCTTCCTTTTTCTCCTATGAAGATATCCCCCATAAGAGCATCACCCGTAAAGACAATTCCATCATCACCGTCCCCCACTACCAACATTTTTTCTGCTCCACTCAACAATATTACAAATTGTACACCGATGGAGGATGAATGGGGAGAAGAAGGCTTTTAATATGCTCGAGAGATCTGT",
+        "length": 2279,
+        "format_version": 2,
+        "strandedness_flag": 1,
+        "property_flags": 257,
+        "header_seq_length": 2279,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "Unmodified",
+                    "DownstreamModification": "Unmodified"
+                  }
+                }
+              ],
+              "10": [
+                {
+                  "features": [
+                    {
+                      "name": "ase1",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 18,
+                      "end": 2261,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "19-442",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "443-489",
+                          "color": "noColor",
+                          "type": "gap"
+                        },
+                        {
+                          "range": "490-2261",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ase1",
+                        "locus_tag": "SPOM_SPAPB1A10.09"
+                      },
+                      "extras": {
+                        "recentID": "0",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ase1"
+                          }
+                        },
+                        {
+                          "name": "locus_tag",
+                          "V": {
+                            "text": "SPOM_SPAPB1A10.09"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ase1_fwd",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 0,
+                      "end": 38,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1-38",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ase1_fwd",
+                        "note": [
+                          "<html><body>sequence: AGTCGCTTTGTTAAATCAATGCAAACAGTAATGATGGA</body></html>",
+                          "<html><body>/primerBindsOn=3prime</body></html>"
+                        ]
+                      },
+                      "extras": {
+                        "recentID": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ase1_fwd"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": [
+                            {
+                              "text": "<html><body>sequence: AGTCGCTTTGTTAAATCAATGCAAACAGTAATGATGGA</body></html>"
+                            },
+                            {
+                              "text": "<html><body>/primerBindsOn=3prime</body></html>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ase1_rvs",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 2242,
+                      "end": 2279,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "2243-2279",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ase1_rvs",
+                        "note": [
+                          "<html><body>sequence: ACAGATCTCTCGAGCATATTAAAAGCCTTCTTCTCCC</body></html>",
+                          "<html><body>/primerBindsOn=3prime</body></html>"
+                        ]
+                      },
+                      "extras": {
+                        "recentID": "2",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ase1_rvs"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": [
+                            {
+                              "text": "<html><body>sequence: ACAGATCTCTCGAGCATATTAAAAGCCTTCTTCTCCC</body></html>"
+                            },
+                            {
+                              "text": "<html><body>/primerBindsOn=3prime</body></html>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "wrapper_extras": {
+                    "nextValidID": "3"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "a0f25bb1-8922-40e6-a1f0-35257259cbc9",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "Description": "description.",
+                    "Created": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.24"
+                    },
+                    "LastModified": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.24"
+                    },
+                    "AccessionNumber": "8",
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 1,
+        "sequence_type": 1,
+        "sequence": "GGAGAAGAAGGCTTTTAATATGCTCGAGAGATCTGTCGACCCATGGGCTAGCGGATCCCCGGGTAAAAGGAATGTCTCCCTTGCCAGTACTGCTAGGGTTTTTCTTTCAAACTATGGAAGCCCATTCAAGCTGCATATTACGATTTTGTTTTTCGCTTTTAGAAAGTGGTTTAGATGAGATAATAGAAAAATTCTTGATCTCCGACAACGAGTACTTTTATTTTTTTTGCTAATCACTTTACTCAATATTAGCTCGAAATCGTAGAAACGTAGACGGGTGCGGGATACCGAGTGGTGTAGTTAAGAATTTTTATAAACCACGTGGCCCAAAAATATGAACCCAAAACGTTTATACATGAGTATACTTTAAGAAGGCTATACCCCTTCGTGTTAGATGTAGTTTTAGCTACCCAACCCGAGTCTATGAGCTTGACTTCAGATGTAGAAGGCATTAAATCGTTTTGAATATTAATTAAAAAACGATGAAAATTAAATATTTAAAAGCAATCATACGCTGAAAATTTAGTGCTGTGGCTAATCCTTCAACATGGAAATGCCATAAAAGTGACTTTGACAAAAAAAAAAGTATATACAGGTAGTAAACTCATCTACTTCATTGACTTTGTTTACAGCATGTGGAAGGAGGAATATTTATTGCTAAATCGTAGTTTAACATTCAATAAGTAATACTATTGAAATTCGACAAGATTGGCCGCATGGATGAAAAAGAGGCATTTTGCTTTGGGAGAATTAGTCCAAATTAGAACTGAAAAAAAAAACTTTACGAGGCAAAAATGTCGGATTGAGATCGTAAAAGTTCGCTCGTCGTCTTTTGCTTTGTGATTGTTTTCATGGATACATCTTGCTGGATATTTAAATTTTAGTACTATGTATAAGATATTCTATAAATGTTTTATCACCCAAACCTGTTAGCGCCTTCTTAATTCTATTCAATCTGGCTTTTGCTCTGAGACTACTTCTTGGACTTTCACTACTTGTTAGTTATACGGAATTTGTGTAATTAGAAGTGAAATAATCCTTTCTATTAGTAATGCGAGCTCGAATTCGAGTCTAACTCCTTAACCACTCGGACATAGTGACTTATCTGACACTCATTGTAAATTAATATATATATAGGCATTTTGTTTAGTTAAAGGTACTTAAGTAATTAGTATAAACGAACCAATTTTATAATCAGGAAGTTAAGTGAATGGTAGCACATGTCGTAAAAATTGTGAATTTTTATTGAATAATATTTTAAATACAAGCCTTTCTAGACTAGGTATACTCATAAACATATATGAGCAAAAGGATAGAGGAGATTACATTGCATCTTCTACAAATTTATTTATTGCCCTTTACTGAAAAATTAAATAATGAGTACTAAATGATAAAAAGCGCTCAGTACAAGAAAGATTGCAAAAATATTGCATTCTTCATGAATTAAAGTTGCATATAAGGCATATTGAAAGTAATAGTACTAAAACAGCAGTTAGCGAAAATTAATAGAATTATATTCGCAAGACAATTGTGACATTAAATTAAAAAATTGTAGAATTTTTACTATCCTCTTTAACGCCATGAGCCTTTATAAAAAGGTTAAATTAGTTTTAACATTCTTTTTTTGAGTAAGAGTTTACAATTTATCAAAACCTGTGTTATTATATTCATTAGTTTCAATTTATTAGCATCTAGAGAAAAATCAATTGGCAGTTACATTGTTGGAATTTATGAAGAAAAAGAATCTACAACGGAGAATAAGTTGCTGATCGCTTTCCCTAAAATTGTATATTTTGCTGAGCTTATTTTGACATTTCGTTGAAGTTTTCTCTAATTCGCATTCATTTTAAGTAAAACAATGAGAAATAAAATTACAAAAAATACAAATTAAAATACAATTTTTAGCTATAATTATAGACGATGCCCTTGTATCCCATTCTGTCTCGCTTGCCCCTACTTTTTATCTTTTATATACCATAATGAACGCTGCCGCTACTAACCATACCCCGATTTTACATTTCGGACTCCCAAGGACGTACAAAATAGAAAACTATAGAAAAAAATAATCAGAAAATAGCATGTCATCTCTTTGTAAAACGCGTTTGCAAGAAGAAAGGAAACAATGGAGAAGAGATCATCCATTTGTATGTAAATTTTAGTAAACTTGAAGAAATCACTAACAACTTCTCTTACTTAGGGATTCTATGCAAAACCTTGTAAATCATCTGATGGAGGACTCGATTTAATGAATTGGAAGGTTGGAATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCGCCTGATGCGGTATTTTCTCCTTACGCATCTGTGCGGTATTTCACACCGCATACGTCAAAGCAACCATAGTACGCGCCCTGTAGCGGCGCATTAAGCGCGGCGGGTGTGGTGGTTACGCGCAGCGTGACCGCTACACTTGCCAGCGCCTTAGCGCCCGCTCCTTTCGCTTTCTTCCCTTCCTTTCTCGCCACGTTCGCCGGCTTTCCCCGTCAAGCTCTAAATCGGGGGCTCCCTTTAGGGTTCCGATTTAGTGCTTTACGGCACCTCGACCCCAAAAAACTTGATTTGGGTGATGGTTCACGTAGTGGGCCATCGCCCTGATAGACGGTTTTTCGCCCTTTGACGTTGGAGTCCACGTTCTTTAATAGTGGACTCTTGTTCCAAACTGGAACAACACTCAACTCTATCTCGGGCTATTCTTTTGATTTATAAGGGATTTTGCCGATTTCGGTCTATTGGTTAAAAAATGAGCTGATTTAACAAAAATTTAACGCGAATTTTAACAAAATATTAACGTTTACAATTTTATGGTGCACTCTCAGTACAATCTGCTCTGATGCCGCATAGTTAAGCCAGCCCCGACACCCGCCAACACCCGCTGACGCGCCCTGACGGGCTTGTCTGCTCCCGGCATCCGCTTACAGACAAGCTGTGACCGTCTCCGGGAGCTGCATGTGTCAGAGGTTTTCACCGTCATCACCGAAACGCGCGAGACGAAAGGGCCTCGTGATACGCCTATTTTTATAGGTTAATGTCATGATAATAATGGTTTCTTAGACGTCAGGTGGCACTTTTCGGGGAAATGTGCGCGGAACCCCTATTTGTTTATTTTTCTAAATACATTCAAATATGTATCCGCTCATGAGACAATAACCCTGATAAATGCTTCAATAATATTGAAAAAGGAAGAGTATGAGTATTCAACATTTCCGTGTCGCCCTTATTCCCTTTTTTGCGGCATTTTGCCTTCCTGTTTTTGCTCACCCAGAAACGCTGGTGAAAGTAAAAGATGCTGAAGATCAGTTGGGTGCACGAGTGGGTTACATCGAACTGGATCTCAACAGCGGTAAGATCCTTGAGAGTTTTCGCCCCGAAGAACGTTTTCCAATGATGAGCACTTTTAAAGTTCTGCTATGTGGCGCGGTATTATCCCGTATTGACGCCGGGCAAGAGCAACTCGGTCGCCGCATACACTATTCTCAGAATGACTTGGTTGAGTACTCACCAGTCACAGAAAAGCATCTTACGGATGGCATGACAGTAAGAGAATTATGCAGTGCTGCCATAACCATGAGTGATAACACTGCGGCCAACTTACTTCTGACAACGATCGGAGGACCGAAGGAGCTAACCGCTTTTTTGCACAACATGGGGGATCATGTAACTCGCCTTGATCGTTGGGAACCGGAGCTGAATGAAGCCATACCAAACGACGAGCGTGACACCACGATGCCTGTAGCAATGGCAACAACGTTGCGCAAACTATTAACTGGCGAACTACTTACTCTAGCTTCCCGGCAACAATTAATAGACTGGATGGAGGCGGATAAAGTTGCAGGACCACTTCTGCGCTCGGCCCTTCCGGCTGGCTGGTTTATTGCTGATAAATCTGGAGCCGGTGAGCGTGGGTCTCGCGGTATCATTGCAGCACTGGGGCCAGATGGTAAGCCCTCCCGTATCGTAGTTATCTACACGACGGGGAGTCAGGCAACTATGGATGAACGAAATAGACAGATCGCTGAGATAGGTGCCTCACTGATTAAGCATTGGTAACTGTCAGACCAAGTTTACTCATATATACTTTAGATTGATTTAAAACTTCATTTTTAATTTAAAAGGATCTAGGTGAAGATCCTTTTTGATAATCTCATGACCAAAATCCCTTAACGTGAGTTTTCGTTCCACTGAGCGTCAGACCCCGTAGAAAAGATCAAAGGATCTTCTTGAGATCCTTTTTTTCTGCGCGTAATCTGCTGCTTGCAAACAAAAAAACCACCGCTACCAGCGGTGGTTTGTTTGCCGGATCAAGAGCTACCAACTCTTTTTCCGAAGGTAACTGGCTTCAGCAGAGCGCAGATACCAAATACTGTTCTTCTAGTGTAGCCGTAGTTAGGCCACCACTTCAAGAACTCTGTAGCACCGCCTACATACCTCGCTCTGCTAATCCTGTTACCAGTGGCTGCTGCCAGTGGCGATAAGTCGTGTCTTACCGGGTTGGACTCAAGACGATAGTTACCGGATAAGGCGCAGCGGTCGGGCTGAACGGGGGGTTCGTGCACACAGCCCAGCTTGGAGCGAACGACCTACACCGAACTGAGATACCTACAGCGTGAGCTATGAGAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCGGTAAGCGGCAGGGTCGGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGGAGCCTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTGGCCTTTTGCTGGCCTTTTGCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGATAACCGTATTACCGCCTTTGAGTGAGCTGATACCGCTCGCCGCAGCCGAACGACCGAGCGCAGCGAGTCAGTGAGCGAGGAAGCGGAAGAGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGCCAAGCTTGTGATATTGACGAAACTTTTTGACATCTAATTTATTCTGTTCCAACACCAATGTTTATAACCAAGTTTTATCTTGTTTGTCTACATGGTATTTTACATTCATCTACATACATCTTTCATTGGCTTTGTACATAGTTATCATTACAAGTCTAAAAAAATTCACTCTTTTCTTATTCAATGTCAATCCAAGAGAAAAGATTGTGGTAATGTTGTAGGAGCATGTTTAATAAATTACTATAGCAAATTACTTTTTATTCCCAAGGTGTTTATCTATAATAGTTAATATTTTAGTCGCTACATAAAATTTTACCAAAGAGTACTTGTATACTAATTCTAAATGCCTTCTGACATAAAACGCCTAGGAAAACAAACGCAAACAAGGCATCGACTTTTTCAATAACCAACCAAAAAAATTTTACATTAGTCTTTTTTTAATGCTGAGAAAGTCTTTGCTGATATGCCTTCCAACCAGCTTCTCTATATCTCTTGGCTTCGACAACAGGATTACGACCAGCTCCATAGACTCCACGACCAACAATGATGATATCGCTACCGCAGTTTACAATCACTTCTTCAGGAGTACGATATTGCTGTCCCAGCCCGTCTCCTTTAACATCCAAGCCGATACCAGGGGACATAGTTATGTAGTCGCTTTGAAGGTTAGGAAATCGACGACCAGCTATAAAGCCAAAGCAAAAATCGGTATGCTTCTCAAACCATTCTAAGGTTTTCTCTGTGTAGGAACCAGTAGCCAAAGAGCCTTTGGAAGACATTTCAGCCAAAAGCAAGAGACCACGTCCCAAAGGTAAACCAACTTCTTTGAGGCCTTGTATAATACCCTCGCCTGGCACTGTATGGCAATTTGTGATATGAGCCCAAGAAGCAATTTTGTACACACCAGATGCATATTGTAGCTTGACGGTATTTCCAATGTCTGCGAATTTGCGATCCTCAAAGATAAGAAAACGATGCTTTTTACCTAAGGCCACCAGTTTTTCTACCATATCCTGGTCGAAATCCTCGACAACGTCAATATGTGTCTTGATAACACAGACATAGGGTCCAATTTTATCTACCAATTCTAAGATTTCGGATTTCTTCGTCAAATCGACCGCGACTGACAAGTTGCTTTGCTTTTCTTCCATCAAAGCCAACAATTCCTTGGCAATGGGATTTTTCATCCCCTCAGCTCTAGCTGAATAGCTTTGAAATACTCTAGCATCCATAACTTTGCTTTTAAACCTTTAATTTCGATCCAAGCAAAAAAGAGGTTCTTGGTAGGACAATACGGTAAGAAAACACGACATGTGCAGAGATGCCGACGAAGCATAGTTAAACTGGGATGGTAAAATCAATTAAGAATTTATAAAGACAAAATTGTATAAGTCTCTAAAACATCTTAATTATACCTCACAGAACTATCTAAAATATATTCACAAAGTGCAAACATTATCATGAAAAAGAACCATTTTAATTTAAAGCAAGGGCATTAAGGCTTATTTACAGAATTTCTTACTTTTGTAAAGATTATAAGGCTGATTATCTTTTTCACCATGCCAAAAATTACACAAGATAGAATGGATGTTTGAAATTAAACGTGAGTATACAAACAAATACACTAGGTAAATCGAAACATTTTTTTCTCCATTAAGTAACAAATTCCTATTTAGAGAAAGAATGCTGAGTAGATTAAATAATCTATACAAACTTTTTTAACACAAATGCATACATATAGCCAGTGGGATTTGTAGCTAAGCTTGCATGCCTGCAGGTCGATCGACTCTAGAGGATCAGAAAATTATCGCCATAAAAGACAGAATAAGTCATCAGCGGTTGTTTCATTTCCTATATTTTTTTTTTATTTTTTTATTTTTTAATAAGGGAAAATTTAACGTCTAAGGATACAGAAGATTGTTAGCACATTAAAGTAATAAAGGCTTAAGTAGTAAGTGCCTTAGCATGTTATTGTATTTCAAAGGACATAATCTAAAATAATAACAATATCATTTCTCACAAGTTATTCAATTTTCTTTTTTTTTTCTAATAATATCAAGAATGTATTATTTGTTTGACATAAGTCAACTAATTTATTTAATATGCTGGATTAATCTTGCAGACATGTAAATTAACAAGTTTTAGTCAAATAACGTTGAAGTTTCAATGAACTCAAATAATTTCTCTTTTTTTTTATATAACCATAATCTGATTTATATTTTCCGCAGGGATCAACTGAAGTTATGACATTTGGATTGGATCACTTATAACCTTGGTCGCCAAATAATACAAAAATCAGCGTTATAAAACAAAGAAGGTTTTTGTTAAGAAATTAATCCTCTTTCTTGATAAGAAAGTTGAACCGAAATTGCAGATACTGATATATGAAAATAATACCCACAATTTTGGGAATAGCGCAAGCCTCAATTTAAACAATAGGTGAGGACACATGATAATGACCTCAATGATTGTTAGAAGAAAAGAGCCTCATTACAAAATCGAAAAATGAATGGTTGGGTACAAGTTTCCAAAACATGGTAAAGTGGACTTTGCGTATGAGACGTAAATAGAAAAAAACACTTGTTATATGTTTTCTAGAATTATTGTTGTCTCTTTATGGTTGGATGATGCAAAATAGTAATTTCGGTTAGTTGCTGTAAAACACCACGAGACAAATAGATATGGATATTTATTAAATCAGGAAAAACGTAACTCTCGGCTACTGGATGGTTCAGTCACCCAACGATTACTGGGGAGAGAAAACAGGGCAAAAGCAAAGCTTAAAGGAATCCGATTGTCATTCGGCAATGTGCAGCGAAACTAAAAACCGGATAATGGACCTGTTAATCGAAACATTGAAGATAAAGGAAGAGGAATCCTGGCATATCATCAATTGAATAAGTTGAATTAATTATTTCAATCTCATTCTCACTTTCTGACTTATAGTCGCTTTGTTAAATCAATGCAAACAGTAATGATG",
+        "length": 8351,
+        "format_version": 2,
+        "strandedness_flag": 1,
+        "property_flags": 257,
+        "header_seq_length": 8351,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "Unmodified",
+                    "DownstreamModification": "Unmodified"
+                  }
+                }
+              ],
+              "10": [
+                {
+                  "features": [
+                    {
+                      "name": "synthetic DNA construct",
+                      "type": "source",
+                      "strand": ".",
+                      "start": 17,
+                      "end": 8332,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "18-6648",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "6649-8332",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "synthetic DNA construct",
+                        "mol_type": "other DNA",
+                        "organism": "<html><body>synthetic DNA construct</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "0",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1",
+                        "visible": "0"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "synthetic DNA construct"
+                          }
+                        },
+                        {
+                          "name": "mol_type",
+                          "V": {
+                            "predef": "other DNA"
+                          }
+                        },
+                        {
+                          "name": "organism",
+                          "V": {
+                            "text": "<html><body>synthetic DNA construct</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ars1",
+                      "type": "rep_origin",
+                      "strand": ".",
+                      "start": 1134,
+                      "end": 1918,
+                      "color": "#ffff00",
+                      "segments": [
+                        {
+                          "range": "1135-1918",
+                          "color": "#ffff00",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ars1",
+                        "note": "<html><body>Schizosaccharomyces pombe autonomously replicatingsequence ars1</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ars1"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>Schizosaccharomyces pombe autonomously replicatingsequence ars1</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "f1 ori",
+                      "type": "rep_origin",
+                      "strand": ".",
+                      "start": 2496,
+                      "end": 2952,
+                      "color": "#ffff00",
+                      "segments": [
+                        {
+                          "range": "2497-2952",
+                          "color": "#ffff00",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "f1 ori",
+                        "note": "<html><body>f1 bacteriophage origin of replication; arrowindicates direction of (+) strand synthesis</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "2",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "f1 ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>f1 bacteriophage origin of replication; arrowindicates direction of (+) strand synthesis</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AmpR promoter",
+                      "type": "promoter",
+                      "strand": "+",
+                      "start": 3233,
+                      "end": 3338,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "3234-3338",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "gene": "<html><body>bla</body></html>",
+                        "label": "AmpR promoter"
+                      },
+                      "extras": {
+                        "recentID": "3",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "gene",
+                          "V": {
+                            "text": "<html><body>bla</body></html>"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "AmpR promoter"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AmpR",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 3338,
+                      "end": 4199,
+                      "color": "#ccffcc",
+                      "segments": [
+                        {
+                          "range": "3339-4199",
+                          "color": "#ccffcc",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "AmpR"
+                      },
+                      "extras": {
+                        "recentID": "4",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "AmpR"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ori",
+                      "type": "rep_origin",
+                      "strand": ".",
+                      "start": 4369,
+                      "end": 4958,
+                      "color": "#ffff00",
+                      "segments": [
+                        {
+                          "range": "4370-4958",
+                          "color": "#ffff00",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ori",
+                        "note": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "5",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CAP binding site",
+                      "type": "protein_bind",
+                      "strand": ".",
+                      "start": 5245,
+                      "end": 5267,
+                      "color": "#31849b",
+                      "segments": [
+                        {
+                          "range": "5246-5267",
+                          "color": "#31849b",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "bound_moiety": "<html><body>E. coli catabolite activator protein</body></html>",
+                        "label": "CAP binding site",
+                        "note": "<html><body>CAP binding activates transcription in the presenceof cAMP.</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "6",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "bound_moiety",
+                          "V": {
+                            "text": "<html><body>E. coli catabolite activator protein</body></html>"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "CAP binding site"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>CAP binding activates transcription in the presenceof cAMP.</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "lac promoter",
+                      "type": "promoter",
+                      "strand": "+",
+                      "start": 5281,
+                      "end": 5312,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "5282-5312",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "lac promoter",
+                        "note": "<html><body>promoter for the E. coli lac operon</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "7",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "lac promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter for the E. coli lac operon</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "lac operator",
+                      "type": "protein_bind",
+                      "strand": ".",
+                      "start": 5319,
+                      "end": 5336,
+                      "color": "#31849b",
+                      "segments": [
+                        {
+                          "range": "5320-5336",
+                          "color": "#31849b",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "bound_moiety": "<html><body>lac repressor encoded by lacI</body></html>",
+                        "label": "lac operator",
+                        "note": "<html><body>The lac repressor binds to the lac operator toinhibit transcription in E. coli. This inhibition can berelieved by adding lactose orisopropyl-beta-D-thiogalactopyranoside (IPTG).</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "8",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "bound_moiety",
+                          "V": {
+                            "text": "<html><body>lac repressor encoded by lacI</body></html>"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "lac operator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>The lac repressor binds to the lac operator toinhibit transcription in E. coli. This inhibition can berelieved by adding lactose orisopropyl-beta-D-thiogalactopyranoside (IPTG).</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "S. pombe ura4",
+                      "type": "CDS",
+                      "strand": "-",
+                      "start": 5808,
+                      "end": 6603,
+                      "color": "#ff7f50",
+                      "segments": [
+                        {
+                          "range": "5809-6603",
+                          "color": "#ff7f50",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "S. pombe ura4"
+                      },
+                      "extras": {
+                        "recentID": "9",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "S. pombe ura4"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "nmt1 P41 promoter",
+                      "type": "promoter",
+                      "strand": "+",
+                      "start": 7178,
+                      "end": 8333,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "7179-8333",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "nmt1 P41 promoter",
+                        "note": "<html><body>mutant nmt1 promoter from Schizosaccharomyces pombe,conferring medium strength thiamine-repressible expression</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "10",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "nmt1 P41 promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>mutant nmt1 promoter from Schizosaccharomyces pombe,conferring medium strength thiamine-repressible expression</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Forward",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 2267,
+                      "end": 2285,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "2268-2285",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 Forward",
+                        "note": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "11",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Forward"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 fwd",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 2267,
+                      "end": 2284,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "2268-2284",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 fwd",
+                        "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "12",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 fwd"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13/pUC Forward",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 2276,
+                      "end": 2299,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "2277-2299",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13/pUC Forward",
+                        "note": "<html><body>In lacZ gene</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "13",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13/pUC Forward"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "F1ori-R",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 2583,
+                      "end": 2603,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "2584-2603",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "F1ori-R",
+                        "note": "<html><body>F1 origin, reverse primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "14",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "F1ori-R"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>F1 origin, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "F1ori-F",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 2793,
+                      "end": 2815,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "2794-2815",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "F1ori-F",
+                        "note": "<html><body>F1 origin, forward primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "15",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "F1ori-F"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>F1 origin, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pRS-marker",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 2968,
+                      "end": 2988,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "2969-2988",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "pRS-marker",
+                        "note": "<html><body>pRS vectors, use to sequence yeast selectablemarker</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "16",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pRS-marker"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pRS vectors, use to sequence yeast selectablemarker</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pGEX 3'",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 3087,
+                      "end": 3110,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "3088-3110",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "pGEX 3'",
+                        "note": "<html><body>pGEX vectors, reverse primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "17",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pGEX 3'"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pGEX vectors, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pBRforEco",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 3147,
+                      "end": 3166,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "3148-3166",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "pBRforEco",
+                        "note": "<html><body>pBR322 vectors, upsteam of EcoRI site, forwardprimer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "18",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pBRforEco"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pBR322 vectors, upsteam of EcoRI site, forwardprimer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Amp-R",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 3556,
+                      "end": 3576,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "3557-3576",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "Amp-R",
+                        "note": "<html><body>Ampicillin resistance gene, reverse primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "19",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "Amp-R"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>Ampicillin resistance gene, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pBR322ori-F",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 4858,
+                      "end": 4878,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "4859-4878",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "pBR322ori-F",
+                        "note": "<html><body>pBR322 origin, forward primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "20",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pBR322ori-F"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pBR322 origin, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "L4440",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 5111,
+                      "end": 5129,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "5112-5129",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "L4440",
+                        "note": "<html><body>L4440 vector, forward primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "21",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "L4440"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>L4440 vector, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13/pUC Reverse",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 5324,
+                      "end": 5347,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "5325-5347",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13/pUC Reverse",
+                        "note": "<html><body>In lacZ gene</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "22",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13/pUC Reverse"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 rev",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 5343,
+                      "end": 5360,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "5344-5360",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 rev",
+                        "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "23",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 rev"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Reverse",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 5343,
+                      "end": 5360,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "5344-5360",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 Reverse",
+                        "note": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "24",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Reverse"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "vector_fwd",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 0,
+                      "end": 36,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1-36",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "vector_fwd",
+                        "note": [
+                          "<html><body>sequence: GGAGAAGAAGGCTTTTAATATGCTCGAGAGATCTGT</body></html>",
+                          "<html><body>/primerBindsOn=3prime</body></html>"
+                        ]
+                      },
+                      "extras": {
+                        "recentID": "25",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "vector_fwd"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": [
+                            {
+                              "text": "<html><body>sequence: GGAGAAGAAGGCTTTTAATATGCTCGAGAGATCTGT</body></html>"
+                            },
+                            {
+                              "text": "<html><body>/primerBindsOn=3prime</body></html>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "vector_rvs",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 8310,
+                      "end": 8351,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "8311-8351",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "vector_rvs",
+                        "note": [
+                          "<html><body>sequence: CATCATTACTGTTTGCATTGATTTAACAAAGCGACTATAAG</body></html>",
+                          "<html><body>/primerBindsOn=3prime</body></html>"
+                        ]
+                      },
+                      "extras": {
+                        "recentID": "26",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "vector_rvs"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": [
+                            {
+                              "text": "<html><body>sequence: CATCATTACTGTTTGCATTGATTTAACAAAGCGACTATAAG</body></html>"
+                            },
+                            {
+                              "text": "<html><body>/primerBindsOn=3prime</body></html>"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "wrapper_extras": {
+                    "nextValidID": "27"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "bd249f53-0807-4f26-96c9-e5997591d268",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "Description": "description.",
+                    "Created": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.24"
+                    },
+                    "LastModified": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.24"
+                    },
+                    "AccessionNumber": "10",
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "7": [
+      {
+        "HistoryTree": {
+          "Node": {
+            "name": "gibson_without_pcr.dna",
+            "type": "DNA",
+            "seqLen": "10558",
+            "strandedness": "double",
+            "ID": "2",
+            "circular": "1",
+            "operation": "gibsonAssembly",
+            "HistoryColors": {
+              "StrandColors": {
+                "type": "Product",
+                "TopStrand": {
+                  "ColorRange": {
+                    "range": "2279..10557",
+                    "colors": "red"
+                  }
+                },
+                "BottomStrand": {
+                  "ColorRange": {
+                    "range": "2279..10557",
+                    "colors": "red"
+                  }
+                }
+              }
+            },
+            "InputSummary": [
+              {
+                "manipulation": "choose",
+                "val1": "0",
+                "val2": "2278"
+              },
+              {
+                "manipulation": "choose",
+                "val1": "0",
+                "val2": "8350"
+              }
+            ],
+            "Node": [
+              {
+                "name": "gibson_input1.dna",
+                "type": "DNA",
+                "seqLen": "2279",
+                "strandedness": "double",
+                "ID": "0",
+                "circular": "0",
+                "upstreamModification": "Unmodified",
+                "downstreamModification": "Unmodified",
+                "resurrectable": "1",
+                "operation": "invalid",
+                "Features": {
+                  "Feature": {
+                    "name": "ase1",
+                    "directionality": "1",
+                    "type": "CDS",
+                    "allowSegmentOverlaps": "0",
+                    "Segment": [
+                      {
+                        "range": "19-442",
+                        "color": "#993366",
+                        "type": "standard"
+                      },
+                      {
+                        "range": "443-489",
+                        "color": "noColor",
+                        "type": "gap"
+                      },
+                      {
+                        "range": "490-2261",
+                        "color": "#993366",
+                        "type": "standard"
+                      }
+                    ],
+                    "Q": [
+                      {
+                        "name": "label",
+                        "V": {
+                          "text": "ase1"
+                        }
+                      },
+                      {
+                        "name": "locus_tag",
+                        "V": {
+                          "text": "SPOM_SPAPB1A10.09"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "gibson_input2.dna",
+                "type": "DNA",
+                "seqLen": "8351",
+                "strandedness": "double",
+                "ID": "1",
+                "circular": "0",
+                "upstreamModification": "Unmodified",
+                "downstreamModification": "Unmodified",
+                "resurrectable": "1",
+                "operation": "invalid",
+                "Features": {
+                  "Feature": [
+                    {
+                      "name": "nmt1 P41 promoter",
+                      "directionality": "1",
+                      "type": "promoter",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "7179-8333",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "nmt1 P41 promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>mutant nmt1 promoter from Schizosaccharomyces pombe,conferring medium strength thiamine-repressible expression</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AmpR",
+                      "directionality": "1",
+                      "type": "CDS",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "3339-4199",
+                        "color": "#ccffcc",
+                        "type": "standard"
+                      },
+                      "Q": {
+                        "name": "label",
+                        "V": {
+                          "text": "AmpR"
+                        }
+                      }
+                    },
+                    {
+                      "name": "S. pombe ura4",
+                      "directionality": "2",
+                      "type": "CDS",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "5809-6603",
+                        "color": "#ff7f50",
+                        "type": "standard"
+                      },
+                      "Q": {
+                        "name": "label",
+                        "V": {
+                          "text": "S. pombe ura4"
+                        }
+                      }
+                    },
+                    {
+                      "name": "ars1",
+                      "type": "rep_origin",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1135-1918",
+                        "color": "#ffff00",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ars1"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>Schizosaccharomyces pombe autonomously replicatingsequence ars1</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ori",
+                      "type": "rep_origin",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "4370-4958",
+                        "color": "#ffff00",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "f1 ori",
+                      "type": "rep_origin",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "2497-2952",
+                        "color": "#ffff00",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "f1 ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>f1 bacteriophage origin of replication; arrowindicates direction of (+) strand synthesis</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AmpR promoter",
+                      "directionality": "1",
+                      "type": "promoter",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "3234-3338",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "gene",
+                          "V": {
+                            "text": "<html><body>bla</body></html>"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "AmpR promoter"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "vector_fwd",
+                      "directionality": "1",
+                      "type": "primer_bind",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1-36",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "vector_fwd"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": [
+                            {
+                              "text": "<html><body>sequence: GGAGAAGAAGGCTTTTAATATGCTCGAGAGATCTGT</body></html>"
+                            },
+                            {
+                              "text": "<html><body>/primerBindsOn=3prime</body></html>"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "lac promoter",
+                      "directionality": "1",
+                      "type": "promoter",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "5282-5312",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "lac promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter for the E. coli lac operon</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13/pUC Forward",
+                      "directionality": "2",
+                      "type": "primer_bind",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "2277-2299",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13/pUC Forward"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pGEX 3'",
+                      "directionality": "1",
+                      "type": "primer_bind",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "3088-3110",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pGEX 3'"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pGEX vectors, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13/pUC Reverse",
+                      "directionality": "1",
+                      "type": "primer_bind",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "5325-5347",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13/pUC Reverse"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CAP binding site",
+                      "type": "protein_bind",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "5246-5267",
+                        "color": "#31849b",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "bound_moiety",
+                          "V": {
+                            "text": "<html><body>E. coli catabolite activator protein</body></html>"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "CAP binding site"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>CAP binding activates transcription in the presenceof cAMP.</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pRS-marker",
+                      "directionality": "2",
+                      "type": "primer_bind",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "2969-2988",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pRS-marker"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pRS vectors, use to sequence yeast selectablemarker</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pBRforEco",
+                      "directionality": "2",
+                      "type": "primer_bind",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "3148-3166",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pBRforEco"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pBR322 vectors, upsteam of EcoRI site, forwardprimer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "L4440",
+                      "directionality": "1",
+                      "type": "primer_bind",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "5112-5129",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "L4440"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>L4440 vector, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "HistoryColors": {
+                  "StrandColors": {
+                    "type": "Input",
+                    "TopStrand": {
+                      "ColorRange": {
+                        "range": "36..8314",
+                        "colors": "red"
+                      }
+                    },
+                    "BottomStrand": {
+                      "ColorRange": {
+                        "range": "36..8314",
+                        "colors": "red"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamStickiness": "0",
+          "DownstreamStickiness": "0",
+          "UpstreamModification": "FivePrimePhosphorylated",
+          "DownstreamModification": "FivePrimePhosphorylated"
+        }
+      }
+    ],
+    "10": [
+      {
+        "features": [
+          {
+            "name": "ase1_rvs",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 2242,
+            "end": 2279,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "2243-2279",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "ase1_rvs",
+              "note": [
+                "<html><body>sequence: ACAGATCTCTCGAGCATATTAAAAGCCTTCTTCTCCC</body></html>",
+                "<html><body>/primerBindsOn=3prime</body></html>"
+              ]
+            },
+            "extras": {
+              "recentID": "0",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "ase1_rvs"
+                }
+              },
+              {
+                "name": "note",
+                "V": [
+                  {
+                    "text": "<html><body>sequence: ACAGATCTCTCGAGCATATTAAAAGCCTTCTTCTCCC</body></html>"
+                  },
+                  {
+                    "text": "<html><body>/primerBindsOn=3prime</body></html>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ase1_fwd",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 0,
+            "end": 38,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "1-38",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "ase1_fwd",
+              "note": [
+                "<html><body>sequence: AGTCGCTTTGTTAAATCAATGCAAACAGTAATGATGGA</body></html>",
+                "<html><body>/primerBindsOn=3prime</body></html>"
+              ]
+            },
+            "extras": {
+              "recentID": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "ase1_fwd"
+                }
+              },
+              {
+                "name": "note",
+                "V": [
+                  {
+                    "text": "<html><body>sequence: AGTCGCTTTGTTAAATCAATGCAAACAGTAATGATGGA</body></html>"
+                  },
+                  {
+                    "text": "<html><body>/primerBindsOn=3prime</body></html>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "ase1",
+            "type": "CDS",
+            "strand": "+",
+            "start": 18,
+            "end": 2261,
+            "color": "#993366",
+            "segments": [
+              {
+                "range": "19-442",
+                "color": "#993366",
+                "type": "standard"
+              },
+              {
+                "range": "443-489",
+                "color": "noColor",
+                "type": "gap"
+              },
+              {
+                "range": "490-2261",
+                "color": "#993366",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "ase1",
+              "locus_tag": "SPOM_SPAPB1A10.09"
+            },
+            "extras": {
+              "recentID": "2",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "ase1"
+                }
+              },
+              {
+                "name": "locus_tag",
+                "V": {
+                  "text": "SPOM_SPAPB1A10.09"
+                }
+              }
+            ]
+          },
+          {
+            "name": "vector_rvs",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 10553,
+            "end": 36,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "10554-36",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "vector_rvs",
+              "note": [
+                "<html><body>sequence: CATCATTACTGTTTGCATTGATTTAACAAAGCGACTATAAG</body></html>",
+                "<html><body>/primerBindsOn=3prime</body></html>"
+              ]
+            },
+            "extras": {
+              "recentID": "3",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "vector_rvs"
+                }
+              },
+              {
+                "name": "note",
+                "V": [
+                  {
+                    "text": "<html><body>sequence: CATCATTACTGTTTGCATTGATTTAACAAAGCGACTATAAG</body></html>"
+                  },
+                  {
+                    "text": "<html><body>/primerBindsOn=3prime</body></html>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "vector_fwd",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 2243,
+            "end": 2279,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "2244-2279",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "vector_fwd",
+              "note": [
+                "<html><body>sequence: GGAGAAGAAGGCTTTTAATATGCTCGAGAGATCTGT</body></html>",
+                "<html><body>/primerBindsOn=3prime</body></html>"
+              ]
+            },
+            "extras": {
+              "recentID": "4",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "vector_fwd"
+                }
+              },
+              {
+                "name": "note",
+                "V": [
+                  {
+                    "text": "<html><body>sequence: GGAGAAGAAGGCTTTTAATATGCTCGAGAGATCTGT</body></html>"
+                  },
+                  {
+                    "text": "<html><body>/primerBindsOn=3prime</body></html>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "M13 Reverse",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 7586,
+            "end": 7603,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "7587-7603",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "M13 Reverse",
+              "note": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+            },
+            "extras": {
+              "recentID": "5",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "M13 Reverse"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "M13 rev",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 7586,
+            "end": 7603,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "7587-7603",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "M13 rev",
+              "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+            },
+            "extras": {
+              "recentID": "6",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "M13 rev"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "M13/pUC Reverse",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 7567,
+            "end": 7590,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "7568-7590",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "M13/pUC Reverse",
+              "note": "<html><body>In lacZ gene</body></html>"
+            },
+            "extras": {
+              "recentID": "7",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "M13/pUC Reverse"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>In lacZ gene</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "L4440",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 7354,
+            "end": 7372,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "7355-7372",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "L4440",
+              "note": "<html><body>L4440 vector, forward primer</body></html>"
+            },
+            "extras": {
+              "recentID": "8",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "L4440"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>L4440 vector, forward primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "pBR322ori-F",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 7101,
+            "end": 7121,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "7102-7121",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "pBR322ori-F",
+              "note": "<html><body>pBR322 origin, forward primer</body></html>"
+            },
+            "extras": {
+              "recentID": "9",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "pBR322ori-F"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>pBR322 origin, forward primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Amp-R",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 5799,
+            "end": 5819,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "5800-5819",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "Amp-R",
+              "note": "<html><body>Ampicillin resistance gene, reverse primer</body></html>"
+            },
+            "extras": {
+              "recentID": "10",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "Amp-R"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>Ampicillin resistance gene, reverse primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "pBRforEco",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 5390,
+            "end": 5409,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "5391-5409",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "pBRforEco",
+              "note": "<html><body>pBR322 vectors, upsteam of EcoRI site, forwardprimer</body></html>"
+            },
+            "extras": {
+              "recentID": "11",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "pBRforEco"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>pBR322 vectors, upsteam of EcoRI site, forwardprimer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "pGEX 3'",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 5330,
+            "end": 5353,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "5331-5353",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "pGEX 3'",
+              "note": "<html><body>pGEX vectors, reverse primer</body></html>"
+            },
+            "extras": {
+              "recentID": "12",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "pGEX 3'"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>pGEX vectors, reverse primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "pRS-marker",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 5211,
+            "end": 5231,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "5212-5231",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "pRS-marker",
+              "note": "<html><body>pRS vectors, use to sequence yeast selectablemarker</body></html>"
+            },
+            "extras": {
+              "recentID": "13",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "pRS-marker"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>pRS vectors, use to sequence yeast selectablemarker</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "F1ori-F",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 5036,
+            "end": 5058,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "5037-5058",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "F1ori-F",
+              "note": "<html><body>F1 origin, forward primer</body></html>"
+            },
+            "extras": {
+              "recentID": "14",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "F1ori-F"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>F1 origin, forward primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "F1ori-R",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 4826,
+            "end": 4846,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "4827-4846",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "F1ori-R",
+              "note": "<html><body>F1 origin, reverse primer</body></html>"
+            },
+            "extras": {
+              "recentID": "15",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "F1ori-R"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>F1 origin, reverse primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "M13/pUC Forward",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 4519,
+            "end": 4542,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "4520-4542",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "M13/pUC Forward",
+              "note": "<html><body>In lacZ gene</body></html>"
+            },
+            "extras": {
+              "recentID": "16",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "M13/pUC Forward"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>In lacZ gene</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "M13 fwd",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 4510,
+            "end": 4527,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "4511-4527",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "M13 fwd",
+              "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+            },
+            "extras": {
+              "recentID": "17",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "M13 fwd"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "M13 Forward",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 4510,
+            "end": 4528,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "4511-4528",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "M13 Forward",
+              "note": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+            },
+            "extras": {
+              "recentID": "18",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "M13 Forward"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "nmt1 P41 promoter",
+            "type": "promoter",
+            "strand": "+",
+            "start": 9421,
+            "end": 18,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "9422-18",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "nmt1 P41 promoter",
+              "note": "<html><body>mutant nmt1 promoter from Schizosaccharomyces pombe,conferring medium strength thiamine-repressible expression</body></html>"
+            },
+            "extras": {
+              "recentID": "19",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "nmt1 P41 promoter"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>mutant nmt1 promoter from Schizosaccharomyces pombe,conferring medium strength thiamine-repressible expression</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "S. pombe ura4",
+            "type": "CDS",
+            "strand": "-",
+            "start": 8051,
+            "end": 8846,
+            "color": "#ff7f50",
+            "segments": [
+              {
+                "range": "8052-8846",
+                "color": "#ff7f50",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "S. pombe ura4"
+            },
+            "extras": {
+              "recentID": "20",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "S. pombe ura4"
+                }
+              }
+            ]
+          },
+          {
+            "name": "lac operator",
+            "type": "protein_bind",
+            "strand": ".",
+            "start": 7562,
+            "end": 7579,
+            "color": "#31849b",
+            "segments": [
+              {
+                "range": "7563-7579",
+                "color": "#31849b",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "bound_moiety": "<html><body>lac repressor encoded by lacI</body></html>",
+              "label": "lac operator",
+              "note": "<html><body>The lac repressor binds to the lac operator toinhibit transcription in E. coli. This inhibition can berelieved by adding lactose orisopropyl-beta-D-thiogalactopyranoside (IPTG).</body></html>"
+            },
+            "extras": {
+              "recentID": "21",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "bound_moiety",
+                "V": {
+                  "text": "<html><body>lac repressor encoded by lacI</body></html>"
+                }
+              },
+              {
+                "name": "label",
+                "V": {
+                  "text": "lac operator"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>The lac repressor binds to the lac operator toinhibit transcription in E. coli. This inhibition can berelieved by adding lactose orisopropyl-beta-D-thiogalactopyranoside (IPTG).</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "lac promoter",
+            "type": "promoter",
+            "strand": "+",
+            "start": 7524,
+            "end": 7555,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "7525-7555",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "lac promoter",
+              "note": "<html><body>promoter for the E. coli lac operon</body></html>"
+            },
+            "extras": {
+              "recentID": "22",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "lac promoter"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>promoter for the E. coli lac operon</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "CAP binding site",
+            "type": "protein_bind",
+            "strand": ".",
+            "start": 7488,
+            "end": 7510,
+            "color": "#31849b",
+            "segments": [
+              {
+                "range": "7489-7510",
+                "color": "#31849b",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "bound_moiety": "<html><body>E. coli catabolite activator protein</body></html>",
+              "label": "CAP binding site",
+              "note": "<html><body>CAP binding activates transcription in the presenceof cAMP.</body></html>"
+            },
+            "extras": {
+              "recentID": "23",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "bound_moiety",
+                "V": {
+                  "text": "<html><body>E. coli catabolite activator protein</body></html>"
+                }
+              },
+              {
+                "name": "label",
+                "V": {
+                  "text": "CAP binding site"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>CAP binding activates transcription in the presenceof cAMP.</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "ori",
+            "type": "rep_origin",
+            "strand": ".",
+            "start": 6612,
+            "end": 7201,
+            "color": "#ffff00",
+            "segments": [
+              {
+                "range": "6613-7201",
+                "color": "#ffff00",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "ori",
+              "note": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+            },
+            "extras": {
+              "recentID": "24",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "ori"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "AmpR",
+            "type": "CDS",
+            "strand": "+",
+            "start": 5581,
+            "end": 6442,
+            "color": "#ccffcc",
+            "segments": [
+              {
+                "range": "5582-6442",
+                "color": "#ccffcc",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "AmpR"
+            },
+            "extras": {
+              "recentID": "25",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "AmpR"
+                }
+              }
+            ]
+          },
+          {
+            "name": "AmpR promoter",
+            "type": "promoter",
+            "strand": "+",
+            "start": 5476,
+            "end": 5581,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "5477-5581",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "gene": "<html><body>bla</body></html>",
+              "label": "AmpR promoter"
+            },
+            "extras": {
+              "recentID": "26",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "gene",
+                "V": {
+                  "text": "<html><body>bla</body></html>"
+                }
+              },
+              {
+                "name": "label",
+                "V": {
+                  "text": "AmpR promoter"
+                }
+              }
+            ]
+          },
+          {
+            "name": "f1 ori",
+            "type": "rep_origin",
+            "strand": ".",
+            "start": 4739,
+            "end": 5195,
+            "color": "#ffff00",
+            "segments": [
+              {
+                "range": "4740-5195",
+                "color": "#ffff00",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "f1 ori",
+              "note": "<html><body>f1 bacteriophage origin of replication; arrowindicates direction of (+) strand synthesis</body></html>"
+            },
+            "extras": {
+              "recentID": "27",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "f1 ori"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>f1 bacteriophage origin of replication; arrowindicates direction of (+) strand synthesis</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "ars1",
+            "type": "rep_origin",
+            "strand": ".",
+            "start": 3377,
+            "end": 4161,
+            "color": "#ffff00",
+            "segments": [
+              {
+                "range": "3378-4161",
+                "color": "#ffff00",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "ars1",
+              "note": "<html><body>Schizosaccharomyces pombe autonomously replicatingsequence ars1</body></html>"
+            },
+            "extras": {
+              "recentID": "28",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "ars1"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>Schizosaccharomyces pombe autonomously replicatingsequence ars1</body></html>"
+                }
+              }
+            ]
+          }
+        ],
+        "wrapper_extras": {
+          "nextValidID": "29"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "0",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          }
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "8534154b-5da7-4e01-aba6-8afe9cf91c71",
+          "Type": "Synthetic",
+          "ConfirmedExperimentally": "0",
+          "Created": {
+            "UTC": "16:6:49",
+            "_text": "2026.3.24"
+          },
+          "LastModified": {
+            "UTC": "16:6:49",
+            "_text": "2026.3.24"
+          },
+          "CreatedBy": "Trial User",
+          "SequenceClass": "UNA",
+          "TransformedInto": "unspecified"
+        }
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ]
+  }
+}

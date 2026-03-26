@@ -1,0 +1,242 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "CAAATTGGAGTCATATTGTAACCGCTTAGGAAGTCCGTTCGTTTTACCTGATTTTGAGAATTCATTTTTATCTGATGTATCCGATGCTTTTACTGAATCTTTGAGAGGACGCATCAACGAAGCCGAAAAGGAGATTGATGC",
+        "length": 141,
+        "topology": "circular",
+        "strandedness": "double",
+        "dam_methylated": true,
+        "dcm_methylated": true,
+        "ecoki_methylated": true
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamStickiness": "0",
+          "DownstreamStickiness": "0",
+          "UpstreamModification": "FivePrimePhosphorylated",
+          "DownstreamModification": "FivePrimePhosphorylated"
+        }
+      }
+    ],
+    "10": [
+      {
+        "features": [
+          {
+            "name": "origin_spanning_no_dir",
+            "type": "misc_feature",
+            "strand": ".",
+            "start": 134,
+            "end": 7,
+            "color": "#a6acb3",
+            "segments": [
+              {
+                "range": "135-7",
+                "color": "#a6acb3",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {},
+            "extras": {
+              "recentID": "0",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": null
+          },
+          {
+            "name": "origin_spanning_right",
+            "type": "CDS",
+            "strand": "+",
+            "start": 134,
+            "end": 7,
+            "color": "#a6acb3",
+            "segments": [
+              {
+                "range": "135-7",
+                "color": "#a6acb3",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "codon_start": 1,
+              "transl_table": 1
+            },
+            "extras": {
+              "recentID": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "codon_start",
+                "V": {
+                  "int": "1"
+                }
+              },
+              {
+                "name": "transl_table",
+                "V": {
+                  "int": "1"
+                }
+              },
+              {
+                "name": "translation",
+                "V": null
+              }
+            ]
+          },
+          {
+            "name": "origin_spanning_left",
+            "type": "misc_feature",
+            "strand": "-",
+            "start": 134,
+            "end": 7,
+            "color": "#a6acb3",
+            "segments": [
+              {
+                "range": "135-7",
+                "color": "#a6acb3",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {},
+            "extras": {
+              "recentID": "2",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "readingFrame": "-1",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": null
+          }
+        ],
+        "wrapper_extras": {
+          "nextValidID": "3"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "2",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          },
+          "Primer": [
+            {
+              "recentID": "0",
+              "name": "Primer 1",
+              "sequence": "TGATGCCAAATTGG",
+              "description": "<html><body></body></html>",
+              "dateAdded": "2026-03-24T19:29:41Z",
+              "BindingSite": [
+                {
+                  "location": "135-7",
+                  "boundStrand": "0",
+                  "annealedBases": "TGATGCCAAATTGG",
+                  "meltingTemperature": "45",
+                  "Component": {
+                    "hybridizedRange": "135-7",
+                    "bases": "TGATGCCAAATTGG"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "135-7",
+                  "boundStrand": "0",
+                  "annealedBases": "TGATGCCAAATTGG",
+                  "meltingTemperature": "45",
+                  "Component": {
+                    "hybridizedRange": "135-7",
+                    "bases": "TGATGCCAAATTGG"
+                  }
+                }
+              ]
+            },
+            {
+              "recentID": "1",
+              "name": "Primer 2",
+              "sequence": "ACTCCAATTTGGCATCAAT",
+              "description": "<html><body></body></html>",
+              "dateAdded": "2026-03-24T19:30:01Z",
+              "BindingSite": [
+                {
+                  "location": "133-10",
+                  "boundStrand": "1",
+                  "annealedBases": "ACTCCAATTTGGCATCAAT",
+                  "meltingTemperature": "53",
+                  "Component": {
+                    "hybridizedRange": "133-10",
+                    "bases": "ACTCCAATTTGGCATCAAT"
+                  }
+                },
+                {
+                  "simplified": "1",
+                  "location": "133-10",
+                  "boundStrand": "1",
+                  "annealedBases": "ACTCCAATTTGGCATCAAT",
+                  "meltingTemperature": "53",
+                  "Component": {
+                    "hybridizedRange": "133-10",
+                    "bases": "ACTCCAATTTGGCATCAAT"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "63f3d060-1cb8-4247-95e0-ea31f385f320",
+          "Type": "Synthetic",
+          "ConfirmedExperimentally": "0",
+          "Created": {
+            "UTC": "19:27:20",
+            "_text": "2026.3.24"
+          },
+          "LastModified": {
+            "UTC": "19:30:1",
+            "_text": "2026.3.24"
+          },
+          "CreatedBy": "Trial User",
+          "SequenceClass": "UNA",
+          "TransformedInto": "unspecified"
+        }
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ]
+  }
+}

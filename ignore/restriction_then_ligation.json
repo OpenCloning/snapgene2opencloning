@@ -1,0 +1,1059 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "aaGAATTCaaaaaCTCGAGtttttGGATCCaaaaaCTCGAGtttttGAATTCtt",
+        "length": 54,
+        "topology": "linear",
+        "strandedness": "double",
+        "dam_methylated": false,
+        "dcm_methylated": false,
+        "ecoki_methylated": false
+      }
+    ],
+    "11": [
+      {
+        "node_index": 2,
+        "sequence_type": 1,
+        "sequence": "AAGAATTCAAAAACTCGAGTTTTTGGATC",
+        "length": 29,
+        "format_version": 2,
+        "strandedness_flag": 1,
+        "property_flags": 769,
+        "header_seq_length": 29,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamEnzymeName": "Start",
+                    "DownstreamEnzymeName": "BamHI",
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "4",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "749f400e-af3a-428e-9a1c-1a564ae0f61f",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "Created": {
+                      "UTC": "8:34:12",
+                      "_text": "2026.3.24"
+                    },
+                    "LastModified": {
+                      "UTC": "8:34:12",
+                      "_text": "2026.3.24"
+                    },
+                    "CreatedBy": "Trial User",
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified"
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "None"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 0,
+        "sequence_type": 1,
+        "sequence": "AAGAATTCAAAAACTCGAGAA",
+        "length": 21,
+        "format_version": 2,
+        "strandedness_flag": 1,
+        "property_flags": 769,
+        "header_seq_length": 21,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "548e24ec-45e4-4a48-876a-faa6393f14d6",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "Created": {
+                      "UTC": "8:30:10",
+                      "_text": "2026.3.24"
+                    },
+                    "LastModified": {
+                      "UTC": "8:30:10",
+                      "_text": "2026.3.24"
+                    },
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified"
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "None"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 3,
+        "sequence_type": 1,
+        "sequence": "AAGAATTCAAAAACTCGAGAA",
+        "length": 21,
+        "format_version": 2,
+        "strandedness_flag": 1,
+        "property_flags": 769,
+        "header_seq_length": 21,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "548e24ec-45e4-4a48-876a-faa6393f14d6",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "Created": {
+                      "UTC": "8:30:10",
+                      "_text": "2026.3.24"
+                    },
+                    "LastModified": {
+                      "UTC": "8:30:10",
+                      "_text": "2026.3.24"
+                    },
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified"
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "None"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 1,
+        "sequence_type": 1,
+        "sequence": "TTCTCGAGTTTTTGGATCCTT",
+        "length": 21,
+        "format_version": 2,
+        "strandedness_flag": 1,
+        "property_flags": 769,
+        "header_seq_length": 21,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "a8e8d86e-ab9b-4fd1-a763-450a38442b45",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "Created": {
+                      "UTC": "8:30:10",
+                      "_text": "2026.3.24"
+                    },
+                    "LastModified": {
+                      "UTC": "8:30:10",
+                      "_text": "2026.3.24"
+                    },
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified"
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "None"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 4,
+        "sequence_type": 1,
+        "sequence": "TTCTCGAGTTTTTGGATCCTT",
+        "length": 21,
+        "format_version": 2,
+        "strandedness_flag": 1,
+        "property_flags": 769,
+        "header_seq_length": 21,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "a8e8d86e-ab9b-4fd1-a763-450a38442b45",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "Created": {
+                      "UTC": "8:30:10",
+                      "_text": "2026.3.24"
+                    },
+                    "LastModified": {
+                      "UTC": "8:30:10",
+                      "_text": "2026.3.24"
+                    },
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified"
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "None"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 5,
+        "sequence_type": 1,
+        "sequence": "AAGAATTCAAAAACTCGAGTTTTTGGATC",
+        "length": 29,
+        "format_version": 2,
+        "strandedness_flag": 1,
+        "property_flags": 769,
+        "header_seq_length": 29,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamEnzymeName": "Start",
+                    "DownstreamEnzymeName": "BamHI",
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "4",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "749f400e-af3a-428e-9a1c-1a564ae0f61f",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "Created": {
+                      "UTC": "8:34:12",
+                      "_text": "2026.3.24"
+                    },
+                    "LastModified": {
+                      "UTC": "8:34:12",
+                      "_text": "2026.3.24"
+                    },
+                    "CreatedBy": "Trial User",
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified"
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "None"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "7": [
+      {
+        "HistoryTree": {
+          "Node": {
+            "name": "restriction_then_ligation.dna",
+            "type": "DNA",
+            "seqLen": "54",
+            "strandedness": "double",
+            "ID": "6",
+            "circular": "0",
+            "upstreamModification": "FivePrimePhosphorylated",
+            "downstreamModification": "FivePrimePhosphorylated",
+            "operation": "ligateFragments",
+            "RegeneratedSite": [
+              {
+                "name": "<Start>",
+                "pos": "0",
+                "siteCount": "0",
+                "blunt": "1"
+              },
+              {
+                "name": "BamHI",
+                "pos": "25",
+                "siteCount": "1"
+              },
+              {
+                "name": "BamHI",
+                "pos": "25",
+                "siteCount": "1"
+              },
+              {
+                "name": "<Start>",
+                "pos": "54",
+                "siteCount": "0",
+                "blunt": "1"
+              }
+            ],
+            "HistoryColors": {
+              "StrandColors": {
+                "type": "Product",
+                "TopStrand": {
+                  "ColorRange": [
+                    {
+                      "range": "0..24",
+                      "colors": "black"
+                    },
+                    {
+                      "range": "25..49",
+                      "colors": "red"
+                    }
+                  ]
+                },
+                "BottomStrand": {
+                  "ColorRange": [
+                    {
+                      "range": "0..28",
+                      "colors": "black"
+                    },
+                    {
+                      "range": "29..49",
+                      "colors": "red"
+                    }
+                  ]
+                }
+              }
+            },
+            "InputSummary": [
+              {
+                "manipulation": "choose",
+                "name1": "<Start>",
+                "name2": "<BamHI>",
+                "val1": "0",
+                "val2": "25",
+                "blunt1": "1"
+              },
+              {
+                "manipulation": "flipAndChoose",
+                "name1": "<Start>",
+                "name2": "<BamHI>",
+                "val1": "0",
+                "val2": "25",
+                "blunt1": "1"
+              }
+            ],
+            "Node": [
+              {
+                "name": "linear_ligation2_overhangs.dna",
+                "type": "DNA",
+                "seqLen": "29",
+                "strandedness": "double",
+                "ID": "2",
+                "circular": "0",
+                "downstreamStickiness": "4",
+                "upstreamModification": "FivePrimePhosphorylated",
+                "downstreamModification": "FivePrimePhosphorylated",
+                "resurrectable": "1",
+                "operation": "ligateFragments",
+                "RegeneratedSite": [
+                  {
+                    "name": "<Start>",
+                    "pos": "0",
+                    "siteCount": "0",
+                    "blunt": "1"
+                  },
+                  {
+                    "name": "XhoI",
+                    "pos": "14",
+                    "siteCount": "1"
+                  },
+                  {
+                    "name": "<BamHI>",
+                    "pos": "25",
+                    "siteCount": "0"
+                  }
+                ],
+                "HistoryColors": {
+                  "StrandColors": [
+                    {
+                      "type": "Input",
+                      "TopStrand": {
+                        "ColorRange": {
+                          "range": "0..24",
+                          "colors": "black"
+                        }
+                      },
+                      "BottomStrand": {
+                        "ColorRange": {
+                          "range": "0..28",
+                          "colors": "black"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Product",
+                      "TopStrand": {
+                        "ColorRange": [
+                          {
+                            "range": "0..13",
+                            "colors": "black"
+                          },
+                          {
+                            "range": "14..24",
+                            "colors": "red"
+                          }
+                        ]
+                      },
+                      "BottomStrand": {
+                        "ColorRange": [
+                          {
+                            "range": "0..17",
+                            "colors": "black"
+                          },
+                          {
+                            "range": "18..28",
+                            "colors": "red"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "InputSummary": [
+                  {
+                    "manipulation": "choose",
+                    "name1": "Start",
+                    "name2": "XhoI",
+                    "val1": "0",
+                    "val2": "14",
+                    "siteCount2": "1",
+                    "blunt1": "1"
+                  },
+                  {
+                    "manipulation": "choose",
+                    "name1": "XhoI",
+                    "name2": "BamHI",
+                    "val1": "3",
+                    "val2": "14",
+                    "siteCount1": "1",
+                    "siteCount2": "1"
+                  }
+                ],
+                "Node": [
+                  {
+                    "name": "A.dna",
+                    "type": "DNA",
+                    "seqLen": "21",
+                    "strandedness": "double",
+                    "ID": "0",
+                    "circular": "0",
+                    "upstreamModification": "FivePrimePhosphorylated",
+                    "downstreamModification": "FivePrimePhosphorylated",
+                    "resurrectable": "1",
+                    "operation": "invalid",
+                    "HistoryColors": {
+                      "StrandColors": {
+                        "type": "Input",
+                        "TopStrand": {
+                          "ColorRange": [
+                            {
+                              "range": "0..13",
+                              "colors": "black"
+                            },
+                            {
+                              "range": "14..20",
+                              "colors": "white"
+                            }
+                          ]
+                        },
+                        "BottomStrand": {
+                          "ColorRange": [
+                            {
+                              "range": "0..17",
+                              "colors": "black"
+                            },
+                            {
+                              "range": "18..20",
+                              "colors": "white"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "name": "B.dna",
+                    "type": "DNA",
+                    "seqLen": "21",
+                    "strandedness": "double",
+                    "ID": "1",
+                    "circular": "0",
+                    "upstreamModification": "FivePrimePhosphorylated",
+                    "downstreamModification": "FivePrimePhosphorylated",
+                    "resurrectable": "1",
+                    "operation": "invalid",
+                    "HistoryColors": {
+                      "StrandColors": {
+                        "type": "Input",
+                        "TopStrand": {
+                          "ColorRange": [
+                            {
+                              "range": "3..13",
+                              "colors": "red"
+                            },
+                            {
+                              "range": "0..2",
+                              "colors": "white"
+                            },
+                            {
+                              "range": "14..20",
+                              "colors": "white"
+                            }
+                          ]
+                        },
+                        "BottomStrand": {
+                          "ColorRange": [
+                            {
+                              "range": "7..17",
+                              "colors": "red"
+                            },
+                            {
+                              "range": "0..6",
+                              "colors": "white"
+                            },
+                            {
+                              "range": "18..20",
+                              "colors": "white"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "linear_ligation2_overhangs.dna",
+                "type": "DNA",
+                "seqLen": "29",
+                "strandedness": "double",
+                "ID": "5",
+                "circular": "0",
+                "downstreamStickiness": "4",
+                "upstreamModification": "FivePrimePhosphorylated",
+                "downstreamModification": "FivePrimePhosphorylated",
+                "resurrectable": "1",
+                "operation": "ligateFragments",
+                "RegeneratedSite": [
+                  {
+                    "name": "<Start>",
+                    "pos": "0",
+                    "siteCount": "0",
+                    "blunt": "1"
+                  },
+                  {
+                    "name": "XhoI",
+                    "pos": "14",
+                    "siteCount": "1"
+                  },
+                  {
+                    "name": "<BamHI>",
+                    "pos": "25",
+                    "siteCount": "0"
+                  }
+                ],
+                "HistoryColors": {
+                  "StrandColors": [
+                    {
+                      "type": "Input",
+                      "TopStrand": {
+                        "ColorRange": {
+                          "range": "0..24",
+                          "colors": "red"
+                        }
+                      },
+                      "BottomStrand": {
+                        "ColorRange": {
+                          "range": "0..28",
+                          "colors": "red"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Product",
+                      "TopStrand": {
+                        "ColorRange": [
+                          {
+                            "range": "0..13",
+                            "colors": "black"
+                          },
+                          {
+                            "range": "14..24",
+                            "colors": "red"
+                          }
+                        ]
+                      },
+                      "BottomStrand": {
+                        "ColorRange": [
+                          {
+                            "range": "0..17",
+                            "colors": "black"
+                          },
+                          {
+                            "range": "18..28",
+                            "colors": "red"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "InputSummary": [
+                  {
+                    "manipulation": "choose",
+                    "name1": "Start",
+                    "name2": "XhoI",
+                    "val1": "0",
+                    "val2": "14",
+                    "siteCount2": "1",
+                    "blunt1": "1"
+                  },
+                  {
+                    "manipulation": "choose",
+                    "name1": "XhoI",
+                    "name2": "BamHI",
+                    "val1": "3",
+                    "val2": "14",
+                    "siteCount1": "1",
+                    "siteCount2": "1"
+                  }
+                ],
+                "Node": [
+                  {
+                    "name": "A.dna",
+                    "type": "DNA",
+                    "seqLen": "21",
+                    "strandedness": "double",
+                    "ID": "3",
+                    "circular": "0",
+                    "upstreamModification": "FivePrimePhosphorylated",
+                    "downstreamModification": "FivePrimePhosphorylated",
+                    "resurrectable": "1",
+                    "operation": "invalid",
+                    "HistoryColors": {
+                      "StrandColors": {
+                        "type": "Input",
+                        "TopStrand": {
+                          "ColorRange": [
+                            {
+                              "range": "0..13",
+                              "colors": "black"
+                            },
+                            {
+                              "range": "14..20",
+                              "colors": "white"
+                            }
+                          ]
+                        },
+                        "BottomStrand": {
+                          "ColorRange": [
+                            {
+                              "range": "0..17",
+                              "colors": "black"
+                            },
+                            {
+                              "range": "18..20",
+                              "colors": "white"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "name": "B.dna",
+                    "type": "DNA",
+                    "seqLen": "21",
+                    "strandedness": "double",
+                    "ID": "4",
+                    "circular": "0",
+                    "upstreamModification": "FivePrimePhosphorylated",
+                    "downstreamModification": "FivePrimePhosphorylated",
+                    "resurrectable": "1",
+                    "operation": "invalid",
+                    "HistoryColors": {
+                      "StrandColors": {
+                        "type": "Input",
+                        "TopStrand": {
+                          "ColorRange": [
+                            {
+                              "range": "3..13",
+                              "colors": "red"
+                            },
+                            {
+                              "range": "0..2",
+                              "colors": "white"
+                            },
+                            {
+                              "range": "14..20",
+                              "colors": "white"
+                            }
+                          ]
+                        },
+                        "BottomStrand": {
+                          "ColorRange": [
+                            {
+                              "range": "7..17",
+                              "colors": "red"
+                            },
+                            {
+                              "range": "0..6",
+                              "colors": "white"
+                            },
+                            {
+                              "range": "18..20",
+                              "colors": "white"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamEnzymeName": "Start",
+          "DownstreamEnzymeName": "Start",
+          "UpstreamStickiness": "0",
+          "DownstreamStickiness": "0",
+          "UpstreamModification": "FivePrimePhosphorylated",
+          "DownstreamModification": "FivePrimePhosphorylated"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "0",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          }
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "719cbae2-207c-42d8-9028-bc357d80c3bb",
+          "Type": "Synthetic",
+          "ConfirmedExperimentally": "0",
+          "Created": {
+            "UTC": "8:35:36",
+            "_text": "2026.3.24"
+          },
+          "LastModified": {
+            "UTC": "8:35:36",
+            "_text": "2026.3.24"
+          },
+          "CreatedBy": "Trial User",
+          "SequenceClass": "UNA",
+          "TransformedInto": "unspecified"
+        }
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ]
+  }
+}

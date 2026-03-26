@@ -1,0 +1,3754 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "ccggtgccgctacagggcgcgtcaggtggcacttttcggggaaatgtgcgcggaacccctatttgtttatttttctaaatacattcaaatatgtatccgctcatgagacaataaccctgataaatgcttcaataatattgaaaaaggaagagtatgagtattcaacatttccgtgtcgcccttattcccttttttgcggcattttgccttcctgtttttgctcacccagaaacgctggtgaaagtaaaagatgctgaagatcagttgggtgcacgagtgggttacatcgaactggatctcaacagcggtaagatccttgagagttttcgccccgaagaacgttttccaatgatgagcacttttaaagttctgctatgtggcgcggtattatcccgtattgacgccgggcaagagcaactcggtcgccgcatacactattctcagaatgacttggttgagtactcaccagtcacagaaaagcatcttacggatggcatgacagtaagagaattatgcagtgctgccataaccatgagtgataacactgcggccaacttacttctgacaacgatcggaggaccgaaggagctaaccgcttttttgcacaacatgggggatcatgtaactcgccttgatcgttgggaaccggagctgaatgaagccataccaaacgacgagcgtgacaccacgatgcctgtagcaatggcaacaacgttgcgcaaactattaactggcgaactacttactctagcttcccggcaacaattaatagactggatggaggcggataaagttgcaggaccacttctgcgctcggcccttccggctggctggtttattgctgataaatctggagccggtgagcgtggctctcgcggtatcattgcagcactggggccagatggtaagccctcccgtatcgtagttatctacacgacggggagtcaggcaactatggatgaacgaaatagacagatcgctgagataggtgcctcactgattaagcattggtaactgtcagaccaagtttactcatatatactttagattgatttaaaacttcatttttaatttaaaaggatctaggtgaagatcctttttgataatctcatgaacaataaaactgtctgcttacataaacagtaatacaaggggtgtagatctcatgaccaaaatcccttaacgtgagttttcgttccactgagcgtcagaccccgtagaaaagatcaaaggatcttcttgagatcctttttttctgcgcgtaatctgctgcttgcaaacaaaaaaaccaccgctaccagcggtggtttgtttgccggatcaagagctaccaactctttttccgaaggtaactggcttcagcagagcgcagataccaaatactgttcttctagtgtagccgtagttaggccaccacttcaagaactctgtagcaccgcctacatacctcgctctgctaatcctgttaccagtggctgctgccagtggcgataagtcgtgtcttaccgggttggactcaagacgatagttaccggataaggcgcagcggtcgggctgaacggggggttcgtgcacacagcccagcttggagcgaacgacctacaccgaactgagatacctacagcgtgagctatgagaaagcgccacgcttcccgaagggagaaaggcggacaggtatccggtaagcggcagggtcggaacaggagagcgcacgagggagcttccagggggaaacgcctggtatctttatagtcctgtcgggtttcgccacctctgacttgagcgtcgatttttgtgatgctcgtcaggggggcggagcctatggaaaaacgccagcaacgcggcctttttacggttcctggccttttgctggccttttgctcacatgttctttcctgcgttatcccctgattctgtggataaccgtattaccgcctttgagtgagctgataccgctcgccgcagccgaacgaccgagcgcagcgagtcagtgagcgaggaagcggaagagcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtgagcgcaacactagtcgcaaaaaaccccgcccctgacagggcggggttttttcgcggtctccgatcggaggatccttttttgtagaaatgtcttggtgtcctcgtccaatcaggtagccatctctgaaatatctggctccgttgcaactccgaacgacctgctggcaacgtaaaattctccggggtaaaacttaaatgtggagtaatggaaccagaaacgtctcttcccttctctctccttccaccgcccgttaccgtccctaggaaattttactctgctggagagcttcttctacggcccccttgcagcaatgctcttcccagcattacgttgcgggtaaaacggaggtcgtgtacccgacctagcagcccagggatggaaaagtcccggccgtcgctggcaataatagcgggcggacgcatgtcatgagattattggaaaccaccagaatcgaatataaaaggcgaacacctttcccaattttggtttctcctgacccaaagactttaaatttaatttatttgtccctatttcaatcaattgaacaactatcaaaacaccatggtgagcaagggcgaggagctgttcaccggggtggtgcccatcctggtcgagctggacggcgacgtaaacggccacaagttcagcgtgtccggcgagggcgagggcgatgccacctacggcaagctgaccctgaagttcatctgcaccaccggcaagctgcccgtgccctggcccaccctcgtgaccaccctgacctacggcgtgcagtgcttcagccgctaccccgaccacatgaagcagcacgacttcttcaagtccgccatgcccgaaggctacgtccaggagcgcaccatcttcttcaaggacgacggcaactacaagacccgcgccgaggtgaagttcgagggcgacaccctggtgaaccgcatcgagctgaagggcatcgacttcaaggaggacggcaacatcctggggcacaagctggagtacaactacaacagccacaacgtctatatcatggccgacaagcagaagaacggcatcaaggtgaacttcaagatccgccacaacatcgaggacggcagcgtgcagctcgccgaccactaccagcagaacacccccatcggcgacggccccgtgctgctgcccgacaaccactacctgagcacccagtccgccctgagcaaagaccccaacgagaagcgcgatcacatggtcctgctggagttcgtgaccgccgccgggatcactctcggcatggacgagctgtacaagtaagctttcgatttgtatgtgaaatagctgaaattcgaaaatttcattatggctgtatctactttagcgtattaggcatttgagcattggcttgaacaatgcgggctgtagtgtgtcaccaaagaaaccattcgggttcggatctggaagtcctcatcacgtgatgccgatctcgtgtattttattttcagataacacctgaggactttcgctccggggagacca",
+        "length": 3605,
+        "topology": "circular",
+        "strandedness": "double",
+        "dam_methylated": true,
+        "dcm_methylated": true,
+        "ecoki_methylated": true
+      }
+    ],
+    "11": [
+      {
+        "node_index": 3,
+        "sequence_type": 1,
+        "sequence": "TGCCTCGGTGAGTTTTCTCCTTCATTACAGAAACGGCTTTTTCAAAAATATGGTATTGATAATCCTGATATGAATAAATTGCAGTTTCACTTGATGCTCGATGAGTTTTTCTAATGAGGACCTAAATGTAATCACCTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGATGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCATAGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGAACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATTTTCTACCGAAGAAAGGCCCACCCGTGTAAAACGACGGCCAGTTTATCTAGTCAGCTTGATTCTAGCTGATCGTGGACCGGAAGGTGAGCCAGTGAGTTGATTGCAGTCCAGTTACGCTGGAGTCTGAGGCTCGTCCTGAATGATATGCGGCCTCGAATTCGAAGACGCGCTTTCGATTTGTATGTGAAATAGCTGAAATTCGAAAATTTCATTATGGCTGTATCTACTTTAGCGTATTAGGCATTTGAGCATTGGCTTGAACAATGCGGGCTGTAGTGTGTCACCAAAGAAACCATTCGGGTTCGGATCTGGAAGTCCTCATCACGTGATGCCGATCTCGTGTATTTTATTTTCAGATAACACCTGAGGACTTTCGCTGCGTCTTCGAATTCGCGCGTGATCTTACGGCATTATACGTATGATCGGTCCACGATCAGCTAGATTATCTAGTCAGCTTGATGTCATAGCTGTTTCCTGAGGCTCAATACTGACCATTTAAATCATACCTGACCTCCATAGCAGAAAGTCAAAAGCCTCCGACCGGAGGCTTTTGACTTGATCGGCACGTAAGAGGTTCCAACTTTCACCATAATGAAATAAGATCACTACCGGGCGTATTTTTTGAGTTATCGAGATTTTCAGGAGCTAAGGAAGCTAAAATGAGCCATATTCAACGGGAAACGTCTTGCTTGAAGCCGCGATTAAATTCCAACATGGATGCTGATTTATATGGGTATAAATGGGCTCGCGATAATGTCGGGCAATCAGGTGCGACAATCTATCGATTGTATGGGAAGCCCGATGCGCCAGAGTTGTTTCTGAAACATGGCAAAGGTAGCGTTGCCAATGATGTTACAGATGAGATGGTCAGGCTAAACTGGCTGACGGAATTTATGCCTCTTCCGACCATCAAGCATTTTATCCGTACTCCTGATGATGCATGGTTACTCACCACTGCGATCCCAGGGAAAACAGCATTCCAGGTATTAGAAGAATATCCTGATTCAGGTGAAAATATTGTTGATGCGCTGGCAGTGTTCCTGCGCCGGTTGCATTCGATTCCTGTTTGTAATTGTCCTTTTAACGGCGATCGCGTATTTCGTCTCGCTCAGGCGCAATCACGAATGAATAACGGTTTGGTTGGTGCGAGTGATTTTGATGACGAGCGTAATGGCTGGCCTGTTGAACAAGTCTGGAAAGAAATGCATAAACTCTTGCCATTCTCACCGGATTCAGTCGTCACTCATGGTGATTTCTCACTTGATAACCTTATTTTTGACGAGGGGAAATTAATAGGTTGTATTGATGTTGGACGAGTCGGAATCGCAGACCGATACCAGGATCTTGCCATCCTATGGAAC",
+        "length": 2140,
+        "format_version": 3,
+        "strandedness_flag": 1,
+        "property_flags": 257,
+        "header_seq_length": 2140,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "10": [
+                {
+                  "features": [
+                    {
+                      "name": "synthetic DNA construct",
+                      "type": "source",
+                      "strand": ".",
+                      "start": 0,
+                      "end": 2140,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1-2140",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "synthetic DNA construct",
+                        "mol_type": "other DNA",
+                        "organism": "<html><body>synthetic DNA construct</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "0",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1",
+                        "visible": "0"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "synthetic DNA construct"
+                          }
+                        },
+                        {
+                          "name": "mol_type",
+                          "V": {
+                            "predef": "other DNA"
+                          }
+                        },
+                        {
+                          "name": "organism",
+                          "V": {
+                            "text": "<html><body>synthetic DNA construct</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "T7Te terminator",
+                      "type": "terminator",
+                      "strand": ".",
+                      "start": 137,
+                      "end": 165,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "138-165",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "T7Te terminator",
+                        "note": "<html><body>phage T7 early transcription terminator</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "T7Te terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>phage T7 early transcription terminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ori",
+                      "type": "rep_origin",
+                      "strand": "-",
+                      "start": 176,
+                      "end": 764,
+                      "color": "#ffff00",
+                      "segments": [
+                        {
+                          "range": "177-764",
+                          "color": "#ffff00",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "direction": "LEFT",
+                        "label": "ori",
+                        "note": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "2",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "direction",
+                          "V": {
+                            "text": "LEFT"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tonB terminator",
+                      "type": "terminator",
+                      "strand": ".",
+                      "start": 1303,
+                      "end": 1335,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1304-1335",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "tonB terminator",
+                        "note": "<html><body>bidirectional E. coli tonB-P14 transcriptionterminator</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "3",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "tonB terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>bidirectional E. coli tonB-P14 transcriptionterminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "cat promoter",
+                      "type": "promoter",
+                      "strand": ".",
+                      "start": 1335,
+                      "end": 1438,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1336-1438",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "cat promoter",
+                        "note": "<html><body>promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "4",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "cat promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "KanR",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 1438,
+                      "end": 114,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "1439-114",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "KanR"
+                      },
+                      "extras": {
+                        "recentID": "5",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "KanR"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pBR322ori-F",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 256,
+                      "end": 276,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "257-276",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "pBR322ori-F",
+                        "note": "<html><body>pBR322 origin, forward primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "6",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pBR322ori-F"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pBR322 origin, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Forward",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 803,
+                      "end": 821,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "804-821",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 Forward",
+                        "note": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "7",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Forward"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 fwd",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 804,
+                      "end": 821,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "805-821",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 fwd",
+                        "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "8",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 fwd"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 rev",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 1239,
+                      "end": 1256,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1240-1256",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 rev",
+                        "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "9",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 rev"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Reverse",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 1239,
+                      "end": 1256,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1240-1256",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 Reverse",
+                        "note": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "10",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Reverse"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Kan-R",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 1511,
+                      "end": 1531,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1512-1531",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "Kan-R",
+                        "note": "<html><body>Kanamycin resistance gene, reverse primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "11",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "Kan-R"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>Kanamycin resistance gene, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "wrapper_extras": {
+                    "nextValidID": "12"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "afa1e275-da78-4a15-be2c-b174d7f21711",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "CustomMapLabel": "BB1_34_TDH3tt",
+                    "UseCustomMapLabel": "1",
+                    "Description": "BB1 with insert: TDH3tt.",
+                    "Created": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "LastModified": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified",
+                    "References": {
+                      "Reference": {
+                        "authors": "Prielhofer R, Barrero JJ, Steuer S, Gassler T, Zahrl R, Baumann K, Sauer M, Mattanovich D, Gasser B, Marx H",
+                        "journal": "BMC Syst Biol. 2017 Dec 8;11(1):123. doi: 10.1186/s12918-017-0492-3.",
+                        "journalName": "\"BMC Syst",
+                        "pubMedID": "29221460",
+                        "title": "GoldenPiCS: a Golden Gate-derived modular cloning system for applied synthetic biology in the yeast Pichia pastoris.",
+                        "type": "Journal Article"
+                      }
+                    },
+                    "Comments": "Biol.\"; date: \"2017-12-8\"; volume: \"11(1):123. doi\"; pages: \"<br>10.1186/s12918-017-0492-3\""
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "TEMP"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 1,
+        "sequence_type": 1,
+        "sequence": "GCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCATAGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGAACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATTTTCTACCGAAGAAAGGCCCACCCGTGTAAAACGACGGCCAGTTTATCTAGTCAGCTTGATTCTAGCTGATCGTGGACCGGAAGGTGAGCCAGTGAGTTGATTGCAGTCCAGTTACGCTGGAGTCTGAGGCTCGTCCTGAATGATATGCGGCCTCGAATTCGAAGACGCGGAGGATCCTTTTTTGTAGAAATGTCTTGGTGTCCTCGTCCAATCAGGTAGCCATCTCTGAAATATCTGGCTCCGTTGCAACTCCGAACGACCTGCTGGCAACGTAAAATTCTCCGGGGTAAAACTTAAATGTGGAGTAATGGAACCAGAAACGTCTCTTCCCTTCTCTCTCCTTCCACCGCCCGTTACCGTCCCTAGGAAATTTTACTCTGCTGGAGAGCTTCTTCTACGGCCCCCTTGCAGCAATGCTCTTCCCAGCATTACGTTGCGGGTAAAACGGAGGTCGTGTACCCGACCTAGCAGCCCAGGGATGGAAAAGTCCCGGCCGTCGCTGGCAATAATAGCGGGCGGACGCATGTCATGAGATTATTGGAAACCACCAGAATCGAATATAAAAGGCGAACACCTTTCCCAATTTTGGTTTCTCCTGACCCAAAGACTTTAAATTTAATTTATTTGTCCCTATTTCAATCAATTGAACAACTATCAAAACACCATGGCGTCTTCGAATTCGCGCGTGATCTTACGGCATTATACGTATGATCGGTCCACGATCAGCTAGATTATCTAGTCAGCTTGATGTCATAGCTGTTTCCTGAGGCTCAATACTGACCATTTAAATCATACCTGACCTCCATAGCAGAAAGTCAAAAGCCTCCGACCGGAGGCTTTTGACTTGATCGGCACGTAAGAGGTTCCAACTTTCACCATAATGAAATAAGATCACTACCGGGCGTATTTTTTGAGTTATCGAGATTTTCAGGAGCTAAGGAAGCTAAAATGAGCCATATTCAACGGGAAACGTCTTGCTTGAAGCCGCGATTAAATTCCAACATGGATGCTGATTTATATGGGTATAAATGGGCTCGCGATAATGTCGGGCAATCAGGTGCGACAATCTATCGATTGTATGGGAAGCCCGATGCGCCAGAGTTGTTTCTGAAACATGGCAAAGGTAGCGTTGCCAATGATGTTACAGATGAGATGGTCAGGCTAAACTGGCTGACGGAATTTATGCCTCTTCCGACCATCAAGCATTTTATCCGTACTCCTGATGATGCATGGTTACTCACCACTGCGATCCCAGGGAAAACAGCATTCCAGGTATTAGAAGAATATCCTGATTCAGGTGAAAATATTGTTGATGCGCTGGCAGTGTTCCTGCGCCGGTTGCATTCGATTCCTGTTTGTAATTGTCCTTTTAACGGCGATCGCGTATTTCGTCTCGCTCAGGCGCAATCACGAATGAATAACGGTTTGGTTGGTGCGAGTGATTTTGATGACGAGCGTAATGGCTGGCCTGTTGAACAAGTCTGGAAAGAAATGCATAAACTCTTGCCATTCTCACCGGATTCAGTCGTCACTCATGGTGATTTCTCACTTGATAACCTTATTTTTGACGAGGGGAAATTAATAGGTTGTATTGATGTTGGACGAGTCGGAATCGCAGACCGATACCAGGATCTTGCCATCCTATGGAACTGCCTCGGTGAGTTTTCTCCTTCATTACAGAAACGGCTTTTTCAAAAATATGGTATTGATAATCCTGATATGAATAAATTGCAGTTTCACTTGATGCTCGATGAGTTTTTCTAATGAGGACCTAAATGTAATCACCTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGAT",
+        "length": 2429,
+        "format_version": 3,
+        "strandedness_flag": 1,
+        "property_flags": 257,
+        "header_seq_length": 2429,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "10": [
+                {
+                  "features": [
+                    {
+                      "name": "synthetic DNA construct",
+                      "type": "source",
+                      "strand": ".",
+                      "start": 0,
+                      "end": 2429,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1-2429",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "synthetic DNA construct",
+                        "mol_type": "other DNA",
+                        "organism": "<html><body>synthetic DNA construct</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "0",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1",
+                        "visible": "0"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "synthetic DNA construct"
+                          }
+                        },
+                        {
+                          "name": "mol_type",
+                          "V": {
+                            "predef": "other DNA"
+                          }
+                        },
+                        {
+                          "name": "organism",
+                          "V": {
+                            "text": "<html><body>synthetic DNA construct</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "GAP promoter",
+                      "type": "promoter",
+                      "strand": ".",
+                      "start": 737,
+                      "end": 1214,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "738-1214",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "GAP promoter",
+                        "note": "<html><body>promoter for Pichia pastorisglyceraldehyde-3-phosphate dehydrogenase</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "GAP promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter for Pichia pastorisglyceraldehyde-3-phosphate dehydrogenase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tonB terminator",
+                      "type": "terminator",
+                      "strand": ".",
+                      "start": 1372,
+                      "end": 1404,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1373-1404",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "tonB terminator",
+                        "note": "<html><body>bidirectional E. coli tonB-P14 transcriptionterminator</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "2",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "tonB terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>bidirectional E. coli tonB-P14 transcriptionterminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "cat promoter",
+                      "type": "promoter",
+                      "strand": ".",
+                      "start": 1404,
+                      "end": 1507,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1405-1507",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "cat promoter",
+                        "note": "<html><body>promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "3",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "cat promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "KanR",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 1507,
+                      "end": 2323,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "1508-2323",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "KanR"
+                      },
+                      "extras": {
+                        "recentID": "4",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "KanR"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "T7Te terminator",
+                      "type": "terminator",
+                      "strand": ".",
+                      "start": 2346,
+                      "end": 2374,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "2347-2374",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "T7Te terminator",
+                        "note": "<html><body>phage T7 early transcription terminator</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "5",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "T7Te terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>phage T7 early transcription terminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ori",
+                      "type": "rep_origin",
+                      "strand": "-",
+                      "start": 2385,
+                      "end": 544,
+                      "color": "#ffff00",
+                      "segments": [
+                        {
+                          "range": "2386-544",
+                          "color": "#ffff00",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "direction": "LEFT",
+                        "label": "ori",
+                        "note": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "6",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "direction",
+                          "V": {
+                            "text": "LEFT"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pBR322ori-F",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 36,
+                      "end": 56,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "37-56",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "pBR322ori-F",
+                        "note": "<html><body>pBR322 origin, forward primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "7",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pBR322ori-F"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pBR322 origin, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Forward",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 583,
+                      "end": 601,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "584-601",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 Forward",
+                        "note": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "8",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Forward"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 fwd",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 584,
+                      "end": 601,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "585-601",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 fwd",
+                        "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "9",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 fwd"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 rev",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 1308,
+                      "end": 1325,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1309-1325",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 rev",
+                        "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "10",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 rev"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Reverse",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 1308,
+                      "end": 1325,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1309-1325",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 Reverse",
+                        "note": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "11",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Reverse"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Kan-R",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 1580,
+                      "end": 1600,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1581-1600",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "Kan-R",
+                        "note": "<html><body>Kanamycin resistance gene, reverse primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "12",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "Kan-R"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>Kanamycin resistance gene, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "wrapper_extras": {
+                    "nextValidID": "13"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "7c927991-356f-403e-b154-2bc5ac141b24",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "CustomMapLabel": "BB1_12_pGAP",
+                    "UseCustomMapLabel": "1",
+                    "Description": "BB1 with insert: promoter PGAP.",
+                    "Created": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "LastModified": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified",
+                    "References": {
+                      "Reference": {
+                        "authors": "Prielhofer R, Barrero JJ, Steuer S, Gassler T, Zahrl R, Baumann K, Sauer M, Mattanovich D, Gasser B, Marx H",
+                        "journal": "BMC Syst Biol. 2017 Dec 8;11(1):123. doi: 10.1186/s12918-017-0492-3.",
+                        "journalName": "\"BMC Syst",
+                        "pubMedID": "29221460",
+                        "title": "GoldenPiCS: a Golden Gate-derived modular cloning system for applied synthetic biology in the yeast Pichia pastoris.",
+                        "type": "Journal Article"
+                      }
+                    },
+                    "Comments": "Biol.\"; date: \"2017-12-8\"; volume: \"11(1):123. doi\"; pages: \"<br>10.1186/s12918-017-0492-3\""
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "TEMP"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 2,
+        "sequence_type": 1,
+        "sequence": "GTAAAACGACGGCCAGTTTATCTAGTCAGCTTGATTCTAGCTGATCGTGGACCGGAAGGTGAGCCAGTGAGTTGATTGCAGTCCAGTTACGCTGGAGTCTGAGGCTCGTCCTGAATGATATGCGGCCTCGAATTCGAAGACGCCATGGTGAGCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACGTAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGCTGACCCTGAAGTTCATCTGCACCACCGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGACCACCCTGACCTACGGCGTGCAGTGCTTCAGCCGCTACCCCGACCACATGAAGCAGCACGACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGGACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACCGCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGGAGTACAACTACAACAGCCACAACGTCTATATCATGGCCGACAAGCAGAAGAACGGCATCAAGGTGAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACTACCAGCAGAACACCCCCATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTGAGCACCCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGGAGTTCGTGACCGCCGCCGGGATCACTCTCGGCATGGACGAGCTGTACAAGTAAGCTTGCGTCTTCGAATTCGCGCGTGATCTTACGGCATTATACGTATGATCGGTCCACGATCAGCTAGATTATCTAGTCAGCTTGATGTCATAGCTGTTTCCTGAGGCTCAATACTGACCATTTAAATCATACCTGACCTCCATAGCAGAAAGTCAAAAGCCTCCGACCGGAGGCTTTTGACTTGATCGGCACGTAAGAGGTTCCAACTTTCACCATAATGAAATAAGATCACTACCGGGCGTATTTTTTGAGTTATCGAGATTTTCAGGAGCTAAGGAAGCTAAAATGAGCCATATTCAACGGGAAACGTCTTGCTTGAAGCCGCGATTAAATTCCAACATGGATGCTGATTTATATGGGTATAAATGGGCTCGCGATAATGTCGGGCAATCAGGTGCGACAATCTATCGATTGTATGGGAAGCCCGATGCGCCAGAGTTGTTTCTGAAACATGGCAAAGGTAGCGTTGCCAATGATGTTACAGATGAGATGGTCAGGCTAAACTGGCTGACGGAATTTATGCCTCTTCCGACCATCAAGCATTTTATCCGTACTCCTGATGATGCATGGTTACTCACCACTGCGATCCCAGGGAAAACAGCATTCCAGGTATTAGAAGAATATCCTGATTCAGGTGAAAATATTGTTGATGCGCTGGCAGTGTTCCTGCGCCGGTTGCATTCGATTCCTGTTTGTAATTGTCCTTTTAACGGCGATCGCGTATTTCGTCTCGCTCAGGCGCAATCACGAATGAATAACGGTTTGGTTGGTGCGAGTGATTTTGATGACGAGCGTAATGGCTGGCCTGTTGAACAAGTCTGGAAAGAAATGCATAAACTCTTGCCATTCTCACCGGATTCAGTCGTCACTCATGGTGATTTCTCACTTGATAACCTTATTTTTGACGAGGGGAAATTAATAGGTTGTATTGATGTTGGACGAGTCGGAATCGCAGACCGATACCAGGATCTTGCCATCCTATGGAACTGCCTCGGTGAGTTTTCTCCTTCATTACAGAAACGGCTTTTTCAAAAATATGGTATTGATAATCCTGATATGAATAAATTGCAGTTTCACTTGATGCTCGATGAGTTTTTCTAATGAGGACCTAAATGTAATCACCTGGCTCACCTTCGGGTGGGCCTTTCTGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGATGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCATAGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGAACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATTTTCTACCGAAGAAAGGCCCACCCGT",
+        "length": 2655,
+        "format_version": 3,
+        "strandedness_flag": 1,
+        "property_flags": 257,
+        "header_seq_length": 2655,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "10": [
+                {
+                  "features": [
+                    {
+                      "name": "synthetic DNA construct",
+                      "type": "source",
+                      "strand": ".",
+                      "start": 0,
+                      "end": 2655,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1-2655",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "synthetic DNA construct",
+                        "mol_type": "other DNA",
+                        "organism": "<html><body>synthetic DNA construct</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "0",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1",
+                        "visible": "0"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "synthetic DNA construct"
+                          }
+                        },
+                        {
+                          "name": "mol_type",
+                          "V": {
+                            "predef": "other DNA"
+                          }
+                        },
+                        {
+                          "name": "organism",
+                          "V": {
+                            "text": "<html><body>synthetic DNA construct</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EGFP",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 144,
+                      "end": 864,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "145-147",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "148-150",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "151-864",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "EGFP"
+                      },
+                      "extras": {
+                        "recentID": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "EGFP"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EGFP",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 144,
+                      "end": 861,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "145-147",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "148-150",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "151-861",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "EGFP"
+                      },
+                      "extras": {
+                        "recentID": "2",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "EGFP"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tonB terminator",
+                      "type": "terminator",
+                      "strand": ".",
+                      "start": 1014,
+                      "end": 1046,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1015-1046",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "tonB terminator",
+                        "note": "<html><body>bidirectional E. coli tonB-P14 transcriptionterminator</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "3",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "tonB terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>bidirectional E. coli tonB-P14 transcriptionterminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "cat promoter",
+                      "type": "promoter",
+                      "strand": ".",
+                      "start": 1046,
+                      "end": 1149,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1047-1149",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "cat promoter",
+                        "note": "<html><body>promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "4",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "cat promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "KanR",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 1149,
+                      "end": 1965,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "1150-1965",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "KanR"
+                      },
+                      "extras": {
+                        "recentID": "5",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "KanR"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "T7Te terminator",
+                      "type": "terminator",
+                      "strand": ".",
+                      "start": 1988,
+                      "end": 2016,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1989-2016",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "T7Te terminator",
+                        "note": "<html><body>phage T7 early transcription terminator</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "6",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "T7Te terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>phage T7 early transcription terminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ori",
+                      "type": "rep_origin",
+                      "strand": "-",
+                      "start": 2027,
+                      "end": 2615,
+                      "color": "#ffff00",
+                      "segments": [
+                        {
+                          "range": "2028-2615",
+                          "color": "#ffff00",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "direction": "LEFT",
+                        "label": "ori",
+                        "note": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "7",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "direction",
+                          "V": {
+                            "text": "LEFT"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 fwd",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 0,
+                      "end": 17,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1-17",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 fwd",
+                        "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "8",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 fwd"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EGFP-N",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 189,
+                      "end": 211,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "190-211",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "EGFP-N",
+                        "note": "<html><body>EGFP, reverse primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "9",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "EGFP-N"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>EGFP, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EXFP-R",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 450,
+                      "end": 470,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "451-470",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "EXFP-R",
+                        "note": "<html><body>For distinguishing EGFP variants, reverse primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "10",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "EXFP-R"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>For distinguishing EGFP variants, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "EGFP-C",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 797,
+                      "end": 819,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "798-819",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "EGFP-C",
+                        "note": "<html><body>EGFP, forward primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "11",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "EGFP-C"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>EGFP, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 rev",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 950,
+                      "end": 967,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "951-967",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 rev",
+                        "note": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "12",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 rev"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Reverse",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 950,
+                      "end": 967,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "951-967",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 Reverse",
+                        "note": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "13",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Reverse"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-rev</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Kan-R",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 1222,
+                      "end": 1242,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1223-1242",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "Kan-R",
+                        "note": "<html><body>Kanamycin resistance gene, reverse primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "14",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "Kan-R"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>Kanamycin resistance gene, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pBR322ori-F",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 2107,
+                      "end": 2127,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "2108-2127",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "pBR322ori-F",
+                        "note": "<html><body>pBR322 origin, forward primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "15",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pBR322ori-F"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pBR322 origin, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Forward",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 2654,
+                      "end": 17,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "2655-17",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "M13 Forward",
+                        "note": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "16",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Forward"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "wrapper_extras": {
+                    "nextValidID": "17"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "b35f6794-c29a-46f5-bf56-636deadaeeb2",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "CustomMapLabel": "BB1_23_eGFP",
+                    "UseCustomMapLabel": "1",
+                    "Description": "BB1 with insert: CDS eGFP.",
+                    "Created": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "LastModified": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified",
+                    "References": {
+                      "Reference": {
+                        "authors": "Prielhofer R, Barrero JJ, Steuer S, Gassler T, Zahrl R, Baumann K, Sauer M, Mattanovich D, Gasser B, Marx H",
+                        "journal": "BMC Syst Biol. 2017 Dec 8;11(1):123. doi: 10.1186/s12918-017-0492-3.",
+                        "journalName": "\"BMC Syst",
+                        "pubMedID": "29221460",
+                        "title": "GoldenPiCS: a Golden Gate-derived modular cloning system for applied synthetic biology in the yeast Pichia pastoris.",
+                        "type": "Journal Article"
+                      }
+                    },
+                    "Comments": "Biol.\"; date: \"2017-12-8\"; volume: \"11(1):123. doi\"; pages: \"<br>10.1186/s12918-017-0492-3\""
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "TEMP"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "node_index": 0,
+        "sequence_type": 1,
+        "sequence": "CCGGTGCCGCTACAGGGCGCGTCAGGTGGCACTTTTCGGGGAAATGTGCGCGGAACCCCTATTTGTTTATTTTTCTAAATACATTCAAATATGTATCCGCTCATGAGACAATAACCCTGATAAATGCTTCAATAATATTGAAAAAGGAAGAGTATGAGTATTCAACATTTCCGTGTCGCCCTTATTCCCTTTTTTGCGGCATTTTGCCTTCCTGTTTTTGCTCACCCAGAAACGCTGGTGAAAGTAAAAGATGCTGAAGATCAGTTGGGTGCACGAGTGGGTTACATCGAACTGGATCTCAACAGCGGTAAGATCCTTGAGAGTTTTCGCCCCGAAGAACGTTTTCCAATGATGAGCACTTTTAAAGTTCTGCTATGTGGCGCGGTATTATCCCGTATTGACGCCGGGCAAGAGCAACTCGGTCGCCGCATACACTATTCTCAGAATGACTTGGTTGAGTACTCACCAGTCACAGAAAAGCATCTTACGGATGGCATGACAGTAAGAGAATTATGCAGTGCTGCCATAACCATGAGTGATAACACTGCGGCCAACTTACTTCTGACAACGATCGGAGGACCGAAGGAGCTAACCGCTTTTTTGCACAACATGGGGGATCATGTAACTCGCCTTGATCGTTGGGAACCGGAGCTGAATGAAGCCATACCAAACGACGAGCGTGACACCACGATGCCTGTAGCAATGGCAACAACGTTGCGCAAACTATTAACTGGCGAACTACTTACTCTAGCTTCCCGGCAACAATTAATAGACTGGATGGAGGCGGATAAAGTTGCAGGACCACTTCTGCGCTCGGCCCTTCCGGCTGGCTGGTTTATTGCTGATAAATCTGGAGCCGGTGAGCGTGGCTCTCGCGGTATCATTGCAGCACTGGGGCCAGATGGTAAGCCCTCCCGTATCGTAGTTATCTACACGACGGGGAGTCAGGCAACTATGGATGAACGAAATAGACAGATCGCTGAGATAGGTGCCTCACTGATTAAGCATTGGTAACTGTCAGACCAAGTTTACTCATATATACTTTAGATTGATTTAAAACTTCATTTTTAATTTAAAAGGATCTAGGTGAAGATCCTTTTTGATAATCTCATGAACAATAAAACTGTCTGCTTACATAAACAGTAATACAAGGGGTGTAGATCTCATGACCAAAATCCCTTAACGTGAGTTTTCGTTCCACTGAGCGTCAGACCCCGTAGAAAAGATCAAAGGATCTTCTTGAGATCCTTTTTTTCTGCGCGTAATCTGCTGCTTGCAAACAAAAAAACCACCGCTACCAGCGGTGGTTTGTTTGCCGGATCAAGAGCTACCAACTCTTTTTCCGAAGGTAACTGGCTTCAGCAGAGCGCAGATACCAAATACTGTTCTTCTAGTGTAGCCGTAGTTAGGCCACCACTTCAAGAACTCTGTAGCACCGCCTACATACCTCGCTCTGCTAATCCTGTTACCAGTGGCTGCTGCCAGTGGCGATAAGTCGTGTCTTACCGGGTTGGACTCAAGACGATAGTTACCGGATAAGGCGCAGCGGTCGGGCTGAACGGGGGGTTCGTGCACACAGCCCAGCTTGGAGCGAACGACCTACACCGAACTGAGATACCTACAGCGTGAGCTATGAGAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCGGTAAGCGGCAGGGTCGGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGGAGCCTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTGGCCTTTTGCTGGCCTTTTGCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGATAACCGTATTACCGCCTTTGAGTGAGCTGATACCGCTCGCCGCAGCCGAACGACCGAGCGCAGCGAGTCAGTGAGCGAGGAAGCGGAAGAGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACACTAGTCGCAAAAAACCCCGCCCCTGACAGGGCGGGGTTTTTTCGCGGTCTCCGATCGGAGGCGTCTTCGGATCCCTCGAGGAAGACGCCGCTCCGGGGAGACCA",
+        "length": 2215,
+        "format_version": 3,
+        "strandedness_flag": 1,
+        "property_flags": 257,
+        "header_seq_length": 2215,
+        "node_info": {
+          "30": [
+            {
+              "17": [
+                {
+                  "AlignableSequences": {
+                    "trimStringency": "Medium"
+                  }
+                }
+              ],
+              "8": [
+                {
+                  "AdditionalSequenceProperties": {
+                    "UpstreamStickiness": "0",
+                    "DownstreamStickiness": "0",
+                    "UpstreamModification": "FivePrimePhosphorylated",
+                    "DownstreamModification": "FivePrimePhosphorylated"
+                  }
+                }
+              ],
+              "10": [
+                {
+                  "features": [
+                    {
+                      "name": "synthetic DNA construct",
+                      "type": "source",
+                      "strand": ".",
+                      "start": 0,
+                      "end": 2215,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "1-2215",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "synthetic DNA construct",
+                        "mol_type": "other DNA",
+                        "organism": "<html><body>synthetic DNA construct</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "0",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1",
+                        "visible": "0"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "synthetic DNA construct"
+                          }
+                        },
+                        {
+                          "name": "mol_type",
+                          "V": {
+                            "predef": "other DNA"
+                          }
+                        },
+                        {
+                          "name": "organism",
+                          "V": {
+                            "text": "<html><body>synthetic DNA construct</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AmpR promoter",
+                      "type": "promoter",
+                      "strand": ".",
+                      "start": 48,
+                      "end": 153,
+                      "color": "#ffffff",
+                      "segments": [
+                        {
+                          "range": "49-153",
+                          "color": "#ffffff",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "gene": "<html><body>bla</body></html>",
+                        "label": "AmpR promoter"
+                      },
+                      "extras": {
+                        "recentID": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "gene",
+                          "V": {
+                            "text": "<html><body>bla</body></html>"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "AmpR promoter"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AmpR",
+                      "type": "CDS",
+                      "strand": "+",
+                      "start": 153,
+                      "end": 1014,
+                      "color": "#993366",
+                      "segments": [
+                        {
+                          "range": "154-222",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "223-1014",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "AmpR"
+                      },
+                      "extras": {
+                        "recentID": "2",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "AmpR"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ori",
+                      "type": "rep_origin",
+                      "strand": ".",
+                      "start": 1239,
+                      "end": 1828,
+                      "color": "#ffff00",
+                      "segments": [
+                        {
+                          "range": "1240-1828",
+                          "color": "#ffff00",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "ori",
+                        "note": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "3",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Amp-R",
+                      "type": "primer_bind",
+                      "strand": "-",
+                      "start": 371,
+                      "end": 391,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "372-391",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "Amp-R",
+                        "note": "<html><body>Ampicillin resistance gene, reverse primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "4",
+                        "swappedSegmentNumbering": "1",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "Amp-R"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>Ampicillin resistance gene, reverse primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pBR322ori-F",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 1728,
+                      "end": 1748,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1729-1748",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "pBR322ori-F",
+                        "note": "<html><body>pBR322 origin, forward primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "5",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "pBR322ori-F"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>pBR322 origin, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "L4440",
+                      "type": "primer_bind",
+                      "strand": "+",
+                      "start": 1981,
+                      "end": 1999,
+                      "color": "#a020f0",
+                      "segments": [
+                        {
+                          "range": "1982-1999",
+                          "color": "#a020f0",
+                          "type": "standard"
+                        }
+                      ],
+                      "qualifiers": {
+                        "label": "L4440",
+                        "note": "<html><body>L4440 vector, forward primer</body></html>"
+                      },
+                      "extras": {
+                        "recentID": "6",
+                        "allowSegmentOverlaps": "0",
+                        "consecutiveTranslationNumbering": "1"
+                      },
+                      "raw_qualifiers": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "L4440"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>L4440 vector, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "wrapper_extras": {
+                    "nextValidID": "7"
+                  }
+                }
+              ],
+              "5": [
+                {
+                  "Primers": {
+                    "nextValidID": "0",
+                    "HybridizationParams": {
+                      "minContinuousMatchLen": "10",
+                      "allowMismatch": "1",
+                      "minMeltingTemperature": "40",
+                      "showAdditionalFivePrimeMatches": "1",
+                      "minimumFivePrimeAnnealing": "15"
+                    }
+                  }
+                }
+              ],
+              "6": [
+                {
+                  "Notes": {
+                    "UUID": "20be6b32-52d5-4aee-b8a1-85929415f6c7",
+                    "Type": "Synthetic",
+                    "ConfirmedExperimentally": "0",
+                    "CustomMapLabel": "BB2_AB",
+                    "UseCustomMapLabel": "1",
+                    "Description": "empty BB2 for transcription unit cloning.",
+                    "Created": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "LastModified": {
+                      "UTC": "0:0:0",
+                      "_text": "2026.3.23"
+                    },
+                    "SequenceClass": "UNA",
+                    "TransformedInto": "unspecified",
+                    "References": {
+                      "Reference": {
+                        "authors": "Prielhofer R, Barrero JJ, Steuer S, Gassler T, Zahrl R, Baumann K, Sauer M, Mattanovich D, Gasser B, Marx H",
+                        "journal": "BMC Syst Biol. 2017 Dec 8;11(1):123. doi: 10.1186/s12918-017-0492-3.",
+                        "journalName": "\"BMC Syst",
+                        "pubMedID": "29221460",
+                        "title": "GoldenPiCS: a Golden Gate-derived modular cloning system for applied synthetic biology in the yeast Pichia pastoris.",
+                        "type": "Journal Article"
+                      }
+                    },
+                    "Comments": "Biol.\"; date: \"2017-12-8\"; volume: \"11(1):123. doi\"; pages: \"<br>10.1186/s12918-017-0492-3\""
+                  }
+                }
+              ],
+              "14": [
+                {
+                  "CustomEnzymeSets": {
+                    "CustomEnzymeSet": {
+                      "type": "2",
+                      "name": "TEMP"
+                    }
+                  }
+                }
+              ],
+              "28": [
+                {
+                  "EnzymeVisibilities": {
+                    "vals": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "7": [
+      {
+        "HistoryTree": {
+          "Node": {
+            "name": "golden_gate.dna",
+            "type": "DNA",
+            "seqLen": "3605",
+            "strandedness": "double",
+            "ID": "4",
+            "circular": "1",
+            "operation": "goldenGateAssembly",
+            "HistoryColors": {
+              "StrandColors": {
+                "type": "Product",
+                "TopStrand": {
+                  "ColorRange": [
+                    {
+                      "range": "3589..2166",
+                      "colors": "black"
+                    },
+                    {
+                      "range": "2167..2661",
+                      "colors": "red"
+                    },
+                    {
+                      "range": "2662..3382",
+                      "colors": "blue"
+                    },
+                    {
+                      "range": "3383..3588",
+                      "colors": "red"
+                    }
+                  ]
+                },
+                "BottomStrand": {
+                  "ColorRange": [
+                    {
+                      "range": "3593..2170",
+                      "colors": "black"
+                    },
+                    {
+                      "range": "2171..2665",
+                      "colors": "red"
+                    },
+                    {
+                      "range": "2666..3386",
+                      "colors": "blue"
+                    },
+                    {
+                      "range": "3387..3592",
+                      "colors": "red"
+                    }
+                  ]
+                }
+              }
+            },
+            "InputSummary": [
+              {
+                "manipulation": "replace",
+                "name1": "BbsI",
+                "name2": "BbsI",
+                "val1": "2199",
+                "val2": "2167",
+                "siteCount1": "2",
+                "siteCount2": "2"
+              },
+              {
+                "manipulation": "insert",
+                "name1": "BbsI",
+                "name2": "BbsI",
+                "val1": "727",
+                "val2": "1222",
+                "siteCount1": "2",
+                "siteCount2": "2"
+              },
+              {
+                "manipulation": "insert",
+                "name1": "BbsI",
+                "name2": "BbsI",
+                "val1": "143",
+                "val2": "864",
+                "siteCount1": "2",
+                "siteCount2": "2"
+              },
+              {
+                "manipulation": "insert",
+                "name1": "BbsI",
+                "name2": "BbsI",
+                "val1": "947",
+                "val2": "1153",
+                "siteCount1": "2",
+                "siteCount2": "2"
+              }
+            ],
+            "Node": [
+              {
+                "name": "BB2_AB.dna",
+                "type": "DNA",
+                "seqLen": "2215",
+                "strandedness": "double",
+                "ID": "0",
+                "circular": "1",
+                "useCustomMapLabel": "1",
+                "customMapLabel": "BB2_AB",
+                "resurrectable": "1",
+                "operation": "invalid",
+                "Features": {
+                  "Feature": [
+                    {
+                      "name": "AmpR",
+                      "directionality": "1",
+                      "type": "CDS",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": [
+                        {
+                          "range": "154-222",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "223-1014",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "Q": {
+                        "name": "label",
+                        "V": {
+                          "text": "AmpR"
+                        }
+                      }
+                    },
+                    {
+                      "name": "ori",
+                      "type": "rep_origin",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1240-1828",
+                        "color": "#ffff00",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "AmpR promoter",
+                      "type": "promoter",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "49-153",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "gene",
+                          "V": {
+                            "text": "<html><body>bla</body></html>"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "AmpR promoter"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "L4440",
+                      "directionality": "1",
+                      "type": "primer_bind",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1982-1999",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "L4440"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>L4440 vector, forward primer</body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "HistoryColors": {
+                  "StrandColors": {
+                    "type": "Input",
+                    "TopStrand": {
+                      "ColorRange": {
+                        "range": "2167..2198",
+                        "colors": "white"
+                      }
+                    },
+                    "BottomStrand": {
+                      "ColorRange": {
+                        "range": "2171..2202",
+                        "colors": "white"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "name": "BB1_12_pGAP.dna",
+                "type": "DNA",
+                "seqLen": "2429",
+                "strandedness": "double",
+                "ID": "1",
+                "circular": "1",
+                "useCustomMapLabel": "1",
+                "customMapLabel": "BB1_12_pGAP",
+                "resurrectable": "1",
+                "operation": "invalid",
+                "Features": {
+                  "Feature": [
+                    {
+                      "name": "KanR",
+                      "directionality": "1",
+                      "type": "CDS",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1508-2323",
+                        "color": "#993366",
+                        "type": "standard"
+                      },
+                      "Q": {
+                        "name": "label",
+                        "V": {
+                          "text": "KanR"
+                        }
+                      }
+                    },
+                    {
+                      "name": "ori",
+                      "directionality": "2",
+                      "type": "rep_origin",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "2386-544",
+                        "color": "#ffff00",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "direction",
+                          "V": {
+                            "text": "LEFT"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "GAP promoter",
+                      "type": "promoter",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "738-1214",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "GAP promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter for Pichia pastorisglyceraldehyde-3-phosphate dehydrogenase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "cat promoter",
+                      "type": "promoter",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1405-1507",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "cat promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tonB terminator",
+                      "type": "terminator",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1373-1404",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "tonB terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>bidirectional E. coli tonB-P14 transcriptionterminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "T7Te terminator",
+                      "type": "terminator",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "2347-2374",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "T7Te terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>phage T7 early transcription terminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Forward",
+                      "directionality": "1",
+                      "type": "primer_bind",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "584-601",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Forward"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 rev",
+                      "directionality": "2",
+                      "type": "primer_bind",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1309-1325",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 rev"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "HistoryColors": {
+                  "StrandColors": {
+                    "type": "Input",
+                    "TopStrand": {
+                      "ColorRange": {
+                        "range": "727..1221",
+                        "colors": "red"
+                      }
+                    },
+                    "BottomStrand": {
+                      "ColorRange": {
+                        "range": "731..1225",
+                        "colors": "red"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "name": "BB1_23_eGFP.dna",
+                "type": "DNA",
+                "seqLen": "2655",
+                "strandedness": "double",
+                "ID": "2",
+                "circular": "1",
+                "useCustomMapLabel": "1",
+                "customMapLabel": "BB1_23_eGFP",
+                "resurrectable": "1",
+                "operation": "invalid",
+                "Features": {
+                  "Feature": [
+                    {
+                      "name": "KanR",
+                      "directionality": "1",
+                      "type": "CDS",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1150-1965",
+                        "color": "#993366",
+                        "type": "standard"
+                      },
+                      "Q": {
+                        "name": "label",
+                        "V": {
+                          "text": "KanR"
+                        }
+                      }
+                    },
+                    {
+                      "name": "EGFP",
+                      "directionality": "1",
+                      "type": "CDS",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": [
+                        {
+                          "range": "145-147",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "148-150",
+                          "color": "#993366",
+                          "type": "standard"
+                        },
+                        {
+                          "range": "151-864",
+                          "color": "#993366",
+                          "type": "standard"
+                        }
+                      ],
+                      "Q": {
+                        "name": "label",
+                        "V": {
+                          "text": "EGFP"
+                        }
+                      }
+                    },
+                    {
+                      "name": "ori",
+                      "directionality": "2",
+                      "type": "rep_origin",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "2028-2615",
+                        "color": "#ffff00",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "direction",
+                          "V": {
+                            "text": "LEFT"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "cat promoter",
+                      "type": "promoter",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1047-1149",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "cat promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tonB terminator",
+                      "type": "terminator",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1015-1046",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "tonB terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>bidirectional E. coli tonB-P14 transcriptionterminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "T7Te terminator",
+                      "type": "terminator",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1989-2016",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "T7Te terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>phage T7 early transcription terminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Forward",
+                      "directionality": "1",
+                      "type": "primer_bind",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "2655-17",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Forward"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 rev",
+                      "directionality": "2",
+                      "type": "primer_bind",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "951-967",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 rev"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "HistoryColors": {
+                  "StrandColors": {
+                    "type": "Input",
+                    "TopStrand": {
+                      "ColorRange": {
+                        "range": "143..863",
+                        "colors": "blue"
+                      }
+                    },
+                    "BottomStrand": {
+                      "ColorRange": {
+                        "range": "147..867",
+                        "colors": "blue"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "name": "BB1_34_TDH3tt.dna",
+                "type": "DNA",
+                "seqLen": "2140",
+                "strandedness": "double",
+                "ID": "3",
+                "circular": "1",
+                "useCustomMapLabel": "1",
+                "customMapLabel": "BB1_34_TDH3tt",
+                "resurrectable": "1",
+                "operation": "invalid",
+                "Features": {
+                  "Feature": [
+                    {
+                      "name": "KanR",
+                      "directionality": "1",
+                      "type": "CDS",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1439-114",
+                        "color": "#993366",
+                        "type": "standard"
+                      },
+                      "Q": {
+                        "name": "label",
+                        "V": {
+                          "text": "KanR"
+                        }
+                      }
+                    },
+                    {
+                      "name": "ori",
+                      "directionality": "2",
+                      "type": "rep_origin",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "177-764",
+                        "color": "#ffff00",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "direction",
+                          "V": {
+                            "text": "LEFT"
+                          }
+                        },
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "ori"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "cat promoter",
+                      "type": "promoter",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1336-1438",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "cat promoter"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>promoter of the E. coli cat gene encodingchloramphenicol acetyltransferase</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tonB terminator",
+                      "type": "terminator",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1304-1335",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "tonB terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>bidirectional E. coli tonB-P14 transcriptionterminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "T7Te terminator",
+                      "type": "terminator",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "138-165",
+                        "color": "#ffffff",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "T7Te terminator"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>phage T7 early transcription terminator</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 Forward",
+                      "directionality": "1",
+                      "type": "primer_bind",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "804-821",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 Forward"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>In lacZ gene. Also called M13-F20 or M13 (-21)Forward</body></html>"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "name": "M13 rev",
+                      "directionality": "2",
+                      "type": "primer_bind",
+                      "swappedSegmentNumbering": "1",
+                      "allowSegmentOverlaps": "0",
+                      "Segment": {
+                        "range": "1240-1256",
+                        "color": "#a020f0",
+                        "type": "standard"
+                      },
+                      "Q": [
+                        {
+                          "name": "label",
+                          "V": {
+                            "text": "M13 rev"
+                          }
+                        },
+                        {
+                          "name": "note",
+                          "V": {
+                            "text": "<html><body>common sequencing primer, one of multiple similarvariants</body></html>"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "HistoryColors": {
+                  "StrandColors": {
+                    "type": "Input",
+                    "TopStrand": {
+                      "ColorRange": {
+                        "range": "947..1152",
+                        "colors": "red"
+                      }
+                    },
+                    "BottomStrand": {
+                      "ColorRange": {
+                        "range": "951..1156",
+                        "colors": "red"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamStickiness": "0",
+          "DownstreamStickiness": "0",
+          "UpstreamModification": "FivePrimePhosphorylated",
+          "DownstreamModification": "FivePrimePhosphorylated"
+        }
+      }
+    ],
+    "10": [
+      {
+        "features": [
+          {
+            "name": "AmpR promoter",
+            "type": "promoter",
+            "strand": ".",
+            "start": 48,
+            "end": 153,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "49-153",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "gene": "<html><body>bla</body></html>",
+              "label": "AmpR promoter"
+            },
+            "extras": {
+              "recentID": "0",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "gene",
+                "V": {
+                  "text": "<html><body>bla</body></html>"
+                }
+              },
+              {
+                "name": "label",
+                "V": {
+                  "text": "AmpR promoter"
+                }
+              }
+            ]
+          },
+          {
+            "name": "AmpR",
+            "type": "CDS",
+            "strand": "+",
+            "start": 153,
+            "end": 1014,
+            "color": "#993366",
+            "segments": [
+              {
+                "range": "154-222",
+                "color": "#993366",
+                "type": "standard"
+              },
+              {
+                "range": "223-1014",
+                "color": "#993366",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "AmpR"
+            },
+            "extras": {
+              "recentID": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "AmpR"
+                }
+              }
+            ]
+          },
+          {
+            "name": "ori",
+            "type": "rep_origin",
+            "strand": ".",
+            "start": 1239,
+            "end": 1828,
+            "color": "#ffff00",
+            "segments": [
+              {
+                "range": "1240-1828",
+                "color": "#ffff00",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "ori",
+              "note": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+            },
+            "extras": {
+              "recentID": "2",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "ori"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>high-copy-number ColE1/pMB1/pBR322/pUC origin ofreplication</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Amp-R",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 371,
+            "end": 391,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "372-391",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "Amp-R",
+              "note": "<html><body>Ampicillin resistance gene, reverse primer</body></html>"
+            },
+            "extras": {
+              "recentID": "3",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "Amp-R"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>Ampicillin resistance gene, reverse primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "pBR322ori-F",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 1728,
+            "end": 1748,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "1729-1748",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "pBR322ori-F",
+              "note": "<html><body>pBR322 origin, forward primer</body></html>"
+            },
+            "extras": {
+              "recentID": "4",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "pBR322ori-F"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>pBR322 origin, forward primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "L4440",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 1981,
+            "end": 1999,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "1982-1999",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "L4440",
+              "note": "<html><body>L4440 vector, forward primer</body></html>"
+            },
+            "extras": {
+              "recentID": "5",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "L4440"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>L4440 vector, forward primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "GAP promoter",
+            "type": "promoter",
+            "strand": ".",
+            "start": 2177,
+            "end": 2654,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "2178-2654",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "GAP promoter",
+              "note": "<html><body>promoter for Pichia pastorisglyceraldehyde-3-phosphate dehydrogenase</body></html>"
+            },
+            "extras": {
+              "recentID": "6",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "GAP promoter"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>promoter for Pichia pastorisglyceraldehyde-3-phosphate dehydrogenase</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "EGFP",
+            "type": "CDS",
+            "strand": "+",
+            "start": 2663,
+            "end": 3383,
+            "color": "#993366",
+            "segments": [
+              {
+                "range": "2664-2666",
+                "color": "#993366",
+                "type": "standard"
+              },
+              {
+                "range": "2667-2669",
+                "color": "#993366",
+                "type": "standard"
+              },
+              {
+                "range": "2670-3383",
+                "color": "#993366",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "EGFP"
+            },
+            "extras": {
+              "recentID": "7",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "EGFP"
+                }
+              }
+            ]
+          },
+          {
+            "name": "EGFP-N",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 2708,
+            "end": 2730,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "2709-2730",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "EGFP-N",
+              "note": "<html><body>EGFP, reverse primer</body></html>"
+            },
+            "extras": {
+              "recentID": "8",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "EGFP-N"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>EGFP, reverse primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "EXFP-R",
+            "type": "primer_bind",
+            "strand": "-",
+            "start": 2969,
+            "end": 2989,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "2970-2989",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "EXFP-R",
+              "note": "<html><body>For distinguishing EGFP variants, reverse primer</body></html>"
+            },
+            "extras": {
+              "recentID": "9",
+              "swappedSegmentNumbering": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "EXFP-R"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>For distinguishing EGFP variants, reverse primer</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "EGFP-C",
+            "type": "primer_bind",
+            "strand": "+",
+            "start": 3316,
+            "end": 3338,
+            "color": "#a020f0",
+            "segments": [
+              {
+                "range": "3317-3338",
+                "color": "#a020f0",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "label": "EGFP-C",
+              "note": "<html><body>EGFP, forward primer</body></html>"
+            },
+            "extras": {
+              "recentID": "10",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "label",
+                "V": {
+                  "text": "EGFP-C"
+                }
+              },
+              {
+                "name": "note",
+                "V": {
+                  "text": "<html><body>EGFP, forward primer</body></html>"
+                }
+              }
+            ]
+          }
+        ],
+        "wrapper_extras": {
+          "nextValidID": "11"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "0",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          }
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "e58ccae1-0bce-4f0e-814c-470c80a80a3a",
+          "Type": "Synthetic",
+          "ConfirmedExperimentally": "0",
+          "Created": {
+            "UTC": "17:13:30",
+            "_text": "2026.3.23"
+          },
+          "LastModified": {
+            "UTC": "17:13:30",
+            "_text": "2026.3.23"
+          },
+          "CreatedBy": "SnapGene License",
+          "SequenceClass": "UNA",
+          "TransformedInto": "unspecified"
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ]
+  }
+}

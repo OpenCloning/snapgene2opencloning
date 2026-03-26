@@ -1,0 +1,348 @@
+{
+  "cookie": {
+    "type_of_sequence": 1,
+    "export_version": 15,
+    "import_version": 20
+  },
+  "blocks": {
+    "0": [
+      {
+        "sequence": "gtagaactttatgtgcttccttacattggtatatttcaggcacataaatattcttcaacttacaattctaagtattttgtttatactaaaaggagctgaataacgtttatacagtgctgacattgaaatctatttgctttctttggaatataagcgcatgctgagttactttcgcaggccaagccatatccaaccaccatttttgtgccaagcttttatgcaaggttaattccttgtactgcttgttatgttataatatatcaacatcttaacagttttcatatcttcctttatattctattaattgaatttcaaacatcgttttattgagctcatttacatcaaccggttcaatgcaaacagtaatgatggatgacattcaaagcactgattctattgctgaaaaagataatcactctaataatgaatctaactttacttggaaagcgtttcgtgaacaagtggaaaagcatttttctaaaattgaaaggcttcaccaagtccttggaacagatggagacaattcatcattatttgagttgtttacaacggcaatgaatgcccagcttcatgaaatggaacagtgccagaaaaaacttgaagatgactgtcagcaaagaattgattcaatcagatttttggtttcctcattaaagttaacggatgatacttctagtctcaaaattgagtctcctttaattcagtgtttgaatcgtttgtcaatggtagaaggacaatatatggcacagtatgatcaaaagttaagtacgattaaagaaatgtatcacaaattggagtcatattgtaaccgcttaggaagtccgttcgttttacctgattttgagaattcatttttatctgatgtatccgatgcttttactgaatctttgagaggacgcatcaacgaagccgaaaaggagattgatgcgagattagaggttattaattcctttgaagaagaaattttgggtttgtggtctgaactcggtgttgagcccgctgatgttccacaatacgaacaattgcttgaatcccatactaatcgaccaaatgatgtttatgttactcaagaacttatcgaccaactttgcaagcaaaaagaagttttttccgctgaaaaagaaaagagaagtgatcatttaaaaagtatacaatcagaagttagcaacttgtggaataagcttcaagtttctcccaatgaacaaagtcaatttggcgattcatcaaacattaatcaagaaaatatttcattatgggaaactgaacttgaaaaacttcatcagttaaaaaaggagcatttacccatttttttagaagactgtcgtcaacaaattcttcagctttgggattctctgttttattcagaagaacaaagaaagtcctttacacctatgtatgaagacattattacagagcaggttcttacggcccatgaaaactatataaagcaactagaggccgaagtttctgctaataagtcctttttaagcttaattaatcgctatgcctctttaatagaaggaaagaaagagcttgaagctagttctaatgatgcctctcgtctaacacaacggggacgccgggacccaggtttacttctacgtgaagagaaaatccgtaagcgactttctagagaacttcctaaggttcagtcgctgcttataccagagattacagcatgggaagaaagaaatggaaggacgttccttttttatgatgaaccacttctcaagatttgccaagaggccactcaaccaaaatcattatatagaagtgcaagtgctgccgcaaaccgcccgaaaacagcaactacaacggactctgttaatagaacaccttctcaacgagggcgtgtagctgtaccttcaacaccaagtgttaggtccgcttctcgagctatgacgagtccaaggacaccgcttcctagagtaaaaaacactcaaaatccaagtcgttccattagtgcagaaccgccatcagcaaccagtaccgccaatagaagacaccccactgctaatcgaattgatataaacgctagattaaacagtgctagtcggtctcgaagcgcgaacatgataagacaaggggcaaatggtagtgacagcaatatgtcttcttcacccgtttctggaaattccaataccccttttaacaagtttccaaattctgtatctcgcaatacacattttgaatccaagtcaccgcacccaaattactctcgaactcctcatgaaacgtattcaaaggcttcatctaagaacgtcccattaagtcctccaaagcagcgtgtagttaatgaacacgctttaaatattatgtcggaaaaattgcaaagaactaatctgaaagaacaaacacccgagatggacattgaaaacagctcgcagaaccttcctttttctcctatgaagatatcccccataagagcatcacccgtaaagacaattccatcatcaccgtcccccactaccaacattttttctgctccactcaacaatattacaaattgtacaccgatggaggatgaatggggagaagaaggcttttaagcttcttatttacctaatcgatcaaatttaaatatacatatttttgcatatgaatacagcatatagataattcataaaagtttattaactgaggtcataattaaaagactatttacacctaa",
+        "length": 2671,
+        "topology": "linear",
+        "strandedness": "double",
+        "dam_methylated": false,
+        "dcm_methylated": false,
+        "ecoki_methylated": false
+      }
+    ],
+    "17": [
+      {
+        "AlignableSequences": {
+          "trimStringency": "Medium"
+        }
+      }
+    ],
+    "8": [
+      {
+        "AdditionalSequenceProperties": {
+          "UpstreamStickiness": "0",
+          "DownstreamStickiness": "0",
+          "UpstreamModification": "Unmodified",
+          "DownstreamModification": "Unmodified"
+        }
+      }
+    ],
+    "10": [
+      {
+        "features": [
+          {
+            "name": "source",
+            "type": "source",
+            "strand": ".",
+            "start": 0,
+            "end": 2671,
+            "color": "#ffffff",
+            "segments": [
+              {
+                "range": "1-2671",
+                "color": "#ffffff",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "chromosome": "<html><body>I</body></html>",
+              "db_xref": "4896",
+              "mol_type": "mRNA",
+              "organism": "<html><body>Schizosaccharomyces pombe</body></html>",
+              "strain": "<html><body>972h-</body></html>"
+            },
+            "extras": {
+              "recentID": "0",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1",
+              "visible": "0"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "chromosome",
+                "V": {
+                  "text": "<html><body>I</body></html>"
+                }
+              },
+              {
+                "name": "db_xref",
+                "V": {
+                  "text": "4896",
+                  "predef": "taxon"
+                }
+              },
+              {
+                "name": "mol_type",
+                "V": {
+                  "predef": "mRNA"
+                }
+              },
+              {
+                "name": "organism",
+                "V": {
+                  "text": "<html><body>Schizosaccharomyces pombe</body></html>"
+                }
+              },
+              {
+                "name": "strain",
+                "V": {
+                  "text": "<html><body>972h-</body></html>"
+                }
+              }
+            ]
+          },
+          {
+            "name": "ase1",
+            "type": "gene",
+            "strand": "+",
+            "start": 0,
+            "end": 2671,
+            "color": "#a6acb3",
+            "segments": [
+              {
+                "range": "1-2671",
+                "color": "#a6acb3",
+                "type": "standard"
+              }
+            ],
+            "qualifiers": {
+              "db_xref": "2543372",
+              "gene": "<html><body>ase1</body></html>",
+              "locus_tag": "SPAPB1A10.09"
+            },
+            "extras": {
+              "recentID": "1",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "db_xref",
+                "V": {
+                  "text": "2543372",
+                  "predef": "GeneID"
+                }
+              },
+              {
+                "name": "gene",
+                "V": {
+                  "text": "<html><body>ase1</body></html>"
+                }
+              },
+              {
+                "name": "locus_tag",
+                "V": {
+                  "text": "SPAPB1A10.09"
+                }
+              }
+            ]
+          },
+          {
+            "name": "ase1",
+            "type": "CDS",
+            "strand": "+",
+            "start": 353,
+            "end": 2549,
+            "color": "#993366",
+            "segments": [
+              {
+                "range": "354-2549",
+                "color": "#993366",
+                "type": "standard",
+                "translated": "1"
+              }
+            ],
+            "qualifiers": {
+              "codon_start": 1,
+              "db_xref": [
+                "SPAPB1A10.09",
+                "SPAPB1A10.09.1",
+                "2543372",
+                "Q9HDY1",
+                "IPR007145",
+                "SPAPB1A10.09",
+                "SPAPB1A10.09.1"
+              ],
+              "gene": "<html><body>ase1</body></html>",
+              "locus_tag": "SPAPB1A10.09",
+              "product": "<html><body>antiparallel microtubule cross-linking factor<br>Ase1</body></html>",
+              "protein_id": "NP_593523.1",
+              "transl_table": 1,
+              "translation": "MQTVMMDDIQSTDSIAEKDNHSNNESNFTWKAFREQVEKHFSKIERLHQVLGTDGDNSSLFELFTTAMNAQLHEMEQCQKKLEDDCQQRIDSIRFLVSSLKLTDDTSSLKIESPLIQCLNRLSMVEGQYMAQYDQKLSTIKEMYHKLESYCNRLGSPFVLPDFENSFLSDVSDAFTESLRGRINEAEKEIDARLEVINSFEEEILGLWSELGVEPADVPQYEQLLESHTNRPNDVYVTQELIDQLCKQKEVFSAEKEKRSDHLKSIQSEVSNLWNKLQVSPNEQSQFGDSSNINQENISLWETELEKLHQLKKEHLPIFLEDCRQQILQLWDSLFYSEEQRKSFTPMYEDIITEQVLTAHENYIKQLEAEVSANKSFLSLINRYASLIEGKKELEASSNDASRLTQRGRRDPGLLLREEKIRKRLSRELPKVQSLLIPEITAWEERNGRTFLFYDEPLLKICQEATQPKSLYRSASAAANRPKTATTTDSVNRTPSQRGRVAVPSTPSVRSASRAMTSPRTPLPRVKNTQNPSRSISAEPPSATSTANRRHPTANRIDINARLNSASRSRSANMIRQGANGSDSNMSSSPVSGNSNTPFNKFPNSVSRNTHFESKSPHPNYSRTPHETYSKASSKNVPLSPPKQRVVNEHALNIMSEKLQRTNLKEQTPEMDIENSSQNLPFSPMKISPIRASPVKTIPSSPSPTTNIFSAPLNNITNCTPMEDEWGEEGF*"
+            },
+            "extras": {
+              "recentID": "2",
+              "translationMW": "83173.08",
+              "allowSegmentOverlaps": "0",
+              "consecutiveTranslationNumbering": "1",
+              "hitsStopCodon": "1"
+            },
+            "raw_qualifiers": [
+              {
+                "name": "codon_start",
+                "V": {
+                  "int": "1"
+                }
+              },
+              {
+                "name": "db_xref",
+                "V": [
+                  {
+                    "text": "SPAPB1A10.09",
+                    "predef": "EnsemblGenomes-Gn"
+                  },
+                  {
+                    "text": "SPAPB1A10.09.1",
+                    "predef": "EnsemblGenomes-Tr"
+                  },
+                  {
+                    "text": "2543372",
+                    "predef": "GeneID"
+                  },
+                  {
+                    "text": "Q9HDY1",
+                    "predef": "GOA"
+                  },
+                  {
+                    "text": "IPR007145",
+                    "predef": "InterPro"
+                  },
+                  {
+                    "text": "SPAPB1A10.09",
+                    "predef": "PomBase"
+                  },
+                  {
+                    "text": "SPAPB1A10.09.1",
+                    "predef": "PomBase"
+                  }
+                ]
+              },
+              {
+                "name": "gene",
+                "V": {
+                  "text": "<html><body>ase1</body></html>"
+                }
+              },
+              {
+                "name": "locus_tag",
+                "V": {
+                  "text": "SPAPB1A10.09"
+                }
+              },
+              {
+                "name": "product",
+                "V": {
+                  "text": "<html><body>antiparallel microtubule cross-linking factor<br>Ase1</body></html>"
+                }
+              },
+              {
+                "name": "protein_id",
+                "V": {
+                  "text": "NP_593523.1"
+                }
+              },
+              {
+                "name": "transl_table",
+                "V": {
+                  "int": "1"
+                }
+              },
+              {
+                "name": "translation",
+                "V": {
+                  "text": "MQTVMMDDIQSTDSIAEKDNHSNNESNFTWKAFREQVEKHFSKIERLHQVLGTDGDNSSLFELFTTAMNAQLHEMEQCQKKLEDDCQQRIDSIRFLVSSLKLTDDTSSLKIESPLIQCLNRLSMVEGQYMAQYDQKLSTIKEMYHKLESYCNRLGSPFVLPDFENSFLSDVSDAFTESLRGRINEAEKEIDARLEVINSFEEEILGLWSELGVEPADVPQYEQLLESHTNRPNDVYVTQELIDQLCKQKEVFSAEKEKRSDHLKSIQSEVSNLWNKLQVSPNEQSQFGDSSNINQENISLWETELEKLHQLKKEHLPIFLEDCRQQILQLWDSLFYSEEQRKSFTPMYEDIITEQVLTAHENYIKQLEAEVSANKSFLSLINRYASLIEGKKELEASSNDASRLTQRGRRDPGLLLREEKIRKRLSRELPKVQSLLIPEITAWEERNGRTFLFYDEPLLKICQEATQPKSLYRSASAAANRPKTATTTDSVNRTPSQRGRVAVPSTPSVRSASRAMTSPRTPLPRVKNTQNPSRSISAEPPSATSTANRRHPTANRIDINARLNSASRSRSANMIRQGANGSDSNMSSSPVSGNSNTPFNKFPNSVSRNTHFESKSPHPNYSRTPHETYSKASSKNVPLSPPKQRVVNEHALNIMSEKLQRTNLKEQTPEMDIENSSQNLPFSPMKISPIRASPVKTIPSSPSPTTNIFSAPLNNITNCTPMEDEWGEEGF*"
+                }
+              }
+            ]
+          }
+        ],
+        "wrapper_extras": {
+          "nextValidID": "3"
+        }
+      }
+    ],
+    "5": [
+      {
+        "Primers": {
+          "nextValidID": "0",
+          "HybridizationParams": {
+            "minContinuousMatchLen": "10",
+            "allowMismatch": "1",
+            "minMeltingTemperature": "40",
+            "showAdditionalFivePrimeMatches": "1",
+            "minimumFivePrimeAnnealing": "15"
+          }
+        }
+      }
+    ],
+    "6": [
+      {
+        "Notes": {
+          "UUID": "e9898527-c3ad-4a60-8548-86006b825939",
+          "Type": "Natural",
+          "Description": "Schizosaccharomyces pombe antiparallel microtubule cross-linking factor Ase1 (ase1), mRNA.",
+          "Created": {
+            "UTC": "23:0:0",
+            "_text": "2022.7.13"
+          },
+          "LastModified": {
+            "UTC": "23:0:0",
+            "_text": "2022.7.13"
+          },
+          "AccessionNumber": "NM_001018957",
+          "Organism": "Schizosaccharomyces pombe (fission yeast)",
+          "SequenceClass": "PLN",
+          "TransformedInto": "unspecified",
+          "References": {
+            "Reference": [
+              {
+                "authors": "Wood V, Gwilliam R, Rajandream MA, Lyne M, Lyne R, Stewart A, Sgouros J, Peat N, Hayles J, Baker S, Basham D, Bowman S, Brooks K, Brown D, Brown S, Chillingworth T, Churcher C, Collins M, Connor R, Cronin A, Davis P, Feltwell T, Fraser A, Gentles S, Goble A, Hamlin N, Harris D, Hidalgo J, Hodgson G, Holroyd S, Hornsby T, Howarth S, Huckle EJ, Hunt S, Jagels K, James K, Jones L, Jones M, Leather S, McDonald S, McLean J, Mooney P, Moule S, Mungall K, Murphy L, Niblett D, Odell C, Oliver K, O'Neil S, Pearson D, Quail MA, Rabbinowitsch E, Rutherford K, Rutter S, Saunders D, Seeger K, Sharp S, Skelton J, Simmonds M, Squares R, Squares S, Stevens K, Taylor K, Taylor RG, Tivey A, Walsh S, Warren T, Whitehead S, Woodward J, Volckaert G, Aert R, Robben J, Grymonprez B, Weltjens I, Vanstreels E, Rieger M, Schafer M, Muller-Auer S, Gabel C, Fuchs M, Dusterhoft A, Fritzc C, Holzer E, Moestl D, Hilbert H, Borzym K, Langer I, Beck A, Lehrach H, Reinhardt R, Pohl TM, Eger P, Zimmermann W, Wedler H, Wambutt R, Purnelle B, Goffeau A, Cadieu E, Dreano S, Gloux S, Lelaure V, Mottier S, Galibert F, Aves SJ, Xiang Z, Hunt C, Moore K, Hurst SM, Lucas M, Rochet M, Gaillardin C, Tallada VA, Garzon A, Thode G, Daga RR, Cruzado L, Jimenez J, Sanchez M, del Rey F, Benito J, Dominguez A, Revuelta JL, Moreno S, Armstrong J, Forsburg SL, Cerutti L, Lowe T, McCombie WR, Paulsen I, Potashkin J, Shpakovski GV, Ussery D, Barrell BG, Nurse P.",
+                "date": "2002",
+                "issue": "6874",
+                "journal": "Nature 415 (6874), 871-880 (2002)",
+                "journalName": "Nature",
+                "pages": "871-880",
+                "pubMedID": "11859360",
+                "title": "The genome sequence of Schizosaccharomyces pombe",
+                "type": "Journal Article",
+                "volume": "415"
+              },
+              {
+                "journal": "Submitted (13-JUL-2022) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA",
+                "journalName": "Submitted (13-JUL-2022) National Center for Biotechnology Information, NIH, Bethesda, MD 20894, USA",
+                "title": "Direct Submission",
+                "type": "Journal Article"
+              },
+              {
+                "authors": "Wood V.",
+                "journal": "Submitted (29-JUN-2007) European Schizosaccharomyces genome sequencing project, Sanger Institute, The Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SA",
+                "journalName": "Submitted (29-JUN-2007) European Schizosaccharomyces genome sequencing project, Sanger Institute, The Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SA",
+                "title": "Direct Submission",
+                "type": "Journal Article"
+              }
+            ]
+          },
+          "Comments": "PROVISIONAL REFSEQ: This record has not yet been subject to final NCBI review. This record is derived from an annotated genomic sequence (NC_003424).<p>[WARNING] On Jun 21, 2024 this sequence was replaced by NM_001018957.3.<p>On Dec 10, 2012 this sequence version replaced NM_001018957.1."
+        }
+      }
+    ],
+    "28": [
+      {
+        "EnzymeVisibilities": {
+          "vals": ""
+        }
+      }
+    ],
+    "14": [
+      {
+        "CustomEnzymeSets": null
+      }
+    ]
+  }
+}
